@@ -81,6 +81,56 @@ Lower
 
 ## 2. Data Classification Framework
 
+### 2.0 Why Four Types: The Discretization Argument
+
+Before defining the four data types, it is worth addressing why the classification has exactly four categories — and why discrete classification is necessary at all.
+
+**The continuous processing problem**
+
+A system that processes every data input with continuous precision faces a scaling problem:
+
+```
+Continuous processing
+  Every state change requires evaluation
+  Every micro-fluctuation triggers routing decision
+  Processing cost scales with input resolution
+  → At sufficient scale: resource exhaustion
+  → System collapses under its own processing load
+```
+
+Discretization is not a simplification imposed for convenience. It is a structural requirement for any finite system operating at scale. A system without discrete classification categories cannot function beyond a certain complexity threshold.
+
+**Why four and not more**
+
+The two-axis framework (interpretability × degrees of freedom) produces exactly four non-overlapping categories that cover the full space of data types without redundancy:
+
+```
+Axis 1: Interpretable vs. Not Interpretable
+Axis 2: Single conclusion vs. Multiple conclusions (if interpretable)
+         Operable vs. Not operable (if not interpretable)
+
+Result: Mathematical / Philosophical / Tacit Knowledge / Noise
+        Four categories. No gaps. No overlaps.
+```
+
+Further subdivision is possible but produces diminishing returns:
+
+```
+More categories
+  → Finer classification resolution
+  → Higher boundary maintenance cost
+  → More escalation routing decisions
+  → Net processing cost increases
+
+Four categories
+  → Sufficient resolution for routing decisions
+  → Minimum classification overhead
+  → Practical operating threshold
+```
+
+The four-type framework is the minimum sufficient discretization of the data space. This is the same logic that governs the existence of minimum units in physical and mathematical systems: the system operates on the coarsest discretization that preserves necessary distinctions.
+
+
 ### 2.1 Two-Axis Classification
 
 Data is classified along two axes:
