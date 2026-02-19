@@ -172,6 +172,28 @@ $$\begin{array}{c|cc}
 - Pattern: none
 - Handling: filter and discard before transmission
 
+**Why noise is never fully eliminated**
+
+Noise is defined as data with no detectable correlation or pattern. The routing decision is to discard at source.
+
+However, the lowest layer of a fractal architecture is structurally incapable of perfect noise discrimination. The decision complex at the lowest layer operates with minimum viable scope — it cannot fully distinguish between genuine noise and weak signal. Some noise always passes the filter.
+
+```
+Perfect noise elimination requires
+  → Complete pattern discrimination at every layer
+  → This requires full degradation capacity
+  → Lowest layer never reaches full degradation capacity
+  → Some noise always reaches the layer above
+```
+
+This is not a classification failure. It is the structural residue of the fractal's minimum unit. The noise that survives is not processable at any layer. It accumulates as irreducible background — the system-level equivalent of the randomness that cannot be eliminated without destroying the diversity that depends on it.
+
+> **Noise elimination is asymptotic, not achievable.**
+> **The residual noise floor is structurally equivalent to the lowest fractal layer's degradation limit.**
+
+---
+
+
 ### 2.3 Boundary Conditions
 
 The boundary between types is determined by **internal conflict detection** within the decision complex module:
