@@ -50,15 +50,34 @@ Degradation is **not information loss**. It is the structural trade-off between 
 
 More precisely: degradation is not deletion of source data but reduction of representational resolution for classification and routing. Its purpose is not to minimize loss but to maintain processability at the receiving layer — closer to utility-preserving compression than to lossy deletion.
 
+**Formal variable: Classification Resolution R**
+
+Let R_i denote the classification resolution of agent i. R_i determines the agent's capacity to distinguish between data types. The following functional dependencies hold:
+
+$$\epsilon(R) = P(\text{misclassification at resolution } R)$$
+
+$$N_{\text{floor}}(R) = \text{residual noise floor at resolution } R$$
+
+As R increases, misclassification probability decreases and the noise floor shrinks — the agent correctly classifies more data and discards less signal as noise. The key structural relationships:
+
+```
+R ↑  →  ε(R) ↓   (fewer misclassifications)
+R ↑  →  N_floor(R) ↓  (less signal lost to noise)
+R ↑  →  processing cost per item ↑  (higher resolution is more expensive)
+R ↑  →  volume capacity ↓  (fewer items processable per unit time)
+```
+
+The quality-volume trade-off is the inverse relationship between R and volume capacity. No agent operates at maximum R on all inputs — doing so would reduce throughput to near zero. Every agent operates at a resolution cutoff where further precision costs more than it returns.
+
 ```
 Same mechanism, lower resolution:
-  Upper agent  → high resolution, low volume capacity
-  Lower agent  → low resolution, high volume capacity
+  Upper agent  → high R_i, low volume capacity
+  Lower agent  → low R_i, high volume capacity
 
 Degradation = the resolution gap between layers
 ```
 
-This definition applies uniformly wherever "degradation" appears in this document.
+This definition applies uniformly wherever "degradation" or "resolution" appears in this document.
 
 ---
 
@@ -129,7 +148,7 @@ If all data flows upward without degradation, upper layers become overloaded. If
 
 **Both directions require design.**
 
-> **What happens if this principle is violated:** If the pyramid is inverted (many high-resolution agents, few low-resolution), the system collapses under resource cost — every input consumes maximum processing, and throughput drops to near zero. In single-agent terms, this is equivalent to running all Transformer parameters at full attention on every token: computationally prohibitive and performance-degrading.
+> **What happens if this principle is violated:** If the pyramid is inverted (many high-resolution agents, few low-resolution), the system collapses under resource cost — every input consumes maximum processing, and throughput drops to near zero. (See Section 9 for the single-agent analogue: full attention on every token.)
 
 ### 1.2 Bidirectional Flow
 
@@ -145,7 +164,7 @@ Lower
 - **Upward flow:** degradation and abstraction
 - **Downward flow:** seeds and generative principles (not specific instructions)
 
-> **What happens if degradation is skipped in upward flow:** Upper layers receive unfiltered, full-resolution data from all lower agents simultaneously. Processing capacity is overwhelmed, critical signals are buried in volume, and the upper layer cannot distinguish priority from noise. In single-agent terms, this is the "lost in the middle" phenomenon — when a Transformer's later layers receive too much uncompressed information from earlier layers, key information in the middle of long contexts is missed.
+> **What happens if degradation is skipped in upward flow:** Upper layers receive unfiltered, full-resolution data from all lower agents simultaneously. Processing capacity is overwhelmed, critical signals are buried in volume, and the upper layer cannot distinguish priority from noise. (See Section 9: lost-in-the-middle phenomenon.)
 
 ### 1.3 Network Topology and Storm Risk
 
@@ -215,7 +234,7 @@ Friction exists. It is not suppressed.
 It is routed to where it can be resolved at sufficient resolution.
 ```
 
-> **What happens if processing isolation is violated:** Agents at the same layer begin to influence each other's intermediate states, leading to premature convergence — a false consensus that bypasses proper classification. Independent perspectives collapse. Small conflicts escalate into collective polarization, requiring costly distracting operations from the upper layer. In single-agent terms, this is head collapse — multiple attention heads learning identical patterns, reducing effective model capacity.
+> **What happens if processing isolation is violated:** Agents at the same layer begin to influence each other's intermediate states, leading to premature convergence — a false consensus that bypasses proper classification. Independent perspectives collapse. Small conflicts escalate into collective polarization, requiring costly distracting operations from the upper layer. (See Section 9: head collapse in multi-head attention.)
 
 > **Exception: meta-operational signals.** Processing isolation prohibits sharing of *processing content and intermediate states*. It does not prohibit sharing of meta-operational signals — such as resource availability (load balancing), duplicate-work flags (redundancy avoidance), and safety/meltdown alerts — provided these signals do not influence classification content or induce convergence. A separate protocol channel for such signals is architecturally permitted.
 
@@ -225,7 +244,7 @@ It is routed to where it can be resolved at sufficient resolution.
 
 ### 2.0 Why Four Types: The Discretization Argument
 
-Before defining the four data types, it is worth addressing why the classification has exactly four categories — and why discrete classification is necessary at all.
+Before defining the four data types, it is worth addressing why the classification uses four categories — and why discrete classification is necessary at all.
 
 **The continuous processing problem**
 
@@ -244,11 +263,11 @@ Discretization is not a simplification imposed for convenience. It is a structur
 
 More precisely: even a competent single agent does not run the four-type classification at full resolution on every input. There is a **trade-off cutoff point** — the resolution level beyond which further classification precision costs more resources than it returns in routing accuracy. Below this cutoff, residual vectors are intentionally treated as noise. This is not a failure of classification; it is the economically rational boundary of classification effort.
 
-> **What happens if classification is skipped entirely:** The agent treats all input data with equal weight, unable to distinguish signal from noise. In single-agent terms, this is equivalent to uniform attention distribution across all tokens — the condition that produces hallucination. The model "discovers" patterns in noise and generates fabricated outputs because it cannot distinguish relevant from irrelevant input.
+> **What happens if classification is skipped entirely:** The agent treats all input data with equal weight, unable to distinguish signal from noise. This produces hallucination-equivalent failure — the system "discovers" patterns in noise and generates fabricated outputs. (See Section 9 for the single-agent analogue: uniform attention distribution.)
 
 **Why four and not more**
 
-The two-axis framework (interpretability x degrees of freedom) produces exactly four non-overlapping categories that cover the full space of data types without redundancy:
+The two-axis discretization (interpretability × degrees of freedom) yields four canonical categories under finite-resource constraints, covering the operational space of data types without redundancy:
 
 ```
 Axis 1: Interpretable vs. Not Interpretable
@@ -303,7 +322,7 @@ Ignored processing → Noise
 
 These four patterns emerge from the architecture itself, not from external labeling. The four-type framework names and formalizes patterns that structurally resemble what is already present. (See Section 9.4 for detailed mapping.)
 
-> **What happens if the trade-off cutoff is removed (full-resolution classification on all inputs):** Every input consumes maximum processing resources. In single-agent terms, this is equivalent to activating all experts in a Mixture of Experts architecture for every token — resource cost explodes, and performance actually degrades because irrelevant experts introduce noise into the output.
+> **What happens if the trade-off cutoff is removed (full-resolution classification on all inputs):** Every input consumes maximum processing resources. Resource cost explodes and performance degrades because irrelevant processing introduces noise into the output. (See Section 9: all-expert MoE activation.)
 
 ### 2.1 Two-Axis Classification
 
@@ -633,7 +652,7 @@ At the lowest layer, the four-type classification still operates, but resolution
 
 **If a decision's impact scope exceeds the agent's decision scope → escalate to upper layer.**
 
-> **What happens if a lower agent attempts High-Context processing beyond its resolution:** The agent lacks sufficient context to evaluate competing interpretations. It either forces a single interpretation (losing valid alternatives) or oscillates between interpretations without convergence. In single-agent terms, this is equivalent to early Transformer layers attempting semantic disambiguation with only token-level features — the result is token-level bias, where "bank" is always resolved as "financial institution" regardless of context because the layer lacks the resolution to consider alternatives.
+> **What happens if a lower agent attempts High-Context processing beyond its resolution:** The agent lacks sufficient context to evaluate competing interpretations. It either forces a single interpretation (losing valid alternatives) or oscillates between interpretations without convergence. (See Section 9: early-layer semantic disambiguation with only token-level features.)
 
 ### 3.4 Scope Classification
 
@@ -684,7 +703,13 @@ Formally:
 
 $$C_{\text{total}}(t) = C_{\text{escalation}}\!\left(\tfrac{1}{t}\right) + C_{\text{monitoring}}(t)$$
 
-Here, t is the **mean escalation delay** — the average time between conflict emergence and escalation decision. C_escalation(1/t) decreases with t because escalating frequently (small t) is expensive per unit time; C_monitoring(t) increases with t because holding unresolved data longer increases accumulated misclassification risk. Optimal escalation timing $t^*$ minimizes total cost.
+Here, t is the **mean escalation delay** — the average time between conflict emergence and escalation decision. C_escalation(1/t) is a decreasing function of t: escalating frequently (small t) is expensive per unit time. C_monitoring(t) is an increasing function of t: holding unresolved data longer accumulates misclassification risk.
+
+**Optimality condition:** Under standard monotonicity assumptions (C_escalation strictly decreasing and convex in 1/t, C_monitoring strictly increasing and convex in t), C_total is convex and a unique minimum exists:
+
+$$\frac{dC_{\text{total}}}{dt} = 0 \implies t^*$$
+
+The optimal escalation delay t* balances per-escalation cost against accumulated monitoring risk. This theory does not derive t* analytically — it is empirically calibrated per deployment (see Section 10). The contribution is the structural claim that the trade-off exists and has a well-defined minimum under convexity, not the specific value of t*.
 
 These two trade-offs interact: an agent with lower classification resolution (Trade-off 1) will produce more misclassified data, increasing the penalty for late escalation (Trade-off 2). This is why lower-layer agents should have lower escalation thresholds — they are more likely to be discarding meaningful signal as noise.
 
@@ -826,11 +851,18 @@ Formally, from the Vector Storm instability equation:
 
 $$\frac{dS}{dt} = \alpha n^2 - \beta C(t)$$
 
-When n increases (expansion) while C(t) remains low (immature degradation capacity):
+where:
+
+- S = system-level instability (storm intensity)
+- n = effective interaction dimensionality: the expected number of active pairwise interaction channels, not the raw agent count. In a system with k agents and processing isolation, n ≤ k(k-1)/2, with equality only under full lateral exposure.
+- C(t) = degradation capacity at time t (the system's ability to absorb conflict)
+- α, β = deployment-specific coefficients requiring empirical calibration
+
+Under pairwise interaction assumptions, instability growth scales quadratically with effective interaction dimensionality. When n increases (expansion) while C(t) remains low (immature degradation capacity):
 
 $$\frac{dS}{dt} \uparrow\uparrow \implies \text{Vector Storm}$$
 
-> Note: The n-squared relationship is a theoretical prediction based on pairwise interaction scaling. In systems where agents interact in pairwise combinations, the number of potential conflict surfaces scales quadratically with agent count. Empirical calibration of alpha and beta coefficients is required per deployment context.
+> Note: The n-squared relationship assumes that each pair of agents constitutes a potential conflict surface. In architectures with strong processing isolation (Section 1.4), many pairwise channels are structurally closed, reducing effective n well below the theoretical maximum. The quadratic bound represents the worst case under full lateral exposure; actual scaling may be sub-quadratic in well-isolated systems. Empirical calibration of α and β is required per deployment context.
 
 **Empirical analogues of staged expansion:**
 
@@ -850,7 +882,11 @@ Stabilization is determined by a **single primary condition**:
 
 $$f_{\text{escalation}} \leq \theta \implies \text{Stabilization achieved}$$
 
-**Measurement definition:** f_escalation is a ratio: (number of items labeled High-Context and escalated upward) / (total items processed at this layer) over a measurement window. The ratio form is preferred over absolute rate (items/hour) because it is robust to traffic variation. In systems with stable throughput, an absolute rate may be substituted.
+**Formal definition:**
+
+$$f_{\text{escalation}} = \frac{N_{\text{HC-escalated}}}{N_{\text{total}}}$$
+
+where N_HC-escalated is the number of items classified as High-Context and escalated upward, and N_total is the total number of items processed at this layer, both measured over a defined window. The ratio form is preferred over absolute rate (items/hour) because it is robust to traffic variation. In systems with stable throughput, an absolute rate may be substituted.
 
 This is the primary condition because:
 - It directly measures system-level stress, not just local performance
