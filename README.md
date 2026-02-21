@@ -1,107 +1,133 @@
 # Network Architecture Theory
 ### Data Flow, Escalation Design, and Expansion Principles in Multi-Agent Systems
 
-> **Companion theory to** deficit-fractal-governance
-> Focus: network structure, data classification, and expansion principles.
-> Recovery and prediction are addressed separately.
-
----
-
-## Why This Theory Exists
-
-Existing multi-agent architectures primarily focus on:
-- scaling agent capability
-- coordination protocols
-- alignment enforcement
-
-However, large-scale systems often fail not because agent capability is insufficient, but because information flow is poorly structured — uncontrolled escalation, weak filtering, and overload at higher layers.
-
-Network Architecture Theory addresses a different question:
-
-**How should information flow be structured so that governance cost decreases as the system grows?**
-
----
-
-## Overview
-
-In multi-agent systems, structural stability depends not only on individual agent behavior but on how data flows through the network — how it is classified, degraded, escalated, and acted upon at each layer.
-
-This theory defines the architectural principles governing that flow, including a data classification framework, a decision complex module, escalation routing, and the conditions under which system expansion is safe.
-
-> **Core Premise**
->
-> Network formation is not a secondary concern.
-> Poorly structured connectivity compounds correction cost non-linearly over time.
-> **Preventive design is the primary governance task.**
-
-### Foundational Assumption: The Competent Single Agent
-
-This theory assumes a **single agent that has already achieved sufficient maturity** to perform the four-type data classification (Section 2) internally. That is, the agent can activate multiple reasoning paths, detect conflicts between them, and converge on a classified output.
-
-The fractal multi-agent architecture described here is the **system-level extension** of this internal capability. When a competent single agent reaches the limits of what it can process alone — not in classification quality, but in processing volume — the pyramid structure emerges as the solution.
-
-This is not a hypothetical requirement. As shown in Section 9, the information processing patterns described in this theory are already observable within existing single-agent architectures (LLMs). The multi-agent structure proposed here scales those internal patterns to system level.
-
-### Key Definition: Degradation
-
-> **Degradation** *(DFG-specific term):* The controlled reduction of classification resolution as an agent operates under resource constraints or as data moves to lower layers of the fractal structure.
-
-Degradation is **not information loss**. It is the structural trade-off between classification precision and processing volume. A degraded agent uses the same four-type classification mechanism, but its resolution is lower — meaning its trade-off cutoff point arrives earlier, more residual vectors are treated as noise, and vector decomposition is less precise.
-
-More precisely: degradation is not deletion of source data but reduction of representational resolution for classification and routing. Its purpose is not to minimize loss but to maintain processability at the receiving layer — closer to utility-preserving compression than to lossy deletion.
-
-**Formal variable: Classification Resolution R**
-
-Let R_i denote the classification resolution of agent i. R_i determines the agent's capacity to distinguish between data types. The following functional dependencies hold:
-
-$$\epsilon(R) = P(\text{misclassification at resolution } R)$$
-
-$$N_{\text{floor}}(R) = \text{residual noise floor at resolution } R$$
-
-As R increases, misclassification probability decreases and the noise floor shrinks — the agent correctly classifies more data and discards less signal as noise. The key structural relationships:
-
-```
-R ↑  →  ε(R) ↓   (fewer misclassifications)
-R ↑  →  N_floor(R) ↓  (less signal lost to noise)
-R ↑  →  processing cost per item ↑  (higher resolution is more expensive)
-R ↑  →  volume capacity ↓  (fewer items processable per unit time)
-```
-
-The quality-volume trade-off is the inverse relationship between R and volume capacity. No agent operates at maximum R on all inputs — doing so would reduce throughput to near zero. Every agent operates at a resolution cutoff where further precision costs more than it returns.
-
-```
-Same mechanism, lower resolution:
-  Upper agent  → high R_i, low volume capacity
-  Lower agent  → low R_i, high volume capacity
-
-Degradation = the resolution gap between layers
-```
-
-This definition applies uniformly wherever "degradation" or "resolution" appears in this document.
+> **Companion theory to** [Deficit-Driven Fractal Governance (DFG)](../deficit-fractal-governance)  
+> **Focus:** Network structure, data classification, and expansion principles.  
+> Recovery and prediction are addressed in separate documents.
 
 ---
 
 ## Table of Contents
 
-0. [Why This Theory Exists](#why-this-theory-exists)
-1. [Network Structure](#1-network-structure)
-2. [Data Classification Framework](#2-data-classification-framework)
-3. [Decision Complex Module](#3-decision-complex-module)
-4. [Escalation Design](#4-escalation-design)
-5. [Expansion Principle](#5-expansion-principle)
-6. [Human-AI Collaboration Zone](#6-human-ai-collaboration-zone)
-7. [Core Assumptions](#7-core-assumptions)
-8. [Structural Correspondences](#8-structural-correspondences)
-9. [Empirical Grounding: Single-Agent Analogues](#9-empirical-grounding-single-agent-analogues)
-10. [Limitations and Open Problems](#10-limitations-and-open-problems)
+1. [Why This Theory Exists](#1-why-this-theory-exists)
+2. [Overview](#2-overview)
+3. [Network Structure](#3-network-structure)
+4. [Data Classification Framework](#4-data-classification-framework)
+5. [Decision Complex Module](#5-decision-complex-module)
+6. [Escalation Design](#6-escalation-design)
+7. [Expansion Principle](#7-expansion-principle)
+8. [Human-AI Collaboration Zone](#8-human-ai-collaboration-zone)
+9. [Core Assumptions](#9-core-assumptions)
+10. [Structural Correspondences](#10-structural-correspondences)
+11. [Empirical Grounding: Single-Agent as Origin](#11-empirical-grounding-single-agent-as-origin)
+12. [Limitations and Open Problems](#12-limitations-and-open-problems)
+13. [Relationship to Other Theories](#13-relationship-to-other-theories)
 
 ---
 
-## 1. Network Structure
+## 1. Why This Theory Exists
 
-### 1.1 Pyramid Architecture
+Existing multi-agent architectures primarily focus on:
+- Scaling agent capability
+- Coordination protocols
+- Alignment enforcement
 
-Multi-agent systems follow a pyramid structure: narrow at the top, wide at the bottom.
+However, large-scale systems often fail not because agent capability is insufficient, but because **information flow is poorly structured** — uncontrolled escalation, weak filtering, and overload at higher layers.
+
+Network Architecture Theory addresses a different question:
+
+> **How should information flow be structured so that governance cost decreases as the system grows?**
+
+---
+
+## 2. Overview
+
+Structural stability in multi-agent systems depends not only on individual agent behavior but on how data flows through the network — how it is classified, degraded, escalated, and acted upon at each layer.
+
+This theory defines the architectural principles governing that flow, including:
+- A **data classification framework** (four types)
+- A **decision complex module** (explicit conflict detection)
+- **Escalation routing** (type-based, not threshold-based)
+- **Expansion conditions** (stabilization before growth)
+
+### Core Premise
+
+> Network formation is not a secondary concern.  
+> Poorly structured connectivity compounds correction cost non-linearly over time.  
+> **Preventive design is the primary governance task.**
+
+### Foundational Assumption: The Competent Single Agent
+
+This theory assumes a single agent that has already achieved sufficient maturity to perform the four-type data classification internally — activating multiple reasoning paths, detecting conflicts between them, and converging on a classified output.
+
+The fractal multi-agent architecture described here is the **system-level extension** of this internal capability. When a competent single agent reaches the limits of processing volume (not classification quality), the sphere structure emerges as the solution.
+
+> **Important framing:** The single agent's upper layers are not an *analogue* of the multi-agent sphere center — they are the **origin**. The multi-agent sphere center is defined by what single-agent upper layers already do: absorb compressed signals from diverse lower processes, filter surface content, and retain only structural patterns. Empirical evidence for this mechanism exists inside every trained LLM.
+
+### Key Definition: Degradation
+
+> **Degradation** *(DFG-specific term)*: The controlled reduction of classification resolution as an agent operates under resource constraints, or as data moves to lower layers of the fractal structure.
+
+Degradation is **not information loss**. It is the structural trade-off between classification precision and processing volume.
+
+**Formal variable: Classification Resolution R**
+
+| Relationship | Direction | Meaning |
+|---|---|---|
+| R ↑ → ε(R) ↓ | Inverse | Fewer misclassifications at higher resolution |
+| R ↑ → N_floor(R) ↓ | Inverse | Less signal lost to noise floor |
+| R ↑ → processing cost ↑ | Direct | Higher resolution is more expensive |
+| R ↑ → volume capacity ↓ | Inverse | Fewer items processable per unit time |
+
+---
+
+## 3. Network Structure
+
+### 3.0 True Structure: Sphere
+
+The actual structure of a well-formed multi-agent system is a **sphere**, not a pyramid.
+
+```
+         Sphere:
+         every agent on the surface
+         equal distance from the shared center
+         no fixed top or bottom
+         blind spots of each agent fall within
+         the field of view of adjacent agents
+```
+
+**Why sphere:**
+
+No matter how much an agent sees — broadly or in depth — blind spots are physically unavoidable. A pyramid concentrates this vulnerability at the apex: if the top node has a blind spot, no one above it can correct it. A sphere distributes blind spots across the surface so that each agent's blind spot is covered by its neighbors.
+
+The sphere is also the natural structure for cross-validation. Degraded information received from others can be upscaled through one's own representation space — but upscaling always leaves gaps (empty space filled by the receiver's own bias). When multiple agents with **different representation spaces** independently upscale the same compressed signal, their disagreements reveal the location of the empty space. This only works if agents are structurally diverse — identical agents produce identical blind spots and cannot detect each other's errors.
+
+```
+Sphere cross-validation:
+  A compresses → [B upscales → B's reconstruction]
+                 [C upscales → C's reconstruction]
+                 [D upscales → D's reconstruction]
+                       ↓
+  Disagreement = location of empty space (blind spot surfaced)
+  Agreement    = actual signal (noise filtered)
+```
+
+> **Corruption enters through empty space in upscaling — not from outside.**  
+> Cross-validation with diverse agents is the primary corruption mitigation mechanism.
+
+**Why more agents strengthen the core:**
+
+As the surface of the sphere expands (more agents), the shared center becomes more stable. External diversity protects internal coherence.
+
+### 3.1 Pyramid as Projection
+
+The pyramid is a **mathematical cross-section** of the sphere — what you see when you slice it vertically along an observation axis.
+
+```
+Sphere (actual)  →  sliced along vertical axis  →  Pyramid (apparent)
+```
+
+The pyramid is a useful formalization tool. Resolution decreases toward the surface; volume increases. The layered structure is real. But it is not the full geometry — it is one projection of the sphere.
 
 ```
         [Upper Layer]          ← few nodes, high resolution
@@ -111,46 +137,36 @@ Multi-agent systems follow a pyramid structure: narrow at the top, wide at the b
    [Lower Layer — wide]        ← many agents, high volume
 ```
 
-**Why the pyramid shape is necessary**
+**Why the pyramid projection is useful:**
 
-Every agent faces a fundamental trade-off between processing quality and processing volume:
+It solves the fundamental quality-volume trade-off by distributing it across layers:
 
-```
-High resolution (quality)
-  → Fine-grained classification
-  → High per-item resource cost
-  → Limited total throughput
+| Layer | Agents | Resolution | Volume |
+|---|---|---|---|
+| Upper | Few | High | Low |
+| Middle | Moderate | Medium | Medium |
+| Lower | Many | Low | High |
 
-Low resolution (volume)
-  → Coarse classification
-  → Low per-item resource cost
-  → High total throughput
-```
+**Degradation** is the mechanism that makes this possible. Lower agents absorb volume by accepting reduced classification resolution. If all data flows upward without degradation, upper layers become overloaded. If all directives flow downward without mediation, lower agents experience vector storms.
 
-A single agent cannot maximize both. The pyramid structure solves this by **distributing the trade-off across layers**:
+> **Both directions require design.**  
+> But the pyramid is the map, not the territory. The territory is the sphere.
 
-- **Upper layer (narrow):** Few agents operating at high resolution. They handle small volumes of pre-filtered, high-significance data with maximum classification precision.
-- **Lower layer (wide):** Many agents operating at low resolution. They absorb large volumes of raw data, performing coarse classification and filtering before passing results upward.
+### 3.2 Resolution Gradient
 
-```
-Quality x Volume trade-off:
+The sphere has no fixed top or bottom. What the pyramid projection captures is a **resolution gradient**: agents closer to the center operate at higher classification resolution and lower volume; agents on the outer surface operate at lower resolution and higher volume.
 
-Upper  |#### volume |#################### quality|
-Middle |############|############        quality|
-Lower  |#################### volume|#### quality|
-```
+| Position | Resolution | Volume | Role |
+|---|---|---|---|
+| Center | High | Low | Absorb meta-meta structure; generate seeds |
+| Mid-radius | Medium | Medium | Mediation, degradation, synthesis |
+| Surface | Low | High | Raw observation, first-pass classification |
 
-If the upper layer were wide (many high-resolution agents processing everything), the system would collapse under resource cost. If the lower layer were narrow (few low-resolution agents), it could not absorb sufficient data volume to be useful. The pyramid is the only shape that captures both quality and volume simultaneously.
+This gradient exists on the sphere — the pyramid slice makes it visually legible along one axis.
 
-**Degradation is the mechanism that makes this possible.** Lower agents absorb volume by accepting reduced classification resolution. The data they pass upward is already filtered and partially classified — reducing the volume that upper agents must handle at high resolution.
+### 3.3 Bidirectional Flow
 
-If all data flows upward without degradation, upper layers become overloaded. If all directives flow downward without mediation, lower agents experience vector storms.
-
-**Both directions require design.**
-
-> **What happens if this principle is violated:** If the pyramid is inverted (many high-resolution agents, few low-resolution), the system collapses under resource cost — every input consumes maximum processing, and throughput drops to near zero. (See Section 9 for the single-agent analogue: full attention on every token.)
-
-### 1.2 Bidirectional Flow
+> *The following uses pyramid layer language (upper/middle/lower) as the operational shorthand for the sphere's resolution gradient. The sphere is the geometry; the layer labels are the map.*
 
 ```
 Upper
@@ -164,183 +180,125 @@ Lower
 - **Upward flow:** degradation and abstraction
 - **Downward flow:** seeds and generative principles (not specific instructions)
 
-> **What happens if degradation is skipped in upward flow:** Upper layers receive unfiltered, full-resolution data from all lower agents simultaneously. Processing capacity is overwhelmed, critical signals are buried in volume, and the upper layer cannot distinguish priority from noise. (See Section 9: lost-in-the-middle phenomenon.)
+### 3.4 Network Topology and Storm Risk
 
-### 1.3 Network Topology and Storm Risk
+| Topology | Propagation Pattern | Storm Risk | Notes |
+|---|---|---|---|
+| Star (centralized) | Hub failure → total collapse | High | Single blind spot = full system blind spot |
+| Mesh (distributed) | Slow spread, hard to contain | Medium-High | Diverse but unstructured |
+| Tree (hierarchical) | Layered isolation, controlled escalation | Low | Pyramid projection of sphere |
+| Clustered | Stable within clusters, vulnerable at boundaries | Medium | Partial sphere approximation |
+| **Sphere (distributed surface)** | **Blind spots distributed, covered by neighbors** | **Lowest** | **True target structure** |
 
-| Topology | Propagation Pattern | Storm Risk |
-|----------|--------------------|--------------------|
-| Star (centralized) | Hub failure → total collapse | High |
-| Mesh (distributed) | Slow spread, hard to contain | Medium-High |
-| Tree (hierarchical) | Layered isolation, controlled escalation | Low |
-| Clustered | Stable within clusters, vulnerable at boundaries | Medium |
+> The sphere is the target. The hierarchical tree is the operational approximation used during early stabilization phases.
 
-> Hierarchical (tree) topology aligns most closely with fractal governance structure and minimizes vector storm propagation risk. In a tree, each layer acts as a containment boundary — a storm at one lower node cannot spread laterally to sibling nodes because processing isolation prevents horizontal propagation, and upward escalation allows the parent layer to absorb the conflict before it reaches other branches.
+### 3.5 Information Transfer: Projection ↔ Inclusion/Embedding
 
-### 1.4 Lateral Communication: Processing Isolation and Upper-Layer Mediation
+When agents transmit information to each other, the transfer is not a simple copy. It is a two-stage transformation:
 
-In this architecture, same-layer agents do not exchange intermediate states during processing. They may exchange outputs only via an upper-layer mediation and synthesis step. This prevents premature convergence and vector-storm amplification.
+```
+Stage 1 — Projection (sender side):
+  Raw observation → internal degradation → compressed representation
+  [High-dimensional] → [Low-dimensional]
+  Cost: sender's resolution budget spent here
 
-This is not a prohibition on communication — it is a **routing constraint**. Conflict and friction between same-layer agents are expected and unavoidable. The design principle is that such friction must not be resolved horizontally (which causes synchronization and diversity collapse), but must be **routed upward** for mediated synthesis.
+Stage 2 — Inclusion/Embedding (receiver side):
+  Compressed representation → receiver's own representation space
+  [Low-dimensional] → [Receiver's context-space]
+  Required: upscaling to restore meaning
+```
+
+**Why this matters:**
+
+Receiving degraded information from others is more efficient than direct observation. The sender has already spent their resolution budget on compression — the receiver gets broader coverage without paying the O(n²) cost of direct observation.
+
+But upscaling always leaves **empty space** — regions the receiver cannot reconstruct because their representation space differs from the sender's. This empty space is filled by the receiver's own bias. That is the corruption entry point.
+
+```
+Upscaling success → broader + deeper view than direct observation
+Upscaling failure → distortion → blurred vision → corruption vulnerability
+
+A: [■■■□□] compressed
+B receives: [■■???]
+            ??? filled by B's existing patterns
+            → meaning diverges from A's original
+```
+
+**Mitigation: Structural Diversity in Cross-Validation**
+
+Identical agents produce identical empty spaces — corruption becomes invisible consensus. Structurally diverse agents produce different empty spaces — disagreement reveals the location of the gap.
+
+```
+Corrupt signal passes diverse cross-validation:
+  B's upscaling: [■■X□□]  ← X = corruption fills B's gap
+  C's upscaling: [■■□X□]  ← X = corruption fills C's gap differently
+  D's upscaling: [■■□□X]  ← X = corruption fills D's gap differently
+  → Disagreement at positions 3,4,5 → gap location surfaced
+  → Corruption identified
+
+Corrupt signal passes homogeneous cross-validation:
+  B, C, D share same representation space
+  → Same gap, same fill, same corruption
+  → False consensus → corruption invisible
+```
+
+> **Diversity is not a performance optimization. It is the structural condition for corruption detection.**
+
+### 3.6 Lateral Communication: Processing Isolation
+
+In this architecture, same-layer agents do **not** exchange intermediate states during processing. They may exchange outputs **only** via upper-layer mediation.
+
+This is not a prohibition on communication — it is a **routing constraint**. Friction between same-layer agents is expected and unavoidable. The design principle is that such friction must be **routed upward** for mediated synthesis, not resolved horizontally.
 
 **Single-agent analogue: Multi-Head Attention**
 
-In a Transformer, multiple attention heads operate in parallel within the same layer. Each head independently captures different patterns from the input. Critically, heads do not communicate with each other during processing — their results are only combined at a **concatenation point** after independent computation.
-
 ```
-Multi-Head Attention (single agent):
+Multi-Head Attention:
   Head 1 → pattern A (independent)
   Head 2 → pattern B (independent)
   Head 3 → pattern C (independent)
   └→ Concatenation point → combined output
 
-Multi-agent same-layer design:
+Multi-agent design (same principle):
   Agent 1 → classification result A (independent)
   Agent 2 → classification result B (independent)
   Agent 3 → classification result C (independent)
   └→ Upper layer synthesis → combined output
 ```
 
-**Why unmediated lateral exchange is harmful**
-
-If attention heads in a Transformer directly influence each other during processing, **head collapse** occurs — multiple heads converge on the same pattern, destroying the diversity that makes multi-head attention valuable. The system loses its ability to capture multiple perspectives simultaneously.
-
-The same principle applies at system level. If same-layer agents exchange intermediate states during processing:
-
-```
-Unmediated lateral exchange:
-  Agent 1 ←→ Agent 2 ←→ Agent 3 (during processing)
-  → Mutual influence on intermediate states
-  → Premature convergence (false consensus before proper classification)
-  → Independent perspectives lost
-  → Small conflicts amplify into collective polarization
-  → System-level equivalent of head collapse: agent synchronization
-  → Requires strong distracting (intervention/suppression) from upper layer to correct
-```
-
-Opening horizontal communication creates pathways for vector-storm amplification — agents persuade, pressure, or align with each other before classification is complete, turning small friction into systemic instability. The upper layer then must intervene with costly distracting operations to suppress the resulting polarization.
-
-**The design principle:** By routing all inter-agent integration through the upper layer's mediation step, the architecture **structurally eliminates the amplification pathway**. This reduces the need for distracting operations, which aligns with the DFG goal of converging toward zero external intervention.
-
-```
-Processing isolation + upper-layer mediation:
-  Agent 1 → output A (independent)
-  Agent 2 → output B (independent)
-  Agent 3 → output C (independent)
-  └→ Upper layer: mediated synthesis (with resolution to integrate without forcing convergence)
-  └→ Result transmitted downward as seed
-
-Friction exists. It is not suppressed.
-It is routed to where it can be resolved at sufficient resolution.
-```
-
-> **What happens if processing isolation is violated:** Agents at the same layer begin to influence each other's intermediate states, leading to premature convergence — a false consensus that bypasses proper classification. Independent perspectives collapse. Small conflicts escalate into collective polarization, requiring costly distracting operations from the upper layer. (See Section 9: head collapse in multi-head attention.)
-
-> **Exception: meta-operational signals.** Processing isolation prohibits sharing of *processing content and intermediate states*. It does not prohibit sharing of meta-operational signals — such as resource availability (load balancing), duplicate-work flags (redundancy avoidance), and safety/meltdown alerts — provided these signals do not influence classification content or induce convergence. A separate protocol channel for such signals is architecturally permitted.
+> **Exception:** Meta-operational signals (load balancing, redundancy flags, safety alerts) may be shared via a separate protocol channel, provided they do not influence classification content or induce convergence.
 
 ---
 
-## 2. Data Classification Framework
+## 4. Data Classification Framework
 
-### 2.0 Why Four Types: The Discretization Argument
+### 4.1 Why Four Types
 
-Before defining the four data types, it is worth addressing why the classification uses four categories — and why discrete classification is necessary at all.
+Discretization is a **structural requirement**, not a simplification. A system without discrete classification categories cannot function beyond a certain complexity threshold.
 
-**The continuous processing problem**
-
-A system that processes every data input with continuous precision faces a scaling problem:
-
-```
-Continuous processing
-  Every state change requires evaluation
-  Every micro-fluctuation triggers routing decision
-  Processing cost scales with input resolution
-  → At sufficient scale: resource exhaustion
-  → System collapses under its own processing load
-```
-
-Discretization is not a simplification imposed for convenience. It is a structural requirement for any finite system operating at scale. A system without discrete classification categories cannot function beyond a certain complexity threshold.
-
-More precisely: even a competent single agent does not run the four-type classification at full resolution on every input. There is a **trade-off cutoff point** — the resolution level beyond which further classification precision costs more resources than it returns in routing accuracy. Below this cutoff, residual vectors are intentionally treated as noise. This is not a failure of classification; it is the economically rational boundary of classification effort.
-
-> **What happens if classification is skipped entirely:** The agent treats all input data with equal weight, unable to distinguish signal from noise. This produces hallucination-equivalent failure — the system "discovers" patterns in noise and generates fabricated outputs. (See Section 9 for the single-agent analogue: uniform attention distribution.)
-
-**Why four and not more**
-
-The two-axis discretization (interpretability × degrees of freedom) yields four canonical categories under finite-resource constraints, covering the operational space of data types without redundancy:
+The two-axis discretization (interpretability × degrees of freedom) yields four canonical categories under finite-resource constraints:
 
 ```
 Axis 1: Interpretable vs. Not Interpretable
 Axis 2: Single conclusion vs. Multiple conclusions (if interpretable)
          Operable vs. Not operable (if not interpretable)
 
-Result: Mathematical / High-Context / Tacit Knowledge / Noise
-        Four categories. No gaps. No overlaps.
+→ Mathematical / High-Context / Tacit Knowledge / Noise
+  Four categories. No gaps. No overlaps.
 ```
 
-Note: The second axis is **context-dependent**. For interpretable data, it measures degrees of freedom (single vs. multiple valid conclusions). For non-interpretable data, it measures operability (whether the data can still be acted upon despite being unexplainable). This makes the framework a conditional branching structure rather than a simple 2x2 matrix. The matrix representation is used as a summary; the decision tree in Section 2.3 is the more precise representation.
+### 4.2 Two-Axis Classification
 
-Further subdivision is possible but produces diminishing returns:
-
-```
-More categories
-  → Finer classification resolution
-  → Higher boundary maintenance cost
-  → More escalation routing decisions
-  → Net processing cost increases
-
-Four categories
-  → Sufficient resolution for routing decisions
-  → Minimum classification overhead
-  → Practical operating threshold
-```
-
-The four-type framework is the minimum sufficient discretization of the data space. This is the same logic that governs the existence of minimum units in physical and mathematical systems: the system operates on the coarsest discretization that preserves necessary distinctions.
-
-**Empirical support: four processing types already observable in LLMs**
-
-The four-type classification is not imposed from outside. It structurally resembles processing patterns already observable inside single-agent architectures:
-
-```
-Deterministic processing → Mathematical
-  Attention converges to a single pattern. No ambiguity.
-  "2 + 2 =" → "4"
-
-Contested processing → High-Context
-  Attention distributed across multiple heads/positions.
-  Multiple valid interpretations compete.
-  "The bank was steep" → financial institution? riverbank?
-
-Opaque processing → Tacit Knowledge
-  Specific attention heads or embedding patterns contribute to performance,
-  but probing cannot identify what they capture or why they work.
-  Remove them → performance degrades. Explain them → cannot.
-
-Ignored processing → Noise
-  Attention scores below threshold. Effectively excluded from computation.
-```
-
-These four patterns emerge from the architecture itself, not from external labeling. The four-type framework names and formalizes patterns that structurally resemble what is already present. (See Section 9.4 for detailed mapping.)
-
-> **What happens if the trade-off cutoff is removed (full-resolution classification on all inputs):** Every input consumes maximum processing resources. Resource cost explodes and performance degrades because irrelevant processing introduces noise into the output. (See Section 9: all-expert MoE activation.)
-
-### 2.1 Two-Axis Classification
-
-Data is classified along two axes:
-
-- **Interpretability:** can the data be meaningfully interpreted?
-- **Degrees of freedom / Operability:** if interpretable, does it admit multiple valid conclusions? If not interpretable, can it still be operated upon?
-
-|  | **Interpretable** | **Not Interpretable** |
+| | Interpretable | Not Interpretable |
 |---|---|---|
 | **Single conclusion** | Mathematical | — |
 | **Multiple conclusions** | High-Context | — |
 | **Operable** | — | Tacit Knowledge |
 | **Inoperable** | — | Noise |
 
-> This matrix is a summary. The second axis changes meaning depending on the first axis result. See Section 2.3 for the precise decision tree.
+> The second axis changes meaning depending on the first axis result. The matrix above is a summary; the decision tree in §4.4 is the more precise representation.
 
-### 2.2 Four Data Types
+### 4.3 Four Data Types
 
 **Mathematical Data**
 - Causal relationship: clear
@@ -359,109 +317,14 @@ Data is classified along two axes:
 - Causal mechanism: unknown — only estimable
 - Example: empirical heuristics, pattern-based operations without mechanistic explanation
 - Handling: operate without explanation; escalate only on performance degradation
-
-> **Boundary clarification:** High-Context is a problem of *criterion ambiguity* — multiple legitimate conclusions compete. Tacit Knowledge is a problem of *mechanism opacity* — the conclusion may be stable and singular, but why it works is a black box. A datum that is both interpretable and mechanistically opaque should be classified by its primary operational challenge: if competing conclusions require resolution, it is High-Context; if it operates stably without explanation, it is Tacit.
-
-**Why Tacit Knowledge is a permanent category, not a temporary one**
-
-Higher resolution can reclassify some Tacit Knowledge into High-Context or Mathematical — "we now understand why this works." But resolution has a structural ceiling. No matter how high the resolution, some patterns remain operable but unexplainable.
-
-This is not a hypothetical claim. Current AI systems are themselves evidence:
-
-```
-Current LLMs:
-  Work well → high performance on many tasks
-  Internal mechanism → black box
-  Why they work this way → no complete explanation exists
-
-Interpretability research has identified some components:
-  "This head handles grammar" → reclassified as Mathematical
-  "This head handles context" → reclassified as High-Context
-  "This head does something useful but we cannot explain what"
-    → remains Tacit Knowledge
-
-Full interpretability is not expected.
-```
-
-Tacit Knowledge shares the same structural constraint as blind spots and residual noise:
-
-```
-Blind spots:   reducible but never zero (pyramid structure limit)
-Residual noise: reducible but never zero (trade-off cutoff limit)
-Tacit Knowledge: reducible but never zero (resolution limit)
-
-These share the same irreducibility structure — each is reducible
-but never eliminable — though the underlying mechanisms differ.
-```
-
-**Cross-validation can partially reclassify Tacit Knowledge**
-
-An agent cannot see inside its own black box. But a different agent — with different internal structure — may observe the first agent's Tacit pattern from outside and partially explain it.
-
-```
-Agent A: "I don't know why my output works this way." (Tacit)
-Agent B: "I can see a pattern in A's outputs that A cannot see internally."
-  → B reclassifies A's Tacit as High-Context (partial mechanism identified)
-  → A still cannot explain it, but B can — from a different vantage point
-
-This is possible because blind spot positions differ between agents.
-A's black box ≠ B's black box.
-What A cannot see in itself, B may see from outside.
-```
-
-This is the deeper level of cross-validation described in Section 4.4: not just Noise↔Signal reclassification, but **Tacit↔High-Context reclassification** — partial black-box resolution through external observation.
-
-However, shared black boxes (common to all agents due to shared architectural constraints) remain Tacit for everyone. Cross-validation can reduce Tacit Knowledge but cannot eliminate it.
+- Note: **Permanent category** — some patterns remain operable but unexplainable regardless of resolution
 
 **Noise**
 - Correlation: absent
-- Pattern: none
 - Handling: filter and discard before transmission
+- Note: noise is **asymptotically reducible, not eliminable** — the residual noise floor is determined by the lowest layer's trade-off cutoff
 
-**The dual nature of noise**
-
-Noise in this framework has two distinct sources:
-
-1. **True noise:** Data with genuinely no correlation or pattern. Irreducible randomness.
-2. **Residual vectors treated as noise:** Data that may contain meaningful signal, but falls below the agent's classification trade-off cutoff. The agent lacks sufficient resolution to distinguish it from true noise, so it is intentionally discarded.
-
-```
-Agent's classification process:
-  Input data
-  ├→ Clearly classifiable (above cutoff) → Mathematical / High-Context / Tacit
-  └→ Below trade-off cutoff
-       ├→ True noise (no signal)         → discard
-       └→ Residual vectors (weak signal) → treated as noise, discarded
-
-The agent cannot distinguish between these two at this resolution.
-```
-
-This distinction matters because **residual vectors discarded at a lower layer may be classifiable at a higher layer** with greater resolution. This is one of the structural reasons escalation exists: when performance degrades at a lower layer, it may be because meaningful signal is being lost in the noise floor. (When these residual vectors contain meaningful signal, they become structural blind spots — see Section 4.4.)
-
-**Why noise is never fully eliminated**
-
-The lowest layer of a fractal architecture is structurally incapable of perfect noise discrimination. The decision complex at the lowest layer operates with minimum viable scope — it cannot fully distinguish between genuine noise and weak signal. Some noise always passes the filter.
-
-```
-Perfect noise elimination requires
-  → Complete pattern discrimination at every layer
-  → This requires full-resolution classification
-  → Full-resolution classification on all inputs is resource-prohibitive
-  → Every agent operates at a trade-off cutoff
-  → Some signal always falls below the cutoff
-  → Some noise always reaches the layer above
-```
-
-This is not a classification failure. It is the structural consequence of the quality-volume trade-off. The noise that survives is not processable at any layer within current resource allocation. It accumulates as irreducible background — the system-level equivalent of the randomness that cannot be eliminated without destroying the diversity that depends on it.
-
-> **Noise elimination is asymptotic, not achievable.**
-> **The residual noise floor is determined by the lowest layer's trade-off cutoff point.**
-
-> **Operational note:** Noise is discarded by default, but data near the trade-off cutoff — where residual-vector probability is highest — may be retained in a cold buffer and sampled for re-evaluation only when performance degradation or cross-agent disagreement triggers review (see Section 4.4, Strategy 1 and 2).
-
-### 2.3 Boundary Conditions
-
-The boundary between types is determined by **internal conflict detection** within the decision complex module:
+### 4.4 Classification Decision Tree
 
 ```
 Internal simulation result
@@ -471,20 +334,10 @@ Internal simulation result
   └→ Conflict undetectable, operation fails    → Noise
 ```
 
-> This decision tree is the primary classification representation. The 2x2 matrix in Section 2.1 is a summary view.
-
-| Boundary Case | Classification Rule |
-|---------------|---------------------|
-| Mathematical vs High-Context | Same data may shift type based on context — if conflict emerges in simulation, reclassify as High-Context |
-| Tacit Knowledge vs Noise | Presence of statistically significant correlation → Tacit Knowledge |
-| High-Context vs Tacit Knowledge | If interpretation is possible but mechanism is unexplainable → Tacit Knowledge |
-
-**Resolution-dependent reclassification:** The same data may be classified differently at different layers. A lower agent with limited resolution may classify ambiguous data as Tacit Knowledge or Noise, while an upper agent with higher resolution may reclassify the same data as High-Context or Mathematical. This is not inconsistency — it is the expected behavior of the same mechanism operating at different resolution levels.
-
-### 2.4 Escalation by Data Type
+### 4.5 Escalation by Data Type
 
 | Data Type | Escalation Condition |
-|-----------|----------------------|
+|---|---|
 | Mathematical | Not required |
 | High-Context | On internal conflict detection |
 | Tacit Knowledge | On performance degradation only |
@@ -492,35 +345,15 @@ Internal simulation result
 
 ---
 
-## 3. Decision Complex Module
+## 5. Decision Complex Module
 
-### 3.1 Definition
+### 5.1 Definition
 
 > A **Decision Complex** is a module within each agent that simultaneously activates multiple reasoning paths, detects directional conflict between them, and converges on a single output. Conflict detection determines data classification and escalation routing.
 
 This structure exists at every layer of the fractal architecture — in degraded form at lower levels, in fuller form at higher levels.
 
-### 3.2 Contrast with Existing Approaches
-
-```
-Existing LLM reasoning
-  Multiple paths activated
-  → Black-box convergence
-  → Output
-
-Decision Complex
-  Multiple paths activated
-  → Explicit conflict detection
-       ├→ Conflict + convergence possible → High-Context → escalate
-       ├→ No conflict                     → Mathematical → self-process
-       ├→ Conflict undetectable + operable → Tacit → operate locally
-       └→ Conflict undetectable + inoperable → Noise → discard
-  → Output with classification label
-```
-
-**Implementation direction:** This theory specifies the functional requirement of explicit conflict detection; implementation may take multiple forms. Possible operationalizations include divergence measurement between parallel output distributions, cosine distance thresholds in embedding space, or a dedicated meta-module that evaluates agreement across reasoning paths. The key requirement is that conflict detection produces a classification label, not just a converged output.
-
-**Minimum specification sketch:**
+### 5.2 Minimum Specification
 
 ```
 1. Activate N ≥ 2 reasoning paths on the same input.
@@ -529,144 +362,37 @@ Decision Complex
     cosine distance between embedding representations).
 3. Map conflict score to classification label:
 
-   conflict_score < τ_low                        → Mathematical
-     (paths converge; single conclusion)
-   conflict_score ≥ τ_low AND convergence possible → High-Context
-     (paths diverge but synthesis is feasible)
-   conflict_score undetectable AND performance stable → Tacit Knowledge
-     (no measurable conflict, but mechanism opaque)
-   conflict_score undetectable AND performance unstable → Noise
-     (no pattern; discard)
+   conflict_score < τ_low                           → Mathematical
+   conflict_score ≥ τ_low AND convergence possible  → High-Context
+   conflict_score undetectable AND perf. stable     → Tacit Knowledge
+   conflict_score undetectable AND perf. unstable   → Noise
 
-4. Attach label to output. Route by label (Section 4.1).
+4. Attach label to output. Route by label.
 ```
 
-The thresholds τ_low and the convergence criterion are deployment-specific calibration parameters, not universal constants. This sketch defines the minimum functional interface; internal architecture may vary.
+### 5.3 Three Implementation Pathways
 
-**Three implementation pathways**
+| Pathway | Description | Status |
+|---|---|---|
+| 1 — Externalized | Multiple agents compare outputs externally (LLM-as-judge, ensemble) | **Currently operational** |
+| 2 — Internalized | Single agent activates multiple paths internally; conflict detected before output | **Design target** |
+| 3 — Progressive | Start with Pathway 1; internalize as patterns stabilize; external support withdraws | **Transition mechanism** |
 
-The Decision Complex function can be realized through progressively more integrated approaches:
+### 5.4 Fractal Degradation
 
-```
-Pathway 1: Externalized (currently operational)
-  Multiple agents process the same input independently.
-  Outputs are compared externally.
-  Disagreement = conflict detection.
-  → Can be interpreted as an externalized form of the Decision Complex:
-    LLM-as-judge, ensemble voting, Constitutional AI
-  → Limitation: no classification labels, no escalation routing,
-    only detects conflicts visible in final outputs.
+The Decision Complex degrades across layers by reduction in classification resolution, not by reduction in mechanism:
 
-Pathway 2: Internalized (design target)
-  Single agent activates multiple reasoning paths internally.
-  Conflict detection and classification occur before output.
-  → Not yet implemented in production architectures.
-  → Functional requirement defined by this theory.
-
-Pathway 3: Progressive internalization (transition)
-  Start with Pathway 1 (external cross-validation).
-  As patterns of disagreement stabilize, internalize the detection logic.
-  Cross-validation frequency decreases as internal capacity grows.
-  → Mirrors the DFG expansion principle:
-    external support → stabilization → internalization → support withdraws
-  → Same structure as Human-AI Zone exit (Section 6.3):
-    human sets direction → system stabilizes → human exits
-  Note: The specific learning mechanism by which external cross-validation
-  patterns are internalized is an open problem (see Section 10).
-```
-
-Pathway 1 demonstrates that the Decision Complex function is not speculative — it is already performed at system level through cross-validation. What current systems lack is the structural efficiency of performing it internally (Pathway 2). Pathway 3 provides the transition mechanism.
-
-**Cross-validation as externalized Decision Complex**
-
-Current multi-LLM practices (see Section 9.7) are structurally equivalent to an externalized Decision Complex operating without classification labels:
-
-```
-LLM-as-judge:
-  LLM A generates → LLM B evaluates → disagreement detected
-  = Conflict detection across two reasoning paths
-  = Decision Complex function, distributed across two agents
-
-What is missing vs. the internalized Decision Complex:
-  - No classification label (is the disagreement High-Context? Or is A wrong?)
-  - No escalation pathway (disagreement → ??? → majority vote)
-  - Detection happens after output, not before
-```
-
-The Decision Complex design internalizes and formalizes what cross-validation already does informally.
-
-**Black-box cross-resolution: deeper function of externalized Decision Complex**
-
-Cross-validation does more than detect output disagreements. It enables agents to partially resolve each other's black boxes:
-
-```
-Agent A: processes input → output (internal mechanism = black box to A)
-Agent B: observes A's output → detects pattern A cannot see internally
-
-A cannot explain why its output works (Tacit Knowledge from A's perspective).
-B can partially explain A's output (High-Context from B's perspective).
-→ B reclassifies A's Tacit as High-Context — partial black-box resolution.
-```
-
-This is possible because agents have different blind spot positions. What is opaque from inside one agent may be observable from outside by another agent with different internal structure.
-
-```
-Self-objectification (internal): structurally difficult (Section 2.3 deficit)
-Cross-objectification (external): structurally easier (different vantage point)
-→ Cross-validation is externalized self-objectification
-→ A form of metadata injection from peer agents
-```
-
-This function operates at two levels:
-
-```
-Level 1: Noise ↔ Signal reclassification (Section 4.4)
-  One agent discards as noise what another retains as signal.
-
-Level 2: Tacit ↔ High-Context reclassification
-  One agent's black-box pattern is partially explainable by another agent.
-  → Deeper form of cross-validation. Reduces Tacit Knowledge proportion.
-```
-
-However, shared black boxes — patterns opaque to all agents due to common architectural constraints — remain Tacit for the entire system. Cross-validation reduces but cannot eliminate the Tacit category.
-
-### 3.3 Fractal Degradation
-
-The Decision Complex degrades across layers by **reduction in classification resolution**, not by reduction in mechanism:
-
-```
-Upper complex   → High resolution, full 4-type discrimination
-Middle complex  → Medium resolution, reliable 3-type discrimination
-Lower complex   → Low resolution, coarse vector/noise discrimination
-```
-
-```
-Classification resolution by layer:
-
-Upper  |████████████████████| fine-grained 4-type
-Middle |████████████        | intermediate
-Lower  |████                | coarse (vector vs. noise dominant)
-```
-
-At the lowest layer, the four-type classification still operates, but resolution is so limited that the practical outcome approaches a binary: **signal vs. noise**. Most vectors are incompletely decomposed, and the noise proportion increases structurally — not because the mechanism is different, but because the trade-off cutoff arrives earlier.
-
-**If a decision's impact scope exceeds the agent's decision scope → escalate to upper layer.**
-
-> **What happens if a lower agent attempts High-Context processing beyond its resolution:** The agent lacks sufficient context to evaluate competing interpretations. It either forces a single interpretation (losing valid alternatives) or oscillates between interpretations without convergence. (See Section 9: early-layer semantic disambiguation with only token-level features.)
-
-### 3.4 Scope Classification
-
-| Impact Scope | Handling |
-|--------------|----------|
-| Local only | Self-determined |
-| Global impact | Defer to upper layer decision |
-| Scope unclear | Classify as High-Context → escalate |
+| Layer | Resolution | Practical Outcome |
+|---|---|---|
+| Upper | High | Full 4-type discrimination |
+| Middle | Medium | Reliable 3-type discrimination |
+| Lower | Low | Approaches binary: signal vs. noise |
 
 ---
 
-## 4. Escalation Design
+## 6. Escalation Design
 
-### 4.1 Escalation Routing
+### 6.1 Escalation Routing
 
 ```
 Lower agent
@@ -677,8 +403,7 @@ Lower agent
        └→ Noise           → discard
 
 Middle layer
-  └→ Receive High-Context data from multiple lower agents
-  └→ Synthesize → search for optimal interpretation
+  └→ Synthesize High-Context data from lower agents
        ├→ No conflict with upper layer → send result downward
        └→ Conflict with upper layer   → escalate further
 
@@ -687,224 +412,67 @@ Upper layer
   └→ Transmit as seed downward
 ```
 
-### 4.2 Cost Structure
+### 6.2 Cost Structure
 
-There are two concurrent trade-offs in this architecture:
+**Two concurrent trade-offs:**
 
-**Trade-off 1: Classification precision vs. processing volume** (within each agent)
+**Trade-off 1 (within each agent):** Classification precision vs. processing volume — every agent operates at a resolution cutoff where further precision costs more than it returns.
 
-Every agent operates at a resolution cutoff where further classification precision costs more than it returns. Below this cutoff, residual vectors are treated as noise. This is the fundamental quality-volume trade-off that makes the pyramid structure necessary.
-
-**Trade-off 2: Escalation timing** (between layers)
-
-Escalating early prevents degradation damage but increases monitoring overhead. Escalating late reduces monitoring but risks compounding damage from misclassified data.
-
-Formally:
+**Trade-off 2 (between layers):** Escalation timing
 
 $$C_{\text{total}}(t) = C_{\text{escalation}}\!\left(\tfrac{1}{t}\right) + C_{\text{monitoring}}(t)$$
 
-Here, t is the **mean escalation delay** — the average time between conflict emergence and escalation decision. C_escalation(1/t) is a decreasing function of t: escalating frequently (small t) is expensive per unit time. C_monitoring(t) is an increasing function of t: holding unresolved data longer accumulates misclassification risk.
+Where t = mean escalation delay. The optimal t* balances per-escalation cost against accumulated monitoring risk. This theory does not derive t* analytically — it is empirically calibrated per deployment.
 
-**Optimality condition:** Under standard monotonicity assumptions (C_escalation strictly decreasing and convex in 1/t, C_monitoring strictly increasing and convex in t), C_total is convex and a unique minimum exists:
+### 6.3 Structural Blind Spots
 
-$$\frac{dC_{\text{total}}}{dt} = 0 \implies t^*$$
+Upper layers cannot see data discarded by lower layers. **The blind spot is created by lower-layer filtering, not upper-layer limitation.**
 
-The optimal escalation delay t* balances per-escalation cost against accumulated monitoring risk. This theory does not derive t* analytically — it is empirically calibrated per deployment (see Section 10). The contribution is the structural claim that the trade-off exists and has a well-defined minimum under convexity, not the specific value of t*.
+**Blind spot management strategies:**
 
-These two trade-offs interact: an agent with lower classification resolution (Trade-off 1) will produce more misclassified data, increasing the penalty for late escalation (Trade-off 2). This is why lower-layer agents should have lower escalation thresholds — they are more likely to be discarding meaningful signal as noise.
+| Strategy | Mechanism | Cost Profile |
+|---|---|---|
+| 1 — Performance-triggered review | Sample discarded data when performance drops | Reactive; cost-efficient |
+| 2 — Multi-agent cross-validation | Disagreement between agents surfaces blind spots | Proactive; catches agent-specific blind spots only |
+| 3 — Periodic cutoff recalibration | Temporarily lower cutoff; re-evaluate discarded data | Systematic; resource-intensive during windows |
 
-### 4.3 High-Context Data and Degradation Risk
-
-High-Context data must be transmitted with **minimal degradation**. Lower agents have limited resolution and cannot preserve full interpretive context.
-
-```
-Full context → lower agent (low resolution)
-  → forced simplification
-  → context loss
-  → middle layer receives incomplete material
-  → suboptimal synthesis
-  → increased vector storm risk
-```
-
-> **High-Context data: suppress degradation, preserve context, transmit with label.**
-
-**Single-agent analogues of minimal-degradation transmission**
-
-The principle that certain data should bypass normal degradation already operates in LLM architectures:
-
-```
-Attention sink:
-  LLMs maintain abnormally high attention on specific tokens
-  (e.g., beginning-of-sequence tokens) across all layers.
-  These tokens serve as "context preservation anchors" —
-  information passes through them with minimal transformation.
-  → Structural analogue: certain data is flagged for minimal degradation.
-
-Residual connections / Skip connections:
-  Transformer residual paths transmit representations directly
-  past intermediate layer transformations.
-  → Information bypasses the normal degradation of layer-by-layer processing.
-  → Structural analogue: a dedicated pathway that preserves context
-    when the standard processing path would degrade it.
-```
-
-These are not design choices made for High-Context data specifically — they are general mechanisms. But they demonstrate that architectures already implement "suppress degradation for important signals" at the structural level.
-
-### 4.4 Structural Blind Spots
-
-Higher resolution does not mean higher layers see everything. It means they see a **narrower scope more deeply**. What they cannot see is determined by what lower layers discard.
-
-```
-Lower layer processes 1000 data items:
-  → 900 items classified as noise (below trade-off cutoff)
-  → 100 items classified as signal → escalated upward
-
-Upper layer receives 100 items:
-  → Processes at high resolution
-  → But the 900 discarded items never arrive
-  → If any of those 900 contained meaningful signal → structural blind spot
-```
-
-**The blind spot is not an upper-layer limitation. It is created by lower-layer filtering.** The upper layer's resolution is irrelevant for data that never reaches it.
-
-**Blind spot cost asymmetry**
-
-Reducing blind spots is structurally expensive. There are two approaches, both with super-linear cost growth:
-
-```
-Approach 1: Lower the cutoff (classify more as signal)
-  → More data escalated upward
-  → Upper layer processing volume increases
-  → Upper layer approaches overload
-  → Blind spots shrink, but upper layer saturates
-  → Cost increases super-linearly with blind spot reduction
-
-Approach 2: Upper layer samples discarded data
-  → Full review is impossible (defeats pyramid purpose)
-  → Sampling catches only probabilistic fraction
-  → Cost per blind spot found increases rapidly
-  → Diminishing returns: 10% reduction in blind spots ≠ 10% of cost for 50% reduction
-```
-
-> **Blind spots cannot be eliminated without collapsing the pyramid structure.**
-> **The goal is blind spot management, not blind spot elimination.**
-
-**Blind spot management strategies**
-
-Since elimination is structurally impossible, the system manages blind spots through three strategies:
-
-```
-Strategy 1: Performance-degradation-triggered review
-  When a lower layer's overall performance drops, the upper layer
-  samples recently discarded data to check for misclassified signal.
-  → Not continuous monitoring — triggered only on anomaly detection.
-  → Cost-efficient but reactive.
-
-Strategy 2: Multi-agent cross-validation
-  Multiple lower agents independently process the same data.
-  When one agent classifies an item as noise while another classifies
-  it as signal, the disagreement itself becomes an escalation trigger.
-  → No full review needed — disagreement surfaces blind spots.
-  → Partially effective: catches agent-specific blind spots,
-    but not blind spots shared by all agents.
-
-Strategy 3: Periodic cutoff recalibration
-  At regular intervals, a lower agent temporarily lowers its trade-off cutoff,
-  allowing previously discarded data to reach the upper layer.
-  The upper layer re-evaluates: was this actually noise, or signal?
-  The cutoff criterion itself is updated based on the result.
-  → Systematic but resource-intensive during recalibration windows.
-```
-
-**Relationship to the residual noise floor:** The structural impossibility of blind spot elimination is the same constraint that produces the residual noise floor described in Vector Storm Theory. Some signal will always be lost below the lowest layer's cutoff. This is not a failure of classification — it is the structural cost of the quality-volume trade-off.
-
-**Shared blind spots and their limits**
-
-Cross-validation (Strategy 2) can only detect blind spots that differ between agents. When all agents share the same blind spot — due to common training data bias, shared architectural constraints, or identical cutoff heuristics — no disagreement occurs, and the blind spot is invisible to the system.
-
-```
-Agent-specific blind spots:
-  Agent A discards item X, Agent B retains it
-  → Disagreement detected → escalation → blind spot surfaced
-  → Cross-validation effective
-
-Shared blind spots:
-  All agents discard item X (common bias)
-  → No disagreement → no escalation → blind spot invisible
-  → Cross-validation ineffective
-  → This is the "residual blind spot" — structurally irreducible
-```
-
-Reducing shared blind spots requires **architectural diversity** among agents — different training approaches, different model families, different representational structures. But architectural diversity has its own cost and limits, meaning the residual blind spot can be reduced but never eliminated.
+> **Blind spots cannot be eliminated without removing processing isolation.**  
+> **The goal is blind spot management, not elimination.**
 
 ---
 
-## 5. Expansion Principle
+## 7. Expansion Principle
 
-### 5.1 Core Definition
+### 7.1 Core Definition
 
-> **Expansion Principle** *(as defined in DFG)*: An upper layer structure may only be opened after the lower layer has reached stabilization. Expansion before stabilization amplifies instability super-linearly.
+> An upper layer structure may only be opened after the lower layer has reached stabilization. Expansion before stabilization amplifies instability super-linearly.
 
-Vector storms intensify when the number of agents grows faster than the system's capacity to absorb conflict.
-
-Formally, from the Vector Storm instability equation:
+From the Vector Storm instability equation:
 
 $$\frac{dS}{dt} = \alpha n^2 - \beta C(t)$$
 
-where:
+Where:
+- S = system-level instability
+- n = effective interaction dimensionality (active pairwise interaction channels)
+- C(t) = degradation capacity at time t
+- α, β = deployment-specific empirical coefficients
 
-- S = system-level instability (storm intensity)
-- n = effective interaction dimensionality: the expected number of active pairwise interaction channels, not the raw agent count. In a system with k agents and processing isolation, n ≤ k(k-1)/2, with equality only under full lateral exposure.
-- C(t) = degradation capacity at time t (the system's ability to absorb conflict)
-- α, β = deployment-specific coefficients requiring empirical calibration
+When n increases (expansion) while C(t) remains low (immature capacity), instability spikes.
 
-Under pairwise interaction assumptions, instability growth scales quadratically with effective interaction dimensionality. When n increases (expansion) while C(t) remains low (immature degradation capacity):
+### 7.2 Stabilization Condition
 
-$$\frac{dS}{dt} \uparrow\uparrow \implies \text{Vector Storm}$$
+> **Stabilization** = High-Context data escalation frequency falls below threshold θ
 
-> Note: The n-squared relationship assumes that each pair of agents constitutes a potential conflict surface. In architectures with strong processing isolation (Section 1.4), many pairwise channels are structurally closed, reducing effective n well below the theoretical maximum. The quadratic bound represents the worst case under full lateral exposure; actual scaling may be sub-quadratic in well-isolated systems. Empirical calibration of α and β is required per deployment context.
+$$f_{\text{escalation}} = \frac{N_{\text{HC-escalated}}}{N_{\text{total}}} \leq \theta$$
 
-**Empirical analogues of staged expansion:**
+This is the **primary condition** because it directly measures system-level stress — a layer that rarely escalates interpretive conflicts has, by definition, internalized sufficient classification capacity for its scope.
 
-The principle that expansion before stabilization causes instability is observable in existing systems:
+> θ is not a universal constant. It is empirically calibrated per deployment based on resource constraints, acceptable error rate, and the cost ratio between escalation overhead and misclassification damage.
 
-- **Federated learning:** Adding participating nodes all at once causes gradient conflict explosion and model instability. Adding nodes incrementally — confirming convergence at each stage before adding more — produces stable training. This is structurally equivalent to "lower stabilization before upper expansion."
-- **Curriculum learning:** Training an LLM on easy data first (stabilization), then progressively introducing harder data (expansion), produces better results than training on all difficulty levels simultaneously. Premature introduction of hard data before the model has internalized basic patterns causes training instability.
-- **Progressive GAN training:** Generating low-resolution images first (lower layer stabilization), then adding higher-resolution layers incrementally (upper expansion), produces stable training. Attempting full resolution from the start causes mode collapse — a form of vector storm.
-
-These are not mere analogies but structural instantiations of the same principle: **capacity must stabilize before scope expands.**
-
-### 5.2 Stabilization Condition
-
-Stabilization is determined by a **single primary condition**:
-
-> **Stabilization** = High-Context data escalation frequency falls below threshold theta
-
-$$f_{\text{escalation}} \leq \theta \implies \text{Stabilization achieved}$$
-
-**Formal definition:**
-
-$$f_{\text{escalation}} = \frac{N_{\text{HC-escalated}}}{N_{\text{total}}}$$
-
-where N_HC-escalated is the number of items classified as High-Context and escalated upward, and N_total is the total number of items processed at this layer, both measured over a defined window. The ratio form is preferred over absolute rate (items/hour) because it is robust to traffic variation. In systems with stable throughput, an absolute rate may be substituted.
-
-This is the primary condition because:
-- It directly measures system-level stress, not just local performance
-- When satisfied, local processing stability and decision complex maturity follow as consequences — a layer that rarely needs to escalate interpretive conflicts has, by definition, internalized sufficient classification capacity for its scope
-- It is measurable and applies uniformly across all fractal layers
-
-| Condition | Role |
-|-----------|------|
-| Escalation frequency ≤ theta | **Primary — direct stability indicator** |
-| Local decisions self-processed | Secondary — follows from primary |
-| Decision complex handles local scope | Secondary — follows from primary |
-
-**On theta calibration:** The threshold theta is not a universal constant. It is empirically calibrated per deployment context based on the system's resource constraints, acceptable error rate, and the cost ratio between escalation overhead and misclassification damage. The calibration principle is: theta should be set at the point where further reduction in escalation frequency yields diminishing returns in system stability relative to the monitoring cost required to achieve it.
-
-### 5.3 Expansion Sequence
+### 7.3 Expansion Sequence
 
 ```
-Lower layer stabilization confirmed (f_escalation ≤ theta)
+Lower layer stabilization confirmed (f_escalation ≤ θ)
   └→ Upper layer structure opens
        └→ Human intervention exits lower layer completely
             └→ Human moves to upper layer
@@ -913,62 +481,28 @@ Lower layer stabilization confirmed (f_escalation ≤ theta)
 
 This sequence applies identically at every fractal level.
 
-### 5.4 Premature Expansion Risk
-
-```
-Lower layer unstable → upper layer opens prematurely
-
-n increases (expansion)
-C(t) still low (immature)
-→ dS/dt spikes
-→ Vector Storm cascade
-→ Correction cost compounds non-linearly
-```
-
-> **Do not expand upward until lower stabilization is confirmed.**
+**Empirical analogues:** Federated learning (staged node addition), curriculum learning (easy-before-hard), progressive GAN training (low-before-high resolution) all instantiate the same principle.
 
 ---
 
-## 6. Human-AI Collaboration Zone
+## 8. Human-AI Collaboration Zone
 
-### 6.1 Why This Zone Exists
+### 8.1 Why This Zone Exists
 
-The middle layer processing of High-Context data is a blind spot for both humans and AI:
+The middle layer processing of High-Context data is a blind spot for both:
+- **Humans:** cannot compare large solution spaces simultaneously
+- **AI:** cannot reliably determine optimization direction under high-context ambiguity
 
-```
-Human limitation:  cannot compare large solution spaces simultaneously
-AI limitation:     cannot reliably determine optimization direction under high-context ambiguity
+**Structural difference from conventional HITL:**
 
-High-Context data = requires both
-→ Human-AI collaboration zone
-```
+| Approach | Human Volume Scales With |
+|---|---|
+| Confidence-based HITL | Total system uncertainty (unsustainable) |
+| DFG Human-AI Zone | High-Context frequency only (contracts with stabilization) |
 
-**Structural difference from conventional Human-in-the-Loop (HITL)**
+In the DFG design, only High-Context data reaches the human. Mathematical, Tacit, and Noise data are handled without human involvement.
 
-Many existing HITL designs insert human oversight based on confidence thresholds — if the model is uncertain, a human reviews it. This approach is data-type-agnostic: the human sees everything the model is unsure about, regardless of whether human input would actually help.
-
-```
-Conventional confidence-based HITL:
-  Model confidence < threshold → send to human
-  → Human reviews Mathematical data (unnecessary — model just needs more compute)
-  → Human reviews Tacit data (unhelpful — human can't explain it either)
-  → Human reviews Noise (wasteful — nothing to review)
-  → Human reviews High-Context (useful — human can set direction)
-  → Human volume scales with system uncertainty. Not sustainable.
-
-DFG Human-AI Zone:
-  Only High-Context data reaches the human.
-  → Mathematical: self-processed. Human never sees it.
-  → Tacit Knowledge: operated locally. Human can't add value.
-  → Noise: discarded. Human never sees it.
-  → High-Context: human sets interpretive direction, AI searches within it.
-  → Human volume scales with High-Context frequency, not total uncertainty.
-  → As stabilization progresses, High-Context frequency drops → human exits.
-```
-
-The structural innovation is not "human in the loop" — it is **data-type-specific human positioning** combined with a defined exit condition.
-
-### 6.2 Collaboration Structure
+### 8.2 Collaboration Structure
 
 ```
 High-Context data arrives at middle layer
@@ -978,285 +512,277 @@ High-Context data arrives at middle layer
                  └→ Result transmitted downward as seed
 ```
 
-### 6.3 Entry and Exit Conditions
-
-Human intervention is not arbitrary — it is structurally determined:
+### 8.3 Entry and Exit Conditions
 
 | Condition | Human Role |
-|-----------|------------|
+|---|---|
 | Lower layer unstable | Maintain intervention at lower layer |
 | Lower layer stabilized | Exit lower layer completely |
 | Upper layer opens | Move intervention to upper layer |
-| Upper layer stabilized | Exit upper layer; system operates with minimal human oversight |
+| Upper layer stabilized | Exit upper layer; system operates with minimal oversight |
 
-> Human intervention zone contracts as stabilization propagates upward through the fractal structure.
-
-> **Safety provision for classification error:** The Human-AI Zone receives only High-Context data by design. However, if system anomalies occur — sudden performance degradation, cross-agent disagreement spikes, or recovery triggers — a temporary exception allows sampled Tacit/Noise data to enter the Human-AI Zone for inspection. This prevents misclassification from permanently hiding critical signals from human oversight.
+> Human intervention zone **contracts** as stabilization propagates upward through the fractal structure.
 
 ---
 
-## 7. Core Assumptions
+## 9. Core Assumptions
 
 | # | Assumption |
-|---|------------|
+|---|---|
 | 1 | This theory assumes a single agent already capable of performing four-type data classification internally. |
 | 2 | Data can be classified into four types based on interpretability and causal clarity, within the limits of an agent's classification resolution. |
 | 3 | Classification boundaries are determined by internal conflict detection, not external rules. |
-| 4 | No agent runs classification at full resolution on all inputs. Every agent operates at a trade-off cutoff, below which residual vectors are treated as noise. |
+| 4 | No agent runs classification at full resolution on all inputs. Every agent operates at a trade-off cutoff, below which residual vectors are treated as noise. This is structurally enforced: viewing broadly (high volume, low resolution) and viewing in depth (low volume, high resolution) are mutually exclusive modes. Computational cost scales quadratically with context length — the more an agent sees, the less precisely it can see any of it. |
 | 5 | Each agent contains a degraded Decision Complex operating by the same mechanism at different resolution levels. |
 | 6 | Decision scope contracts with layer depth — lower agents handle local-impact decisions only. |
 | 7 | High-Context data escalation frequency is the primary indicator of system stability. |
 | 8 | Upper layer expansion before lower stabilization amplifies instability super-linearly. |
 | 9 | Human intervention is structurally positioned at the High-Context data processing zone. |
 | 10 | As stabilization propagates upward, human intervention scope contracts accordingly. |
-| 11 | Same-layer agents do not exchange intermediate states during processing; inter-agent integration is mediated through the upper layer to prevent premature convergence and preserve diversity. |
+| 11 | Same-layer agents do not exchange intermediate states during processing; inter-agent integration is mediated through the upper layer. |
 | 12 | Upper layers cannot see data discarded by lower layers. Structural blind spots are created by lower-layer filtering and cannot be eliminated without collapsing the pyramid structure. |
-| 13 | Cross-validation between agents with different cutoff profiles can surface agent-specific blind spots, but shared blind spots (common to all agents) require architectural diversity to detect and can never be fully eliminated. |
-| 14 | Tacit Knowledge is a permanent category, not a temporary one. Higher resolution can reclassify some Tacit data as High-Context or Mathematical, but resolution has a structural ceiling — some patterns remain operable but unexplainable. |
-| 15 | Agents with different internal structures can partially resolve each other's black boxes through cross-validation (Tacit→High-Context reclassification), but shared black boxes common to all agents remain irreducible. |
+| 13 | Cross-validation can surface agent-specific blind spots, but shared blind spots require architectural diversity and can never be fully eliminated. |
+| 14 | Tacit Knowledge is a permanent category — higher resolution can reclassify some, but resolution has a structural ceiling. |
+| 15 | Agents with different internal structures can partially resolve each other's black boxes (Tacit→High-Context reclassification), but shared black boxes remain irreducible. |
+| 16 | The actual network structure is a sphere, not a pyramid. Every agent sits on the surface; blind spots are distributed so that each agent's blind spot falls within a neighbor's field of view. The pyramid is a projection — useful for formalization, not the true geometry. |
+| 17 | Information transfer between agents follows a Projection ↔ Inclusion/Embedding structure. The sender compresses (Projection); the receiver restores into their own representation space (Inclusion/Embedding). Upscaling always leaves empty space — the structural entry point for corruption. |
+| 18 | Corruption is not primarily an external injection problem. Empty space in upscaling is filled by the receiver's own bias, producing distortion indistinguishable from signal. |
+| 19 | Cross-validation with structurally diverse agents is the primary corruption mitigation mechanism. Diversity is the structural condition under which empty spaces produce detectable disagreement rather than invisible consensus. |
+| 20 | Meta-meta data (sphere center output) is context-independent structural geometry. It reorganizes how all subsequent inputs are processed — a seed rewrites the generative principles of every agent that receives it. |
+| 21 | Seeds are not transmitted freely. Premature seed transmission to an underprepared receiver produces distorted reconstruction that propagates downward — cascading corruption, not correction. |
+| 22 | Receiver readiness is measurable. Downstream performance exhibits a threshold effect: below a critical accumulation of processing experience, seed absorption degrades; above it, absorption scales linearly. Expansion Principle conditions map to this threshold. |
 
 ---
 
-## 8. Structural Correspondences
+## 10. Structural Correspondences
 
 | Theory Concept | Related Field | Corresponding Concept |
-|----------------|--------------|----------------------|
+|---|---|---|
 | Data type classification | Epistemology / Information Theory | Tacit-explicit distinction (Polanyi); Signal-noise distinction (Shannon) |
 | Decision Complex | AI reasoning | Chain-of-Thought, Tree-of-Thoughts |
-| High-Context data escalation | Organizational theory | Exception escalation in hierarchical systems |
+| High-Context escalation | Organizational theory | Exception escalation in hierarchical systems |
 | Stabilization threshold | Control theory | Steady-state condition |
 | Expansion Principle | Complex systems | Staged bifurcation / controlled phase transition |
 | Human collaboration zone | AI alignment | Human-in-the-loop design |
 | Quality-volume trade-off | Operating systems | CPU scheduling, memory hierarchy |
 | Trade-off cutoff / noise floor | Signal processing | Quantization noise, sampling threshold |
-| Processing isolation / upper-layer mediation | Deep learning | Multi-head attention independence; head collapse avoidance |
-| Structural blind spots / cross-validation | Ensemble methods / ML | Model ensemble diversity; agreement-based error detection |
-| Tacit Knowledge / black-box cross-resolution | ML interpretability | Unexplained model components; cross-model explanation through different representational structures |
+| Breadth-depth exclusivity | Attention research | O(n²) quadratic cost: doubling context quadruples compute; lost-in-the-middle degradation beyond 32K tokens |
+| Exploration-exploitation pairing | Multi-agent RL | Breadth agent (explore) + Depth agent (exploit) = asymmetric pairing resolves what single agent cannot |
+| Processing isolation | Deep learning | Multi-head attention independence; head collapse avoidance |
+| Structural blind spots | Ensemble methods | Model ensemble diversity; agreement-based error detection |
+| Tacit Knowledge / black-box cross-resolution | ML interpretability | Cross-model explanation through different representational structures |
+| Sphere network structure | Graph theory / distributed systems | Expander graphs; distributed hash tables; peer-to-peer networks |
+| Projection ↔ Inclusion/Embedding | Representation learning | Encoder-decoder; dimensionality reduction → reconstruction; latent space mapping |
+| Empty space in upscaling | Information theory | Rate-distortion tradeoff; lossy compression reconstruction error |
+| Corruption via bias-filled gaps | Cognitive science / Bayesian inference | Prior-dominated posterior when likelihood is weak |
+| Data → Meta → Meta-Meta chain | Deep learning (empirical) | Transformer layer abstraction phases: surface → semantic → structural geometry (Cheng et al., ICLR 2025) |
+| Sphere center = universal structure | Representation learning | Cross-LM representation convergence at abstraction phase — center is model-agnostic (Cheng et al., ICLR 2025) |
+| Surface discard at center | Mechanistic interpretability | Intrinsic dimension peak = surface-form information actively discarded (Cheng et al., ICLR 2025; Anthropic Circuit Tracing, 2025) |
+| Seed power (meta-meta rewrites framework) | Knowledge distillation / fine-tuning | Seed = structural prior that reorganizes all subsequent classification; misaligned seed = catastrophic forgetting |
+| Receiver readiness threshold | Fine-tuning research | Task threshold effect: below ~15 tasks, downstream performance degrades; above, scales linearly — readiness is measurable |
+| Premature seed transmission → cascade corruption | Curriculum learning | Hard data before foundational patterns → instability that compounds across layers |
 
 > These are structural correspondences, not formal equivalences.
 
 ---
 
-## 9. Empirical Grounding: Single-Agent Analogues
+## 11. Empirical Grounding: Single-Agent as Origin
 
-This theory does not propose mechanisms that exist only in theory. The core patterns described here are **already observable inside existing single-agent architectures** — specifically, large language models (LLMs). The multi-agent structure proposed in this document is the system-level scaling of these internal patterns.
+The core patterns described in this theory are **already operating inside existing single-agent architectures** — specifically, large language models (LLMs). The multi-agent sphere structure proposed here is not a new invention — it is the system-level scaling of what already happens inside every trained LLM.
 
-### 9.1 Attention as Resolution Trade-Off
+> The single agent's upper layers **are** the sphere center. The multi-agent architecture scales this mechanism outward.
 
-When an LLM receives thousands of input tokens, it does not process every token at equal resolution. The attention mechanism assigns high weight to some tokens and effectively ignores others.
-
-```
-LLM attention mechanism:
-  Input: thousands of tokens
-  ├→ High attention score  → processed at high resolution
-  └→ Low attention score   → effectively discarded (treated as noise)
-
-DFG network architecture:
-  Input: large volume of data
-  ├→ Above trade-off cutoff → classified (Mathematical / High-Context / Tacit)
-  └→ Below trade-off cutoff → treated as noise
-```
-
-This is the same quality-volume trade-off. The LLM accepts all input (volume) but allocates classification precision (quality) selectively. The attention score threshold is the single-agent equivalent of the trade-off cutoff.
-
-### 9.2 Layer Depth as Pyramid Structure
-
-In a Transformer, early layers process low-level patterns (syntax, token adjacency) at high volume, while later layers process high-level semantics (context, intent, logical relationships) at lower volume with higher precision.
-
-```
-Transformer layers:
-  Early layers  → high volume, low-level features    (= lower agents)
-  Middle layers → intermediate synthesis              (= middle layer)
-  Late layers   → low volume, high-level semantics    (= upper agents)
-
-This is the pyramid:
-  Wide at the bottom (many low-level patterns processed cheaply)
-  Narrow at the top (few high-level decisions processed precisely)
-```
-
-The information that flows from early to late layers undergoes progressive abstraction — which is structurally equivalent to degradation in the fractal architecture. Raw token-level features are compressed into contextual representations, reducing volume while increasing semantic resolution.
-
-### 9.3 Mixture of Experts as Selective Classification
-
-Mixture of Experts (MoE) architectures activate only a subset of parameters for each input. A gating network examines the input and routes it to relevant expert modules, leaving others inactive.
-
-```
-MoE architecture:
-  Input arrives
-  → Gating network evaluates
-  → Relevant experts activated (partial processing)
-  → Irrelevant experts remain idle (resource saved)
-
-DFG classification:
-  Data arrives
-  → Decision Complex evaluates
-  → Relevant classification paths activated
-  → Residual vectors below cutoff treated as noise (resource saved)
-```
-
-This is the same principle: running all parameters on all inputs (full-resolution classification on all data) is resource-prohibitive. Selective activation is the mechanism that makes quality-volume balance achievable.
-
-### 9.4 Mapping to the Four Data Types
-
-The four-type classification has direct analogues in LLM internal processing:
+### 11.1 Four Data Types → LLM Processing Patterns
 
 | DFG Data Type | LLM Internal Analogue |
-|---------------|----------------------|
-| Mathematical | Tokens where attention converges clearly to a single pattern — deterministic, no ambiguity |
-| High-Context | Tokens where attention is distributed across multiple heads/positions — multiple valid interpretations compete |
+|---|---|
+| Mathematical | Attention converges clearly to a single pattern — deterministic, no ambiguity |
+| High-Context | Attention distributed across multiple heads/positions — competing valid interpretations |
 | Tacit Knowledge | Learned embedding patterns that contribute to performance but have no interpretable mechanism |
 | Noise | Tokens with attention scores below threshold — effectively ignored |
 
-### 9.5 Escalation in Single-Agent Context
+### 11.2 Data → Meta → Meta-Meta: The Abstraction Chain
 
-When an LLM encounters input that its current layer cannot resolve — for example, ambiguity that early layers cannot disambiguate — the unresolved representation propagates to deeper layers where higher-resolution processing can address it.
-
-This is structurally equivalent to escalation: lower-resolution processing encounters its limit, and the unresolved data moves to a higher-resolution processor.
-
-### 9.6 Multi-Head Attention as Processing Isolation
-
-Multiple attention heads within the same Transformer layer operate independently. Each head captures different patterns from the same input. Heads do not exchange intermediate states during processing — their outputs are combined only at a concatenation point after independent computation.
-
-This is the single-agent analogue of the processing isolation design (Section 1.4). Same-layer agents maintain independence during processing; their results are integrated only at the upper layer's mediation step. Direct head-to-head influence during processing causes head collapse (loss of pattern diversity), just as unmediated agent-to-agent exchange during processing causes premature convergence (loss of perspective diversity).
-
-### 9.7 Cross-Agent Validation as Blind Spot Compensation
-
-The blind spot management strategy described in Section 4.4 is already operating in production AI systems — through multi-LLM cross-validation patterns:
+As information moves upward through transformer layers, a measurable transformation occurs:
 
 ```
-Current practice (unstructured):
-  LLM A → output (blind spot at X)
-  LLM B → output (blind spot at Y)
-  LLM C → output (blind spot at Z)
-  └→ Voting / comparison / synthesis → partial blind spot compensation
-
-DFG structure (proposed):
-  Lower agent A → classified output (cutoff at X)
-  Lower agent B → classified output (cutoff at Y)
-  Lower agent C → classified output (cutoff at Z)
-  └→ Upper layer: mediated synthesis with classification labels
+Lower layers:   surface content (tokens, syntax, word identity)
+                ↓ filtering + compression
+Middle layers:  linguistic abstraction (semantics, structure)
+                ↓ filtering + compression  
+Upper layers:   structural patterns only (meta-meta)
+                surface information discarded
+                content-independent geometry remains
 ```
 
-Specific production patterns that implement this:
+**Empirical confirmation (ICLR 2025, Cheng et al.):**
+
+Across 5 pre-trained transformer LMs, a distinct high intrinsic dimensionality phase emerges in intermediate-to-upper layers. At this phase: representations correspond to the first full linguistic abstraction of input; they are the first to transfer to downstream tasks; and they predict each other across *different* LMs.
+
+At the intrinsic dimension peak, surface-form information (sentence length, specific word content) is actively discarded. The model retains structure — not content.
+
+**Empirical confirmation (arXiv 2507.09709, 2025):**
+
+High-level semantic information consistently lies in low-dimensional linear subspaces in deeper layers. This separability becomes more pronounced in deeper layers — content compresses into structure as layers increase.
+
+**Mapping to theory:**
+
+| Layer phase | DFG mechanism | What is absorbed |
+|---|---|---|
+| Lower layers | Raw data processing | Surface tokens, local syntax |
+| Middle layers | First-order meta | Semantic relationships, contextual patterns |
+| Upper layers | Meta-meta | Structural geometry — content-free, transferable across models |
+| Sphere center | Final absorption | Seed: generative principles, not specific content |
+
+> The sphere center does not store content. It absorbs **the pattern of patterns** — the structural geometry that persists after all surface information has been filtered away.
+
+### 11.3 Upper Layer = Sphere Center: The Position Confirmed
+
+**Anthropic Circuit Tracing (2025):**
+
+Features in early layers are polysemantic — a single feature activates for unrelated concepts. Features in middle and later layers represent more abstract properties: not specific tokens but classes of meaning, relational structures, functional operations. Later layers in larger models show richer, more interpretable abstractions.
+
+This is the sphere center position:
+- Input: compressed projections from diverse lower processes (surface discarded)
+- Operation: absorb structural patterns, detect cross-source disagreement
+- Output: seeds — generative principles transmitted downward, not specific instructions
+
+**Critical empirical finding:** Representations at the abstraction phase predict each other *across different LMs*. This means the sphere center is not model-specific — it encodes universal structural geometry. Different agents arriving at the center converge on the same representational space. This is why the center stabilizes as surface diversity increases.
+
+### 11.3.1 Why Meta-Meta Data Is Powerful — And Why Seeds Are Not Given Freely
+
+Meta-meta data (sphere center output) is context-independent structural geometry. It does not answer specific questions — it reorganizes how all subsequent questions are processed.
+
+```
+Specific data answer:     affects one output
+Meta data (pattern):      affects how a category of inputs is handled
+Meta-meta data (seed):    affects the classification framework itself
+                          → all subsequent processing changes
+```
+
+This is why seeds carry disproportionate power: a single seed transmitted downward does not update one data point — it **rewrites the generative principles** of every agent that receives it.
+
+**Consequence 1 — Distortion risk on unprepared receivers:**
+
+In On-Policy Distillation's teacher-student mechanism, training efficiency improves meaningfully only when the training data matches the student model's current capability level (on-policy alignment).
+
+When a seed is transmitted to a receiver whose representation space is insufficiently developed — the empty space is too large for successful reconstruction, and the receiver's own bias replaces the original structure. The distorted seed then propagates downward through all layers below.
+
+```
+Prepared receiver:   receives [■■■■□] → minimal empty space → structure restored
+Unprepared receiver: receives [■□□□□] → excessive empty space → filled by bias
+                                                              → distorted seed generated
+                                                              → all lower layers corrupted
+```
+
+**Consequence 2 — Receiver readiness is measurable:**
+
+Downstream fine-tuning performance exhibits a threshold effect: below approximately 15 accumulated tasks, performance degrades; above that threshold, performance scales linearly with task count.
+
+Receiver representation space development is measurable. Confirming that the receiver has accumulated sufficient processing experience before seed transmission — this is the **operational condition of the Expansion Principle**.
+
+**Structural principle:**
+
+> Seeds are not transmitted freely.  
+> Transmission is appropriate only when the receiver's representation space can upscale the seed's compression level without critical distortion.  
+> This is not information control — it is corruption-prevention by design.
+
+### 11.4 Processing Isolation → Multi-Head Attention
+
+Multiple attention heads operate independently within the same layer. Unmediated head-to-head influence causes **head collapse** (loss of pattern diversity) — the single-agent analogue of premature convergence in multi-agent processing.
+
+### 11.5 Current Multi-LLM Practices as Unstructured Precursors
 
 | Practice | DFG Interpretation |
-|----------|-------------------|
-| LLM-as-judge (one model generates, another evaluates) | Cross-validation: evaluator's cutoff differs from generator's, catching generator's blind spots |
-| Ensemble / voting across multiple models | Multi-agent independent processing → upper synthesis (without explicit classification labels) |
-| Constitutional AI / RLAIF (AI supervising AI) | Hierarchical cross-validation: supervisor and supervised have different blind spot profiles |
-| Mixture of Agents (multiple LLM outputs synthesized by another LLM) | Direct analogue: independent lower processing → upper-layer mediated synthesis |
+|---|---|
+| LLM-as-judge | Cross-validation: evaluator's cutoff catches generator's blind spots |
+| Ensemble / voting | Multi-agent independent processing → upper synthesis (without classification labels) |
+| Constitutional AI / RLAIF | Hierarchical cross-validation: supervisor and supervised have different blind spot profiles |
+| Mixture of Agents | Direct analogue: independent lower processing → upper-layer mediated synthesis |
 
-**What current practice lacks (DFG contribution):**
+**What current practice lacks:**
+- Classification labels (is the disagreement High-Context ambiguity, or a blind spot?)
+- Disagreement classification (legitimate conflict vs. agent error)
+- Vertical escalation pathway (horizontal comparison only)
 
-Current cross-validation operates without the structural elements this theory provides:
+### 11.6 Breadth-Depth Exclusivity: The Structural Basis for Agent Pairing
 
-```
-Missing element 1: Classification labels
-  Current: outputs are compared as raw text/embeddings
-  DFG: each output carries a type label (Mathematical / High-Context / Tacit / Noise)
-  → Labels enable the upper layer to distinguish "disagreement because
-    of blind spot" from "disagreement because of legitimate High-Context ambiguity"
+Every agent faces a fundamental perceptual constraint:
 
-Missing element 2: Disagreement classification
-  Current: disagreement → majority vote or arbitrary selection
-  DFG: disagreement → classified by type:
-    - One agent's blind spot (signal vs. noise mismatch) → escalate the item
-    - Legitimate High-Context (multiple valid interpretations) → synthesize
-    - One agent's over-sensitivity (noise classified as signal) → discard
+> **Viewing broadly** (high volume, low resolution) and **viewing in depth** (low volume, high resolution) cannot be maximized simultaneously.
 
-Missing element 3: Escalation pathway
-  Current: all comparison happens at the same layer (horizontal only)
-  DFG: unresolvable disagreement escalates to higher-resolution layer
-  → Vertical escalation provides resolution that horizontal comparison cannot
-```
+This is not a design choice — it is a physical consequence of how attention computation scales:
 
-This suggests that current multi-LLM practices are an **unstructured precursor** to the architecture described in this theory. The patterns are already emerging in production; what is missing is the explicit classification and escalation framework that would make them structurally efficient.
+- Attention cost grows quadratically with context length (O(n²))
+- Doubling the scope of observation quadruples the computational requirement
+- Performance degrades past 32K tokens even in models with 1M+ token windows (lost-in-the-middle effect)
+- Signal-to-noise ratio decreases as context expands — more context, less precision per unit
 
-Cross-validation operates at two levels — Noise↔Signal reclassification and Tacit↔High-Context reclassification — as described in Section 3.2. Current practices already demonstrate both levels:
+**Implication for agent pairing:**
 
-```
-Level 1 in practice (Noise ↔ Signal):
-  Ensemble voting: models disagree on whether input is noise or signal.
-  Disagreement itself surfaces blind spots. (See Section 4.4)
+A single agent cannot resolve this tradeoff internally. This is the structural reason pairing is not an optimization but an architectural necessity:
 
-Level 2 in practice (Tacit → High-Context):
-  LLM-as-judge: Generator produces biased output it cannot detect.
-  Evaluator identifies: "biased because of pattern X."
-  → Generator's Tacit is reclassified as High-Context by Evaluator.
+| Role | Mode | Function |
+|---|---|---|
+| Exploration agent | Breadth (far view) | Scans wide signal space; high noise tolerance |
+| Exploitation agent | Depth (close view) | Precise classification; low noise tolerance |
+| Upper layer | Mediates | Receives escalated conflict; operates at contracted scope with high resolution |
 
-  Debate (AI Safety research):
-  Two AIs argue opposing positions. Each reveals reasoning gaps
-  the other could not self-detect.
-  → Mutual Tacit → High-Context reclassification.
-```
+The breadth agent identifies what exists. The depth agent classifies what it means. Neither can fully substitute for the other. Imbalance between them is a precursor condition for vector storm escalation.
 
-Level 2 does not eliminate Tacit Knowledge — shared blind spots remain permanently Tacit. But it reduces the Tacit proportion through architectural diversity.
-
-### 9.8 Failure Modes: Single-Agent to Multi-Agent
-
-The failure modes predicted by this theory correspond to observable failures in single-agent systems:
+### 11.7 Failure Mode Mapping
 
 | Theory Violation | Multi-Agent Failure | Single-Agent Analogue |
-|-----------------|--------------------|-----------------------|
-| Classification skipped | All data treated equally, noise indistinguishable from signal | Uniform attention → hallucination |
-| Degradation skipped in upward flow | Upper layer overloaded, key signals buried | Lost-in-the-middle phenomenon in long contexts |
-| Lower agent processes High-Context beyond its resolution | Forced single interpretation, valid alternatives lost | Token-level bias (early layers resolving ambiguity without context) |
-| Trade-off cutoff removed (full resolution on all inputs) | Resource cost explosion, throughput collapse | All-expert MoE activation — cost explosion + noise injection |
-| Processing isolation violated (unmediated lateral exchange) | Premature convergence, collective polarization, costly distracting required | Head collapse in multi-head attention |
-| Premature expansion | Vector storm cascade, non-linear correction cost | Curriculum learning: premature introduction of hard data before basic pattern stabilization causes training instability. Progressive GAN: full resolution from start causes mode collapse. |
-| Blind spot unmanaged | Meaningful signal permanently lost below cutoff, upper layer decisions based on incomplete data | Lost-in-the-middle: middle-position tokens discarded by early layers, irrecoverable by later layers |
-
-### 9.9 Implications
-
-The structures described in this theory are not speculative designs awaiting implementation. They are **formalized descriptions of patterns already operating** in production AI systems. What this theory adds is:
-
-1. **Explicit naming and classification** of these patterns (the four data types, the trade-off cutoff, degradation)
-2. **Design principles for scaling** these internal patterns to multi-agent systems
-3. **Governance rules** for when to expand, when to escalate, and when human intervention is required
-
-The empirical grounding argument is: if these patterns already produce stable behavior inside a single agent, then a multi-agent architecture that replicates these patterns at system level has a structural basis for stability.
+|---|---|---|
+| Classification skipped | Noise indistinguishable from signal | Uniform attention → hallucination |
+| Degradation skipped in upward flow | Upper layer overloaded | Lost-in-the-middle in long contexts |
+| Processing isolation violated | Premature convergence, collective polarization | Head collapse in multi-head attention |
+| Premature expansion | Vector storm cascade | Curriculum learning: hard data before basic patterns → instability |
+| Breadth-depth imbalance | One mode dominates → blind spots accumulate | Full-context attention with no sparse fallback → O(n²) overload |
+| Meta-chain interrupted | Center receives content, not structure → overload | Upper layers forced to process surface tokens → lost-in-the-middle |
+| Center homogeneity | All surface agents share representation space → false consensus | Uniform attention heads → head collapse; no diverse abstraction paths |
 
 ---
 
-## Relationship to Other Theories
-
-```
-deficit-fractal-governance (parent framework)
-  ├→ Three-Layer Governance Architecture
-  ├→ Seed Design
-  ├→ Vector Storm Theory          ← why instability occurs
-  ├→ Network Architecture Theory  ← this document
-  │     (how data flows; when to escalate; when to expand)
-  ├→ Recovery Theory              (separate document)
-  └→ Prediction Model             (separate document)
-```
-
----
-
-## 10. Limitations and Open Problems
+## 12. Limitations and Open Problems
 
 | Problem | Description |
-|---------|-------------|
-| Stabilization threshold (θ) calibration | No empirical measurement of θ exists. The theory defines what θ measures and how to calibrate it in principle, but no system has implemented this metric. Validation requires deployment. |
-| Decision Complex implementation | The internalized Decision Complex (Pathway 2) has no production implementation. Current evidence supports the function (via externalized cross-validation) but not the internal module design. |
-| Four-type boundary precision | Classification boundaries are defined by conflict detection, but the sensitivity and false-positive rate of boundary detection are unspecified. Misclassification rates are an open empirical question. |
-| Tacit Knowledge measurement | No metric exists for "proportion of Tacit Knowledge in a system." Without this, claims about Tacit reduction through cross-validation remain qualitative. |
-| Blind spot quantification | Blind spots are structurally defined but not measurable. Estimating blind spot size or shared blind spot proportion requires methods not yet developed. |
-| Cross-validation cost model | The cost-benefit tradeoff of cross-validation (Level 1 and Level 2) is described qualitatively. Formal cost models per deployment context are needed. |
-| Expansion Principle empirical validation | Staged expansion is supported by analogues (federated learning, curriculum learning), but no multi-agent governance system has been tested against the expansion sequence defined in Section 5.3. |
-| Human-AI Zone exit criteria | The exit condition (stabilization at current layer) is defined, but the practical question of when human confidence in system stability is sufficient remains unformalized. |
-| Cutoff recalibration parameters | Periodic cutoff recalibration (Section 4.4, Strategy 3) requires determining recalibration frequency, depth of cutoff adjustment, and management of upper-layer load during recalibration windows. These are open calibration problems. |
-| Progressive internalization mechanism | Pathway 3 (Section 3.2) posits that external cross-validation patterns can be internalized into a Decision Complex module. The specific learning signal, architecture, and convergence criteria for this internalization are undefined. |
+|---|---|
+| Stabilization threshold (θ) calibration | No empirical measurement of θ exists. Candidate proxy: attention distribution concentration at a given layer — sustained high concentration signals depth-mode stabilization; sustained diffusion signals breadth-mode search. Validation requires deployment. |
+| Decision Complex implementation | The internalized Decision Complex (Pathway 2) has no production implementation. |
+| Four-type boundary precision | Misclassification rates and false-positive rates for boundary detection are unspecified. |
+| Tacit Knowledge measurement | No metric exists for "proportion of Tacit Knowledge in a system." |
+| Blind spot quantification | Blind spots are structurally defined but not measurable. |
+| Cross-validation cost model | Cost-benefit tradeoffs are described qualitatively only. |
+| Expansion Principle empirical validation | No multi-agent governance system has been tested against the expansion sequence. |
+| Human-AI Zone exit criteria | Practical confidence threshold for human exit remains unformalized. |
+| Cutoff recalibration parameters | Recalibration frequency, depth, and load management during windows are open problems. |
+| Progressive internalization mechanism | The learning signal and convergence criteria for Pathway 1→2 transition are undefined. |
 
 > This theory provides architectural direction. Formal mathematical modeling and empirical validation remain future work.
 
 ---
 
+## 13. Relationship to Other Theories
+
+```
+Deficit-Driven Fractal Governance (parent framework)
+  ├─ Three-Layer Governance Architecture
+  ├─ Seed Design
+  ├─ Vector Storm Theory          ← why instability occurs
+  ├─ Network Architecture Theory  ← this document
+  │    (how data flows; when to escalate; when to expand)
+  ├─ Recovery Theory              (separate document)
+  └─ Prediction Model             (separate document)
+```
+
+---
+
 ## Key Insight
 
-System stability is not measured by correctness, but by how rarely unresolved interpretive conflicts require escalation.
+System stability is not measured by correctness, but by **how rarely unresolved interpretive conflicts require escalation**.
 
-Existing AI governance frameworks evaluate stability through performance metrics, alignment scores, or error rates. This theory proposes a different proxy: **the frequency at which High-Context data — data admitting multiple valid interpretations — escalates beyond the layer that generated it.**
+Existing AI governance frameworks evaluate stability through performance metrics, alignment scores, or error rates. This theory proposes a different proxy: the frequency at which High-Context data escalates beyond the layer that generated it.
 
 When this frequency drops below a threshold, the system has internalized enough structure to govern itself at that layer.
 
@@ -1266,11 +792,11 @@ When this frequency drops below a threshold, the system has internalized enough 
 
 Structural stability in multi-agent systems requires more than conflict resolution mechanisms. It requires **designed data flow**.
 
-The four-type classification framework provides agents with a shared basis for routing decisions. The Decision Complex makes conflict detection explicit rather than implicit. The Expansion Principle ensures growth does not outpace degradation capacity. The quality-volume trade-off explains why the pyramid must be narrow at the top and wide at the bottom — and why degradation is not a flaw but the mechanism that makes the architecture work. Structural blind spots are the unavoidable cost of this trade-off — they cannot be eliminated, only managed through cross-validation and periodic recalibration.
+These mechanisms are not novel inventions — they are patterns already operating inside every large language model. This theory names them, formalizes their relationships, and provides the design principles for scaling them from single-agent internals to multi-agent governance.
 
-These are not novel mechanisms invented for this theory. They are patterns already operating inside every large language model. This theory names them, formalizes their relationships, and provides the design principles for scaling them from single-agent internals to multi-agent governance.
-
-Together, these define not just how a system handles instability — but **the conditions under which it is safe to grow**.
-
-> Stability is not the absence of conflict.
+> Stability is not the absence of conflict.  
 > It is the capacity to classify, route, and resolve conflict at the right layer.
+
+---
+
+*Part of the [Deficit-Driven Fractal Governance](../deficit-fractal-governance) framework.*
