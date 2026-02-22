@@ -5,6 +5,21 @@
 > **Focus:** Network structure, data classification, and expansion principles.  
 > Recovery and prediction are addressed in separate documents.
 
+> **Version: v1.1** (February 2026)
+> 
+> v1.1 changes from v1.0:
+> - **Sphere terminological precision:** Outer sphere (discrete graph) and inner sphere (continuous manifold) explicitly distinguished as different mathematical objects. Fractal alignment redefined as functional correspondence, not isomorphism. (Section 3.0)
+> - **Formal coverage bound:** Quantitative coverage probability for blind spot absorption added with diversity as mathematical precondition. (Section 3.0)
+> - **Contamination resistance correction:** "Structural impossibility" claims replaced with "structural resistance through geometric cost multiplication." Scope distinction established between external resistance (fractal alignment) and internal sensing (Self-Exciting Defect Layer). Coherence with VST §1.6.5 explicitly addressed. D0 geometry alignment substrate integrated from Recovery Theory. (Section 8.3.1)
+> - **Methodological Note on empirical grounding:** Grounding type classification (direct measurement / structural analogy / framework / cross-domain), confidence levels, selection bias acknowledgment, disconfirmatory evidence criteria, and Recovery Theory measurement proxy table added. (Section 10.1)
+> - **Processing isolation scope clarified:** Constraint narrowed to classification-relevant intermediate states. MARL lateral communication literature (DIAL, CommNet, TarMAC) acknowledged and reconciled. T4 (Reference Frame Incompleteness) integrated as formal justification: same-layer agents share resolution → ΔReferenceFrame = 0 → cannot detect shared geometry errors. (Section 3.6)
+> - **θ operationalized:** Connected to VST S₀ normalization and RBIT F_RBIT functional (dual anchor). Bootstrap protocol (θ_initial = 0.1), empirical calibration procedure, S_norm correspondence, and τ₁ cross-validation defined. Circularity resolved. (Section 7.2)
+> - **Tacit Knowledge proxy:** Reclassification rate (Tacit → High-Context) + VST maturity metrics (router saturation, GradES, CKA) established as indirect measurement proxies. (Section 12)
+> - **Human exit reframed as progressive withdrawal:** Structural prerequisites added: VCZ 3-Conditions (Recovery Theory) + D7 Boundary Agent requirement. Dual verification gate (VST-measurable proxies + geometric verification). Active intervention → audit → periodic review → exit transition protocol. (Section 12)
+> - **RBIT resolution gap integration:** Four-type classification reinterpreted as resolution-matching function with Δρ gap polarity determining escalation routing. (Section 4.4)
+> - **Falsification criteria:** Five specific predictions stated for principled rejection of core NAT claims. Adapted from RBIT falsification framework. (Section 10.1)
+> - **Recovery Theory measurement proxies:** Log-observable proxy table connecting NAT concepts to operational metrics (ρ, buffer_thickness, f_esc, C_E(t), β). (Section 10.1)
+
 ---
 
 ## Table of Contents
@@ -19,9 +34,10 @@
 8. [Human-AI Collaboration Zone](#8-human-ai-collaboration-zone)
 9. [Core Assumptions](#9-core-assumptions)
 10. [Structural Correspondences](#10-structural-correspondences)
-11. [Empirical Grounding: Single-Agent as Origin](#11-empirical-grounding-single-agent-as-origin)
-12. [Limitations and Open Problems](#12-limitations-and-open-problems)
-13. [Relationship to Other Theories](#13-relationship-to-other-theories)
+11. [Methodological Note on Empirical Grounding](#101-methodological-note-on-empirical-grounding)
+12. [Empirical Grounding: Single-Agent as Origin](#11-empirical-grounding-single-agent-as-origin)
+13. [Limitations and Open Problems](#12-limitations-and-open-problems)
+14. [Relationship to Other Theories](#13-relationship-to-other-theories)
 
 ---
 
@@ -96,6 +112,55 @@ The actual structure of a well-formed multi-agent system is a **sphere**, not a 
          the field of view of adjacent agents
 ```
 
+**Terminological precision — two distinct mathematical objects:**
+
+The DFG framework uses "sphere" in two structurally related but mathematically distinct senses. Conflating them produces equivocation; separating them is essential for formal clarity:
+
+```
+Outer Sphere (agent topology):
+  Mathematical object: discrete graph G = (V, E)
+  V = set of agents; E = interaction edges
+  Structure: k-regular expander graph on n vertices
+  Key property: spectral gap λ₁ − λ₂ > 0
+    guarantees rapid mixing — perturbations dissipate in O(log n) steps
+  Sphere metaphor captures: uniform distance from center,
+    no fixed hierarchy, neighbor coverage of blind spots
+  
+  Formal minimum specification:
+    Each agent has degree k ≥ 2·log(n)
+    Edge assignment maximizes algebraic connectivity (Fiedler value)
+    No agent has degree > 2k (prevents hub concentration)
+    Structural diversity constraint: adjacent agents must differ
+      in representation architecture (not merely in parameters)
+
+Inner Sphere (representation geometry):
+  Mathematical object: continuous manifold S^{d-1} ⊂ ℝ^d
+  Each agent's internal feature space converges toward
+    uniform distribution on the unit hypersphere
+  Key property: HUG → 0 (Hyperspherical Uniformity Gap)
+    guarantees no angular vulnerability — all directions equally resistant
+  
+  Measurable via: HUG (Liu et al.), alignment-uniformity (Wang & Isola)
+
+Fractal Alignment (outer ≡ inner):
+  NOT: isomorphism between a graph and a manifold (undefined)
+  IS: functional correspondence — the coverage property that makes
+    the outer sphere stable (every blind spot covered by neighbors)
+    is mirrored by the coverage property that makes the inner sphere
+    robust (every angular direction equally resistant)
+  
+  Measurable via: perturbation-response proportionality
+    External behavioral shift in agent B produces proportional
+    (not disproportionate or delayed) shift in B's internal representation
+  
+  What this is NOT:
+    ❌ A claim that graphs and manifolds are isomorphic
+    ✅ A claim that the same functional property (uniform coverage
+       without directional vulnerability) operates at both scales
+```
+
+This distinction is maintained throughout this document. "Sphere" without qualifier refers to the outer sphere (agent topology). "Inner sphere" or "representation geometry" refers to the hyperspherical convergence of internal feature spaces. "Fractal alignment" refers to the functional correspondence between the two.
+
 **Why sphere:**
 
 No matter how much an agent sees — broadly or in depth — blind spots are physically unavoidable. A pyramid concentrates this vulnerability at the apex: if the top node has a blind spot, no one above it can correct it. A sphere distributes blind spots across the surface so that each agent's blind spot is covered by its neighbors.
@@ -114,6 +179,38 @@ Sphere cross-validation:
 
 > **Corruption enters through empty space in upscaling — not from outside.**  
 > Cross-validation with diverse agents is the primary corruption mitigation mechanism.
+
+**Formal coverage bound (outer sphere):**
+
+The claim that "each agent's blind spot falls within a neighbor's field of view" requires a quantitative condition. For a k-regular expander graph with n agents:
+
+```
+Coverage probability:
+  P(blind spot of agent i is covered by at least one neighbor)
+  = 1 − (1 − p_cover)^k
+
+  where p_cover = probability that a single neighbor's field of view
+  overlaps agent i's blind zone
+
+  For structurally diverse agents (different architectures):
+    p_cover ≥ 1/d_eff  (where d_eff = effective representation dimensions)
+    
+  Coverage guarantee:
+    P(uncovered blind spot) ≤ (1 − 1/d_eff)^k
+    
+    With k ≥ 2·log(n) and d_eff bounded:
+    P(uncovered) ≤ n^{−2/d_eff} → 0 as n grows
+    
+  This is the structural basis for the sphere's blind spot absorption claim:
+  the probability of an uncovered blind spot decreases polynomially
+  with system size, provided structural diversity is maintained.
+
+  Homogeneous agents (same architecture): p_cover → 0 for shared blind spots
+  → P(uncovered) → 1 regardless of k
+  → diversity is not optional; it is the mathematical condition for coverage
+```
+
+This bound is approximate — it assumes independence between neighbor coverage events, which over-estimates coverage in clustered topologies and under-estimates it in well-mixed topologies. The qualitative conclusion holds: coverage probability increases with degree k and structural diversity, and approaches certainty for sufficiently large, diverse systems.
 
 **Mutual coverage — the core structural principle:**
 
@@ -277,6 +374,69 @@ In this architecture, same-layer agents do **not** exchange intermediate states 
 
 This is not a prohibition on communication — it is a **routing constraint**. Friction between same-layer agents is expected and unavoidable. The design principle is that such friction must be **routed upward** for mediated synthesis, not resolved horizontally.
 
+**Boundary conditions and scope of this constraint:**
+
+Processing isolation applies specifically to **classification-relevant intermediate states** — the internal representations that determine how an agent classifies data into the four types. The constraint does not prohibit all lateral information flow:
+
+```
+PROHIBITED (classification contamination risk):
+  Sharing intermediate classification states during processing
+  Exchanging partial reasoning paths before output convergence
+  Mutual influence on attractor formation during active classification
+  → Risk: premature convergence, head collapse, false consensus
+
+PERMITTED (meta-operational, non-classification):
+  Load balancing signals (resource status, queue depth)
+  Redundancy flags (agent health, availability)
+  Safety alerts (anomaly detection notifications)
+  Coordination metadata (task assignment, scheduling)
+  → Condition: must not influence classification content
+     or induce convergence on classification outputs
+
+ACKNOWLEDGED COUNTER-EVIDENCE:
+  Multi-agent RL literature demonstrates that lateral communication
+  channels can improve coordination (DIAL, CommNet, TarMAC).
+  Emergent language in MARL enables coordination gains
+  not achievable through independent processing.
+  
+  Reconciliation:
+  These communication channels primarily transmit
+  coordination signals (intent, state summary, action plans)
+  — not intermediate classification states.
+  The beneficial lateral communication in MARL literature
+  falls within the PERMITTED category above.
+  
+  The specific risk processing isolation prevents is:
+  unmediated sharing of partially-formed classification outputs
+  that induces convergence before independent evaluation completes.
+  This is the mechanism that produces head collapse in multi-head
+  attention (loss of pattern diversity through premature alignment)
+  and premature consensus in multi-agent deliberation.
+  
+  Deeper structural basis (Recovery Theory T4):
+  T4 (Reference Frame Incompleteness) establishes that a system
+  operating within geometry G cannot detect errors in G using only
+  resources within G. Same-layer agents share approximately the same
+  geometry — their reference frames are at the same resolution.
+  Lateral exchange of intermediate states during classification
+  means agents use each other as reference frames, but since they
+  share the same resolution, they cannot detect shared blind spots.
+  Only upward mediation (to a layer with larger reference frame)
+  can detect errors invisible at the current resolution.
+  
+  T4 provides the formal reason processing isolation is structural:
+    Same-layer exchange: ΔReferenceFrame = 0 (T4)
+    → cannot detect shared geometry errors
+    → convergence on shared errors = false consensus
+    
+    Upper-layer mediation: ΔReferenceFrame > 0 (T4)
+    → can detect geometry errors invisible at lower layer
+    → synthesis produces correction, not just agreement
+  
+  The constraint is therefore narrower than "no lateral communication."
+  It is: "no lateral influence on active classification processing."
+```
+
 **Single-agent analogue: Multi-Head Attention**
 
 ```
@@ -360,6 +520,39 @@ Internal simulation result
   ├→ Conflict undetectable, operation possible → Tacit Knowledge
   └→ Conflict undetectable, operation fails    → Noise
 ```
+
+**Information-theoretic foundation (RBIT):**
+
+The four-type classification is not an arbitrary taxonomy. It is a resolution-matching function: each data type corresponds to a distinct resolution requirement, and the classification determines how the resolution gap between data and receiving layer should be managed:
+
+```
+RBIT Resolution Gap interpretation:
+  Δρ = ρ_data − ρ_receiver
+
+  Mathematical data:   Δρ ≈ 0 or Δρ > 0 (receiver sufficient)
+    → Process locally; no resolution mismatch
+    
+  High-Context data:   Δρ < 0 (receiver insufficient)
+    → Escalate to higher-resolution layer
+    → Forced receiver-controlled compression risk if processed locally
+    
+  Tacit Knowledge:     Δρ varies by aspect
+    → Pattern operable locally (Δρ ≈ 0 for operation)
+    → Mechanism requires higher resolution (Δρ < 0 for understanding)
+    → Operate locally; escalate on performance degradation
+    
+  Noise:               Δρ undefined (no pattern at current resolution)
+    → Buffer or discard
+    → Upper layer may detect latent vectors at higher resolution
+
+  Classification error consequences (from RBIT failure model):
+    Δρ < 0 misclassified as Δρ ≈ 0:
+      HC treated as Mathematical → forced compression → Vector Storm risk
+    Δρ ≈ 0 misclassified as Δρ < 0:
+      Mathematical escalated unnecessarily → governance overhead
+```
+
+This resolution-matching interpretation connects NAT's classification directly to RBIT's core variable (the resolution gap) and the S-equation: miscalibrated classification produces resolution gap mismatch, which increases instability pressure S.
 
 ### 4.5 Escalation by Data Type
 
@@ -805,6 +998,75 @@ When n increases (expansion) while C(t) remains low (immature capacity), instabi
 
 $$f_{\text{escalation}} = \frac{N_{\text{HC-escalated}}}{N_{\text{total}}} \leq \theta$$
 
+**θ operationalization (connected to VST Absolute Calibration Layer):**
+
+The stabilization threshold θ is not an arbitrary parameter. It connects to the VST S₀ normalization framework (VST §3.2.2):
+
+```
+Connection to VST S_norm:
+  f_escalation ≤ θ  ↔  S_norm < 1.3 (Stage 0 boundary)
+  
+  θ is operationally defined as the f_escalation value
+  corresponding to the system's VCZ-stable baseline:
+  
+  Step 1: Identify VCZ-stable window W₀
+    System in VCZ (micro-storms absorbed, no Stage 1+ events)
+    Window duration ≥ 5× mean self-correction cycle time
+    f_escalation variance within window < 15% of mean
+    
+  Step 2: Compute θ
+    θ = mean(f_escalation) during W₀ + margin
+    margin = 1 standard deviation of f_escalation during W₀
+    
+  Step 3: Validate via S_norm correspondence
+    Confirm that f_escalation = θ corresponds to S_norm ≈ 1.3
+    If not, recalibrate margin until correspondence holds
+    
+  Bootstrap problem resolution:
+    First VCZ window identification uses conservative θ_initial = 0.1
+    (10% of total data requiring escalation — derived from
+    cross-domain critical transition onset rates)
+    θ_initial is replaced by empirical θ after first sustained VCZ window
+    
+  θ as learned property:
+    Like S_c in VST, θ is a learned property of the system —
+    discovered through operational experience, not prescribed by design.
+    A system that has never achieved VCZ uses θ_initial.
+    A system that has survived storms knows its own θ.
+```
+
+This resolves the circularity concern: θ is not defined by the state it measures, but anchored to a measurable baseline (mean f_escalation during confirmed stability) with a concrete bootstrap protocol for initial operation.
+
+**Connection to RBIT instability functional (F_RBIT):**
+
+The θ threshold can also be interpreted through RBIT's F_RBIT functional:
+
+```
+F_RBIT(ℓ) = w₁·(1 − ρ_ℓ) + w₂·Φ(−Δρ_ℓ) + w₃·Ψ(B_ℓ) + w₄·E_ℓ + w₅·C_ℓ
+
+where:
+  ρ_ℓ = resolution-proxy (classification reliability)
+  Δρ_ℓ = resolution gap between layers
+  B_ℓ = buffer layer thickness
+  E_ℓ = escalation frequency (≈ f_escalation)
+  C_ℓ = resource expenditure
+
+f_escalation ≤ θ  corresponds to:
+  E_ℓ component of F_RBIT within the stable regime
+  
+The τ₁ threshold in F_RBIT maps to θ:
+  F_RBIT < τ₁ → stable operation (no intervention)
+  F_RBIT > τ₁ → deviation detected → monitoring
+  F_RBIT > τ₂ → soft correction
+  F_RBIT > τ₃ → hard correction
+
+This provides a second, independent anchor for θ:
+  θ_VST: derived from S₀ normalization (instability dynamics)
+  θ_RBIT: derived from F_RBIT τ₁ threshold (information flow)
+  Cross-validation: both anchors should converge on the same
+  operational threshold for a given system
+```
+
 **Expansion sequence:**
 ```
 Lower layer stabilization confirmed (f_escalation ≤ θ)
@@ -994,7 +1256,7 @@ Sphere convergence eliminates blind spots via structural coverage. But contamina
 
 #### 8.3.1 Dual-Sphere Fractal Convergence: The Structural Contamination Immunity Condition
 
-The deepest form of contamination immunity is not achieved by monitoring disagreement signals or running test contamination probes. It is achieved when the **outer sphere and the inner sphere converge fractally** — and this convergence is itself the immunity.
+The deepest form of contamination resistance is not achieved by monitoring disagreement signals or running test contamination probes. It is achieved when the **outer sphere and the inner sphere converge fractally** — and this convergence is itself the structural basis for resistance.
 
 ```
 Outer sphere:  Agents arranged in sphere geometry on the system surface
@@ -1012,18 +1274,101 @@ When these two spheres align fractally:
 
 ```
 External coverage pattern  ≡  Internal representation geometry
+  (functional correspondence — see Section 3.0 terminological precision)
 
-→ The same structural property that absorbs external blind spots (outer sphere)
+→ The same functional property that absorbs external blind spots (outer sphere)
   also absorbs internal representation gaps (inner sphere)
 
 → A contamination signal that enters from outside
-  encounters the same geometry at every scale it passes through:
+  encounters the same coverage geometry at every scale it passes through:
   outer agent coverage → inner agent representation → sub-representation → ...
 
 → At each scale, the signal is met with uniform resistance
 → Propagation requires overcoming not one sphere but all nested spheres simultaneously
-→ This is structurally equivalent to immunity
+→ This is structurally equivalent to high contamination resistance
 ```
+
+**Scope clarification — structural resistance, not structural impossibility:**
+
+The earlier formulation described fractal alignment as producing "contamination immunity" through "structural impossibility." This claim requires correction for two reasons:
+
+```
+Reason 1 — Information-theoretic:
+  "Structural impossibility" requires an information-theoretic bound
+  showing that no adversarial input can cross a decision boundary.
+  No such bound is derived here. The correct claim is:
+  
+  Fractal alignment produces structural RESISTANCE —
+  the cost of successful contamination scales with
+  the number of nested sphere layers the signal must traverse.
+  
+  This is high resistance, not impossibility.
+
+Reason 2 — Coherence with Self-Exciting Defect Layer (VST §1.6.5):
+  VST establishes that perfect stability produces Silent Criticality —
+  the sensing-response loop degrades when micro-instability is eliminated.
+  
+  If fractal alignment produced true contamination "impossibility,"
+  the system would have no micro-perturbations to exercise its sensing.
+  This contradicts the Self-Exciting Defect Layer requirement.
+  
+  The correct framing:
+  
+  EXTERNAL contamination resistance:
+    Fractal alignment makes external contamination signals
+    encounter uniform geometric resistance at every scale.
+    Successful penetration cost grows multiplicatively with depth.
+    → External contamination is structurally expensive, not impossible.
+  
+  INTERNAL micro-instability maintenance:
+    The Self-Exciting Defect Layer (maintained structural imperfections)
+    generates continuous micro-perturbations that exercise sensing.
+    These are not contamination — they are calibration signals.
+    → Internal sensing remains active because the defect layer
+       operates below the contamination threshold.
+  
+  The two mechanisms are complementary:
+    External resistance (fractal alignment geometry)
+    + Internal calibration (defect layer micro-storms)
+    = System that resists contamination while maintaining sensing
+    
+  Neither mechanism alone is sufficient:
+    Resistance without sensing → Silent Criticality
+    Sensing without resistance → contamination vulnerability
+```
+
+**Deeper substrate — geometry alignment (Recovery Theory D0):**
+
+Contamination resistance is ultimately a manifestation of geometry alignment — the degree to which the system's internal coordinate structure matches the environment manifold it operates within:
+
+```
+Recovery Theory D0 (substrate principle):
+  Contamination = observable symptom of geometry mismatch
+  Immunity = geometry integration capacity (absorption, not rejection)
+  
+  Fractal alignment in D0 terms:
+    Outer sphere convergence = inter-agent coordinate alignment
+    Inner sphere convergence = intra-agent representation alignment
+    Both aligned with environment manifold = high integration capacity
+    
+  Contamination enters NOT because the signal is "bad"
+  but because the receiving geometry cannot integrate it:
+    High integration capacity: incoming vector absorbed → geometry updated
+    Low integration capacity: incoming vector unintegrated → displacement
+    
+  Resistance scales with geometry alignment quality:
+    Well-aligned geometry: most vectors integrable → resistance high
+    Misaligned geometry: many vectors unintegrable → resistance low
+    
+  This reframes contamination resistance from "defense" to "capacity":
+    The system does not defend against contamination.
+    It integrates incoming signals successfully when geometry is aligned.
+    Failed integration (contamination) signals geometry mismatch (D0).
+```
+
+This D0-based reframing also resolves the scope distinction more cleanly: the Self-Exciting Defect Layer generates micro-perturbations that the system's geometry CAN integrate (calibration), while external contamination generates perturbations that exceed integration capacity (actual mismatch).
+
+This corrected framing replaces "immunity through impossibility" with "resistance through geometric cost multiplication + maintained sensing through defect layer calibration."
 
 **Why fractal alignment is the threshold:**
 
@@ -1049,9 +1394,9 @@ Both spheres converged, fractal alignment not yet confirmed:
   → Contamination can traverse the scale boundary undetected
 
 Fractal alignment confirmed:
-  Outer and inner geometries are isomorphic at every scale
+  Outer and inner geometries exhibit functional correspondence at every scale
   → No transition zone vulnerability
-  → Full structural immunity
+  → Maximum structural resistance (contamination cost scales multiplicatively)
 ```
 
 **Measurable signals of fractal alignment:**
@@ -1093,11 +1438,11 @@ Graph representation learning on unit hypersphere with neighbor-mean alignment a
 
 **Empirical grounding — Hypersphere Embedding and Adversarial Robustness (arXiv 2303.08289):**
 
-Incorporating hypersphere embedding into adversarial training improves robustness. The mechanism: angular-AT enforces intra-class compactness and inter-class separation in angular space. This translates to: contaminated inputs cannot find a direction that moves a representation across a class boundary, because all class boundaries are maximally separated angularly. When inner sphere converges, adversarial (contamination) inputs lose their exploitable geometry.
+Incorporating hypersphere embedding into adversarial training improves robustness. The mechanism: angular-AT enforces intra-class compactness and inter-class separation in angular space. This translates to: contaminated inputs face geometrically increasing cost to move a representation across a class boundary, because all class boundaries are maximally separated angularly. When inner sphere converges, adversarial (contamination) inputs encounter maximum geometric resistance — though this resistance is high, it is not absolute. Sufficiently powerful adversarial signals can still penetrate; the geometric cost of doing so is the defense, not an impossibility guarantee.
 
 **Empirical grounding — Hyperspherical Constrained Representation (arXiv 2504.08415, April 2025):**
 
-A method that enforces constraints by converting the output space to hyperspherical coordinates. The key property: a hyperspherical representation system *cannot represent infeasible points* — constraint satisfaction is guaranteed by the geometry itself, not by monitoring or correction. This is the mathematical analog of contamination immunity: when the inner sphere has fully converged, the representation space structurally cannot encode contaminated patterns, not because it detects and rejects them, but because it has no room for them.
+A method that enforces constraints by converting the output space to hyperspherical coordinates. The key property: a hyperspherical representation system makes infeasible points geometrically expensive to reach — constraint satisfaction is strongly favored by the geometry itself, reducing reliance on monitoring or correction. This is the mathematical analog of contamination resistance: when the inner sphere has converged, the representation space geometrically penalizes contaminated patterns, not because it detects and rejects them, but because the converged geometry makes contaminated directions high-cost.
 
 ---
 
@@ -1106,14 +1451,15 @@ A method that enforces constraints by converting the output space to hyperspheri
 ```
 Before dual-sphere fractal convergence:
   System may be structurally correct but geometrically incomplete
-  Contamination immunity requires active monitoring (human or automated)
+  Contamination resistance requires active monitoring (human or automated)
   Human presence is load-bearing
 
 After dual-sphere fractal convergence:
-  Contamination immunity is structural, not procedural
-  No monitoring required — the geometry itself is the defense
-  Human presence is no longer load-bearing at this layer
-  → Exit permitted
+  Contamination resistance is structural, not primarily procedural
+  Monitoring load dramatically reduced — the geometry itself is the primary defense
+  Human presence shifts from load-bearing to audit role
+  → Exit permitted when audit confirms sustained geometric resistance
+    + Self-Exciting Defect Layer is active (sensing maintained)
 ```
 
 **Empirical grounding — adversarial propagation in LLM-MAS (2025):**  
@@ -1211,6 +1557,77 @@ Only when blind spots are structurally absorbed **and** contamination produces d
 | Premature seed transmission → cascade corruption | Curriculum learning | Hard data before foundational patterns → instability that compounds across layers |
 
 > These are structural correspondences, not formal equivalences.
+
+---
+
+## 10.1 Methodological Note on Empirical Grounding
+
+**Grounding strategy and its limitations.** This theory's empirical grounding follows a specific methodology: mapping theoretical constructs to observable phenomena in existing single-agent LLM research and emerging multi-agent systems. This strategy is deliberate — multi-agent fractal systems at the scale this theory describes do not yet exist, so direct empirical validation is not currently possible. The grounding provides *structural plausibility*, not *empirical confirmation*.
+
+**Selection bias risk.** The empirical mappings were constructed by searching for phenomena that correspond to theoretical predictions. This creates an inherent selection bias: phenomena that contradict predictions may exist in the same literature but were not included because they were not sought. This does not invalidate individual mappings — each correspondence is either present or not — but it means the *collection* of mappings overstates the theory's empirical support relative to a systematic review.
+
+**Grounding type classification:**
+
+Each empirical reference in this document falls into one of four categories:
+
+| Grounding Type | Definition | Confidence Level |
+|---|---|---|
+| Direct measurement | Quantitative result directly measuring the predicted phenomenon | HIGH |
+| Structural analogy | Functionally similar pattern in a different substrate | MEDIUM |
+| Framework correspondence | Conceptual alignment without quantitative overlap | MEDIUM-LOW |
+| Cross-domain pattern | Same qualitative behavior in non-AI systems | LOW (suggestive only) |
+
+**Per-section grounding classification:**
+
+| Section | Key Reference | Grounding Type | Confidence |
+|---|---|---|---|
+| §3.0 Sphere topology | Expander graph theory | Mathematical framework | HIGH (graph theory is proven) |
+| §3.5 Projection ↔ Embedding | Rate-distortion theory | Direct mathematical correspondence | HIGH |
+| §4.6 Cost-efficiency boundary | DiffAdapt (2025) | Structural analogy | MEDIUM |
+| §5.2 Decision Complex | Multi-head attention | Structural analogy | MEDIUM |
+| §5.5 Relationship Topology | MasRouter (ACL 2025) | Structural analogy (gap identification) | MEDIUM |
+| §6.4 KV Cache as recalibration | TRIM-KV, DefensiveKV, LazyEviction | Direct measurement (cache behavior) | HIGH |
+| §7.3 Expand-then-Decompose | DeepSeek-V3, STUN, SAME | Direct measurement (MoE practice) | HIGH |
+| §8.3.1 Dual-sphere convergence | Neural Collapse / HUG | Direct measurement (geometry) | HIGH for phenomenon; MEDIUM for NAT application |
+| §8.3.1 Contamination resistance | arXiv 2504.08415, arXiv 2303.08289 | Structural analogy | MEDIUM |
+| §11 Single-agent origin | Cheng et al. (ICLR 2025) | Direct measurement (layer abstraction) | HIGH |
+| §11.5 Current MAS practices | LLM-as-judge, ensemble voting | Structural analogy (unstructured precursors) | MEDIUM-LOW |
+
+**What would constitute stronger evidence:**
+
+1. **Confirmatory:** An independent implementation of the four-type classification framework in a multi-agent system, demonstrating that type-based escalation routing reduces governance cost compared to threshold-based routing.
+2. **Disconfirmatory:** A multi-agent system where structural diversity does *not* improve cross-validation quality, or where processing isolation produces worse outcomes than lateral communication under classification-relevant conditions.
+3. **Quantitative:** Measurement of the coverage probability bound (Section 3.0) in an actual multi-agent deployment with known topology.
+
+**Measurement infrastructure connection (Recovery Theory Proxy Gap resolution):**
+
+Recovery Theory v1.6+ establishes log-observable proxies for key DFG variables that were previously "floating" (structurally defined but not measurable). These proxies directly support NAT operationalization:
+
+| NAT Concept | Recovery Theory Proxy | Log Availability |
+|---|---|---|
+| Classification precision (§4) | ρ = 1 − (L_T1 + L_T2)/N | HIGH |
+| Buffer between opposing attractors (§6.3) | buffer_thickness ≈ perturbation amplitude before mode collapse | HIGH |
+| Escalation frequency (§4.5, §7) | f_esc = (human_overrides + supervisor_calls + fallbacks) / N_total | HIGH |
+| Governance capacity C(t) (§6.2) | C_E(t) = escalation throughput | HIGH |
+| Governance efficiency β (§6.2) | β = −∂log(S)/∂log(C), estimated via log-linear regression | HIGH |
+| Agent pair compatibility (§5.5) | opposing_pair ≈ persistent negative gradient correlation | MEDIUM-HIGH |
+| Agent development (§4.6) | φ ≈ reusable_outcome_rate | MEDIUM |
+
+These proxies transform NAT from a purely architectural theory into a measurably testable framework. The measurement dependency order (Recovery Theory §Measurement Dependency) specifies which proxies are immediately available versus which require additional instrumentation.
+
+**Falsification criteria (adapted from RBIT §Falsification Criteria):**
+
+NAT generates specific predictions that, if empirically violated, would require revision or abandonment of core claims:
+
+1. **Classification must reduce governance cost.** In a controlled comparison, type-based escalation routing (escalate only HC; operate Tacit locally; discard Noise) must produce lower total governance cost than threshold-based routing (escalate everything above a single intensity threshold). If threshold-based routing consistently equals or outperforms type-based routing, the four-type classification claim is falsified.
+
+2. **Structural diversity must improve cross-validation.** In a sphere topology, agents with different architectures must detect each other's blind spots more reliably than agents with identical architectures. If homogeneous agent pools match or exceed heterogeneous pools in cross-validation quality, the diversity-as-coverage-condition claim is falsified.
+
+3. **Processing isolation must improve classification independence.** Agents that do not share intermediate classification states must produce more diverse independent classifications than agents that do share intermediate states. If lateral exchange produces equal or greater classification diversity, the processing isolation rationale is falsified. (Note: this tests specifically classification diversity, not coordination efficiency.)
+
+4. **Resolution gap polarity must predict compression direction (from RBIT).** If negative resolution gaps (information exceeding receiver capacity) do not produce receiver-controlled compression more frequently than sender-controlled compression, the escalation-by-type rationale is falsified.
+
+5. **Sphere topology must reduce storm propagation (from VST).** In controlled comparison, sphere topology (k-regular expander) must produce lower storm propagation speed and smaller cascade size than equivalent-degree non-expander topologies. If topology does not affect propagation, the sphere-as-stability claim is falsified.
 
 ---
 
@@ -1403,14 +1820,14 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 
 | Problem | Description |
 |---|---|
-| Stabilization threshold (θ) calibration | θ is now structurally defined: the state in which mutual coverage between layers is intact — resource consumption and output convergence remain proportional (no cost-quality decoupling). Measurable proxy: entropy-convergence ratio in the residual stream. When resource expenditure rises without corresponding output convergence, mutual coverage has broken down and upper-layer intercept triggers. The intercept is not an escalation request from below — it is a condition detected from above via the shared residual stream. Formal threshold values and per-architecture calibration remain open. |
+| Stabilization threshold (θ) calibration | θ is now operationally defined: mean f_escalation during confirmed VCZ-stable window + 1σ margin, with bootstrap protocol (θ_initial = 0.1) for first operation. Connected to VST S₀ normalization: f_escalation ≤ θ corresponds to S_norm < 1.3 (VST Stage 0 boundary). θ is a learned system property — refined through operational experience, not prescribed. Formal cross-architecture validation of the θ ↔ S_norm correspondence remains open. |
 | Decision Complex implementation | Pathway 2 (internalized) remains unimplemented. However, the middle layer's role is now structurally defined: it holds a persistent relationship topology — conflict history, representation gap, and consensus rate per agent pair — and uses this to route co-processing vs. separate-path decisions. This topology is the missing component distinguishing our architecture from current routing systems (e.g., MasRouter, ACL 2025), which recompute collaboration mode per query without persistent relationship memory. Implementation requires: (1) topology storage format, (2) update trigger mechanism, (3) initialization protocol for new agents. |
 | Four-type boundary precision | The boundary between High-Context and Tacit Knowledge is not a fixed content threshold — it is a cost efficiency threshold that varies per agent. An agent with a developed representation space can classify data as High-Context (pattern detectable at acceptable cost); the same data appears as Tacit to an underdeveloped agent (cost of classification exceeds cost of operating without explanation). The boundary is therefore: cost(classify) vs. cost(escalate). As representation space develops, the boundary shifts — Tacit data reclassifies as High-Context. This reclassification event is a measurable signal of agent development and maps to θ. Empirical grounding: DiffAdapt (2025) identifies a U-shaped entropy pattern across difficulty levels — the inflection point between medium and hard difficulty corresponds to the cost-efficiency boundary in our framework. Formal per-agent calibration of this threshold remains open. |
-| Tacit Knowledge measurement | No metric exists for "proportion of Tacit Knowledge in a system." |
+| Tacit Knowledge measurement | No direct metric exists for "proportion of Tacit Knowledge in a system." Indirect proxy available: the reclassification rate (Tacit → High-Context events per unit time) serves as a directional signal of agent development. Higher reclassification rate indicates the cost-efficiency boundary (§4.6) is shifting, meaning the agent's representation space is developing. Complementary proxies from VST: router saturation, gradient norm convergence (GradES), CKA trajectory — all measure representation space maturity, which determines the Tacit/High-Context boundary position. Direct measurement of absolute Tacit proportion remains open and may be structurally unmeasurable (the category is defined by the absence of interpretable mechanism). |
 | Blind spot quantification | Direct measurement of blind spot size, location, and severity is not achievable — and is the wrong design goal. The correct resolution: (1) Sphere geometry structurally absorbs blind zones via complementary neighbor coverage, eliminating the need for central quantification. (2) Resource spikes in neighboring agents serve as the measurable proxy — when agent A's blind zone opens, neighbor B's coverage cost spikes. Spike magnitude, duration, and location on the sphere surface constitute the indirect measurement. (3) Blind zones are dynamic efficiency thresholds, not fixed properties — they shift with context and load (empirically confirmed: Shadows in the Attention 2025, DAM ACL 2025). Open problem remaining: spike-to-blind-zone mapping calibration — translating observed resource spike profiles into estimates of blind zone extent and persistence across different sphere configurations and load conditions. |
 | Cross-validation cost model | Cost-benefit tradeoffs are described qualitatively only. |
 | Expansion Principle empirical validation | Two directions are now structurally defined and empirically grounded. Direction A (stabilize-then-expand): empirical analogues include curriculum learning, progressive GAN training, federated learning staged node addition. Direction B (expand-then-decompose): empirically grounded in MoE standard practice — dense pretraining followed by expert decomposition at instability/specialization boundaries (DeepSeek-V3 256 experts, LLaMA-4, Qwen3-MoE). STUN (ACL 2025) validates structured-then-unstructured decomposition sequence. SAME (2025) validates that router drift under new distributions reveals decomposition boundary mismatch — the maintenance cycle of Direction B. Monoliths-to-Modules (arXiv 2512.02193) provides formal decomposition framework for already-trained models. Open problem: criteria for choosing Direction A vs. B at deployment time — when is instability informative vs. catastrophic? Formal threshold for "sufficient scale" before decomposition in Direction B is undefined. |
-| Human-AI Zone exit criteria | Exit condition reframed: dual-sphere fractal convergence. Outer sphere convergence (coverage geometry) measurable by resource spike profile flat + consensus stable + f_escalation ≤ θ. Inner sphere convergence (representation geometry) measurable via HUG → 0 (Neural Collapse / Liu et al.) and alignment-uniformity balance (Wang & Isola). Fractal alignment confirmed when inner-outer response is proportional across scales. When both spheres converge fractally, contamination immunity is structural — hyperspherical representation geometry cannot encode contaminated patterns (Hyperspherical Constrained Representation, arXiv 2504.08415), not by detection but by structural impossibility. Human exit permitted when fractal alignment is confirmed. Open problems: (1) HUG threshold value for "sufficient" inner convergence per deployment; (2) formal measurement of inner-outer fractal alignment (isomorphism test across scales); (3) whether fractal alignment requires full neural collapse or can precede it. |
+| Human-AI Zone exit criteria | Exit condition reframed as progressive withdrawal with dual verification and structural prerequisites. **Structural prerequisites (Recovery Theory VCZ 3-Conditions — all required before exit evaluation begins):** (1) Safe Failure Channel exists: storms at this layer are survivable without human intervention; (2) Upper Layer Storm Reward active: the layer above explicitly values storm detection at this layer; (3) Geometry Feedback Loop active: geometry mismatch produces locally visible coordination cost increase. Without all three, the layer is structurally prone to Self-Consistent Misalignment (Recovery Theory D6/T3) and human exit would remove the only remaining external reference. **D7 Boundary Agent requirement:** A structural role generating controlled instability must be maintained at this layer — decoupled from the layer's own evaluation structure (Recovery Theory D7). Without D7, VCZ 3-Conditions cannot hold simultaneously and CW convergence is structurally inevitable (Recovery Theory T6). **Primary exit gate (VST-measurable proxies):** (1) S_norm sustained < 1.3 for ≥ 5× self-correction cycles; (2) β > 1 (coordinated governance confirmed); (3) S_c empirically learned (system has survived and recovered from storms); (4) Self-Exciting Defect Layer active (micro-storm frequency > 0, macro-storm frequency ≈ 0). **Secondary exit gate (geometric verification):** (1) Outer sphere convergence: resource spike profile flat + consensus stable + f_escalation ≤ θ; (2) Inner sphere convergence: HUG trending toward 0 + alignment-uniformity balance stable (Wang & Isola); (3) Fractal alignment: perturbation-response proportionality confirmed across scales. **Exit protocol:** Human role transitions from active intervention → audit → periodic review → exit. Each transition requires primary gate conditions sustained for increasing durations. Full exit requires structural prerequisites + both gates satisfied simultaneously. Open problems: (1) HUG threshold for "sufficient" inner convergence — note HUG requires periodic offline evaluation, not real-time monitoring; (2) formal perturbation-response proportionality measurement protocol; (3) minimum audit period duration before full exit; (4) D7 implementation specification for AI multi-agent systems at each fractal scale. |
 | Cutoff recalibration parameters | Recalibration sequencing is now structurally defined: middle layer reads relationship topology and sequences noise-boundary data first, deferring high-conflict regions. Entry/exit conditions are defined (θ stability window; suspend on instability signal). Empirical grounding: TRIM-KV (2025) — noise-first eviction improves signal quality; DefensiveKV (2025) — high-variance importance tokens are higher risk to evict, maps to deferral weight; LazyEviction (2025) — recurrence interval tracking identifies historically-never-important tokens as first candidates. Open problems remaining: (1) deferral weight calibration — how to translate topology conflict_history into a quantitative deferral score; (2) recalibration depth parameter — how far below the original cutoff to temporarily lower the threshold per data type; (3) N value for θ stability window — how many consecutive stable cycles before recalibration entry is safe. |
 | Progressive internalization mechanism | The learning signal and convergence criteria for Pathway 1→2 transition are undefined. |
 
