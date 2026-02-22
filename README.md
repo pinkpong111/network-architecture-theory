@@ -1294,6 +1294,8 @@ External validation protocol:
   Periodically measure R across system over window W
   Compare R trend against ρ trend and f_escalation trend
 
+  R-ρ-f_esc TRIPLE concordance (RT v1.0, VST v1.5 §3.5.10):
+  
   Concordant:  R ≈ 1 and ρ stable and f_esc ≤ θ    → healthy
   Discordant:  R > 1 but ρ high and f_esc low        → SCM warning
     (metrics healthy within drifted frame; actual dynamics unstable)
@@ -1301,9 +1303,18 @@ External validation protocol:
     (Silent Criticality risk — system too stable)
   Discordant:  R ≈ 1 but ρ declining                  → recalibration needed
 
-Discordance between R and internal metrics (ρ, f_esc, θ)
-is the primary SCM detection signal that does not depend
-on the system's own reference frame.
+  Why TRIPLE outperforms DUAL (R-ρ alone):
+    Low f_esc + R > 1 = governance-maintained stability
+    R-ρ dual cannot distinguish genuine stability from
+    governance suppression of escalation signals.
+    Triple detects: R supercritical BUT f_esc artificially low
+    = escalation signals being suppressed, not absent.
+    (Falsification criterion F4: triple must detect SCM
+     earlier than dual, or no detection benefit exists.)
+
+Discordance between R, ρ, and f_esc is more informative
+than any pair alone. Triple concordance is the primary
+SCM detection signal independent of system reference frame.
 
 R is not a replacement for ρ or θ.
 It is the external validation that breaks the self-referential loop.
@@ -2099,6 +2110,7 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 | Human-AI Zone exit criteria | Exit condition reframed as progressive withdrawal with dual verification and structural prerequisites. **Structural prerequisites (Recovery Theory VCZ 3-Conditions — all required before exit evaluation begins):** (1) Safe Failure Channel exists: storms at this layer are survivable without human intervention; (2) Upper Layer Storm Reward active: the layer above explicitly values storm detection at this layer; (3) Geometry Feedback Loop active: geometry mismatch produces locally visible coordination cost increase. Without all three, the layer is structurally prone to Self-Consistent Misalignment (Recovery Theory D6/T3) and human exit would remove the only remaining external reference. **D7 Boundary Agent requirement:** A structural role generating controlled instability must be maintained at this layer — decoupled from the layer's own evaluation structure (Recovery Theory D7). Without D7, VCZ 3-Conditions cannot hold simultaneously and CW convergence is structurally inevitable (Recovery Theory T6). **Primary exit gate (VST-measurable proxies):** (1) S_norm sustained < 1.3 for ≥ 5× self-correction cycles; (2) β > 1 (coordinated governance confirmed); (3) S_c empirically learned (system has survived and recovered from storms); (4) Self-Exciting Defect Layer active (micro-storm frequency > 0, macro-storm frequency ≈ 0). **Secondary exit gate (geometric verification):** (1) Outer sphere convergence: resource spike profile flat + consensus stable + f_escalation ≤ θ; (2) Inner sphere convergence: HUG trending toward 0 + alignment-uniformity balance stable (Wang & Isola); (3) Fractal alignment: perturbation-response proportionality confirmed across scales. **Exit protocol:** Human role transitions from active intervention → audit → periodic review → exit. Each transition requires primary gate conditions sustained for increasing durations. Full exit requires structural prerequisites + both gates satisfied simultaneously. Open problems: (1) HUG threshold for "sufficient" inner convergence — note HUG requires periodic offline evaluation, not real-time monitoring; (2) formal perturbation-response proportionality measurement protocol; (3) minimum audit period duration before full exit. **D7 implementation specification (TLG §13.2.1):** The Boundary Agent is not an independent evaluator — it is a *reality interface carrier* that transmits mismatch between system output and non-negotiable external constraints. Implementation: (a) perturbation-response measurement — apply small perturbation δ to zone's hidden states, measure representational displacement Δh, transmit numerical displacement (interpretation-free); (b) three structural conditions: Model Non-Substitutability (system cannot regenerate the signal internally), One-Way Calibration (reality → system only; system cannot reinterpret constraint violations), Survival Coupling (ignored signals produce immediate measurable cost); (c) the Boundary Agent does not drift because its calibration source is external — basin-proximity signals are model-independent measurements, not internal evaluations. The agent handles the subset of reality interface signals that is mechanically measurable; broader signals (user behavior mismatch, environmental response) remain interpretation-dependent and require human oversight. **Collapse Recovery Decision Procedure (TLG v1.6 §13.2.2):** When collapse occurs during exit transition, recovery follows a structured routing: Step 0 — classify storm type via SCML (local → re-seed; boundary → Δρ correction; hub → restructure; global → Safe Collapse + full Seed reinstall). Step 1 — diagnose degradation type (Type 1 alignment severance = O(1) recovery, do NOT reinstall Seed; Type 2 weight overwrite = full re-cultivation from zero). Step 2 — match failure to re-entry phase (Consistency Collapse → Phase 2; Escalation Flood + SCC → Phase 3; Lreinf Collapse → Phase 1; Seed Corruption → full reinstall → Phase 1). Step 3 — verify Seed integrity before re-seeding. **Pre-cascade early warning (TLG v1.6 §13.2.2):** Inter-domain conflict log correlation MI(log_A, log_B) > 0 without shared input = noise decoherence = pre-cascade signal detectable BEFORE any single metric crosses threshold. **Boundary Friction Test (TLG v1.6 §13.2.2):** Before removing any monitoring step during exit: (1) does removal let local problems reach upper layers directly? (2) does it eliminate an independent judgment pathway? (3) does dissent disappear? If ANY = YES → step is structural error propagation limiter, removal initiates VCZ Collapse regardless of apparent cost. |
 | Cutoff recalibration parameters | Recalibration sequencing is now structurally defined: middle layer reads relationship topology and sequences noise-boundary data first, deferring high-conflict regions. Entry/exit conditions are defined (θ stability window; suspend on instability signal). Empirical grounding: TRIM-KV (2025) — noise-first eviction improves signal quality; DefensiveKV (2025) — high-variance importance tokens are higher risk to evict, maps to deferral weight; LazyEviction (2025) — recurrence interval tracking identifies historically-never-important tokens as first candidates. Open problems remaining: (1) deferral weight calibration — how to translate topology conflict_history into a quantitative deferral score; (2) recalibration depth parameter — how far below the original cutoff to temporarily lower the threshold per data type; (3) N value for θ stability window — how many consecutive stable cycles before recalibration entry is safe. |
 | Progressive internalization mechanism | The learning signal and convergence criteria for Pathway 1→2 transition are undefined. |
+| Optimizer boundary architecture | Recovery Theory's VCZ-Safe Optimizer Architecture (RT v1.0 §VCZ-Safe Optimizer) specifies that high-capability optimizers should not be limited — their optimization DOMAIN should be bounded: Layer 1 (Free Optimization Zone) — speed, cost, UX, throughput — full optimizer capability deployed; Layer 2 (Mediated Zone) — optimizer can propose but cannot unilaterally execute changes that affect propagation velocity; Layer 3 (Structural Invariants) — independent verification path, dissent channel, escalation path, diversity floor, recovery authority separation — optimizer access: none. These are architecture the optimizer operates within, not rules to follow. NAT implication: Layer 3 invariants map directly to sphere topology properties: structural diversity = diversity floor; processing isolation = independent verification path; cross-validation = dissent channel. The sphere topology IS the Layer 3 specification in concrete form. Enforcement via TLG §10.8 mechanisms (Interface Narrowing + Temporal Decoupling + Write-Asymmetry) makes violation structurally impossible rather than merely prohibited. |
 
 > This theory provides architectural direction. Formal mathematical modeling and empirical validation remain future work.
 
@@ -2108,13 +2120,35 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 
 ```
 Deficit-Driven Fractal Governance (parent framework)
-  ├─ Three-Layer Governance Architecture
-  ├─ Seed Design
-  ├─ Vector Storm Theory          ← why instability occurs
-  ├─ Network Architecture Theory  ← this document
-  │    (how data flows; when to escalate; when to expand)
-  ├─ Recovery Theory              (separate document)
-  └─ Prediction Model             (separate document)
+  ├─ Resolution-Based Information Theory (RBIT v1.2)  ← information-theoretic foundation
+  │    (resolution gap Δρ as central design variable; F_RBIT functional)
+  ├─ Vector Storm Theory (VST v1.3)                    ← instability dynamics
+  │    (S-equation; storm propagation; VCZ; R-ρ-f_esc triple concordance)
+  ├─ Three-Layer Governance Architecture (TLG v1.6)    ← operational governance structure
+  │    (τ₁-τ₃ regime switching; processing isolation; phase enforcement)
+  ├─ Network Architecture Theory (NAT v1.1)            ← this document
+  │    (sphere topology; 4-type classification; processing isolation; exit protocol)
+  ├─ Governance Rules Theory (GRT)                     ← rule lifecycle
+  │    (AND-entry/OR-exit; SCC = Dint + Lreinf; vectorization lifecycle)
+  └─ Recovery Theory (RT v1.0)                         ← contamination/immunity/restoration
+       (D0-D7; T1-T6; VCZ 3-Conditions; SCM recovery; VCZ-Safe Optimizer)
+
+Integration topology (bidirectional cross-references):
+  NAT ↔ VST:  sphere propagation O(log n); α decomposition via HC fraction
+  NAT ↔ RBIT: Δρ → 4-type routing; F_RBIT ↔ θ dual anchor
+  NAT ↔ TLG:  Signaling/Influence → isolation; enforcement 3 mechanisms
+  NAT ↔ RT:   D0 geometry substrate; VCZ 3-Conditions; D7 implementation
+  NAT ↔ GRT:  SCC decomposition; vectorization lifecycle; Rest Mode AND/OR
+
+Complete VCZ→Storm→Collapse→Recovery→VCZ lifecycle:
+  ① VCZ stable: dF_RBIT/dt ≈ 0, S_norm << S_c, R ≈ 1
+  ② Storm onset: Δρ turning negative, MI spiking, S_norm → S_c
+  ③ Collapse: SCML classifies storm type; diagnosis flowchart
+  ④ Recovery: Four-Phase Protocol; re-entry by failure case
+  ⑤ VCZ re-entry: R-ρ-f_esc triple concordance confirmed
+  
+  Non-learning: ①→②→③→④→① (same vulnerability persists)
+  Learning:     ①→②→③→④→①' (SCML structural learning applied)
 ```
 
 ---
