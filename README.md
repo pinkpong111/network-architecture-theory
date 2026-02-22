@@ -9,14 +9,15 @@
 > 
 > v1.1 changes from v1.0:
 > - **Sphere terminological precision:** Outer sphere (discrete graph) and inner sphere (continuous manifold) explicitly distinguished as different mathematical objects. Fractal alignment redefined as functional correspondence, not isomorphism. (Section 3.0)
-> - **Formal coverage bound:** Quantitative coverage probability for blind spot absorption added with diversity as mathematical precondition. (Section 3.0)
+> - **Formal coverage bound:** Quantitative coverage probability for blind spot absorption added with diversity as mathematical precondition. Storm propagation dynamics added: O(log n) diameter bound, spectral gap as damping predictor, resource spike as blind zone signal (VST v1.3 §4.4). (Section 3.0)
 > - **Contamination resistance correction:** "Structural impossibility" claims replaced with "structural resistance through geometric cost multiplication." Scope distinction established between external resistance (fractal alignment) and internal sensing (Self-Exciting Defect Layer). Coherence with VST §1.6.5 explicitly addressed. D0 geometry alignment substrate integrated from Recovery Theory. (Section 8.3.1)
 > - **Methodological Note on empirical grounding:** Grounding type classification (direct measurement / structural analogy / framework / cross-domain), confidence levels, selection bias acknowledgment, disconfirmatory evidence criteria, and Recovery Theory measurement proxy table added. (Section 10.1)
 > - **Processing isolation scope clarified:** Constraint narrowed to classification-relevant intermediate states. Signaling vs. Influence distinction (TLG §10.1) provides precise permitted/prohibited boundary. Three structural enforcement mechanisms (Interface Narrowing + Temporal Decoupling + Write-Asymmetry) from TLG §10.8. MARL lateral communication literature acknowledged and reconciled. T4 (Reference Frame Incompleteness) integrated as formal justification. (Section 3.6)
 > - **θ operationalized:** Connected to VST S₀ normalization, RBIT F_RBIT functional (dual anchor), and branching ratio R as external validation (TLG §0.5). Bootstrap protocol (θ_initial = 0.1), empirical calibration procedure, S_norm correspondence, τ₁ cross-validation, and R-ρ concordance protocol defined. Circularity resolved. (Section 7.2)
 > - **Tacit Knowledge proxy:** Reclassification rate (Tacit → High-Context) + VST maturity metrics (router saturation, GradES, CKA) established as indirect measurement proxies. (Section 12)
-> - **Human exit reframed as progressive withdrawal:** Structural prerequisites added: VCZ 3-Conditions (Recovery Theory) + D7 Boundary Agent with implementation specification (TLG §13.2.1: reality interface carrier, perturbation-response measurement, three structural conditions). Dual verification gate (VST-measurable proxies + geometric verification). Active intervention → audit → periodic review → exit transition protocol. (Section 12)
-> - **RBIT resolution gap integration:** Four-type classification reinterpreted as resolution-matching function with Δρ gap polarity determining escalation routing. (Section 4.4)
+> - **Human exit reframed as progressive withdrawal:** Structural prerequisites added: VCZ 3-Conditions (Recovery Theory) + D7 Boundary Agent with implementation specification (TLG §13.2.1: reality interface carrier, perturbation-response measurement, three structural conditions). Collapse Recovery Decision Procedure with storm-type routing and degradation-type diagnosis (TLG v1.6 §13.2.2). Pre-cascade MI early warning and Boundary Friction Test for monitoring removal. Dual verification gate (VST-measurable proxies + geometric verification). Active intervention → audit → periodic review → exit transition protocol. (Section 12)
+> - **RBIT resolution gap integration:** Four-type classification reinterpreted as resolution-matching function with Δρ gap polarity determining escalation routing. α decomposition via HC fraction as coupling proxy (VST v1.3 §3.2.7). Permanently High-Context channels identified as irreducible monitoring cost (VST v1.3 §3.5.6). (Sections 4.4, 4.5)
+> - **SCC structural decomposition:** SCC = Dint + Lreinf (VST v1.3 §6.5). Seed sufficiency as SCC upper bound with 3-test framework (VST v1.3 §6.6). SCM recovery 4-method protocol (VST v1.3 §6.7). (Section 12)
 > - **Falsification criteria:** Five specific predictions stated for principled rejection of core NAT claims. Adapted from RBIT falsification framework. (Section 10.1)
 > - **Recovery Theory measurement proxies:** Log-observable proxy table connecting NAT concepts to operational metrics (ρ, buffer_thickness, f_esc, C_E(t), β). (Section 10.1)
 
@@ -211,6 +212,42 @@ Coverage probability:
 ```
 
 This bound is approximate — it assumes independence between neighbor coverage events, which over-estimates coverage in clustered topologies and under-estimates it in well-mixed topologies. The qualitative conclusion holds: coverage probability increases with degree k and structural diversity, and approaches certainty for sufficiently large, diverse systems.
+
+**Storm propagation dynamics in sphere topology (VST v1.3 §4.4):**
+
+The sphere specification has direct dynamical consequences for storm behavior:
+
+```
+Propagation velocity:
+  Bounded by graph diameter d(G).
+  For k-regular expander: d(G) = O(log n)
+  → storm reaches all agents in O(log n) steps (worst case)
+  → intervention must activate within this window
+  → logarithmic scaling: even very large systems
+     have short propagation windows
+
+Storm damping via spectral gap:
+  Large gap (λ₁ − λ₂ >> 0) → fast mixing
+    → perturbation energy dissipates quickly
+    → storms self-limit without governance intervention
+  Small gap (λ₁ − λ₂ → 0) → slow mixing
+    → perturbation persists → storm-vulnerable topology
+  → spectral gap predicts storm damping rate
+
+Storm detection via structural diversity:
+  Diverse agents produce disagreement under contamination
+  → disagreement IS the detection signal
+  → homogeneous agents: contamination invisible
+     → Silent Criticality risk (VST §1.6.4)
+
+Blind zone resource spike signal:
+  Storm enters through coverage gaps.
+  Remaining gaps measurable via neighbor cost spike:
+    Normal: flat resource profile across agents
+    Blind zone event: neighboring agent's cost spikes
+    Spike magnitude ∝ blind zone size
+    → indirect detection without observing the blind spot itself
+```
 
 **Mutual coverage — the core structural principle:**
 
@@ -550,6 +587,18 @@ Multi-agent design (same principle):
 
 Discretization is a **structural requirement**, not a simplification. A system without discrete classification categories cannot function beyond a certain complexity threshold.
 
+**Vectorization lifecycle connection (TLG v1.6 §3.1, VST §1.8):**
+
+Not all inputs contribute to the n² interaction load in the S-equation. Inputs must be promoted to vector status through a governance process: conflict log accumulation > λ_log threshold, pattern stability across multiple encounters, and upper-layer validation. Until promotion, inputs contribute to the noise floor, not to n². After promotion, inputs occupy distinct positions and generate pairwise interactions. The four-type classification determines how inputs are routed during this promotion process:
+
+```
+Noise (RBIT): sub-threshold → held in noise floor
+  → may eventually accumulate into Tacit Knowledge or Mathematical
+Mathematical: immediately vectorizable (single conclusion, clear handling)
+Tacit Knowledge: operable without promotion to explicit vector status
+High-Context: requires upper-layer resolution before vectorization
+```
+
 The two-axis discretization (interpretability × degrees of freedom) yields four canonical categories under finite-resource constraints:
 
 ```
@@ -649,6 +698,32 @@ RBIT Resolution Gap interpretation:
 
 This resolution-matching interpretation connects NAT's classification directly to RBIT's core variable (the resolution gap) and the S-equation: miscalibrated classification produces resolution gap mismatch, which increases instability pressure S. (See RBIT v1.2 §Resolution Gap for the bidirectional mapping.)
 
+**α decomposition via classification type (VST v1.3 §3.2.7):**
+
+The S-equation's coupling coefficient α is not directly observable, and appears only as the product αn². NAT's four-type classification provides a resolution-decomposed proxy for α:
+
+```
+Each data type contributes differently to coupling intensity α:
+  Mathematical (Δρ ≈ 0): contributes minimally to α
+    → local processing, no forced compression, no coupling
+  High-Context (Δρ < 0):  PRIMARY driver of α
+    → forced receiver-controlled compression
+    → generates the coupling that produces storm pressure
+  Tacit Knowledge (Δρ mixed): variable contribution
+  Noise (Δρ undefined): does not contribute to α
+
+Operational proxy:
+  HC-classified data fraction ≈ negative-gap prevalence ≈ α proxy
+  
+  Rising HC fraction → rising α → rising S → storm risk increase
+  Falling HC fraction → falling α → falling S → VCZ approach
+
+This provides partial separation of α from n (VST §3.2.7):
+  n manipulation: add agents (topology constant) → S₂/S₁ ≈ (n₂/n₁)²
+  α manipulation: change topology (agent count constant) → α isolated
+  Both controlled by NAT architecture decisions.
+```
+
 ### 4.5 Escalation by Data Type
 
 | Data Type | Escalation Condition |
@@ -657,6 +732,40 @@ This resolution-matching interpretation connects NAT's classification directly t
 | High-Context | On internal conflict detection |
 | Tacit Knowledge | On performance degradation only |
 | Noise | Never — discard at source |
+
+**Permanently High-Context channels (VST v1.3 §3.5.6):**
+
+Some domains structurally cannot achieve Rest Mode because their environmental conditions change faster than the conflict log can converge. These are permanently High-Context channels:
+
+```
+Permanently HC channels:
+  Domains where environment change rate > convergence rate
+  → θ_d calibration never stabilizes
+  → Rest Mode entry conditions never achievable
+  → Active Mode monitoring maintained permanently
+
+Examples in multi-agent AI:
+  Adversarial input monitoring
+  Cross-system boundary integrity
+  Meta-rule consistency verification
+  External reality interface (Recovery Theory T5 channel)
+
+Structural function:
+  These channels NEVER enter Rest Mode.
+  They remain active even when all other channels have backgrounded.
+  During cascading collapse: already active → detect cascade early
+  → final containment structure when everything else has failed
+
+Operational implication for NAT:
+  The HC escalation pathway must distinguish:
+    Transient HC: data that is HC now but may become Mathematical
+      as the receiving agent matures (upscaling reduces Δρ)
+    Permanent HC: data in domains where Δρ < 0 ALWAYS holds
+      because environment complexity outpaces layer resolution
+  
+  Permanent HC channels require dedicated, non-backgroundable
+  monitoring infrastructure. Their cost is irreducible.
+```
 
 ### 4.6 Classification as Cost Efficiency, Not Fixed Boundary
 
@@ -1751,6 +1860,12 @@ Recovery Theory v1.6+ and RBIT v1.2 establish log-observable proxies for key DFG
 | Cascade validation R (§7.2) | Branching ratio: activated_{t+1} / activated_t | TLG §0.5 / VST §1.6.1 | HIGH |
 | Agent pair compatibility (§5.5) | Persistent negative gradient correlation | Recovery Theory §Proxy Gap | MEDIUM-HIGH |
 | Agent development φ (§4.6) | Reusable outcome rate (supporting signal only) | Recovery Theory §φ | MEDIUM |
+| SCM detection: RDE | ‖Δrepresentation‖ / ‖Δinput‖ (representation drift elasticity) | Recovery Theory §NAF | MEDIUM |
+| SCM detection: NCR | Novel-to-existing cluster assignment rate | Recovery Theory §NAF | MEDIUM |
+| SCM detection: SR | Geometry change response to novel input | Recovery Theory §NAF | MEDIUM |
+| Consistency Index I | 1 − Σwij/M (pair-level rule coherence) | GRT §Consistency | HIGH |
+| Meta-Contradiction Ic | 1 − Σwij(global)/Mc | GRT §Meta-Contradiction | HIGH |
+| Pre-cascade early warning | MI(conflict_log_A, conflict_log_B) inter-domain correlation | TLG v1.6 §13.2.2 | HIGH |
 
 ```
 Measurement dependency order (from RBIT v1.2):
@@ -1977,10 +2092,11 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 | Decision Complex implementation | Pathway 2 (internalized) remains unimplemented. However, the middle layer's role is now structurally defined: it holds a persistent relationship topology — conflict history, representation gap, and consensus rate per agent pair — and uses this to route co-processing vs. separate-path decisions. This topology is the missing component distinguishing our architecture from current routing systems (e.g., MasRouter, ACL 2025), which recompute collaboration mode per query without persistent relationship memory. Implementation requires: (1) topology storage format, (2) update trigger mechanism, (3) initialization protocol for new agents. |
 | Four-type boundary precision | The boundary between High-Context and Tacit Knowledge is not a fixed content threshold — it is a cost efficiency threshold that varies per agent. An agent with a developed representation space can classify data as High-Context (pattern detectable at acceptable cost); the same data appears as Tacit to an underdeveloped agent (cost of classification exceeds cost of operating without explanation). The boundary is therefore: cost(classify) vs. cost(escalate). As representation space develops, the boundary shifts — Tacit data reclassifies as High-Context. This reclassification event is a measurable signal of agent development and maps to θ. Empirical grounding: DiffAdapt (2025) identifies a U-shaped entropy pattern across difficulty levels — the inflection point between medium and hard difficulty corresponds to the cost-efficiency boundary in our framework. Formal per-agent calibration of this threshold remains open. |
 | Tacit Knowledge measurement | No direct metric exists for "proportion of Tacit Knowledge in a system." Indirect proxy available: the reclassification rate (Tacit → High-Context events per unit time) serves as a directional signal of agent development. Higher reclassification rate indicates the cost-efficiency boundary (§4.6) is shifting, meaning the agent's representation space is developing. Complementary proxies from VST: router saturation, gradient norm convergence (GradES), CKA trajectory — all measure representation space maturity, which determines the Tacit/High-Context boundary position. Direct measurement of absolute Tacit proportion remains open and may be structurally unmeasurable (the category is defined by the absence of interpretable mechanism). |
+| Self-Correction Capacity (SCC) structural basis | SCC is not an independent property — it decomposes into Dint (internal diversity: each vector in distinct position, providing contrast baseline for contamination detection) AND Lreinf (mutual reinforcement loops: active interdependencies providing corrective pull). SCC = 0 if either absent (VST v1.3 §6.5). NAT's sphere topology directly supports Dint through structural diversity requirement. Upper-layer mediation cycle maintains Lreinf. **Seed sufficiency determines SCC upper bound (VST v1.3 §6.6):** Test 1 (contamination resistance, SR > 0) + Test 2 (contamination recognition, RIR > 0) = SCC partial (detection only). Test 1+2+3 (orthogonal recovery direction, ≥2 independent gradient directions) = SCC complete → Rest Mode achievable. A system with only single-direction seeds cannot achieve SCC > partial regardless of architecture maturity. **SCM recovery (VST v1.3 §6.7):** When R-ρ discordance detects SCM, four severity-matched methods available: (1) Prediction Failure Exposure (early), (2) Cross-Scale Perspective Injection (mid), (3) Constraint Rotation (deep), (4) Safe Instability Window (deep, combined with Method 3). Key insight: SCM cannot be fixed by adding information — only by changing the reference frame. |
 | Blind spot quantification | Direct measurement of blind spot size, location, and severity is not achievable — and is the wrong design goal. The correct resolution: (1) Sphere geometry structurally absorbs blind zones via complementary neighbor coverage, eliminating the need for central quantification. (2) Resource spikes in neighboring agents serve as the measurable proxy — when agent A's blind zone opens, neighbor B's coverage cost spikes. Spike magnitude, duration, and location on the sphere surface constitute the indirect measurement. (3) Blind zones are dynamic efficiency thresholds, not fixed properties — they shift with context and load (empirically confirmed: Shadows in the Attention 2025, DAM ACL 2025). Open problem remaining: spike-to-blind-zone mapping calibration — translating observed resource spike profiles into estimates of blind zone extent and persistence across different sphere configurations and load conditions. |
 | Cross-validation cost model | Cost-benefit tradeoffs are described qualitatively only. |
 | Expansion Principle empirical validation | Two directions are now structurally defined and empirically grounded. Direction A (stabilize-then-expand): empirical analogues include curriculum learning, progressive GAN training, federated learning staged node addition. Direction B (expand-then-decompose): empirically grounded in MoE standard practice — dense pretraining followed by expert decomposition at instability/specialization boundaries (DeepSeek-V3 256 experts, LLaMA-4, Qwen3-MoE). STUN (ACL 2025) validates structured-then-unstructured decomposition sequence. SAME (2025) validates that router drift under new distributions reveals decomposition boundary mismatch — the maintenance cycle of Direction B. Monoliths-to-Modules (arXiv 2512.02193) provides formal decomposition framework for already-trained models. Open problem: criteria for choosing Direction A vs. B at deployment time — when is instability informative vs. catastrophic? Formal threshold for "sufficient scale" before decomposition in Direction B is undefined. |
-| Human-AI Zone exit criteria | Exit condition reframed as progressive withdrawal with dual verification and structural prerequisites. **Structural prerequisites (Recovery Theory VCZ 3-Conditions — all required before exit evaluation begins):** (1) Safe Failure Channel exists: storms at this layer are survivable without human intervention; (2) Upper Layer Storm Reward active: the layer above explicitly values storm detection at this layer; (3) Geometry Feedback Loop active: geometry mismatch produces locally visible coordination cost increase. Without all three, the layer is structurally prone to Self-Consistent Misalignment (Recovery Theory D6/T3) and human exit would remove the only remaining external reference. **D7 Boundary Agent requirement:** A structural role generating controlled instability must be maintained at this layer — decoupled from the layer's own evaluation structure (Recovery Theory D7). Without D7, VCZ 3-Conditions cannot hold simultaneously and CW convergence is structurally inevitable (Recovery Theory T6). **Primary exit gate (VST-measurable proxies):** (1) S_norm sustained < 1.3 for ≥ 5× self-correction cycles; (2) β > 1 (coordinated governance confirmed); (3) S_c empirically learned (system has survived and recovered from storms); (4) Self-Exciting Defect Layer active (micro-storm frequency > 0, macro-storm frequency ≈ 0). **Secondary exit gate (geometric verification):** (1) Outer sphere convergence: resource spike profile flat + consensus stable + f_escalation ≤ θ; (2) Inner sphere convergence: HUG trending toward 0 + alignment-uniformity balance stable (Wang & Isola); (3) Fractal alignment: perturbation-response proportionality confirmed across scales. **Exit protocol:** Human role transitions from active intervention → audit → periodic review → exit. Each transition requires primary gate conditions sustained for increasing durations. Full exit requires structural prerequisites + both gates satisfied simultaneously. Open problems: (1) HUG threshold for "sufficient" inner convergence — note HUG requires periodic offline evaluation, not real-time monitoring; (2) formal perturbation-response proportionality measurement protocol; (3) minimum audit period duration before full exit. **D7 implementation specification (TLG §13.2.1):** The Boundary Agent is not an independent evaluator — it is a *reality interface carrier* that transmits mismatch between system output and non-negotiable external constraints. Implementation: (a) perturbation-response measurement — apply small perturbation δ to zone's hidden states, measure representational displacement Δh, transmit numerical displacement (interpretation-free); (b) three structural conditions: Model Non-Substitutability (system cannot regenerate the signal internally), One-Way Calibration (reality → system only; system cannot reinterpret constraint violations), Survival Coupling (ignored signals produce immediate measurable cost); (c) the Boundary Agent does not drift because its calibration source is external — basin-proximity signals are model-independent measurements, not internal evaluations. The agent handles the subset of reality interface signals that is mechanically measurable; broader signals (user behavior mismatch, environmental response) remain interpretation-dependent and require human oversight. |
+| Human-AI Zone exit criteria | Exit condition reframed as progressive withdrawal with dual verification and structural prerequisites. **Structural prerequisites (Recovery Theory VCZ 3-Conditions — all required before exit evaluation begins):** (1) Safe Failure Channel exists: storms at this layer are survivable without human intervention; (2) Upper Layer Storm Reward active: the layer above explicitly values storm detection at this layer; (3) Geometry Feedback Loop active: geometry mismatch produces locally visible coordination cost increase. Without all three, the layer is structurally prone to Self-Consistent Misalignment (Recovery Theory D6/T3) and human exit would remove the only remaining external reference. **D7 Boundary Agent requirement:** A structural role generating controlled instability must be maintained at this layer — decoupled from the layer's own evaluation structure (Recovery Theory D7). Without D7, VCZ 3-Conditions cannot hold simultaneously and CW convergence is structurally inevitable (Recovery Theory T6). **Primary exit gate (VST-measurable proxies):** (1) S_norm sustained < 1.3 for ≥ 5× self-correction cycles; (2) β > 1 (coordinated governance confirmed); (3) S_c empirically learned (system has survived and recovered from storms); (4) Self-Exciting Defect Layer active (micro-storm frequency > 0, macro-storm frequency ≈ 0). **Secondary exit gate (geometric verification):** (1) Outer sphere convergence: resource spike profile flat + consensus stable + f_escalation ≤ θ; (2) Inner sphere convergence: HUG trending toward 0 + alignment-uniformity balance stable (Wang & Isola); (3) Fractal alignment: perturbation-response proportionality confirmed across scales. **Exit protocol:** Human role transitions from active intervention → audit → periodic review → exit. Each transition requires primary gate conditions sustained for increasing durations. Full exit requires structural prerequisites + both gates satisfied simultaneously. Open problems: (1) HUG threshold for "sufficient" inner convergence — note HUG requires periodic offline evaluation, not real-time monitoring; (2) formal perturbation-response proportionality measurement protocol; (3) minimum audit period duration before full exit. **D7 implementation specification (TLG §13.2.1):** The Boundary Agent is not an independent evaluator — it is a *reality interface carrier* that transmits mismatch between system output and non-negotiable external constraints. Implementation: (a) perturbation-response measurement — apply small perturbation δ to zone's hidden states, measure representational displacement Δh, transmit numerical displacement (interpretation-free); (b) three structural conditions: Model Non-Substitutability (system cannot regenerate the signal internally), One-Way Calibration (reality → system only; system cannot reinterpret constraint violations), Survival Coupling (ignored signals produce immediate measurable cost); (c) the Boundary Agent does not drift because its calibration source is external — basin-proximity signals are model-independent measurements, not internal evaluations. The agent handles the subset of reality interface signals that is mechanically measurable; broader signals (user behavior mismatch, environmental response) remain interpretation-dependent and require human oversight. **Collapse Recovery Decision Procedure (TLG v1.6 §13.2.2):** When collapse occurs during exit transition, recovery follows a structured routing: Step 0 — classify storm type via SCML (local → re-seed; boundary → Δρ correction; hub → restructure; global → Safe Collapse + full Seed reinstall). Step 1 — diagnose degradation type (Type 1 alignment severance = O(1) recovery, do NOT reinstall Seed; Type 2 weight overwrite = full re-cultivation from zero). Step 2 — match failure to re-entry phase (Consistency Collapse → Phase 2; Escalation Flood + SCC → Phase 3; Lreinf Collapse → Phase 1; Seed Corruption → full reinstall → Phase 1). Step 3 — verify Seed integrity before re-seeding. **Pre-cascade early warning (TLG v1.6 §13.2.2):** Inter-domain conflict log correlation MI(log_A, log_B) > 0 without shared input = noise decoherence = pre-cascade signal detectable BEFORE any single metric crosses threshold. **Boundary Friction Test (TLG v1.6 §13.2.2):** Before removing any monitoring step during exit: (1) does removal let local problems reach upper layers directly? (2) does it eliminate an independent judgment pathway? (3) does dissent disappear? If ANY = YES → step is structural error propagation limiter, removal initiates VCZ Collapse regardless of apparent cost. |
 | Cutoff recalibration parameters | Recalibration sequencing is now structurally defined: middle layer reads relationship topology and sequences noise-boundary data first, deferring high-conflict regions. Entry/exit conditions are defined (θ stability window; suspend on instability signal). Empirical grounding: TRIM-KV (2025) — noise-first eviction improves signal quality; DefensiveKV (2025) — high-variance importance tokens are higher risk to evict, maps to deferral weight; LazyEviction (2025) — recurrence interval tracking identifies historically-never-important tokens as first candidates. Open problems remaining: (1) deferral weight calibration — how to translate topology conflict_history into a quantitative deferral score; (2) recalibration depth parameter — how far below the original cutoff to temporarily lower the threshold per data type; (3) N value for θ stability window — how many consecutive stable cycles before recalibration entry is safe. |
 | Progressive internalization mechanism | The learning signal and convergence criteria for Pathway 1→2 transition are undefined. |
 
