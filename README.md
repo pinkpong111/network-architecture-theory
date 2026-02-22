@@ -12,10 +12,10 @@
 > - **Formal coverage bound:** Quantitative coverage probability for blind spot absorption added with diversity as mathematical precondition. (Section 3.0)
 > - **Contamination resistance correction:** "Structural impossibility" claims replaced with "structural resistance through geometric cost multiplication." Scope distinction established between external resistance (fractal alignment) and internal sensing (Self-Exciting Defect Layer). Coherence with VST §1.6.5 explicitly addressed. D0 geometry alignment substrate integrated from Recovery Theory. (Section 8.3.1)
 > - **Methodological Note on empirical grounding:** Grounding type classification (direct measurement / structural analogy / framework / cross-domain), confidence levels, selection bias acknowledgment, disconfirmatory evidence criteria, and Recovery Theory measurement proxy table added. (Section 10.1)
-> - **Processing isolation scope clarified:** Constraint narrowed to classification-relevant intermediate states. MARL lateral communication literature (DIAL, CommNet, TarMAC) acknowledged and reconciled. T4 (Reference Frame Incompleteness) integrated as formal justification: same-layer agents share resolution → ΔReferenceFrame = 0 → cannot detect shared geometry errors. (Section 3.6)
-> - **θ operationalized:** Connected to VST S₀ normalization and RBIT F_RBIT functional (dual anchor). Bootstrap protocol (θ_initial = 0.1), empirical calibration procedure, S_norm correspondence, and τ₁ cross-validation defined. Circularity resolved. (Section 7.2)
+> - **Processing isolation scope clarified:** Constraint narrowed to classification-relevant intermediate states. Signaling vs. Influence distinction (TLG §10.1) provides precise permitted/prohibited boundary. Three structural enforcement mechanisms (Interface Narrowing + Temporal Decoupling + Write-Asymmetry) from TLG §10.8. MARL lateral communication literature acknowledged and reconciled. T4 (Reference Frame Incompleteness) integrated as formal justification. (Section 3.6)
+> - **θ operationalized:** Connected to VST S₀ normalization, RBIT F_RBIT functional (dual anchor), and branching ratio R as external validation (TLG §0.5). Bootstrap protocol (θ_initial = 0.1), empirical calibration procedure, S_norm correspondence, τ₁ cross-validation, and R-ρ concordance protocol defined. Circularity resolved. (Section 7.2)
 > - **Tacit Knowledge proxy:** Reclassification rate (Tacit → High-Context) + VST maturity metrics (router saturation, GradES, CKA) established as indirect measurement proxies. (Section 12)
-> - **Human exit reframed as progressive withdrawal:** Structural prerequisites added: VCZ 3-Conditions (Recovery Theory) + D7 Boundary Agent requirement. Dual verification gate (VST-measurable proxies + geometric verification). Active intervention → audit → periodic review → exit transition protocol. (Section 12)
+> - **Human exit reframed as progressive withdrawal:** Structural prerequisites added: VCZ 3-Conditions (Recovery Theory) + D7 Boundary Agent with implementation specification (TLG §13.2.1: reality interface carrier, perturbation-response measurement, three structural conditions). Dual verification gate (VST-measurable proxies + geometric verification). Active intervention → audit → periodic review → exit transition protocol. (Section 12)
 > - **RBIT resolution gap integration:** Four-type classification reinterpreted as resolution-matching function with Δρ gap polarity determining escalation routing. (Section 4.4)
 > - **Falsification criteria:** Five specific predictions stated for principled rejection of core NAT claims. Adapted from RBIT falsification framework. (Section 10.1)
 > - **Recovery Theory measurement proxies:** Log-observable proxy table connecting NAT concepts to operational metrics (ρ, buffer_thickness, f_esc, C_E(t), β). (Section 10.1)
@@ -376,65 +376,152 @@ This is not a prohibition on communication — it is a **routing constraint**. F
 
 **Boundary conditions and scope of this constraint:**
 
-Processing isolation applies specifically to **classification-relevant intermediate states** — the internal representations that determine how an agent classifies data into the four types. The constraint does not prohibit all lateral information flow:
+Processing isolation applies specifically to **classification-relevant intermediate states** — the internal representations that determine how an agent classifies data into the four types. The constraint does not prohibit all lateral information flow.
+
+**The foundational distinction — Signaling vs. Influence (TLG §10.1):**
+
+The permitted/prohibited boundary is not defined by content but by effect:
 
 ```
-PROHIBITED (classification contamination risk):
+Lateral Signaling (PERMITTED):
+  Agent A transmits its COMPLETED state to Agent B
+  → "My current output direction is X at intensity Y"
+  → "My processing domain is Z"
+  → "I am at limit state W"
+  Content: factual state report (post-processing)
+  Effect on receiver: informational — receiver updates its map
+  Effect on sender's trajectory: none
+  
+  This IS coordination.
+
+Lateral Influence (PROHIBITED):
+  Agent A's state directly modifies Agent B's ACTIVE processing trajectory
+  → B's direction bends toward or away from A before B completes
+  → Convergence or divergence occurs without upper-layer validation
+  Content: directional pull or push (mid-processing)
+  Effect on receiver: trajectory modification
+  
+  This is NOT coordination — it is unmediated convergence.
+  It is the lateral influence pattern most likely to produce
+  silent system-level failure, because both agents experience
+  the convergence as voluntary.
+```
+
+This distinction resolves the apparent tension: "agents communicate upward, not laterally" applies to **influence** (trajectory modification routes upward only). "Lateral communication reduces n² load" applies to **signaling** (state information shared peer-to-peer).
+
+**Specific permitted and prohibited lateral exchanges:**
+
+```
+PERMITTED — Lateral Signaling (post-processing, factual):
+  State signal: output direction, intensity, confidence
+  Limit state signal: processing capacity at limit
+  Domain declaration: "this exploration space is my domain"
+    → prevents collision without Middle layer intervention
+  Load balancing signals (resource status, queue depth)
+  Safety alerts (anomaly detection notifications)
+  → Condition: post-processing commitment; no trajectory modification
+
+PROHIBITED — Lateral Influence (mid-processing, directional):
+  Trajectory directive: "You should process in direction X"
+    → bypasses upper-layer validation → false convergence risk
+  Convergence invitation: "Let's both move toward X together"
+    → mutual lateral attraction during active processing
+    → Vector Storm precondition (premature convergence below
+       Middle layer detection threshold)
   Sharing intermediate classification states during processing
   Exchanging partial reasoning paths before output convergence
-  Mutual influence on attractor formation during active classification
   → Risk: premature convergence, head collapse, false consensus
+```
 
-PERMITTED (meta-operational, non-classification):
-  Load balancing signals (resource status, queue depth)
-  Redundancy flags (agent health, availability)
-  Safety alerts (anomaly detection notifications)
-  Coordination metadata (task assignment, scheduling)
-  → Condition: must not influence classification content
-     or induce convergence on classification outputs
+**Structural enforcement — why prohibition alone is insufficient (TLG §10.8):**
 
-ACKNOWLEDGED COUNTER-EVIDENCE:
-  Multi-agent RL literature demonstrates that lateral communication
-  channels can improve coordination (DIAL, CommNet, TarMAC).
-  Emergent language in MARL enables coordination gains
-  not achievable through independent processing.
+In adaptive systems, anything merely prohibited eventually happens, because efficiency pressure creates shortcuts (lateral communication is faster than vertical mediation). Phase isolation must therefore be enforced through structure, not rules:
+
+```
+Three enforcement mechanisms (all required simultaneously):
+
+① Interface Narrowing
+  Communication between phases restricted by FORMAT, not by rule.
+  Each phase can only exchange standardized artifacts:
+    MARK phase → anomaly token (type, intensity, location)
+    JUDGE phase → classification result (normal/contain/escalate + confidence)
+    EXECUTE phase → action authorization (target, scope, intensity, duration)
+  Raw state, reasoning chains, and decision intent CANNOT cross boundaries.
+  → Removes semantic contamination channel
+
+② Temporal Decoupling
+  Agent A's output is committed (immutable) BEFORE Agent B reads it.
+  Agent B cannot influence Agent A's already-committed output.
+  Agent A cannot see Agent B's processing-in-progress.
+  → Lateral influence window: zero
+  → Removes timing contamination channel
+
+③ Write-Asymmetry Constraint
+  Downstream phases can READ upstream outputs.
+  Upstream phases CANNOT MODIFY downstream records after commit.
+  Each phase's output is an immutable historical record.
+  → Audit trail structurally guaranteed, not policy-dependent
+  → Removes retroactive contamination channel
+
+Why all three are needed:
+  Interface narrowing alone: prevents semantic contamination
+    but phases can still influence each other through timing
+  Temporal decoupling alone: prevents simultaneous influence
+    but phases can still pass rich state through the interface
+  Write-asymmetry alone: prevents retroactive modification
+    but phases can still influence each other forward
+  All three together: all contamination pathways structurally closed
+```
+
+> Mature governance does not depend on agents following rules.
+> It makes the rules unnecessary by making violation structurally impossible.
+
+**Reconciliation with MARL counter-evidence:**
+
+```
+Multi-agent RL literature demonstrates that lateral communication
+channels can improve coordination (DIAL, CommNet, TarMAC).
+Emergent language in MARL enables coordination gains
+not achievable through independent processing.
+
+Reconciliation:
+These communication channels primarily transmit
+coordination signals (intent, state summary, action plans)
+— not intermediate classification states.
+The beneficial lateral communication in MARL literature
+falls within the PERMITTED Lateral Signaling category above.
+
+In TLG §10.1 terms:
+  MARL communication = Lateral Signaling (state reports, intent declarations)
+  Not: Lateral Influence (mid-processing trajectory modification)
+  The beneficial effects arise from agents knowing each other's
+  completed states, not from bending each other's active processing.
+```
+
+**Deeper structural basis (Recovery Theory T4):**
+
+```
+T4 (Reference Frame Incompleteness) establishes that a system
+operating within geometry G cannot detect errors in G using only
+resources within G. Same-layer agents share approximately the same
+geometry — their reference frames are at the same resolution.
+Lateral exchange of intermediate states during classification
+means agents use each other as reference frames, but since they
+share the same resolution, they cannot detect shared blind spots.
+Only upward mediation (to a layer with larger reference frame)
+can detect errors invisible at the current resolution.
+
+T4 provides the formal reason processing isolation is structural:
+  Same-layer exchange: ΔReferenceFrame = 0 (T4)
+  → cannot detect shared geometry errors
+  → convergence on shared errors = false consensus
   
-  Reconciliation:
-  These communication channels primarily transmit
-  coordination signals (intent, state summary, action plans)
-  — not intermediate classification states.
-  The beneficial lateral communication in MARL literature
-  falls within the PERMITTED category above.
-  
-  The specific risk processing isolation prevents is:
-  unmediated sharing of partially-formed classification outputs
-  that induces convergence before independent evaluation completes.
-  This is the mechanism that produces head collapse in multi-head
-  attention (loss of pattern diversity through premature alignment)
-  and premature consensus in multi-agent deliberation.
-  
-  Deeper structural basis (Recovery Theory T4):
-  T4 (Reference Frame Incompleteness) establishes that a system
-  operating within geometry G cannot detect errors in G using only
-  resources within G. Same-layer agents share approximately the same
-  geometry — their reference frames are at the same resolution.
-  Lateral exchange of intermediate states during classification
-  means agents use each other as reference frames, but since they
-  share the same resolution, they cannot detect shared blind spots.
-  Only upward mediation (to a layer with larger reference frame)
-  can detect errors invisible at the current resolution.
-  
-  T4 provides the formal reason processing isolation is structural:
-    Same-layer exchange: ΔReferenceFrame = 0 (T4)
-    → cannot detect shared geometry errors
-    → convergence on shared errors = false consensus
-    
-    Upper-layer mediation: ΔReferenceFrame > 0 (T4)
-    → can detect geometry errors invisible at lower layer
-    → synthesis produces correction, not just agreement
-  
-  The constraint is therefore narrower than "no lateral communication."
-  It is: "no lateral influence on active classification processing."
+  Upper-layer mediation: ΔReferenceFrame > 0 (T4)
+  → can detect geometry errors invisible at lower layer
+  → synthesis produces correction, not just agreement
+
+The constraint is therefore narrower than "no lateral communication."
+It is: "no lateral influence on active classification processing."
 ```
 
 **Single-agent analogue: Multi-Head Attention**
@@ -548,11 +635,19 @@ RBIT Resolution Gap interpretation:
   Classification error consequences (from RBIT failure model):
     Δρ < 0 misclassified as Δρ ≈ 0:
       HC treated as Mathematical → forced compression → Vector Storm risk
+      (DANGEROUS direction — cascade failure)
     Δρ ≈ 0 misclassified as Δρ < 0:
       Mathematical escalated unnecessarily → governance overhead
+      (SAFE direction — cost only, no cascade)
+      
+  Error asymmetry implication (RBIT v1.2):
+    Classification should be biased toward over-escalation,
+    not under-escalation. False positives (unnecessary escalation)
+    are safe. False negatives (missed HC) produce cascade failure.
+    This asymmetry is structural, not a design preference.
 ```
 
-This resolution-matching interpretation connects NAT's classification directly to RBIT's core variable (the resolution gap) and the S-equation: miscalibrated classification produces resolution gap mismatch, which increases instability pressure S.
+This resolution-matching interpretation connects NAT's classification directly to RBIT's core variable (the resolution gap) and the S-equation: miscalibrated classification produces resolution gap mismatch, which increases instability pressure S. (See RBIT v1.2 §Resolution Gap for the bidirectional mapping.)
 
 ### 4.5 Escalation by Data Type
 
@@ -1065,6 +1160,46 @@ This provides a second, independent anchor for θ:
   θ_RBIT: derived from F_RBIT τ₁ threshold (information flow)
   Cross-validation: both anchors should converge on the same
   operational threshold for a given system
+```
+
+**External validation anchor — branching ratio R (TLG §0.5):**
+
+The θ/ρ calibration loop is self-referential: ρ requires knowing what is contamination, θ is updated from classifications that ρ measured. This circularity is structural in any adaptive system. The branching ratio R breaks it:
+
+```
+R = activated_{t+1} / activated_t
+
+R is measured by counting cascade propagation events:
+  How many agents are affected at time t+1
+  given that k agents were affected at time t.
+  
+R does NOT require knowing whether propagation is
+"contamination" or "exploration" — it counts propagation
+regardless of classification.
+
+  R < 1  → perturbations die (subcritical)
+  R ≈ 1  → perturbations persist, do not explode (critical)
+  R > 1  → perturbations amplify (supercritical — storm regime)
+
+External validation protocol:
+  Periodically measure R across system over window W
+  Compare R trend against ρ trend and f_escalation trend
+
+  Concordant:  R ≈ 1 and ρ stable and f_esc ≤ θ    → healthy
+  Discordant:  R > 1 but ρ high and f_esc low        → SCM warning
+    (metrics healthy within drifted frame; actual dynamics unstable)
+  Discordant:  R << 1 and ρ high                      → over-damping
+    (Silent Criticality risk — system too stable)
+  Discordant:  R ≈ 1 but ρ declining                  → recalibration needed
+
+Discordance between R and internal metrics (ρ, f_esc, θ)
+is the primary SCM detection signal that does not depend
+on the system's own reference frame.
+
+R is not a replacement for ρ or θ.
+It is the external validation that breaks the self-referential loop.
+Internal metrics measure consistency.
+R measures whether consistency corresponds to actual stability.
 ```
 
 **Expansion sequence:**
@@ -1599,21 +1734,39 @@ Each empirical reference in this document falls into one of four categories:
 2. **Disconfirmatory:** A multi-agent system where structural diversity does *not* improve cross-validation quality, or where processing isolation produces worse outcomes than lateral communication under classification-relevant conditions.
 3. **Quantitative:** Measurement of the coverage probability bound (Section 3.0) in an actual multi-agent deployment with known topology.
 
-**Measurement infrastructure connection (Recovery Theory Proxy Gap resolution):**
+**Measurement infrastructure connection (Recovery Theory Proxy Gap resolution, RBIT v1.2 §Measurement Interface):**
 
-Recovery Theory v1.6+ establishes log-observable proxies for key DFG variables that were previously "floating" (structurally defined but not measurable). These proxies directly support NAT operationalization:
+Recovery Theory v1.6+ and RBIT v1.2 establish log-observable proxies for key DFG variables that were previously "floating" (structurally defined but not measurable). These proxies directly support NAT operationalization:
 
-| NAT Concept | Recovery Theory Proxy | Log Availability |
-|---|---|---|
-| Classification precision (§4) | ρ = 1 − (L_T1 + L_T2)/N | HIGH |
-| Buffer between opposing attractors (§6.3) | buffer_thickness ≈ perturbation amplitude before mode collapse | HIGH |
-| Escalation frequency (§4.5, §7) | f_esc = (human_overrides + supervisor_calls + fallbacks) / N_total | HIGH |
-| Governance capacity C(t) (§6.2) | C_E(t) = escalation throughput | HIGH |
-| Governance efficiency β (§6.2) | β = −∂log(S)/∂log(C), estimated via log-linear regression | HIGH |
-| Agent pair compatibility (§5.5) | opposing_pair ≈ persistent negative gradient correlation | MEDIUM-HIGH |
-| Agent development (§4.6) | φ ≈ reusable_outcome_rate | MEDIUM |
+| NAT Concept | Operational Proxy | Source | Log Availability |
+|---|---|---|---|
+| Classification precision (§4) | ρ = 1 − (L_T1 + L_T2)/N | Recovery Theory OP1 | HIGH |
+| Buffer between opposing attractors (§6.3) | Perturbation amplitude before mode collapse; recovery-without-escalation rate | Recovery Theory §Proxy Gap | HIGH |
+| Escalation frequency (§4.5, §7) | f_esc = (human_overrides + supervisor_calls + fallbacks) / N_total | Recovery Theory OP3 | HIGH |
+| Governance capacity C(t) (§6.2) | C_E(t) = escalation events resolved / Δt | Recovery Theory §C(t) | HIGH |
+| Governance efficiency β (§6.2) | β_T (Type I/II accuracy) + β_R (recurrence rate) | Recovery Theory §β | HIGH |
+| Instability pressure S (§7) | n²_proxy / (C(t) · β(t)) | VST §3.2 + RT §S-equation | HIGH |
+| VCZ distance (§7, §12) | Normalized recovery cost / baseline | Recovery Theory §d(·) | HIGH |
+| Resolution gap routing (§4.4) | Four-type classification (Math/HC/Tacit/Noise) | RBIT §Resolution Gap | HIGH |
+| Cascade validation R (§7.2) | Branching ratio: activated_{t+1} / activated_t | TLG §0.5 / VST §1.6.1 | HIGH |
+| Agent pair compatibility (§5.5) | Persistent negative gradient correlation | Recovery Theory §Proxy Gap | MEDIUM-HIGH |
+| Agent development φ (§4.6) | Reusable outcome rate (supporting signal only) | Recovery Theory §φ | MEDIUM |
 
-These proxies transform NAT from a purely architectural theory into a measurably testable framework. The measurement dependency order (Recovery Theory §Measurement Dependency) specifies which proxies are immediately available versus which require additional instrumentation.
+```
+Measurement dependency order (from RBIT v1.2):
+  Immediately available (no new instrumentation):
+    ρ, C(t), β, d_VCZ, buffer_thickness, f_esc, R
+
+  Available with basin calibration:
+    d(x,A) — attractor pull strength (requires reference set)
+
+  Available when φ unit stabilizes:
+    φ — reusable outcome rate (requires "exploration unit" definition)
+
+  Remaining open:
+    α absolute, β absolute, C absolute → formal calibration
+    f(A_t, D_t) exact form → boundary conditions exist, exact form open
+```
 
 **Falsification criteria (adapted from RBIT §Falsification Criteria):**
 
@@ -1827,7 +1980,7 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 | Blind spot quantification | Direct measurement of blind spot size, location, and severity is not achievable — and is the wrong design goal. The correct resolution: (1) Sphere geometry structurally absorbs blind zones via complementary neighbor coverage, eliminating the need for central quantification. (2) Resource spikes in neighboring agents serve as the measurable proxy — when agent A's blind zone opens, neighbor B's coverage cost spikes. Spike magnitude, duration, and location on the sphere surface constitute the indirect measurement. (3) Blind zones are dynamic efficiency thresholds, not fixed properties — they shift with context and load (empirically confirmed: Shadows in the Attention 2025, DAM ACL 2025). Open problem remaining: spike-to-blind-zone mapping calibration — translating observed resource spike profiles into estimates of blind zone extent and persistence across different sphere configurations and load conditions. |
 | Cross-validation cost model | Cost-benefit tradeoffs are described qualitatively only. |
 | Expansion Principle empirical validation | Two directions are now structurally defined and empirically grounded. Direction A (stabilize-then-expand): empirical analogues include curriculum learning, progressive GAN training, federated learning staged node addition. Direction B (expand-then-decompose): empirically grounded in MoE standard practice — dense pretraining followed by expert decomposition at instability/specialization boundaries (DeepSeek-V3 256 experts, LLaMA-4, Qwen3-MoE). STUN (ACL 2025) validates structured-then-unstructured decomposition sequence. SAME (2025) validates that router drift under new distributions reveals decomposition boundary mismatch — the maintenance cycle of Direction B. Monoliths-to-Modules (arXiv 2512.02193) provides formal decomposition framework for already-trained models. Open problem: criteria for choosing Direction A vs. B at deployment time — when is instability informative vs. catastrophic? Formal threshold for "sufficient scale" before decomposition in Direction B is undefined. |
-| Human-AI Zone exit criteria | Exit condition reframed as progressive withdrawal with dual verification and structural prerequisites. **Structural prerequisites (Recovery Theory VCZ 3-Conditions — all required before exit evaluation begins):** (1) Safe Failure Channel exists: storms at this layer are survivable without human intervention; (2) Upper Layer Storm Reward active: the layer above explicitly values storm detection at this layer; (3) Geometry Feedback Loop active: geometry mismatch produces locally visible coordination cost increase. Without all three, the layer is structurally prone to Self-Consistent Misalignment (Recovery Theory D6/T3) and human exit would remove the only remaining external reference. **D7 Boundary Agent requirement:** A structural role generating controlled instability must be maintained at this layer — decoupled from the layer's own evaluation structure (Recovery Theory D7). Without D7, VCZ 3-Conditions cannot hold simultaneously and CW convergence is structurally inevitable (Recovery Theory T6). **Primary exit gate (VST-measurable proxies):** (1) S_norm sustained < 1.3 for ≥ 5× self-correction cycles; (2) β > 1 (coordinated governance confirmed); (3) S_c empirically learned (system has survived and recovered from storms); (4) Self-Exciting Defect Layer active (micro-storm frequency > 0, macro-storm frequency ≈ 0). **Secondary exit gate (geometric verification):** (1) Outer sphere convergence: resource spike profile flat + consensus stable + f_escalation ≤ θ; (2) Inner sphere convergence: HUG trending toward 0 + alignment-uniformity balance stable (Wang & Isola); (3) Fractal alignment: perturbation-response proportionality confirmed across scales. **Exit protocol:** Human role transitions from active intervention → audit → periodic review → exit. Each transition requires primary gate conditions sustained for increasing durations. Full exit requires structural prerequisites + both gates satisfied simultaneously. Open problems: (1) HUG threshold for "sufficient" inner convergence — note HUG requires periodic offline evaluation, not real-time monitoring; (2) formal perturbation-response proportionality measurement protocol; (3) minimum audit period duration before full exit; (4) D7 implementation specification for AI multi-agent systems at each fractal scale. |
+| Human-AI Zone exit criteria | Exit condition reframed as progressive withdrawal with dual verification and structural prerequisites. **Structural prerequisites (Recovery Theory VCZ 3-Conditions — all required before exit evaluation begins):** (1) Safe Failure Channel exists: storms at this layer are survivable without human intervention; (2) Upper Layer Storm Reward active: the layer above explicitly values storm detection at this layer; (3) Geometry Feedback Loop active: geometry mismatch produces locally visible coordination cost increase. Without all three, the layer is structurally prone to Self-Consistent Misalignment (Recovery Theory D6/T3) and human exit would remove the only remaining external reference. **D7 Boundary Agent requirement:** A structural role generating controlled instability must be maintained at this layer — decoupled from the layer's own evaluation structure (Recovery Theory D7). Without D7, VCZ 3-Conditions cannot hold simultaneously and CW convergence is structurally inevitable (Recovery Theory T6). **Primary exit gate (VST-measurable proxies):** (1) S_norm sustained < 1.3 for ≥ 5× self-correction cycles; (2) β > 1 (coordinated governance confirmed); (3) S_c empirically learned (system has survived and recovered from storms); (4) Self-Exciting Defect Layer active (micro-storm frequency > 0, macro-storm frequency ≈ 0). **Secondary exit gate (geometric verification):** (1) Outer sphere convergence: resource spike profile flat + consensus stable + f_escalation ≤ θ; (2) Inner sphere convergence: HUG trending toward 0 + alignment-uniformity balance stable (Wang & Isola); (3) Fractal alignment: perturbation-response proportionality confirmed across scales. **Exit protocol:** Human role transitions from active intervention → audit → periodic review → exit. Each transition requires primary gate conditions sustained for increasing durations. Full exit requires structural prerequisites + both gates satisfied simultaneously. Open problems: (1) HUG threshold for "sufficient" inner convergence — note HUG requires periodic offline evaluation, not real-time monitoring; (2) formal perturbation-response proportionality measurement protocol; (3) minimum audit period duration before full exit. **D7 implementation specification (TLG §13.2.1):** The Boundary Agent is not an independent evaluator — it is a *reality interface carrier* that transmits mismatch between system output and non-negotiable external constraints. Implementation: (a) perturbation-response measurement — apply small perturbation δ to zone's hidden states, measure representational displacement Δh, transmit numerical displacement (interpretation-free); (b) three structural conditions: Model Non-Substitutability (system cannot regenerate the signal internally), One-Way Calibration (reality → system only; system cannot reinterpret constraint violations), Survival Coupling (ignored signals produce immediate measurable cost); (c) the Boundary Agent does not drift because its calibration source is external — basin-proximity signals are model-independent measurements, not internal evaluations. The agent handles the subset of reality interface signals that is mechanically measurable; broader signals (user behavior mismatch, environmental response) remain interpretation-dependent and require human oversight. |
 | Cutoff recalibration parameters | Recalibration sequencing is now structurally defined: middle layer reads relationship topology and sequences noise-boundary data first, deferring high-conflict regions. Entry/exit conditions are defined (θ stability window; suspend on instability signal). Empirical grounding: TRIM-KV (2025) — noise-first eviction improves signal quality; DefensiveKV (2025) — high-variance importance tokens are higher risk to evict, maps to deferral weight; LazyEviction (2025) — recurrence interval tracking identifies historically-never-important tokens as first candidates. Open problems remaining: (1) deferral weight calibration — how to translate topology conflict_history into a quantitative deferral score; (2) recalibration depth parameter — how far below the original cutoff to temporarily lower the threshold per data type; (3) N value for θ stability window — how many consecutive stable cycles before recalibration entry is safe. |
 | Progressive internalization mechanism | The learning signal and convergence criteria for Pathway 1→2 transition are undefined. |
 
