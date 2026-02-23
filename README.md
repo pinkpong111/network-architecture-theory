@@ -6,6 +6,30 @@
 > Recovery and prediction are addressed in separate documents.
 
 > **Version: v1.1** (February 2026)
+
+---
+
+> ### DFG Ontology Lock Declaration
+>
+> This document is a component theory of the Deficit-Fractal Governance (DFG) framework and is bound by the **[DFG Terminology Canon](./DFG_Terminology_Canon.md)**.
+>
+> **Axis:** Interaction Topology — NAT governs information flow geometry and expansion principles.
+>
+> **Term qualifications in this document (Canon §3):**
+> - **network** → *interaction topology* — the primary object of this theory. "Network" is the canonical term for this axis and is used freely here (Canon §3.3).
+> - **layer** → *interaction layer* in this document (Canon §3.1). Standalone "layer" in running text refers to a topology level unless otherwise qualified.
+> - **rule** → replaced by *protocol* or *routing constraint* in this document (Canon §3.2). "Rule" appears only in cross-references to GRT, tagged accordingly.
+> - **vector** → *propagation direction* — the directional constraint tendency within an interaction topology space (Canon §4.1).
+>
+> **Cross-theory imports used in this document:**
+> - (Vector Storm — adopted from VST)
+> - (Resolution Gap — adopted from RBIT)
+> - (Rest Mode — adopted from GRT)
+> - (Boundary Agent — adopted from TLG)
+> - (VCZ — adopted from Recovery Theory)
+> - (SCM — adopted from VST)
+
+---
 > 
 > v1.1 changes from v1.0:
 > - **Sphere terminological precision:** Outer sphere (discrete graph) and inner sphere (continuous manifold) explicitly distinguished as different mathematical objects. Fractal alignment redefined as functional correspondence, not isomorphism. (Section 3.0)
@@ -478,7 +502,7 @@ In adaptive systems, anything merely prohibited eventually happens, because effi
 Three enforcement mechanisms (all required simultaneously):
 
 ① Interface Narrowing
-  Communication between phases restricted by FORMAT, not by rule.
+  Communication between phases restricted by FORMAT, not by protocol.
   Each phase can only exchange standardized artifacts:
     MARK phase → anomaly token (type, intensity, location)
     JUDGE phase → classification result (normal/contain/escalate + confidence)
@@ -637,10 +661,19 @@ Axis 2: Single conclusion vs. Multiple conclusions (if interpretable)
 
 **Tacit Knowledge**
 - Correlation: statistically demonstrable
-- Causal mechanism: unknown — only estimable
+- Causal mechanism: unknown — estimators fail to converge on a stable resolution direction
+- Operational criterion: Var(Δρ̂ᵢ) > τ_disagree — independent resolution estimators disagree about the gap direction (primary), supported by low confidence when disagreement is moderate (secondary)
 - Example: empirical heuristics, pattern-based operations without mechanistic explanation
 - Handling: operate without explanation; escalate only on performance degradation
-- Note: **Permanent category** — some patterns remain operable but unexplainable regardless of resolution
+- Note: **Permanent category** — some patterns remain in estimator-disagreement territory regardless of resolution, because their causal mechanism lies outside the system's current coordinate structure
+
+**Severe Tacit**
+- Correlation: statistically demonstrable (structure exists)
+- Causal mechanism: unknown AND interpretation failure is actively degrading performance
+- Operational criterion: Var(Δρ̂ᵢ) > τ_disagree AND performance unstable
+- Example: storm precursor states — latent structure present but coordination failing; emerging contamination pattern where signal exists but cannot be resolved before damage accumulates
+- Handling: **immediate escalation** — does not wait for further degradation confirmation
+- Note: Severe Tacit is the boundary state between Tacit and catastrophic failure. It is not Noise (signal structure is present; estimators actively disagree, not absent). It is not standard Tacit (performance is already degrading). It is the **highest-urgency classification** in the four-type system.
 
 **Noise**
 - Correlation: absent
@@ -651,11 +684,16 @@ Axis 2: Single conclusion vs. Multiple conclusions (if interpretable)
 
 ```
 Internal simulation result
-  ├→ Conflict detected, convergence possible   → High-Context
-  ├→ No conflict, convergence                  → Mathematical
-  ├→ Conflict undetectable, operation possible → Tacit Knowledge
-  └→ Conflict undetectable, operation fails    → Noise
+  ├→ Conflict detected, convergence possible               → High-Context
+  ├→ No conflict, convergence                              → Mathematical
+  ├→ Estimator disagreement high + performance stable      → Tacit Knowledge
+  ├→ Estimator disagreement high + performance unstable    → Severe Tacit  ★
+  └→ Estimator agreement (Var low) + performance unstable → Noise
 ```
+
+*Reading the tree:* The Severe Tacit branch is the critical addition. High disagreement means latent structure is present (not Noise). Performance degradation means that unresolved structure is already causing harm. This combination — signal exists, interpretation fails, system suffers — is the storm precursor pattern identified in VST. It demands immediate escalation, not the deferred escalation of standard Tacit.
+
+*Why not Noise:* Noise is consensus on absence. Severe Tacit is disagreement about something real. Classifying Severe Tacit as Noise would route the most dangerous state to the weakest response — discarding what should be escalated.
 
 **Information-theoretic foundation (RBIT):**
 
@@ -672,10 +710,24 @@ RBIT Resolution Gap interpretation:
     → Escalate to higher-resolution layer
     → Forced receiver-controlled compression risk if processed locally
     
-  Tacit Knowledge:     Δρ varies by aspect
-    → Pattern operable locally (Δρ ≈ 0 for operation)
-    → Mechanism requires higher resolution (Δρ < 0 for understanding)
+  Tacit Knowledge:     Δρ unresolvable at current representation depth
+    → Estimators disagree about gap direction (Var(Δρ̂ᵢ) > τ_disagree)
+    → Pattern operable locally (system acts on regularities)
+    → Mechanism requires higher resolution — but gap direction itself is unstable
     → Operate locally; escalate on performance degradation
+    → As layer upscales (RBIT §Upscaling U1–U3), stable Δρ direction may emerge
+       → reclassification to High-Context is the measurable signal of upscaling
+
+  Severe Tacit:        Δρ unresolvable AND performance actively degrading
+    → Same estimator disagreement as Tacit, but system is already failing
+    → Latent structure present (not Noise) but interpretation failure is causing harm
+    → VST signature: storm precursor — Δρ negative in channels, MI spiking
+    → Immediate escalation required — no waiting for further degradation
+    → RBIT §F_RBIT: f₂ and f₄ rising simultaneously (mismatch + escalation load)
+
+  Noise:               Δρ undefined (no pattern at current resolution)
+    → Buffer or discard
+    → Upper layer may detect latent vectors at higher resolution
     
   Noise:               Δρ undefined (no pattern at current resolution)
     → Buffer or discard
@@ -709,7 +761,9 @@ Each data type contributes differently to coupling intensity α:
   High-Context (Δρ < 0):  PRIMARY driver of α
     → forced receiver-controlled compression
     → generates the coupling that produces storm pressure
-  Tacit Knowledge (Δρ mixed): variable contribution
+  Tacit Knowledge (Var(Δρ̂ᵢ) > τ_disagree): variable contribution
+    → estimator disagreement means α contribution is itself unstable
+    → treated conservatively as partial HC contribution until disagreement resolves
   Noise (Δρ undefined): does not contribute to α
 
 Operational proxy:
@@ -731,6 +785,7 @@ This provides partial separation of α from n (VST §3.2.7):
 | Mathematical | Not required |
 | High-Context | On internal conflict detection |
 | Tacit Knowledge | On performance degradation only |
+| **Severe Tacit** | **Immediate — no waiting condition** |
 | Noise | Never — discard at source |
 
 **Permanently High-Context channels (VST v1.3 §3.5.6):**
@@ -747,7 +802,7 @@ Permanently HC channels:
 Examples in multi-agent AI:
   Adversarial input monitoring
   Cross-system boundary integrity
-  Meta-rule consistency verification
+  Meta-constraint consistency verification *(meta-rule — adopted from GRT)*
   External reality interface (Recovery Theory T5 channel)
 
 Structural function:
@@ -801,11 +856,16 @@ Hard data (Tacit / border): high cost + unstable convergence
 ```
 High-Context:  cost(classify) < cost(escalate)
                → agent can resolve internally within resource budget
+               → estimators converge: Var(Δρ̂ᵢ) ≤ τ_disagree
 
 Tacit:         cost(classify) > cost(escalate)  OR  cost(classify) → ∞
                → pattern operable but classification resolution unreachable
+               → operationally: Var(Δρ̂ᵢ) > τ_disagree
+                  (estimators cannot agree on Δρ direction)
                → operate without explanation; escalate only on degradation
 ```
+
+*The cost-efficiency boundary and the estimator-disagreement criterion are two views of the same phenomenon.* When the cost of classification diverges, it is because the estimators within the Decision Complex cannot converge — each path reaches a different resolution direction, making iteration over them expensive without convergence. High estimator disagreement IS the mechanistic explanation for why classification cost rises toward infinity for Tacit data.
 
 The boundary is therefore a **cost threshold**, not a content threshold. As an agent's representation space develops, the boundary moves — data previously classified as Tacit becomes reclassifiable as High-Context. This reclassification event is a measurable signal of agent development and maps directly to θ.
 
@@ -822,19 +882,60 @@ This structure exists at every layer of the fractal architecture — in degraded
 ### 5.2 Minimum Specification
 
 ```
-1. Activate N ≥ 2 reasoning paths on the same input.
-2. Measure conflict score between path outputs
-   (e.g., KL/JS divergence between output distributions,
-    cosine distance between embedding representations).
-3. Map conflict score to classification label:
+1. Activate N ≥ 2 independent reasoning paths (estimators) on the same input.
+2. Measure two signals per input:
+   (a) conflict_score between path outputs
+       (e.g., KL/JS divergence between output distributions,
+        cosine distance between embedding representations)
+   (b) estimator_disagreement = Var(Δρ̂ᵢ) across N estimators
+       — variance of resolution-gap estimates across independent paths
 
-   conflict_score < τ_low                           → Mathematical
-   conflict_score ≥ τ_low AND convergence possible  → High-Context
-   conflict_score undetectable AND perf. stable     → Tacit Knowledge
-   conflict_score undetectable AND perf. unstable   → Noise
+3. Map to classification label:
+
+   conflict_score < τ_low                                    → Mathematical
+   conflict_score ≥ τ_low AND convergence possible           → High-Context
+
+   Tacit Knowledge (primary criterion — estimator disagreement):
+     Var(Δρ̂ᵢ) > τ_disagree AND performance stable           → Tacit
+     OR
+     Var(Δρ̂ᵢ) > τ_disagree_moderate AND confidence < τ_conf → Tacit
+
+   Severe Tacit (storm precursor — immediate escalation):
+     Var(Δρ̂ᵢ) > τ_disagree AND performance unstable         → Severe Tacit ★
+     Severe Tacit states trigger immediate escalation:
+     estimator disagreement coupled with performance degradation
+     indicates unresolved high-impact structure, not stochastic noise.
+
+   Noise:
+     Var(Δρ̂ᵢ) low (estimators agree) AND perf. unstable    → Noise (consensus on absence)
 
 4. Attach label to output. Route by label.
 ```
+
+**Why estimator disagreement, not "undetectable conflict":**
+
+"Conflict score undetectable" is not an operational criterion — it describes an absence of measurement, not a positive characterization. Estimator disagreement replaces this with a measurable quantity: when independent resolution estimators fail to converge within tolerance bounds, the data occupies a region where the system's representation space has no stable resolution direction. This is Tacit Knowledge.
+
+```
+Tacit Knowledge operational definition:
+
+  Primary:   Var(Δρ̂ᵢ) > τ_disagree
+             Independent estimators disagree about Δρ — no stable resolution direction
+             → Pattern operable (system can act) but mechanism irresolvable (estimators diverge)
+
+  Secondary: Var(Δρ̂ᵢ) > τ_disagree_moderate AND confidence < τ_conf
+             Moderate disagreement amplified by low classification confidence
+             → Supports primary signal; not sufficient alone
+
+  τ_disagree:          system-specific; calibrated from Phase 0 distribution of Var(Δρ̂ᵢ)
+                       during confirmed Mathematical data processing
+                       (baseline = low-disagreement regime; threshold = Q₉₀ of baseline)
+  τ_disagree_moderate: τ_disagree × 0.5 (mid-tier signal)
+  τ_conf:              confidence threshold below which secondary signal activates
+                       (architecture-specific; default = 0.6 for binary confidence)
+```
+
+*Connection to RBIT resolution gap:* Tacit data is not data with Δρ = "mixed value" — it is data where Δρ itself is **unresolvable at current representation depth**. The estimators disagree about the gap because the gap direction is not stable in the current coordinate structure. This is the information-theoretic meaning of "operable but unexplainable" — the system can act on pattern regularities without resolving the gap direction. As the layer upscales (RBIT §Upscaling, U1–U3), previously Tacit data reclassifies to High-Context as the representation space develops a stable Δρ direction for that input type.
 
 ### 5.3 Three Implementation Pathways
 
@@ -880,7 +981,7 @@ Routing decision:
   both extreme  →  escalate to upper layer
 ```
 
-**Topology update rule:**
+**Topology update protocol:**
 
 The relationship topology is not static. After each processing event:
 - Successful co-processing → reduce conflict weight for that pair
@@ -1241,32 +1342,32 @@ Connection to VST S_norm:
 
 This resolves the circularity concern: θ is not defined by the state it measures, but anchored to a measurable baseline (mean f_escalation during confirmed stability) with a concrete bootstrap protocol for initial operation.
 
-**Connection to RBIT instability functional (F_RBIT):**
+**Connection to RBIT F_RBIT health vector:**
 
-The θ threshold can also be interpreted through RBIT's F_RBIT functional:
+The θ threshold can also be interpreted through RBIT's F_RBIT health vector (see RBIT Appendix §2 for full definition):
 
 ```
-F_RBIT(ℓ) = w₁·(1 − ρ_ℓ) + w₂·Φ(−Δρ_ℓ) + w₃·Ψ(B_ℓ) + w₄·E_ℓ + w₅·C_ℓ
+F_RBIT(ℓ) := (f₁, f₂, f₃, f₄, f₅)   [5-component, each ∈ [0,1]]
 
 where:
-  ρ_ℓ = resolution-proxy (classification reliability)
-  Δρ_ℓ = resolution gap between layers
-  B_ℓ = buffer layer thickness
-  E_ℓ = escalation frequency (≈ f_escalation)
-  C_ℓ = resource expenditure
+  f₁ = 1 − ρ_ℓ          (misclassification)
+  f₂ = Φ(−Δρ_ℓ)         (resolution mismatch)
+  f₃ = Ψ(B_ℓ)            (buffer instability)
+  f₄ = E_ℓ               (escalation frequency ≈ f_escalation)
+  f₅ = C_ℓ               (resource expenditure)
 
 f_escalation ≤ θ  corresponds to:
-  E_ℓ component of F_RBIT within the stable regime
-  
-The τ₁ threshold in F_RBIT maps to θ:
-  F_RBIT < τ₁ → stable operation (no intervention)
-  F_RBIT > τ₁ → deviation detected → monitoring
-  F_RBIT > τ₂ → soft correction
-  F_RBIT > τ₃ → hard correction
+  f₄ component of F_RBIT within the stable regime
+
+The τ₁ threshold in RBIT maps to θ via component-count criterion:
+  All fᵢ bounded, no trend → stable operation (no intervention)
+  f₁ or f₄ rising          → deviation detected → monitoring (maps to θ)
+  ≥ 2 components rising     → soft correction
+  ≥ 3 components rising     → hard correction
 
 This provides a second, independent anchor for θ:
-  θ_VST: derived from S₀ normalization (instability dynamics)
-  θ_RBIT: derived from F_RBIT τ₁ threshold (information flow)
+  θ_VST:  derived from S₀ normalization (instability dynamics)
+  θ_RBIT: derived from F_RBIT f₄ component τ₁ boundary (information flow)
   Cross-validation: both anchors should converge on the same
   operational threshold for a given system
 ```
@@ -1874,7 +1975,7 @@ Recovery Theory v1.6+ and RBIT v1.2 establish log-observable proxies for key DFG
 | SCM detection: RDE | ‖Δrepresentation‖ / ‖Δinput‖ (representation drift elasticity) | Recovery Theory §NAF | MEDIUM |
 | SCM detection: NCR | Novel-to-existing cluster assignment rate | Recovery Theory §NAF | MEDIUM |
 | SCM detection: SR | Geometry change response to novel input | Recovery Theory §NAF | MEDIUM |
-| Consistency Index I | 1 − Σwij/M (pair-level rule coherence) | GRT §Consistency | HIGH |
+| Consistency Index I | 1 − Σwij/M (pair-level rule coherence) *(rule — adopted from GRT)* | GRT §Consistency | HIGH |
 | Meta-Contradiction Ic | 1 − Σwij(global)/Mc | GRT §Meta-Contradiction | HIGH |
 | Pre-cascade early warning | MI(conflict_log_A, conflict_log_B) inter-domain correlation | TLG v1.6 §13.2.2 | HIGH |
 
@@ -2102,7 +2203,7 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 | Stabilization threshold (θ) calibration | θ is now operationally defined: mean f_escalation during confirmed VCZ-stable window + 1σ margin, with bootstrap protocol (θ_initial = 0.1) for first operation. Connected to VST S₀ normalization: f_escalation ≤ θ corresponds to S_norm < 1.3 (VST Stage 0 boundary). θ is a learned system property — refined through operational experience, not prescribed. Formal cross-architecture validation of the θ ↔ S_norm correspondence remains open. |
 | Decision Complex implementation | Pathway 2 (internalized) remains unimplemented. However, the middle layer's role is now structurally defined: it holds a persistent relationship topology — conflict history, representation gap, and consensus rate per agent pair — and uses this to route co-processing vs. separate-path decisions. This topology is the missing component distinguishing our architecture from current routing systems (e.g., MasRouter, ACL 2025), which recompute collaboration mode per query without persistent relationship memory. Implementation requires: (1) topology storage format, (2) update trigger mechanism, (3) initialization protocol for new agents. |
 | Four-type boundary precision | The boundary between High-Context and Tacit Knowledge is not a fixed content threshold — it is a cost efficiency threshold that varies per agent. An agent with a developed representation space can classify data as High-Context (pattern detectable at acceptable cost); the same data appears as Tacit to an underdeveloped agent (cost of classification exceeds cost of operating without explanation). The boundary is therefore: cost(classify) vs. cost(escalate). As representation space develops, the boundary shifts — Tacit data reclassifies as High-Context. This reclassification event is a measurable signal of agent development and maps to θ. Empirical grounding: DiffAdapt (2025) identifies a U-shaped entropy pattern across difficulty levels — the inflection point between medium and hard difficulty corresponds to the cost-efficiency boundary in our framework. Formal per-agent calibration of this threshold remains open. |
-| Tacit Knowledge measurement | No direct metric exists for "proportion of Tacit Knowledge in a system." Indirect proxy available: the reclassification rate (Tacit → High-Context events per unit time) serves as a directional signal of agent development. Higher reclassification rate indicates the cost-efficiency boundary (§4.6) is shifting, meaning the agent's representation space is developing. Complementary proxies from VST: router saturation, gradient norm convergence (GradES), CKA trajectory — all measure representation space maturity, which determines the Tacit/High-Context boundary position. Direct measurement of absolute Tacit proportion remains open and may be structurally unmeasurable (the category is defined by the absence of interpretable mechanism). |
+| Tacit Knowledge measurement | **Primary criterion now operational** (§5.2): Tacit is defined by estimator disagreement Var(Δρ̂ᵢ) > τ_disagree with performance stable. Severe Tacit (§4.3) adds the performance-unstable branch: immediate escalation without waiting condition. τ_disagree is calibrated from Phase 0 baseline distribution (Q₉₀ of Var(Δρ̂ᵢ) during confirmed Mathematical processing). Remaining open: (1) exact τ_disagree calibration for systems without Phase 0 access; (2) minimum N estimators for stable Var(Δρ̂ᵢ) — N=2 may be insufficient in high-noise domains; (3) formal distinction between permanent Tacit (estimator disagreement territory indefinitely) vs. temporary Tacit (reclassifies as representation space develops). The reclassification rate (Tacit → High-Context) remains a valid developmental proxy with cleaner grounding: rate at which Var(Δρ̂ᵢ) falls below τ_disagree for previously-Tacit inputs. |
 | Self-Correction Capacity (SCC) structural basis | SCC is not an independent property — it decomposes into Dint (internal diversity: each vector in distinct position, providing contrast baseline for contamination detection) AND Lreinf (mutual reinforcement loops: active interdependencies providing corrective pull). SCC = 0 if either absent (VST v1.3 §6.5). NAT's sphere topology directly supports Dint through structural diversity requirement. Upper-layer mediation cycle maintains Lreinf. **Seed sufficiency determines SCC upper bound (VST v1.3 §6.6):** Test 1 (contamination resistance, SR > 0) + Test 2 (contamination recognition, RIR > 0) = SCC partial (detection only). Test 1+2+3 (orthogonal recovery direction, ≥2 independent gradient directions) = SCC complete → Rest Mode achievable. A system with only single-direction seeds cannot achieve SCC > partial regardless of architecture maturity. **SCM recovery (VST v1.3 §6.7):** When R-ρ discordance detects SCM, four severity-matched methods available: (1) Prediction Failure Exposure (early), (2) Cross-Scale Perspective Injection (mid), (3) Constraint Rotation (deep), (4) Safe Instability Window (deep, combined with Method 3). Key insight: SCM cannot be fixed by adding information — only by changing the reference frame. |
 | Blind spot quantification | Direct measurement of blind spot size, location, and severity is not achievable — and is the wrong design goal. The correct resolution: (1) Sphere geometry structurally absorbs blind zones via complementary neighbor coverage, eliminating the need for central quantification. (2) Resource spikes in neighboring agents serve as the measurable proxy — when agent A's blind zone opens, neighbor B's coverage cost spikes. Spike magnitude, duration, and location on the sphere surface constitute the indirect measurement. (3) Blind zones are dynamic efficiency thresholds, not fixed properties — they shift with context and load (empirically confirmed: Shadows in the Attention 2025, DAM ACL 2025). Open problem remaining: spike-to-blind-zone mapping calibration — translating observed resource spike profiles into estimates of blind zone extent and persistence across different sphere configurations and load conditions. |
 | Cross-validation cost model | Cost-benefit tradeoffs are described qualitatively only. |
@@ -2134,14 +2235,16 @@ Deficit-Driven Fractal Governance (parent framework)
        (D0-D7; T1-T6; VCZ 3-Conditions; SCM recovery; VCZ-Safe Optimizer)
 
 Integration topology (bidirectional cross-references):
-  NAT ↔ VST:  sphere propagation O(log n); α decomposition via HC fraction
+  NAT ↔ VST:  sphere propagation O(log n); α decomposition via HC fraction;
+              Severe Tacit classification = VST storm precursor detection
+              (Var(Δρ̂ᵢ) high + perf unstable ↔ S_norm rising toward S_c)
   NAT ↔ RBIT: Δρ → 4-type routing; F_RBIT ↔ θ dual anchor
   NAT ↔ TLG:  Signaling/Influence → isolation; enforcement 3 mechanisms
   NAT ↔ RT:   D0 geometry substrate; VCZ 3-Conditions; D7 implementation
   NAT ↔ GRT:  SCC decomposition; vectorization lifecycle; Rest Mode AND/OR
 
 Complete VCZ→Storm→Collapse→Recovery→VCZ lifecycle:
-  ① VCZ stable: dF_RBIT/dt ≈ 0, S_norm << S_c, R ≈ 1
+  ① VCZ stable: all F_RBIT components bounded, S_norm << S_c, R ≈ 1
   ② Storm onset: Δρ turning negative, MI spiking, S_norm → S_c
   ③ Collapse: SCML classifies storm type; diagnosis flowchart
   ④ Recovery: Four-Phase Protocol; re-entry by failure case
