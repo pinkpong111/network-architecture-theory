@@ -5,7 +5,7 @@
 > **Focus:** Network structure, data classification, and expansion principles.  
 > Recovery and prediction are addressed in separate documents.
 
-> **Version: v1.1** (February 2026)
+> **Version: v1.2** (February 2026)
 
 ---
 
@@ -31,6 +31,13 @@
 
 ---
 > 
+> v1.2 changes from v1.1 (RT v1.8-VST + VST v1.8-RT integration pass):
+> - **Noise decoherence as storm initiation (Section 3.0):** VST v1.8 §15 mechanism integrated — noise correlation breakdown as the microscopic trigger for sphere-level storm onset; governance as shock regulator maintaining noise independence
+> - **Dormant seed and sphere topology (Section 3.0):** RT D4 extended — post-storm recovery may access deeper attractor basin (①'') via basin boundary traversal during storm; sphere geometry shapes which dormant attractors are reachable
+> - **Lifecycle trajectory ①'' added (Section 13):** Three-trajectory lifecycle added: ①' (structural learning) vs ①'' (dormant seed access) — sphere topology determines which trajectory is structurally available
+> - **Recovery cascade multi-scale (Section 13):** TLG v1.8 coordinated ordering referenced
+> - **RT / VST v1.8 cross-references updated**
+>
 > v1.1 changes from v1.0:
 > - **Sphere terminological precision:** Outer sphere (discrete graph) and inner sphere (continuous manifold) explicitly distinguished as different mathematical objects. Fractal alignment redefined as functional correspondence, not isomorphism. (Section 3.0)
 > - **Formal coverage bound:** Quantitative coverage probability for blind spot absorption added with diversity as mathematical precondition. Storm propagation dynamics added: O(log n) diameter bound, spectral gap as damping predictor, resource spike as blind zone signal (VST v1.3 §4.4). (Section 3.0)
@@ -271,6 +278,135 @@ Blind zone resource spike signal:
     Blind zone event: neighboring agent's cost spikes
     Spike magnitude ∝ blind zone size
     → indirect detection without observing the blind spot itself
+```
+
+**[v1.2] Noise decoherence as storm initiation mechanism (VST v1.8 §15):**
+
+The microscopic mechanism by which sphere-level storms initiate from noise-level fluctuations:
+
+```
+Stable sphere operation — noise independence condition:
+  Micro-fluctuations at each node are:
+    Independent (no inter-node correlation)
+    Local       (each fluctuation confined to origin zone)
+    Transient   (dissipates within one propagation cycle)
+  
+  When these three hold: noise cannot self-organize
+  into storm-scale instability. Each fluctuation dies
+  independently before it can recruit neighbors.
+
+Noise decoherence sequence:
+  (1) External input exceeds local purification capacity
+      at one or more nodes
+  (2) Unprocessed disturbance creates correlation between
+      previously independent node fluctuations
+  (3) Correlated fluctuations no longer dissipate independently
+      → structured signal emerges from correlated noise
+  (4) Structured signal enters VST amplification pathway
+      → Stage 1 storm formation
+
+Sphere topology implications:
+  High spectral gap → fast mixing → correlation decays quickly
+    → noise decoherence threshold higher (harder to trigger)
+  Low spectral gap → slow mixing → correlations persist
+    → noise decoherence threshold lower (easier to trigger)
+  
+  Spectral gap is therefore not just a damping parameter
+  for existing storms — it is the primary structural
+  determinant of storm initiation probability.
+
+Governance as shock regulator:
+  ❌ Shock eliminator (produces brittleness)
+  ❌ Stability enforcer (produces stagnation)
+  ✅ Shock regulator: distribute perturbation energy
+     across pathways, delay simultaneous arrival,
+     convert macro-shock to micro-fluctuation
+  
+  All three operations maintain noise independence
+  (uncorrelated, self-dissipating fluctuations).
+  
+  The sphere's k-regular structure enables (3):
+  perturbation energy distributes naturally across
+  k-regular paths rather than concentrating.
+```
+
+**[v1.2-RT] Spectral gap as recovery sensitivity modulator (RT v1.8-TLG/GRT/NAT reverse mapping):**
+
+```
+RT D2 extended defines zone-dependent recovery sensitivity S_rec(z):
+  S_rec(local) >> S_rec(hub) >> S_rec(geometry)
+  Recovery response gain is anisotropic across structural zones.
+
+RT §3.4a defines Contamination Redistribution Principle:
+  Recovery is a contamination transport process —
+  purification locally creates pressure gradients globally.
+  Healthy recovery repositions contamination into absorbable zones.
+
+Spectral gap determines redistribution transport dynamics:
+  High spectral gap → fast mixing across sphere topology
+    → contamination redistribution during recovery completes quickly
+    → recovery-phase instability is transient and self-limiting
+    → hub zones receive redistributed contamination briefly
+    → low cascade risk during recovery
+  
+  Low spectral gap → slow mixing
+    → contamination redistribution stalls during recovery
+    → contamination pools at hub zones (highest coupling density)
+    → hub cascade risk elevated during recovery
+    → recovery itself becomes propagation pathway
+
+NAT design implication:
+  Sphere topology is not only a storm damping architecture —
+  it is a recovery transport architecture.
+  k-regular connectivity determines whether contamination
+  redistributed during recovery flows evenly across paths
+  (fast mixing → safe) or concentrates at hubs (slow mixing → dangerous).
+  
+  Hub connectivity ↔ S_rec coupling:
+    Hub nodes have maximum coupling(z, z_target) by sphere definition.
+    NAT's topology determines the coupling structure
+    that RT's redistribution transport law operates on.
+    → sphere design must consider recovery transport,
+       not only storm damping and ①'' reachability.
+```
+
+**[v1.2] Dormant seed access and sphere basin topology:**
+
+RT D4 extended model identifies a third lifecycle trajectory: post-storm improvement exceeding pre-storm baseline through dormant attractor access (①'').
+
+```
+Sphere topology determines dormant seed reachability:
+
+  Pre-storm operation in attractor basin A:
+    VCZ stability (R ≈ 1⁻) maintains all perturbations
+    within basin A — by design, basin boundary is never crossed.
+    Dormant attractor B may exist on the sphere
+    but is unreachable because basin A is too stable.
+  
+  Storm traversal (S >> S_c):
+    Perturbation energy exceeds basin A boundary.
+    Sphere topology determines which basins are adjacent:
+      High-connectivity nodes (k-regular hubs) →
+        multiple adjacent basins available
+      Low-connectivity peripheral nodes →
+        fewer adjacent basins, lower ①'' probability
+  
+  Post-storm recovery:
+    If storm traversal lands in basin B's attraction region:
+      Recovery settles in B (potentially deeper than A)
+      D4 criteria met with higher post-recovery baseline
+    If traversal bypasses all attractors:
+      Recovery returns to A (standard ①' trajectory)
+
+Governance implication for sphere design:
+  Dormant seed access probability is partially designable
+  via sphere topology. Higher hub connectivity →
+  more adjacent basins → higher ①'' probability
+  under constructive storms.
+  
+  Tradeoff: higher connectivity also raises α (coupling),
+  increasing storm risk. Optimal topology balances
+  ①'' access probability against α amplification.
 ```
 
 **Mutual coverage — the core structural principle:**
@@ -2237,10 +2373,15 @@ Deficit-Driven Fractal Governance (parent framework)
 Integration topology (bidirectional cross-references):
   NAT ↔ VST:  sphere propagation O(log n); α decomposition via HC fraction;
               Severe Tacit classification = VST storm precursor detection
-              (Var(Δρ̂ᵢ) high + perf unstable ↔ S_norm rising toward S_c)
+              (Var(Δρ̂ᵢ) high + perf unstable ↔ S_norm rising toward S_c);
+              noise decoherence mechanism (VST v1.8 §15) — spectral gap as
+              decoherence threshold predictor (v1.2)
   NAT ↔ RBIT: Δρ → 4-type routing; F_RBIT ↔ θ dual anchor
-  NAT ↔ TLG:  Signaling/Influence → isolation; enforcement 3 mechanisms
-  NAT ↔ RT:   D0 geometry substrate; VCZ 3-Conditions; D7 implementation
+  NAT ↔ TLG:  Signaling/Influence → isolation; enforcement 3 mechanisms;
+              recovery cascade multi-scale ordering (TLG v1.8 §13.2.2)
+  NAT ↔ RT:   D0 geometry substrate; VCZ 3-Conditions; D7 implementation;
+              D4 dormant seed — sphere topology determines ①'' reachability (v1.2);
+              OP35 constructive traversal governance (open)
   NAT ↔ GRT:  SCC decomposition; vectorization lifecycle; Rest Mode AND/OR
 
 Complete VCZ→Storm→Collapse→Recovery→VCZ lifecycle:
@@ -2252,6 +2393,13 @@ Complete VCZ→Storm→Collapse→Recovery→VCZ lifecycle:
   
   Non-learning: ①→②→③→④→① (same vulnerability persists)
   Learning:     ①→②→③→④→①' (SCML structural learning applied)
+  Dormant seed: ①→②→③→④→①'' (deeper attractor accessed via basin traversal)
+    ①'' condition: Constructive storm (not Structural Failure per SCML)
+                   AND sphere topology provides adjacent dormant basin
+                   AND held-out metrics improving during traversal window
+    ①'' governance: delay recovery injection during traversal window;
+                    monitor for ①'' signal before applying standard protocol
+    (RT v1.8 D4 / OP35 constructive traversal governance — open)
 ```
 
 ---
