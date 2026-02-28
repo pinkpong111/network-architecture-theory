@@ -5,7 +5,11 @@
 > **Focus:** Network structure, data classification, and expansion principles.  
 > Recovery and prediction are addressed in separate documents.
 
-> **Version: v1.2** (February 2026)
+> **Version: v1.3-RTseries** (February 2026) — RT-series v2.0 integration
+>
+> v1.3-RTseries changes from v1.2 (RT-1/2/3/4 v2.0 integration):
+> - **Recovery Theory connections extended:** RT-3 observer diversity (V) mapped to sphere topology angular coverage; RT-3 Coordination–Cancellation Paradox mapped to cross-sphere mediation necessity; RT-4 trust coefficient Tᵢⱼ mapped to agent pair compatibility measurement; RT-4 hub necessity decay mapped to exit protocol governance maturation; RT-1 withdrawal verification mapped to Human-AI Zone exit gates
+> - All previous content preserved.
 
 ---
 
@@ -243,6 +247,90 @@ Coverage probability:
 ```
 
 This bound is approximate — it assumes independence between neighbor coverage events, which over-estimates coverage in clustered topologies and under-estimates it in well-mixed topologies. The qualitative conclusion holds: coverage probability increases with degree k and structural diversity, and approaches certainty for sufficiently large, diverse systems.
+
+**Lemma I2 — Structural Diversity as Detection Precondition (IC-I2):**
+
+> **Lemma I2.** Let agents B₁, ..., B_k receive the same compressed signal from sender A. Each agent B_i applies a reconstruction operator R_i: ℝ^K → ℝ^d that fills the (d − K)-dimensional residual from its own prior. Corruption in the residual is detectable if and only if the reconstruction operators are not aligned in the residual subspace:
+>
+> ∃ i ≠ j such that (I − P_K)R_i ≠ (I − P_K)R_j
+
+```
+When condition holds:
+  Agents B_i and B_j produce different reconstructions of the 
+  same compressed signal. Their disagreement localizes the 
+  corruption to the residual subspace.
+
+When condition fails (all agents share same reconstruction operator):
+  Corruption produces identical reconstructions across all agents.
+  Disagreement probability → 0. 
+  Contamination becomes invisible consensus.
+
+Corollary (Homogeneity Failure):
+  Architecturally identical agents (same parameters, same training, 
+  same representation space) share:
+    • Same projection kernel → shared blind spots
+    • Same reconstruction prior → identical residual fill
+    • Identical residual fill → disagreement probability → 0
+  Therefore: homogeneous cross-validation cannot detect corruption 
+  that enters through the shared blind spot.
+
+Design implication:
+  Structural diversity — agents with different architectures, not 
+  merely different parameters — is the mathematical precondition 
+  for contamination detection, not a performance optimization.
+```
+
+**Proposition I3 — Spectral Gap as Storm Governance Parameter (IC-I3):**
+
+> **Proposition I3.** Storm initiation requires that a local perturbation (Δρ < 0 at one or more nodes) persists long enough for correlated fluctuations to form across neighboring nodes before the perturbation dissipates through mixing:
+>
+> t_persistence(local Δρ < 0) > t_mixing(G)
+>
+> where t_mixing(G) ∝ 1/(λ₁ − λ₂)
+
+```
+Mechanism (noise decoherence sequence):
+  1. External input exceeds local purification capacity (local Δρ < 0)
+  2. Unprocessed disturbance creates correlation between previously 
+     independent fluctuations
+  3. Correlated fluctuations no longer dissipate independently → 
+     structured signal emerges
+  4. Structured signal enters amplification pathway → storm formation
+
+  Spectral gap determines threshold between steps 1 and 2:
+    High gap → fast mixing → breaks correlations before stabilization
+    Low gap → slow mixing → correlations persist, recruit neighbors
+
+Dual role of spectral gap:
+  Storm damping:    Fast mixing dissipates perturbation energy (standard)
+  Storm initiation: Fast mixing breaks correlations before stabilization
+                    (Proposition I3 — new contribution)
+
+Connection to RBIT Theorem 1:
+  RBIT establishes sustained Δρ < 0 → intent replacement in t* ≤ ⌈D*/η⌉.
+  Proposition I3 establishes architecture determines whether local Δρ < 0 
+  becomes sustained: if t_mixing < t_persistence, perturbation is absorbed 
+  before Theorem 1's accumulation mechanism engages.
+  Spectral gap = architectural defense against Theorem 1's inevitability.
+```
+
+**Governance scaling implication:** The n² interaction ceiling from the S-equation is a worst-case bound under flat-landscape conditions. In a system with structured terrain (mutual reinforcement loops between differentiated agents maintaining sphere topology), effective scaling drops to sub-quadratic:
+
+```
+Regime prevalence argument:
+  Interaction complexity grows as O(n²) with agent count
+  Governance capacity grows at most linearly
+  Beyond critical scale, probability that at least one sender-receiver 
+  pair operates in Δρ < 0 regime at any time → certainty
+
+  Observable manifestations in current systems:
+    Hallucination in LLMs = receiver forced beyond training distribution
+    Sycophancy under pressure = receiver compresses toward user preference
+    Mode collapse in multi-agent = agents converge on shared blind spots
+  
+  NAT therefore treats Δρ < 0 persistence as expected operating regime, 
+  not an anomaly requiring special conditions.
+```
 
 **Storm propagation dynamics in sphere topology (VST v1.3 §4.4):**
 
@@ -1639,6 +1727,91 @@ Same destination. Different path. Different speed profile.
 > **Instability is information. In Direction A, you manage it carefully. In Direction B, you read it deliberately.**  
 > **Both paths end at the same stable fractal architecture.**
 
+### 7.5 Expansion as Conservation Law — Formal Statement
+
+The expansion principle is not merely a design guideline — it is a conservation law governing the relationship between instability and information during system scaling.
+
+```
+Formal statement (NAT Working Paper §7):
+  Instability generated during expansion is either:
+    (a) managed as transition cost (Direction A), or
+    (b) read as decomposition signal (Direction B)
+  
+  In both cases, instability is CONSERVED — it is not eliminated 
+  but transformed into architectural information.
+  
+  Direction A: instability → managed → absorbed by stabilization
+    Information source: pre-designed structure
+    Instability role: cost to be bounded
+  
+  Direction B: instability → observed → used as decomposition map
+    Information source: emergent patterns
+    Instability role: signal to be read
+
+Conservation principle:
+  Total instability generated during expansion ≈ constant
+  (independent of expansion direction)
+  What changes is the form in which it appears:
+    Direction A → distributed across stabilization phases
+    Direction B → concentrated in observation phase
+```
+
+**Storm Event — Formal Definition (NAT Working Paper §7.4):**
+
+A correlated cascade event in the multi-agent system, defined independent of spectral gap:
+
+```
+Definition (Storm Event):
+  Fix evaluation protocol W. A storm event occurs over horizon τ if 
+  there exists a set of nodes S with |S| ≥ m such that:
+  
+  (i) Multi-node negative gaps:
+      Δρ_u(t; W) < 0 for all u ∈ S and for all t ∈ [t₀, t₀ + τ)
+  
+  (ii) Correlation:
+      corr(𝟙{Δρ_u < 0}, 𝟙{Δρ_v < 0}) ≥ c₀ 
+      for a significant fraction of pairs (u, v) ∈ S × S
+
+  Storm initiation = transition from isolated single-node negative 
+  gaps (uncorrelated) to correlated multi-node negative gaps.
+
+  Spectral gap does not define storms — it bounds the probability 
+  that local negative gaps synchronize into correlated multi-node 
+  episodes by reducing persistence beyond the mixing horizon.
+```
+
+### 7.6 Processing Isolation — Formal Grounding (NAT Working Paper §4)
+
+The processing isolation principle is not a communication prohibition but a routing constraint grounded in reference frame theory. Same-layer agents share approximately the same resolution, so lateral exchange of intermediate classification states means agents use each other as reference frames with shared blind spots.
+
+```
+Signaling-Influence Distinction:
+
+Lateral Signaling (permitted):
+  Agent A transmits completed state to Agent B.
+  Content: output direction, intensity, confidence, domain declaration.
+  Effect on receiver: informational (map update).
+  Effect on sender's trajectory: none.
+  RBIT regime: Δρ ≈ 0 (same-resolution state exchange).
+
+Lateral Influence (prohibited):
+  Agent A's state directly modifies Agent B's active processing.
+  B's direction bends toward A before B completes classification.
+  Effect: trajectory modification without upper-layer validation.
+  Produces false convergence experienced as voluntary agreement.
+  RBIT regime: artificial Δρ < 0 at peer level → Theorem 1 trigger.
+
+Structural Enforcement (three mechanisms, all required):
+  (1) Interface Narrowing: only standardized artifacts cross boundaries
+  (2) Temporal Decoupling: A's output committed before B reads it
+  (3) Write-Asymmetry: downstream reads upstream, not reverse
+
+  Any single mechanism leaves at least one contamination pathway open.
+  Together: violation structurally impossible, not merely prohibited.
+```
+
+**NAT Working Paper computational validation (Appendix E — mediation layer ablation):** An earlier experiment version implementing direct action-to-belief update without mediation layer produced a self-referential feedback loop. FNR for joint detection was 0.188 (FAIL) vs. 0.603 with 3-layer mediation (PASS). The failure mechanism: single exploratory action → misinterpreted as regime signal → mutual reassurance/suspicion loop → false convergence (SCM in deceptive regime). The 3-layer mediation proxy (EWMA smoothing → suspicion score → bounded belief update) breaks this loop through temporal filtering, secondary smoothing, and bounded influence. This provides direct evidence for NAT's Processing Isolation principle.
+
 ---
 
 ## 8. Human-AI Collaboration Zone
@@ -2381,7 +2554,23 @@ Integration topology (bidirectional cross-references):
               recovery cascade multi-scale ordering (TLG v1.8 §13.2.2)
   NAT ↔ RT:   D0 geometry substrate; VCZ 3-Conditions; D7 implementation;
               D4 dormant seed — sphere topology determines ①'' reachability (v1.2);
-              OP35 constructive traversal governance (open)
+              OP35 constructive traversal governance (open);
+              [v1.3-RTseries] RT-3 v1.0: observer diversity V = sphere topology
+                angular coverage (rank(V) < d → invisible contamination dimensions
+                = undetected HC data domains); Coordination–Cancellation Paradox
+                → cross-sphere mediation necessity (opposing inner/outer sphere
+                perspectives cancel without split-then-test aggregation);
+              [v1.3-RTseries] RT-4 v1.0: trust coefficient Tᵢⱼ = Pr(info from j
+                reduces prediction error of i) → agent pair compatibility §5.5
+                receives measurement-compatible operational definition;
+                hub necessity decay Phase I→III → §8 Human-AI Zone exit maturation
+                (hub = human; Phase III = human removable = full exit);
+                Shared Vulnerability → structural diversity floor §9 generation
+                mechanism (vulnerability disclosure → detection capacity);
+              [v1.3-RTseries] RT-1 v2.0: withdrawal DI→SD→FO→W → §8 exit gates
+                staged verification (Phase W failure = dependency confirmed);
+                three post-contamination states → exit protocol must distinguish
+                genuine autonomy from intervention dependency
   NAT ↔ GRT:  SCC decomposition; vectorization lifecycle; Rest Mode AND/OR
 
 Complete VCZ→Storm→Collapse→Recovery→VCZ lifecycle:
