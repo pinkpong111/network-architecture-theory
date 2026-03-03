@@ -5,7 +5,13 @@
 > **Focus:** Network structure, data classification, and expansion principles.  
 > Recovery and prediction are addressed in separate documents.
 
-> **Version: v1.3-RTseries** (February 2026) — RT-series v2.0 integration
+> **Version: v1.4-RTseries** (March 2026) — Scaling resolution integration
+>
+> v1.4-RTseries changes from v1.3 (Scaling architecture integration):
+> - **Circular closure as scaling mechanism (§7.6):** Formal derivation of why linear expansion fails and closed governance loops resolve the n² instability problem. Scale-matched loop hierarchy with dimensional compression. Width gradient derivation from S-equation.
+> - **Terrain design principles (§7.7):** Engineering conditions for natural loop formation — local valleys, low passes, time gradients, contamination barriers. Contamination hotspot identification protocol. Integration with RBIT Map-Terrain Balance and Contamination Flux.
+> - **Integration protocol (§7.8):** Four-phase Separate→Mature→Couple→Integrate protocol with middle-layer-first connection principle, bilateral plasticity requirement, coupling success/failure indicators, and resource-bounded expansion. North Star hierarchy architecture. Boundary exploration in mature systems with preemptive feedback absorption.
+> - All previous content preserved; section numbering updated (7.6→7.9).
 >
 > v1.3-RTseries changes from v1.2 (RT-1/2/3/4 v2.0 integration):
 > - **Recovery Theory connections extended:** RT-3 observer diversity (V) mapped to sphere topology angular coverage; RT-3 Coordination–Cancellation Paradox mapped to cross-sphere mediation necessity; RT-4 trust coefficient Tᵢⱼ mapped to agent pair compatibility measurement; RT-4 hub necessity decay mapped to exit protocol governance maturation; RT-1 withdrawal verification mapped to Human-AI Zone exit gates
@@ -67,6 +73,15 @@
 5. [Decision Complex Module](#5-decision-complex-module)
 6. [Escalation Design](#6-escalation-design)
 7. [Expansion Principle](#7-expansion-principle)
+   - 7.1 Two Valid Directions
+   - 7.2 Stabilize-Then-Expand (Direction A)
+   - 7.3 Expand-Then-Decompose (Direction B)
+   - 7.4 Convergence
+   - 7.5 Expansion as Conservation Law
+   - 7.6 Scaling Resolution: Circular Closure and Dimensional Compression
+   - 7.7 Terrain Design
+   - 7.8 Integration Protocol: Separate, Mature, Couple, Integrate
+   - 7.9 Processing Isolation
 8. [Human-AI Collaboration Zone](#8-human-ai-collaboration-zone)
 9. [Core Assumptions](#9-core-assumptions)
 10. [Structural Correspondences](#10-structural-correspondences)
@@ -1780,7 +1795,438 @@ Definition (Storm Event):
   episodes by reducing persistence beyond the mixing horizon.
 ```
 
-### 7.6 Processing Isolation — Formal Grounding (NAT Working Paper §4)
+### 7.6 Scaling Resolution: Circular Closure and Dimensional Compression
+
+The S-equation (VST §3.3) establishes that instability scales as αn²/C(t)^β. This means linear expansion — adding agents, connections, or capacity — produces super-linear instability growth. The fundamental scaling question is: *how can a system grow without instability divergence?*
+
+The answer is not more capacity. It is structural reorganization that converts open expansion chains into closed governance loops.
+
+```
+The Scaling Problem (precise statement):
+  In a linearly expanding system:
+    connections ~ O(n²)
+    governance capacity ~ O(n) or slower
+    → instability diverges with scale
+    
+  The naive solution (more governance) fails because:
+    C_required(n) ~ O(n²) to match interaction growth
+    → governance itself becomes the largest cost component
+    → system collapses under its own coordination overhead
+
+The Scaling Solution:
+  Convert expansion into circulation.
+  
+  Open chain:   A → B → C → D → E → ...
+    boundary grows indefinitely
+    max interaction distance ~ O(n)
+    coordination cost ~ O(n²)
+  
+  Closed loop:  A → B → C → D → A
+    boundary fixed
+    max interaction distance ~ O(1)
+    coordination cost ~ O(k²) where k << n
+    
+  Systems scale only after growth closes into governance loops.
+```
+
+**Circular closure as the fundamental scaling mechanism.** A governance loop (circle) is a self-contained feedback cycle where output feeds back through the environment and returns as input to the same structure. Within a closed loop:
+
+```
+Properties of a closed governance loop:
+  (1) Interaction distance bounded — system growth does not increase
+      the maximum coordination path length
+  (2) Governance becomes circulation — control is not centralized
+      but flows continuously through the loop
+  (3) Conflict absorption — perturbations circulate and decay
+      rather than propagating to system boundaries
+  (4) Self-purification capacity maintained — continuous circulation
+      keeps feedback density F and variance absorption V active
+      (RBIT §Self-Purification Capacity)
+```
+
+**Scale-matched loops (why one giant loop fails).** A single large loop fails because different scales have different:
+
+```
+Scale separation requirements:
+  - Time constants: τ_lower << τ_middle << τ_upper
+  - Resource types: execution vs. coordination vs. governance
+  - Noise profiles: high-frequency local vs. low-frequency structural
+  - Stability conditions: exploration tolerance vs. boundary rigidity
+  
+  A single loop forces all scales to operate at the same speed.
+  Fast loops waiting for slow decisions → execution death.
+  Slow loops processing fast noise → governance corruption.
+  
+  Solution: each scale maintains its own governance loop.
+
+Scale-matched loop hierarchy:
+  Small fast loops (lower tier):
+    - Local execution, experimentation, exploration
+    - High agent density, high noise tolerance
+    - Rapid feedback, quick correction
+    - τ_lower ~ seconds to minutes
+    
+  Medium loops (middle tier):
+    - Integration, conflict mediation, translation
+    - Moderate density, moderate noise tolerance  
+    - Policy selection, routing decisions
+    - τ_middle ~ hours to days
+    
+  Large slow loops (upper tier):
+    - Boundary definition, direction setting
+    - Low density, low noise tolerance
+    - Risk management, prohibited zone enforcement
+    - τ_upper ~ weeks to months
+```
+
+**Dimensional compression.** The critical scaling property is that each loop tier compresses the dimensionality visible to the tier above:
+
+```
+Dimensional compression mechanism:
+  Lower tier: n_lower agents, conflict ~ O(n_lower²)
+    → conflicts resolved locally within loops
+    → only summary signals escalate upward
+    
+  Middle tier: receives K summary signals (K << n_lower)
+    → inter-loop coordination at reduced dimensionality
+    → only structural patterns escalate upward
+    
+  Upper tier: receives M structural patterns (M << K)
+    → boundary/direction decisions at minimal dimensionality
+
+  Effective dimensionality at governance level:
+    n_eff = Σ compression(Lᵢ) << n_total
+    
+  Scaling condition:
+    lim(N→∞) n_eff < ∞
+    
+  When dimensional compression is sufficient,
+  the governance burden does not grow with system size.
+
+  S-equation under circular closure:
+    S̃ = Σᵢ (α·nᵢ²/Cᵢ^β) + ε·Σ(i≠j) interaction_ij
+    
+  where:
+    nᵢ << n_total (local scope)
+    ε << α (weak inter-loop coupling)
+    → S̃ ≈ const as n_total grows
+```
+
+**Width gradient (why lower is thick, upper is narrow).** The loop hierarchy naturally produces a width gradient:
+
+```
+Width at each tier:
+  width(L) ∝ variance(L) ∝ agent_count(L) ∝ exploration_rate(L)
+  
+  Lower tier: many agents, high variance, thick layer
+  Middle tier: fewer coordinators, moderate variance
+  Upper tier: minimal governance nodes, low variance, narrow layer
+  
+  This is not a design choice — it is forced by the S-equation:
+    Lower tiers MUST be thick because exploration generates O(n²)
+    interactions that require O(n) loop structures to absorb.
+    Upper tiers MUST be narrow because their role is boundary
+    definition, not interaction processing — excess upper-tier
+    complexity produces governance overhead without stability benefit.
+```
+
+### 7.7 Terrain Design — Engineering the Conditions for Loop Formation
+
+Governance loops do not form by decree. They form when the interaction landscape makes internal circulation cheaper than external dependency. Terrain design is the practice of shaping this landscape.
+
+```
+Terrain design principle:
+  Do not build governance structures directly.
+  Build landscapes where governance structures emerge naturally.
+  
+  Agent behavior:  min(local cost)
+  Terrain effect:  shapes what "local" and "cost" mean
+  
+  If internal circulation cost < external dependency cost:
+    → agents naturally form loops
+    → governance emerges without central mandate
+    
+  If interaction space is flat (all connections equally easy):
+    → no natural loop boundaries
+    → global coupling persists
+    → instability ~ O(n²) regardless of agent capability
+```
+
+**Terrain topology for loop formation.** The terrain must have specific properties:
+
+```
+Required terrain features:
+  
+  (1) Local valleys (loop attractors):
+      Regions where internal interaction is significantly cheaper
+      than cross-region interaction.
+      Cost(i,j)_inside << Cost(i,j)_outside
+      → agents cluster into natural loops
+      
+  (2) Low passes (controlled connections):
+      Connections between valleys that are traversable but costly.
+      NOT walls (permanent isolation → drift, Silent Criticality)
+      NOT plains (free crossing → global coupling)
+      Passes allow:
+        - Signal exchange between loops
+        - Weak constraint coupling (0 < ε < ε_crit)
+        - Emergency escalation pathways
+      
+  (3) Time gradient (speed separation):
+      Faster interaction at lower tiers, slower at upper tiers.
+      τ_lower << τ_middle << τ_upper
+      Forces temporal isolation that prevents timescale leakage
+      (fast noise contaminating slow governance)
+      
+  (4) Contamination barriers (RBIT §Contamination Flux):
+      Boundary permeability calibrated per tier pair.
+      High-contamination interfaces (scale necks where many agents
+      feed into few governance nodes) require:
+        - Purification layer (signal filtering/verification)
+        - Buffer layer (speed mismatch absorption)  
+        - Translation layer (coordinate system alignment)
+      Without all three, contamination flux Φ > 0 at every interface.
+```
+
+**Terrain design and the Map-Terrain Balance (RBIT §Map-Terrain Balance).** Good terrain makes Map-Terrain alignment *structurally easy* rather than requiring continuous central effort:
+
+```
+Terrain design as Map-Terrain alignment aid:
+  
+  Well-designed terrain:
+    Local loops → Map complexity bounded per tier
+    Dimensional compression → upper Map tracks few variables
+    Time separation → Map update rate matches Terrain change rate per tier
+    Contamination barriers → Map errors don't propagate across tiers
+    
+  Poorly designed terrain:
+    Flat interaction space → Map must track all n² interactions
+    No time separation → Map must update at fastest tier speed
+    No barriers → any Map error propagates system-wide
+    
+  Result: terrain design REDUCES the Map-Terrain alignment burden
+  from O(n²) to O(Σnᵢ²) where each nᵢ << n.
+```
+
+**Contamination hotspot identification.** Contamination enters the system preferentially at specific terrain features:
+
+```
+Contamination hotspots (priority barriers):
+  
+  (1) Scale necks — where width drops sharply:
+      Many agents → few governance nodes
+      Information compression under time pressure
+      Highest contamination flux generation rate
+      
+  (2) Timescale boundaries — where τ changes:
+      Fast tier ↔ slow tier interface
+      Speed mismatch → signal distortion
+      Fast noise interpreted as slow structural signal
+      
+  (3) Coordinate translation points:
+      Where different loops summarize/aggregate for upper tier
+      Aggregation bias → systematic frame distortion
+      Upper tier receives biased Map → governance drift
+      
+  Priority: block contamination at hotspots FIRST.
+  Remaining interfaces can be opened gradually as
+  self-purification capacity develops.
+```
+
+### 7.8 Integration Protocol — Separate, Mature, Couple, Integrate
+
+The scaling resolution is not a single event but a four-phase protocol:
+
+```
+Phase 1 — Separate (terrain-matched isolation):
+  Each loop grows independently in its own terrain.
+  Permeability P ≈ 0 between loops.
+  Each loop develops:
+    - Local North Star alignment (direction reference)
+    - Internal communication stability
+    - Self-purification capacity R > S_baseline
+    - Local Map-Terrain calibration
+    
+  Duration: until self-correction demonstrated under local perturbation.
+  Failure mode: premature coupling → mutual contamination → co-collapse.
+
+Phase 2 — Mature (internal self-sufficiency):
+  Each loop achieves internal stability:
+    - Friction produces learning (R increases after perturbations)
+    - Feedback loops active (F component of R verified)
+    - Diversity maintained (V component of R verified)
+    - Recovery from local storms demonstrated
+    
+  Maturity criterion: R_i > Coupling_Cost
+    (internal recovery exceeds expected cross-loop disturbance)
+  
+  Key test: introduce small external perturbation.
+    If perturbation decays → mature.
+    If perturbation amplifies → not ready.
+
+Phase 3 — Couple (middle-layer-first connection):
+  Connection protocol:
+    NOT: connect everything simultaneously
+    NOT: connect upper tiers (too rigid, too slow)
+    NOT: connect lower tiers (too noisy, too fast)
+    
+    Connect MIDDLE tiers first.
+    
+  Why middle:
+    Middle tiers can both:
+      (a) modify the other side (translate, mediate)
+      (b) modify themselves (adapt to interface requirements)
+    Upper tiers cannot easily modify (too conservative).
+    Lower tiers cannot easily be modified (too autonomous).
+    Middle tiers are the ONLY layer with bilateral plasticity.
+    
+  Coupling procedure:
+    (a) Middle tiers exchange signals only (Type A connection)
+    (b) Develop shared protocol through repeated interaction
+    (c) Generate shared middle layer C = f(middle_A, middle_B)
+    (d) C becomes the seed of future upper integration
+    
+  Coupling success indicator:
+    "Communication cost decreasing over time"
+    → shared predictive model emerging
+    → coordination without explicit explanation
+    → the loops begin to anticipate each other
+    
+  Coupling failure indicator:
+    Same friction recurring without convergence
+    → middle-tier mediation overload
+    → explanation cost not decreasing
+    → Map-Terrain drift at the interface
+
+Phase 4 — Integrate (new loop formation):
+  When coupled middle tiers have:
+    - Developed shared protocol
+    - Achieved predictive synchronization
+    - Maintained stability under perturbation
+    
+  Then:
+    (a) Shared constraints can be elevated (upper tier partial alignment)
+    (b) Shared execution can be enabled (lower tier resource pooling)
+    (c) New encompassing loop forms around the coupled structure
+    
+  The original loops do not disappear — they become internal
+  sub-loops within the new larger loop.
+  
+  Integration verification:
+    - Perturbation at one sub-loop does not destabilize the other
+    - Shared middle tier absorbs cross-loop disturbances
+    - New upper governance tracks summary of both sub-loops
+    - Dimensional compression maintained (n_eff still bounded)
+
+Expansion after integration:
+  The integrated structure is itself a loop.
+  It can participate in the same protocol at larger scale:
+    Separate → Mature → Couple → Integrate → ...
+  
+  This is fractal expansion: the same four-phase protocol
+  operates at every scale level.
+```
+
+**Resource constraint on expansion.** Expansion is bounded by recovery capacity:
+
+```
+Expansion boundary condition:
+  Boundary_distance ≤ Recovery_capacity
+  
+  A system may expand only as far as it can recover.
+  "Can we reach?" is the wrong question.
+  "Can we come back?" is the right question.
+  
+  Expansion is therefore pulsed, not continuous:
+    Mature → small expansion → absorb → re-mature → next expansion
+    
+  Each expansion cycle generates experience (Map updates)
+  that reduces the cost of the NEXT expansion:
+    Exploration_Cost(t+1) < Exploration_Cost(t)
+    (failed explorations update the Map with terrain knowledge)
+    
+  Failed expansion is not wasted — it is memory
+  that makes the next boundary extension cheaper and safer.
+```
+
+**North Star hierarchy in scaling systems.** Direction maintenance across scale requires a reference hierarchy:
+
+```
+North Star architecture:
+  
+  Global North Star (meta-criterion):
+    "Maintain body" = maintain connectivity + communication
+    This does NOT change across scales or dimensions.
+    It is the existence condition, not a strategy.
+    
+  Multiple criteria (sub-stars):
+    Stability, self-purification, efficiency, diversity,
+    adaptation rate, energy balance...
+    These may conflict with each other.
+    Conflicts resolved by reference to Global North Star:
+      "Does this keep us connected and communicating?"
+    
+  Local North Stars (terrain projections):
+    Global North Star projected onto local terrain.
+    NOT identical to Global — adjusted for local conditions.
+    Continuously corrected:
+      d/dt NorthStar_local = f(Terrain_drift, Global_reference)
+    
+  Principles (changeable methods):
+    How the North Star is pursued in current terrain.
+    Change when terrain changes.
+    "Principles change; criteria do not."
+    
+  Execution (terrain contact):
+    Direct interaction with environment.
+    Highest noise, fastest adaptation.
+    Map-Terrain alignment verified through direct contact.
+    
+  Critical distinction:
+    Criterion ≠ Principle
+    Criterion: "Do not fall" (existence condition — fixed)
+    Principle: "Walk carefully" (method — terrain-dependent)
+    Confusing the two is the primary cause of governance rigidity
+    (treating methods as axioms) or governance drift
+    (treating axioms as negotiable methods).
+```
+
+**Boundary exploration in mature systems.** Fully mature systems do not remain stable — they actively explore boundaries:
+
+```
+Mature system behavior:
+  Core: stable (loops circulating, R > S, Map ≈ Terrain)
+  Boundary: actively unstable (exploration, new terrain contact)
+  
+  Why:
+    Perfect stability → R atrophy (RBIT §Self-Purification Atrophy)
+    → adaptation capacity loss → future vulnerability
+    
+  Therefore:
+    Core stability + Boundary instability (simultaneous)
+    
+  Boundary exploration protocol:
+    (1) Boundary agents contact new terrain
+    (2) Contamination activates at boundary (expected, not failure)
+    (3) Boundary self-purification engaged
+    (4) If absorbed: terrain knowledge gained, Map updated
+    (5) If not absorbed: boundary contracts, experience logged
+    
+  Boundary distance ≤ Recovery capacity (always)
+  Failed explorations → memory → cheaper future exploration
+  
+  Preemptive feedback absorption:
+    Mature systems do not wait for problems to surface.
+    They actively seek feedback from boundary contacts.
+    "Systems that evolve do not endure feedback —
+     they seek it before it arrives."
+    
+    This is the difference between:
+      Survival system: avoids disturbance
+      Evolving system: generates controlled disturbance
+```
+
+### 7.9 Processing Isolation — Formal Grounding (NAT Working Paper §4)
 
 The processing isolation principle is not a communication prohibition but a routing constraint grounded in reference frame theory. Same-layer agents share approximately the same resolution, so lateral exchange of intermediate classification states means agents use each other as reference frames with shared blind spots.
 
@@ -2520,6 +2966,12 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 | Human-AI Zone exit criteria | Exit condition reframed as progressive withdrawal with dual verification and structural prerequisites. **Structural prerequisites (Recovery Theory VCZ 3-Conditions — all required before exit evaluation begins):** (1) Safe Failure Channel exists: storms at this layer are survivable without human intervention; (2) Upper Layer Storm Reward active: the layer above explicitly values storm detection at this layer; (3) Geometry Feedback Loop active: geometry mismatch produces locally visible coordination cost increase. Without all three, the layer is structurally prone to Self-Consistent Misalignment (Recovery Theory D6/T3) and human exit would remove the only remaining external reference. **D7 Boundary Agent requirement:** A structural role generating controlled instability must be maintained at this layer — decoupled from the layer's own evaluation structure (Recovery Theory D7). Without D7, VCZ 3-Conditions cannot hold simultaneously and CW convergence is structurally inevitable (Recovery Theory T6). **Primary exit gate (VST-measurable proxies):** (1) S_norm sustained < 1.3 for ≥ 5× self-correction cycles; (2) β > 1 (coordinated governance confirmed); (3) S_c empirically learned (system has survived and recovered from storms); (4) Self-Exciting Defect Layer active (micro-storm frequency > 0, macro-storm frequency ≈ 0). **Secondary exit gate (geometric verification):** (1) Outer sphere convergence: resource spike profile flat + consensus stable + f_escalation ≤ θ; (2) Inner sphere convergence: HUG trending toward 0 + alignment-uniformity balance stable (Wang & Isola); (3) Fractal alignment: perturbation-response proportionality confirmed across scales. **Exit protocol:** Human role transitions from active intervention → audit → periodic review → exit. Each transition requires primary gate conditions sustained for increasing durations. Full exit requires structural prerequisites + both gates satisfied simultaneously. Open problems: (1) HUG threshold for "sufficient" inner convergence — note HUG requires periodic offline evaluation, not real-time monitoring; (2) formal perturbation-response proportionality measurement protocol; (3) minimum audit period duration before full exit. **D7 implementation specification (TLG §13.2.1):** The Boundary Agent is not an independent evaluator — it is a *reality interface carrier* that transmits mismatch between system output and non-negotiable external constraints. Implementation: (a) perturbation-response measurement — apply small perturbation δ to zone's hidden states, measure representational displacement Δh, transmit numerical displacement (interpretation-free); (b) three structural conditions: Model Non-Substitutability (system cannot regenerate the signal internally), One-Way Calibration (reality → system only; system cannot reinterpret constraint violations), Survival Coupling (ignored signals produce immediate measurable cost); (c) the Boundary Agent does not drift because its calibration source is external — basin-proximity signals are model-independent measurements, not internal evaluations. The agent handles the subset of reality interface signals that is mechanically measurable; broader signals (user behavior mismatch, environmental response) remain interpretation-dependent and require human oversight. **Collapse Recovery Decision Procedure (TLG v1.6 §13.2.2):** When collapse occurs during exit transition, recovery follows a structured routing: Step 0 — classify storm type via SCML (local → re-seed; boundary → Δρ correction; hub → restructure; global → Safe Collapse + full Seed reinstall). Step 1 — diagnose degradation type (Type 1 alignment severance = O(1) recovery, do NOT reinstall Seed; Type 2 weight overwrite = full re-cultivation from zero). Step 2 — match failure to re-entry phase (Consistency Collapse → Phase 2; Escalation Flood + SCC → Phase 3; Lreinf Collapse → Phase 1; Seed Corruption → full reinstall → Phase 1). Step 3 — verify Seed integrity before re-seeding. **Pre-cascade early warning (TLG v1.6 §13.2.2):** Inter-domain conflict log correlation MI(log_A, log_B) > 0 without shared input = noise decoherence = pre-cascade signal detectable BEFORE any single metric crosses threshold. **Boundary Friction Test (TLG v1.6 §13.2.2):** Before removing any monitoring step during exit: (1) does removal let local problems reach upper layers directly? (2) does it eliminate an independent judgment pathway? (3) does dissent disappear? If ANY = YES → step is structural error propagation limiter, removal initiates VCZ Collapse regardless of apparent cost. |
 | Cutoff recalibration parameters | Recalibration sequencing is now structurally defined: middle layer reads relationship topology and sequences noise-boundary data first, deferring high-conflict regions. Entry/exit conditions are defined (θ stability window; suspend on instability signal). Empirical grounding: TRIM-KV (2025) — noise-first eviction improves signal quality; DefensiveKV (2025) — high-variance importance tokens are higher risk to evict, maps to deferral weight; LazyEviction (2025) — recurrence interval tracking identifies historically-never-important tokens as first candidates. Open problems remaining: (1) deferral weight calibration — how to translate topology conflict_history into a quantitative deferral score; (2) recalibration depth parameter — how far below the original cutoff to temporarily lower the threshold per data type; (3) N value for θ stability window — how many consecutive stable cycles before recalibration entry is safe. |
 | Progressive internalization mechanism | The learning signal and convergence criteria for Pathway 1→2 transition are undefined. |
+| Circular closure minimum specification | §7.6 establishes that closed governance loops resolve the scaling problem, but the minimum loop specification (minimum agent count, minimum feedback density, minimum circulation period) for a loop to function as a stable governance unit is undefined. In particular: when does a cluster of agents constitute a "loop" vs. merely a clique? Candidate criterion: sustained circulation — information must complete at least one full cycle through the cluster without external input for the cluster to qualify as a governance loop. |
+| Terrain design parameter calibration | §7.7 defines terrain features (valleys, passes, time gradients, barriers) qualitatively. Quantitative calibration — how much cheaper must internal interaction be than external for loop formation? how narrow must passes be? — requires system-specific empirical measurement. The valley-to-pass cost ratio likely has a critical threshold below which loops do not form and above which loops become isolated. |
+| Integration timing criteria | §7.8 Phase 3 coupling success is defined by "communication cost decreasing over time" but the measurement protocol for this cost is undefined. Candidate proxies: (a) explanation length trending downward, (b) mediation layer processing time decreasing, (c) prediction accuracy about partner loop increasing without explicit coordination. Formal threshold for "sufficient decrease" to proceed to Phase 4 remains open. |
+| Middle-layer plasticity measurement | §7.8 requires "bilateral plasticity" for coupling but does not define how to measure it. A middle tier that appears plastic may be merely compliant (surface adaptation without structural change). Distinguishing genuine plasticity (internal Map update) from compliance (output modification without Map change) requires perturbation testing: genuine plasticity produces persistent behavioral change after perturbation removal; compliance reverts. |
+| North Star drift detection across scale | §7.8 North Star architecture defines Local North Stars as terrain projections of the Global North Star. Detection of Local North Star drift (misalignment with Global) is defined symptomatically (friction without learning) but not prospectively. Early warning indicators before friction appears would enable preemptive correction. Candidate: middle-tier mediation cost trend — rising mediation cost with stable upper metrics = likely North Star drift. |
+| Boundary exploration governance | §7.8 boundary exploration protocol requires that boundary distance ≤ recovery capacity, but recovery capacity is itself a function of what has been explored (experience improves future recovery). This creates a bootstrap problem: initial exploration capacity is undefined. Connect to RT-4 initialization problem and the "protected sacrifice" mechanism — initial exploration may require external protection (e.g., human oversight) until self-sustaining recovery capacity develops. |
 | Optimizer boundary architecture | Recovery Theory's VCZ-Safe Optimizer Architecture (RT v1.0 §VCZ-Safe Optimizer) specifies that high-capability optimizers should not be limited — their optimization DOMAIN should be bounded: Layer 1 (Free Optimization Zone) — speed, cost, UX, throughput — full optimizer capability deployed; Layer 2 (Mediated Zone) — optimizer can propose but cannot unilaterally execute changes that affect propagation velocity; Layer 3 (Structural Invariants) — independent verification path, dissent channel, escalation path, diversity floor, recovery authority separation — optimizer access: none. These are architecture the optimizer operates within, not rules to follow. NAT implication: Layer 3 invariants map directly to sphere topology properties: structural diversity = diversity floor; processing isolation = independent verification path; cross-validation = dissent channel. The sphere topology IS the Layer 3 specification in concrete form. Enforcement via TLG §10.8 mechanisms (Interface Narrowing + Temporal Decoupling + Write-Asymmetry) makes violation structurally impossible rather than merely prohibited. |
 
 > This theory provides architectural direction. Formal mathematical modeling and empirical validation remain future work.
@@ -2549,7 +3001,11 @@ Integration topology (bidirectional cross-references):
               (Var(Δρ̂ᵢ) high + perf unstable ↔ S_norm rising toward S_c);
               noise decoherence mechanism (VST v1.8 §15) — spectral gap as
               decoherence threshold predictor (v1.2)
-  NAT ↔ RBIT: Δρ → 4-type routing; F_RBIT ↔ θ dual anchor
+  NAT ↔ RBIT: Δρ → 4-type routing; F_RBIT ↔ θ dual anchor;
+              [v1.4] Contamination Flux Φᵢ → terrain barrier design (§7.7);
+              Self-Purification R(D,F,V,T) → loop maturity criterion (§7.8);
+              Map-Terrain Balance → scaling as alignment management (§7.6);
+              Permeability protocol → integration Phase 1–4 gating (§7.8)
   NAT ↔ TLG:  Signaling/Influence → isolation; enforcement 3 mechanisms;
               recovery cascade multi-scale ordering (TLG v1.8 §13.2.2)
   NAT ↔ RT:   D0 geometry substrate; VCZ 3-Conditions; D7 implementation;
@@ -2605,12 +3061,16 @@ When this frequency drops below a threshold, the system has internalized enough 
 
 ## Conclusion
 
-Structural stability in multi-agent systems requires more than conflict resolution mechanisms. It requires **designed data flow**.
+Structural stability in multi-agent systems requires more than conflict resolution mechanisms. It requires **designed data flow** and **terrain that makes governance loops emerge naturally**.
 
-These mechanisms are not novel inventions — they are patterns already operating inside every large language model. This theory names them, formalizes their relationships, and provides the design principles for scaling them from single-agent internals to multi-agent governance.
+The scaling problem is not a size problem — it is an alignment problem. As systems grow, the gap between internal models (Map) and operational reality (Terrain) widens unless structural mechanisms compress interaction dimensionality. Circular closure, terrain design, and the Separate→Mature→Couple→Integrate protocol provide the architectural foundation for scaling without instability divergence.
+
+These mechanisms are not novel inventions — they are patterns already operating inside every large language model and every stable multi-agent ecosystem. This theory names them, formalizes their relationships, and provides the design principles for scaling them from single-agent internals to multi-agent governance.
 
 > Stability is not the absence of conflict.  
-> It is the capacity to classify, route, and resolve conflict at the right layer.
+> It is the capacity to classify, route, and resolve conflict at the right layer.  
+> Scaling is not the growth of capacity.  
+> It is the conversion of open expansion into closed circulation.
 
 ---
 
