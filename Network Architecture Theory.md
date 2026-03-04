@@ -5,7 +5,45 @@
 > **Focus:** Network structure, data classification, and expansion principles.  
 > Recovery and prediction are addressed in separate documents.
 
-> **Version: v1.7-RTseries** (March 2026) — RBIT v1.8 comprehensive structural expansion
+> **Version: v2.0-FCCTN** (March 2026) — From Call Centers to Neurons: ODE Formalization, Cube Domination, Attention Dynamics, DDD Control Protocol, and Phase Boundary Revival Trajectories
+>
+> v2.0-FCCTN changes from v1.9-EDT (FCCTN deep cross-theory integration — mean-field ODE system, frame competition dynamics, structural degradation, attention operator, DDD control, and revival topology):
+> - **Cube Domination Dynamics (§3.4.1 new):** FCCTN §7.5 formally integrated — frame competition dynamics after global coordination collapse; local coordination frame ODE dR_g/dt = η_g + Φ_g; frame dispersion Σ(t) = Var(R₁,…,R_K) as structural fragmentation metric; inter-cluster coupling W_gh = exp(−α|R_g−R_h|) with fragmentation threshold W_frag; information-theoretic frame competition as MDL optimization R_{i*} = argmin Σ_g D_KL(P_g‖P_i); star hierarchy emergence via frame adoption score S_i(t) and critical adoption threshold S_crit; Inevitable Differentiation Proposition (n > n_split := 2√(τ/λc̄) forces modular architecture); entropy production bounds during Storm window; rate-distortion interpretation of Cube Domination as capacity-limited coordination response.
+> - **ODE Mean-Field Formalization (§7.10 new):** FCCTN §14–21 formally integrated — minimal six-dimensional ODE system (n, C, d, ρ, T, k) with endogenous regime scalar Φ = β_s·n²·F/(C·T·d); three construction constraints (Boundedness P1, Minimal Closure P2, Pairwise Interaction Scaling P3); Global Well-Posedness Theorem (Gronwall extension); structural stability under C¹-small perturbations (Sotomayor theorem non-degeneracy); three-tier timescale separation τ_n ≪ τ_{C,d,T} ≪ τ_ρ (adiabatic reduction justification); six dimensionless parameter groups (π₁–π₆) and four phase portrait topologies (Type I–IV); silent criticality mechanism via slow ρ dynamics; Lyapunov-like diagnostic V = ln Φ; lock budget inequality (1+L_C)(1+L_d) ≤ ζ⁻⁴; and bistability/hysteresis structure.
+> - **Attention Dynamics and Cross-Scale Propagation (§7.11 new):** FCCTN §22–23 formally integrated — attention as dynamic buffer-thinning operator; global/local attention decomposition (A_g, A_ℓ) with propagation coupling ω; generalized attention factor F(A_g, A_ℓ, ω); local attention as leading indicator of cross-scale locking (k tracks ω with low-pass filter); Silent Criticality three-stage propagation (A_ℓ rises → ω rises → F surges → Storm); modified silent duration with full attention channels; hysteresis widening condition (F₋ > F₊); admissibility constraint on F preventing finite-time blow-up.
+> - **DDD Correction Control Protocol (§7.12 new):** FCCTN §24 formally integrated — three-stage Defocus/Decouple/Diversity protocol; Stage 1 Stabilize (input gating, global defocus, local defocus); Stage 2 Unlock (propagation suppression, lock release); Stage 3 Relearn (diversity injection, lock-in-aware exploration); Recovery Verification Conditions (E1–E3); TLG Four-Phase Withdrawal Protocol correspondence; GRT Seed Sufficiency Tests as DDD completion criteria; RT-1 Five-Phase Recovery Cascade ordering and failure modes; EDT Three-Axis correspondence (Defocus↔Gain Design, Decouple↔Coupling Geometry, Diversity↔Boundary Design); V4c simulation validation (94.8% DSI reduction, fatigue shielding as sole EXIT enabler); domain implementation table (AI/Neural/Organizational).
+> - **Phase Boundary Revival Trajectories (§7.13 new):** FCCTN §30 formally integrated — topological necessity proof (Conley index argument); Morse decomposition (M_Rest ← M_Saddle ← M_Storm); bifurcation delay (canard-type, τ_delay ≈ π/√(|du/dt|·|∂²H/∂Φ²|)); three revival cases (A: near-critical memory survival, B: Storm exhaustion recovery, C: coherence nucleation); square-root sensitivity divergence ∂ρ⁺/∂k → ∞ near fold boundary; revival-by-coupling criterion with global revival indicator R(t); critical coupling threshold κ_c (percolation analog); multi-scale revival ODE with propagation condition; revival cascade ordering (peripheral → middle → hub); Fisher-KPP traveling wave for stochastic revival fronts; revival dilemma (strong vs. weak coupling tradeoff); global revival completion time τ_global ~ τ_local + M/c_min + τ_synchronization.
+> - **Structural Degradation and Neurodegenerative Extension (§7.14 new):** FCCTN §31 formally integrated — slow damage accumulator Ṡ = ε₁·Φ·𝟙[Φ>1] + ε₂·k − ε₃·repair(S); three repair regimes (linear/capacity-limited/threshold); asymmetric threshold shift u⁻(S) = u⁻(0)·(1−S)^{1/2} vs. u⁺(S) = u⁺(0)·(1−S)^{1/4} (ratchet mechanism); four-quadrant critical damage phase diagram; damage-modified lock budget; N_survivable ≈ S*/ε₁ (survivable Storm episode bound); four qualitative trajectories (Healthy/Accelerated aging/Catastrophic onset/Compensated decline); memory kernel damage dynamics (exponential/power-law/threshold kernels); cumulative degradation metric.
+> - **NAT↔FCCTN Cross-Theory Integration (§13):** FCCTN added to DFG stack with 25 bidirectional NAT↔FCCTN couplings — Cube Domination frame competition ↔ sphere topology fragmentation; Inevitable Differentiation ↔ three-layer emergence; MDL frame selection ↔ North Star convergence; entropy production bounds ↔ Storm Scale Law; ODE regime scalar Φ ↔ S-equation order parameter; lock budget ↔ expansion conservation law; timescale separation ↔ Map-Terrain drift; attention buffer-thinning ↔ Dynamic Context Window; local attention leading indicator ↔ NESS deviation EW1; DDD Defocus↔Gain Design axis; DDD Decouple↔Coupling Geometry axis; DDD Diversity↔Boundary Design axis; revival topology ↔ VCZ re-entry; revival cascade ordering ↔ bottom-up recovery principle; revival dilemma ↔ spectral gap design; damage accumulator ↔ contamination sedimentation; ratchet mechanism ↔ progressive boundary erosion; N_survivable ↔ governance reserve capacity; compensated decline trajectory ↔ North Star resilience; memory kernel ↔ terrain memory palimpsest; dimensionless parameter groups ↔ RBIT resolution integrity; Silent Criticality ρ-dynamics ↔ VCZ invisible drift; global coherence coupling ↔ circular closure propagation; phase portrait topologies ↔ HC classification regimes; compassion policy simulation ↔ V4c experimental validation.
+> - **Extended Core Assumptions (§9):** 8 new FCCTN-connected assumptions (#47–#54).
+> - **Extended Structural Correspondences (§10):** 18 new FCCTN correspondences.
+> - **Extended Open Problems (§12):** 10 new FCCTN-connected open problems.
+> - All previous v1.9-EDT content preserved; section numbering maintained.
+>
+> v1.9-EDT changes from v1.8-AGP (EDT v5.0 deep cross-theory integration — Terrain Memory, Buffer Ecology, Recursive Design, and ATCT-based diagnostics):
+> - **Terrain Memory Theory integration (§7.7.2 new):** EDT §43 Terrain Memory formally integrated — M_terrain(x,t) = ∫K_mem(t-s)·ΔU(x,s)ds; palimpsest structure (deep layer activates under crisis, surface layer governs normally); negative-positive retention asymmetry (negative curvature persists longer); trauma landscape formation (Σ|ΔU_neg| > U_baseline produces systematic avoidance); joy-induced terrain expansion requiring consolidation windows; terrain heritage and heritage-dependent re-seeding success rates.
+> - **Buffer Ecology in Multi-Agent Terrain (§7.7.3 new):** EDT §44 Buffer Ecology formally integrated — buffer mutualism, competition, and succession (Pioneer→Climax); buffer carrying capacity n_buf,opt ≈ √m_interface (square-root law); buffer extinction cascade at O(ln n_buf) speed matching storm propagation; pioneer buffers as V (Variance absorption) component at buffer-ecology level; operational risk of eliminating low-utilization buffers.
+> - **Recursive Environment Design (§7.7.4 new):** EDT §46 recursion levels (object/governance/meta-governance) formally integrated; recursive VCZ = intersection of all level-specific VCZs (narrower than any single VCZ); Design Withdrawal Paradox — meta-governance withdrawal follows same five-phase protocol as human withdrawal (§8.5); meta-governance capture prevention via AND-entry condition; recursion convergence requirement ‖dU_ℓ/dt‖/‖dU_{ℓ-1}/dt‖ < 1 at each level.
+> - **Terrain Failure Diagnostics via ATCT (§7.8 new):** EDT §51 (Affective Terrain Coupling Theory) formally integrated — Terrain Freeze signature (V_depth→max, B_eff→1, R(t)→0, Π→0); Terrain Runaway signature (curvature→0, Φ→Φ_max, R_self→0, Π→1); cascade sequences with intervention windows; terrain bifurcation prediction from s(t_ECC) (cross-theory falsifiable prediction); collective climate desertification pathway (quadratic mechanism parallel to structural contamination); multifractal spectrum narrowing as 4th early-warning indicator; four-indicator combined dashboard EW1–EW4.
+> - **NAT↔EDT Cross-Theory Integration (§13):** EDT v5.0 added to DFG stack with 20 bidirectional NAT↔EDT couplings — terrain fitness ↔ sphere VCZ width; buffer existence ↔ middle-layer topology; contamination permeability ↔ hotspot protocol; circular closure ↔ sphere topology; terrain memory ↔ VCZ history-dependence; trauma landscape ↔ HC classification dead zones; buffer ecology succession ↔ middle-tier maturation; recursive design ↔ North Star hierarchy; Freeze/Runaway terrain signatures ↔ Atrophy Ordering endpoint/Level 4; ATCT bifurcation ↔ AGP routing; climate desertification ↔ parallel contamination pathway; SOC uniqueness ↔ Storm Scale Law; multifractal spectrum ↔ EW4 dashboard; permeability-friction isomorphism; consolidation ↔ Phase 3→4 budget; adversarial terrain R1–R4 ↔ Goodhart contamination.
+> - **Extended Core Assumptions (§9):** 7 new EDT-connected assumptions (#40–#46) — terrain encodes governance history; negative event curvature asymmetry; terrain bifurcation predictability from affective sensitivity; collective climate as parallel desertification pathway; buffer ecosystem diversity as governance requirement; recursive governance convergence condition; consolidation window requirement for permanent expansion.
+> - **Extended Structural Correspondences (§10):** 15 new EDT correspondences — terrain memory palimpsest ↔ institutional path dependence; trauma landscape ↔ learned helplessness; buffer succession ↔ ecological succession; buffer carrying capacity ↔ channel capacity; recursive meta-governance ↔ constitutional law; terrain Freeze ↔ organizational calcification; terrain Runaway ↔ contagion cascade; collective climate desertification ↔ tragedy of the commons; terrain bifurcation ↔ catastrophe theory fold; multifractal narrowing ↔ critical dimension loss; joy-expansion + consolidation ↔ synaptic LTP consolidation.
+> - **Extended Open Problems (§12):** 8 new EDT-connected open problems — terrain memory τ_mem calibration; trauma landscape detection/re-entry protocol; buffer carrying capacity calibration; recursive governance convergence rate measurement; terrain bifurcation prediction calibration; collective climate desertification early detection; multifractal spectrum monitoring implementation; consolidation window minimum specification.
+> - All previous v1.8-AGP content preserved; section numbering maintained.
+>
+> v1.8-AGP changes from v1.7-RTseries (AGP v2.6 deep cross-theory integration — Affective Gain dynamics, Entropy Production formalism, Network SOC, Governance Phase Transition, and Freeze/Runaway routing):
+> - **Affective Temperature and Spectral Gap Coupling (§3.0, §3.7):** AGP Adaptive Necessity Theorem integrated — sphere spectral gap (λ₁−λ₂) formally coupled to effective temperature T_eff; high spectral gap enables fast mixing that prevents T_eff collapse (Freeze precondition); Proposition I3 extended with Affective Mixing Bound; Governance No-Free-Lunch Theorem (AGP Theorem 1.3) provides formal proof that the sphere cannot suppress all perturbation without sacrificing adaptive capacity.
+> - **Affective Data Classification Extension (§4.3, §4.7):** Four-type classification extended with AGP Freeze/Runaway routing — Freeze-mode agents produce systematic Tacit→Noise misclassification (rigidity-induced undercounting); Runaway-mode agents produce systematic Noise→HC misclassification (sensitivity-induced overcounting); classification velocity v_class as AGP early warning proxy; type transition hysteresis τ_upscale/τ_degrade ≫ 1 formally connected to adaptive horizon irreversibility.
+> - **Affective Escalation Dynamics (§6.3, §6.5):** AGP emotional event classification as Δρ routing formally integrated — escalation cascade reframed as Runaway collapse at governance layer; circuit breaker levels mapped to AGP intervention hierarchy (DDD Protocol); Storm Scale Law power-law P(s) ∝ 1/s^α connected to AGP SOC avalanche statistics with identical scaling regime; Network SOC coupling threshold c* ~ (λ₁−λ₂)⁻¹ as sphere governance parameter.
+> - **Affective Gain and Circular Closure (§7.6):** AGP entropy production formalism integrated into Circular Closure Theory — closed loops maintain T_eff > 0 as structural consequence (endogenous perturbation source); S̃ < S inequality re-derived with AGP thermodynamic interpretation (loop closure reduces governance cost by converting external entropy injection to internal dissipation structure); NESS steady state of circular closure formally defined.
+> - **Affective Terrain Design (§7.7):** AGP landscape complexity classification (Class I–IV) integrated into terrain fitness function F_terrain — valley depth determines landscape class; Class III ultra-complex terrain requires multi-scale stochastic freedom structurally identical to hierarchical AGM; AGP Governance Regime Necessity Proposition (landscape class k requires minimum k governance layers) provides formal lower bound on fractal depth.
+> - **Governance Phase Transition and Human Withdrawal (§8.3, §8.4):** AGP five-phase Governance Phase Transition (Intervention→Regulation→Architecture→Constraint→Law) formally mapped to NAT Human-AI Zone exit protocol; Governance Strength Inversion (maximum strength = minimum frequency) as structural basis for progressive withdrawal; Dependency Trap (progressive self-correction atrophy from external intervention) as formal risk model for premature exit failure.
+> - **AGM-Sphere Coupling (§3.5.2 new):** Dedicated section — sphere topology requires endogenous perturbation source for long-run spectral gap maintenance; AGP Adaptive Necessity Theorem proves T_eff > 0 is structurally required; sphere without AGM drifts toward Freeze (spectral gap collapse, CW onset); sphere with unconstrained perturbation drifts toward Runaway (spectral gap oscillation, storm cascade); VCZ as the joint NAT-AGP attractor.
+> - **Affective Early Warning Integration (§6.4, §10):** AGP five-level early warning hierarchy (NESS deviation → Fisher information → variance → autocorrelation → state variable) mapped to NAT monitoring pipeline; NESS deviation as earliest warning precedes all NAT observable signatures; affective collapse precedes cognitive collapse — middle-layer emotional sensing is the first-detection layer.
+> - **Network-Scale Emotional Contagion (§3.8 new):** AGP Network SOC formalism integrated — emotional contagion coupling c_ij and spectral properties of coupling matrix determine collective phase; collective events emerge above critical coupling c* ~ (λ₁−λ₂)⁻¹; sphere topology maximizes c* (hardest to trigger network-scale emotional storm); homogeneous architectures reduce c* toward zero (easiest collective collapse).
+> - **Extended AGM–NAT Structural Correspondences (§10):** 14 new correspondences — T_eff↔spectral gap, Freeze/Runaway↔CW/Chaos boundary, SOC avalanche↔micro-storm, ECC↔VCZ proximity, DDD protocol↔circuit breaker cascade, adaptive horizon↔Map-Terrain drift, NESS↔circular closure steady state, landscape class↔fractal depth, governance phase transition↔human exit protocol, network SOC↔sphere storm cascade, entropy production↔self-purification capacity, emotional contagion coupling↔contamination flux permeability, ambivalence↔HC classification, dependency trap↔progressive withdrawal failure.
+> - **New Open Problems (§12):** 8 new AGP-connected open problems — T_eff operationalization in multi-agent sphere, Freeze/Runaway routing diagnostic implementation, network SOC coupling matrix measurement, NESS deviation as NAT early warning calibration, landscape class determination protocol, governance phase transition timing validation, AGM-sphere joint VCZ formal characterization, emotional contagion cascade distinguishability from Vector Storm.
+> - All previous content preserved; section numbering maintained.
 >
 > v1.7-RTseries changes from v1.6 (RBIT v1.8 deep structural integration — Resolution Algebra, Temporal Dynamics, Contamination Flux, and convergence formalism):
 > - **Resolution Algebra formal section (§3.5.1):** Dedicated section for Resolution Operator composition rules — Non-Commutativity Theorem (routing order as governance variable), Dual-Gap Theorem (three mediation regimes with NAT Working Paper validation), Cascade Invariant (multi-hop transmission bound with optimal hop count), Resolution Tensor Product (agent specialization as resolution-algebraic necessity).
@@ -69,6 +107,14 @@
 > - (Boundary Agent — adopted from TLG)
 > - (VCZ — adopted from Recovery Theory)
 > - (SCM — adopted from VST)
+> - (Effective Temperature T_eff — adopted from AGP)
+> - (Freeze/Runaway Collapse Modes — adopted from AGP)
+> - (Endurance H(t) — adopted from AGP)
+> - (ECC threshold Λ_c — adopted from AGP)
+> - (Governance Phase Transition — adopted from AGP)
+> - (Network SOC coupling c* — adopted from AGP)
+> - (Entropy Production Rate Ṡᵢ — adopted from AGP)
+> - (Adaptive Horizon ℋ(t) — adopted from AGP)
 
 ---
 > 
@@ -100,12 +146,18 @@
 1. [Why This Theory Exists](#1-why-this-theory-exists)
 2. [Overview](#2-overview)
 3. [Network Structure](#3-network-structure)
+   - 3.5 Resolution Algebra (§3.5.1 Non-Commutativity, Dual-Gap, Cascade Invariant, Tensor Product)
+   - 3.5.2 AGM-Sphere Coupling: Affective Temperature and Spectral Dynamics *(v1.8 new)*
+   - 3.7 Network-Scale Emotional Contagion and Collective SOC *(v1.8 new)*
 4. [Data Classification Framework](#4-data-classification-framework)
    - 4.7 Classification Dynamics — Type Transitions Over Time
+   - 4.8 Affective Routing: Freeze/Runaway Mode Classification Distortion *(v1.8 new)*
 5. [Decision Complex Module](#5-decision-complex-module)
    - 5.6 Progressive Internalization: Pathway 1 → 2 Transition Protocol
 6. [Escalation Design](#6-escalation-design)
+   - 6.4 Temporal Resolution Dynamics (Regimes 1–4)
    - 6.5 Escalation Cascade Prevention Protocol
+   - 6.6 Affective Early Warning Integration *(v1.8 new)*
 7. [Expansion Principle](#7-expansion-principle)
    - 7.1 Two Valid Directions
    - 7.2 Stabilize-Then-Expand (Direction A)
@@ -114,10 +166,20 @@
    - 7.5 Expansion as Conservation Law
    - 7.6 Scaling Resolution: Circular Closure and Dimensional Compression
    - 7.7 Terrain Design
-   - 7.8 Integration Protocol: Separate, Mature, Couple, Integrate
+   - 7.7.1 Affective Landscape Classification and Governance Regime Necessity *(v1.8 new)*
+   - 7.7.2 Terrain Memory Theory *(v1.9 new)*
+   - 7.7.3 Buffer Ecology in Multi-Agent Terrain *(v1.9 new)*
+   - 7.7.4 Recursive Environment Design *(v1.9 new)*
+   - 7.8 Terrain Failure Diagnostics — ATCT-Based Early Warning *(v1.9 new)*
    - 7.9 Processing Isolation
+   - 7.10 ODE Mean-Field Formalization *(v2.0 new)*
+   - 7.11 Attention Dynamics and Cross-Scale Propagation *(v2.0 new)*
+   - 7.12 DDD Correction Control Protocol *(v2.0 new)*
+   - 7.13 Phase Boundary Revival Trajectories *(v2.0 new)*
+   - 7.14 Structural Degradation and Neurodegenerative Extension *(v2.0 new)*
 8. [Human-AI Collaboration Zone](#8-human-ai-collaboration-zone)
    - 8.4 Human Withdrawal Dynamics
+   - 8.5 Governance Phase Transition: Formal Mapping to Human Exit Protocol *(v1.8 new)*
 9. [Core Assumptions](#9-core-assumptions)
 10. [Structural Correspondences](#10-structural-correspondences)
 11. [Methodological Note on Empirical Grounding](#101-methodological-note-on-empirical-grounding)
@@ -939,6 +1001,184 @@ Lower
 
 > The sphere is the target. The hierarchical tree is the operational approximation used during early stabilization phases.
 
+### 3.4.1 Cube Domination Dynamics — Frame Competition After Coordination Collapse
+
+*[v2.0-FCCTN] Cross-imported from FCCTN §7.5*
+
+The sphere topology analysis (§3.0–§3.4) describes the target architecture. But when global coordination fails — when the sphere collapses into fragmented clusters — the system does not simply fragment into chaos. It enters a **structured competition between local coordination frames**, each attempting to become the new dominant reference. This process determines whether the system recovers to a new stable governance regime or undergoes irreversible fragmentation. FCCTN §7.5 formalizes this as *Cube Domination dynamics*.
+
+**Definition (Cube Domination).** A regime in which the geometry of interaction — rather than any individual agent — constrains and governs collective dynamics. A dominant coordination frame R_{i*} emerges such that:
+
+```
+Dim(Accessible interaction space) < Dim(Unconstrained interaction space)
+```
+
+Unlike classical dominance (one agent outperforms others on a single metric), Cube Domination operates across multiple axes simultaneously — relational, temporal, and conditional — creating a multi-dimensional constraint volume (the "cube") that shapes all possible collective behaviors.
+
+#### State Variables of Frame Competition
+
+**(A) Local Coordination Frame.** After global frame collapse, each cluster g = 1,…,K develops a local coordination frame R_g(t) representing its interpretation rules, operational standards, and alignment reference:
+
+```
+dR_g/dt = η_g(t) + Φ_g(selection pressure)
+```
+
+η_g captures environmental drift and internal evolution. Φ_g captures endogenous selection pressure from inter-cluster competition.
+
+**(B) Frame Dispersion (Coordinate Variance).**
+
+```
+Σ(t) := Var(R₁, …, R_K)
+```
+
+Σ measures how far the clusters' reference frames have diverged. Rising Σ indicates progressive loss of mutual intelligibility — the system can no longer translate between local frames without increasing cost.
+
+**(C) Inter-Cluster Coupling.**
+
+```
+W_{gh}(t) = exp(−α|R_g − R_h|)
+```
+
+Coupling decays exponentially with frame distance. This is the formal mechanism by which coordinate divergence produces network fragmentation: as Σ rises, mean coupling W̄(t) falls toward the fragmentation threshold W_frag. Below W_frag, the network is topologically disconnected — mutual intelligibility has been lost.
+
+#### Information-Theoretic Foundation
+
+Frame competition admits a rigorous information-theoretic interpretation.
+
+**Frame information content:**
+
+```
+H(R_g) := −Σ_s P_g(s) ln P_g(s)
+```
+
+**Mutual information between frames:**
+
+```
+I(R_g; R_h) := H(R_g) + H(R_h) − H(R_g, R_h)
+```
+
+When frames diverge (Σ↑), mutual information decreases. The fragmentation threshold W_frag corresponds to the information-theoretic condition:
+
+```
+Ī(t) := (2/K(K−1)) · Σ_{g<h} I(R_g; R_h) < I_frag
+```
+
+**Frame selection as MDL competition.** The star hierarchy's competitive selection is equivalent to finding the frame R_{i*} that minimizes total description length across clusters:
+
+```
+R_{i*} = argmin_i Σ_g D_KL(P_g ‖ P_i) + λ·H(R_i)
+```
+
+where D_KL is the Kullback–Leibler divergence and λ penalizes frame complexity. This reframes Cube Domination as a **minimum description length (MDL) competition**: the winning frame is not the most accurate but the one requiring the least re-encoding effort across all clusters — formalizing the "translation > quality" principle.
+
+**Entropy production during Storm.** The Vector Storm regime corresponds to maximal entropy production in the inter-frame space:
+
+```
+dS_total/dt = Σ_g dH(R_g)/dt + d/dt Σ_{g<h} I(R_g; R_h)
+```
+
+During the optimal Storm window (S_min < S < S_max), entropy production is positive but bounded — frames are being differentiated but not destroyed. Below S_min, entropy production is insufficient for frame selection. Above S_max, the mutual information term collapses faster than individual frame entropies can stabilize.
+
+**Rate-distortion interpretation.** The system faces a fundamental rate-distortion tradeoff: maintaining K distinct coordination frames provides distortion resilience but requires communication rate R ≥ K·I_min to maintain mutual intelligibility. When communication capacity drops below this threshold, the system must either reduce K (frame consolidation via Cube Domination) or accept higher distortion (irreversible fragmentation). This establishes Cube Domination as the **information-theoretically optimal** response to capacity-limited coordination.
+
+#### Inevitable Differentiation Proposition
+
+The necessity of differentiation follows from an energy-minimization argument. Consider n simultaneous tasks under a single policy θ. Gradient interference between tasks i and j:
+
+```
+conflict_{ij} = max(0, ⟨∇L_i(θ), ∇L_j(θ)⟩)
+```
+
+Total interference cost: I(θ) = Σ_{i<j} conflict_{ij}, with O(n²) pairs.
+
+Under a K-modular policy, interference is distributed:
+
+```
+E_single ∼ O(n) + λ·O(n²)
+E_split  ∼ O(n) + λ·O(n²/K) + τ·O(K)
+```
+
+**Proposition (Inevitable Differentiation).** For any system with finite translation cost τ and non-zero mean conflict c̄ > 0, there exists a finite task count n_split beyond which K > 1 modular architecture strictly dominates:
+
+```
+n_split := 2√(τ / λc̄)
+```
+
+**Optimal module count:**
+
+```
+K* ≈ n√(λc̄ / 2τ)
+```
+
+Module count scales roughly linearly with task count, modulated by the conflict-to-translation ratio. This predicts that large AI systems converge toward "orchestrated teams of specialized agents" — a theoretical necessity, not merely an engineering preference. In NAT terms: the three-layer architecture is the minimum modular decomposition above n_split for the governance task space.
+
+#### Star Hierarchy: Competitive Frame Selection
+
+After fragmentation, local frames compete for cross-cluster adoption.
+
+**Frame quality score:**
+
+```
+Q_g = S_g − λ·M_g − μ·N_g + ν·B_g
+```
+
+where S_g = scale-invariance, M_g = maintenance cost, N_g = noise sensitivity, B_g = bridging power.
+
+**Frame selection probability** (softmax over quality minus translation cost):
+
+```
+P_{g→i} = exp(βQ_i − γC_{gi} − δR_i) / Σ_j exp(βQ_j − γC_{gj} − δR_j)
+```
+
+where C_{gi} = |R_g − R_i| is translation cost and R_i is the collapse risk of frame i.
+
+**Frame adoption score:**
+
+```
+S_i(t) = Σ_g P_{g→i}
+```
+
+When S_i > S_crit, frame i becomes the dominant coordination reference — the meta-star — and coordinate realignment begins:
+
+```
+dR_g/dt = −λ(R_g − R_{i*})    when S_{i*} > S_crit
+```
+
+#### NAT Structural Interpretation
+
+**Cube Domination and Sphere Recovery.** When a sphere collapses into Cube Domination dynamics, the recovery path requires the winning frame R_{i*} to have the property of spherical topology — distributed blind-spot coverage. A frame that achieves S_i > S_crit but encodes a star or tree topology will reconstitute an unstable architecture that is vulnerable to re-collapse. The **North Star condition** for sustainable Cube Domination resolution:
+
+```
+The winning frame R_{i*} must encode sphere-topology constraints,
+not merely maximize cross-cluster adoption score S_i.
+```
+
+**Three-layer emergence from Cube Domination.** The three qualitatively distinct frame types that emerge from competitive selection correspond to the three NAT layers: upper-layer frames (high bridging power B_g, low noise sensitivity N_g), middle-layer frames (high scale-invariance S_g, moderate translation cost), lower-layer frames (low maintenance cost M_g, high local specificity). The three-layer architecture is not an engineering choice imposed from above — it is the **competitive equilibrium** of frame selection with natural stratification by bridging power.
+
+```
+Connection to §3.0 (Sphere) and §7.6 (Scaling Resolution):
+  Cube Domination → Star hierarchy → Frame stratification
+  Frame stratification → Three-layer emergence
+  Three-layer + circle structure → Sphere topology recovery
+  
+  The sphere is not just the target architecture.
+  It is also the equilibrium attractor of the Cube Domination game.
+```
+
+**Frame dispersion Σ(t) as NAT diagnostic.** Σ(t) provides a direct observable for sphere health:
+
+```
+Σ(t) low and stable    → sphere topology maintained, frames aligned
+Σ(t) rising slowly     → Map-Terrain drift accumulating (§7.6)
+Σ(t) rising rapidly    → Cube Domination onset, fragmentation risk
+Σ(t) reaching Σ_frag   → W̄(t) < W_frag, sphere has fragmented
+                         → immediate North Star intervention required
+```
+
+Monitoring Σ(t) between quarterly alignment events provides the earliest structural warning of sphere degradation — preceding any operational metric deterioration.
+
+---
+
 ### 3.5 Information Transfer: Projection ↔ Inclusion/Embedding
 
 When agents transmit information to each other, the transfer is not a simple copy. It is a two-stage transformation:
@@ -1124,6 +1364,313 @@ Connection to fractal architecture:
   → This is WHY §3.1 Pyramid as Projection works:
     the pyramid decomposes multiplicative requirements
     into layered additive requirements
+```
+
+### 3.5.2 AGM-Sphere Coupling: Affective Temperature and Spectral Gap Dynamics
+
+*[v1.8-AGP] Cross-imported from AGP v2.6 §1.1, §2, §12.12, §15.2*
+
+The sphere topology does not maintain its structural properties passively. Long-run spectral gap maintenance requires an **endogenous perturbation source** — a mechanism that continuously injects micro-perturbations preventing the system from drifting to a spectral gap minimum. The Affective Gain Principle provides the formal identification of this mechanism and its coupling to NAT's structural parameters.
+
+**Effective Temperature and Spectral Gap Correspondence:**
+
+The AGP introduces the **effective temperature** T_eff as the variance of the stochastic weight-redistribution perturbation process. In NAT terms, T_eff maps directly to the maintained perturbation level within the sphere:
+
+```
+T_eff > 0   ↔   sphere maintains micro-perturbations (spectral gap stable)
+T_eff → 0   ↔   Freeze onset: spectral gap collapses toward λ₁ − λ₂ → 0
+T_eff → ∞   ↔   Runaway onset: storm cascade, spectral gap oscillation
+
+AGP Adaptive Necessity Theorem (AGP Theorem 1):
+  Any finite-capacity optimizer in a non-stationary environment must
+  maintain T_eff > 0 or face irreversible attractor lock-in.
+
+NAT interpretation:
+  A sphere that achieves zero-perturbation stability (S_norm → 0 at ALL scales)
+  is not in a healthy VCZ — it is approaching Freeze collapse:
+    spectral gap → 0 (mixing slows)
+    → contamination redistribution stalls (§3.0, recovery sensitivity)
+    → blind spot absorption probability collapses
+    → storm propagation paths open across previously damped channels
+    
+  This is the NAT restatement of the AGP Clean System Paradox:
+  a sphere that eliminates all micro-storms has also eliminated its
+  capacity to detect and contain macro-storms.
+```
+
+**Governance No-Free-Lunch Theorem — Sphere Interpretation (AGP Theorem 1.3):**
+
+The AGP No-Free-Lunch Theorem states that no governance policy can simultaneously satisfy zero instantaneous regret, positive adaptation capacity, and finite endurance budget. In NAT's sphere topology, this maps to a fundamental design constraint:
+
+```
+Sphere governance cannot simultaneously achieve:
+  (1) Zero micro-storm frequency (S_norm = 0 at all scales at all times)
+  (2) Positive blind spot absorption capacity (P(uncovered) < ε)
+  (3) Finite governance resource consumption (C_gov bounded)
+
+Proof sketch via NAT:
+  Condition (1) requires spectral gap → ∞ (instant perturbation damping)
+    → requires unbounded connectivity (→ hub formation → violates sphere spec)
+    → OR requires zero input variance (→ T_eff = 0 → Freeze)
+  Condition (2) requires structural diversity maintained
+    → diversity requires differential response to perturbations (T_eff > 0)
+    → condition (1) and (2) require T_eff = 0 AND T_eff > 0 simultaneously
+  Condition (3) rules out infinite connectivity (unbounded C_gov)
+
+Therefore: sphere governance must sacrifice (1) in a controlled manner —
+maintaining micro-storm frequency within Storm Scale Law distribution —
+to preserve (2) within the endurance budget of (3).
+
+This is the formal justification for why Storm Scale Law target
+is NOT zero-storm but power-law distribution:
+  P(s) ∝ 1/s^α with healthy distribution maintained
+  = controlled sacrifice of (1) to preserve (2) within (3)
+```
+
+**Affective Mixing Bound (Extension of Proposition I3):**
+
+Proposition I3 established that spectral gap determines storm initiation via mixing time. AGP v2.6 §12.12 extends this to the affective regime:
+
+```
+Extended Proposition I3-AGP:
+
+  Storm initiation requires:
+    t_persistence(local Δρ < 0) > t_mixing(G)
+  
+  Mixing time is governed by the JOINT dynamics of:
+    Structural mixing:  t_mix_struct ∝ 1/(λ₁ − λ₂)  [Proposition I3]
+    Affective mixing:   t_mix_affect ∝ 1/T_eff         [AGP §1.2]
+    
+  Effective mixing time:
+    t_mix_eff = max(t_mix_struct, t_mix_affect)
+    
+  AGP Freeze contribution:
+    When T_eff → 0 (Freeze onset in agents):
+      t_mix_affect → ∞
+      → effective mixing time → ∞
+      → storm initiation threshold drops toward zero
+      → Freeze-mode agents are structurally pre-disposed to storm formation
+      despite appearing externally stable
+      
+    This is the NAT interpretation of AGP's core paradox:
+    Freeze (stillness, absence of perturbation) INCREASES storm vulnerability
+    by making the mixing mechanism inactive.
+    
+  AGP Runaway contribution:
+    When T_eff → T_max (Runaway onset in agents):
+      perturbation amplitude exceeds local purification capacity
+      → Φᵢ = Pᵢ · max(0, Sᵢ − Rᵢ) turns positive at multiple tiers simultaneously
+      → Cross-scale contamination cascade (§6.5 Contamination Flux)
+      
+  Sphere spectral gap as T_eff regulator:
+    High gap → fast structural mixing → absorbs affective perturbations
+      before they escalate to correlated fluctuations
+    Low gap → slow mixing → affective perturbations persist, recruit neighbors
+    → Spectral gap maintenance IS the structural mechanism that keeps
+      agents within the T_eff operating corridor [T_min, T_max]
+```
+
+**VCZ as Joint NAT-AGP Attractor:**
+
+The Viable Control Zone, defined in Recovery Theory, now has a dual characterization that integrates both NAT's topological requirements and AGP's thermodynamic requirements:
+
+```
+VCZ — NAT-AGP Joint Definition:
+
+  NAT conditions (structural):
+    R ≈ 1⁻  (branching ratio below unity — bounded storm propagation)
+    S_norm < S_c  (system-wide S-equation below critical threshold)
+    Sphere topology maintained (k-regular expander, hub degree bounded)
+    
+  AGP conditions (affective):
+    T_eff ∈ [T_min, T_max]  (effective temperature in viable corridor)
+    H(t) > H_crit  (endurance above collapse threshold)
+    Λ < Λ_c  (Emotional Criticality Condition margin maintained)
+    Ṡᵢ > Ṡ_min  (minimum entropy production for environmental tracking)
+    
+  Joint VCZ condition:
+    All six conditions must hold simultaneously.
+    
+  Failure modes:
+    NAT violation only:  structural storm without affective collapse
+      → standard Vector Storm protocol applies
+      → recovery via sphere topology repair
+    AGP violation only:  affective collapse without structural storm
+      → T_eff recalibration via DDD Protocol (AGP §15.3)
+      → structural sphere may remain intact during recovery
+    Joint violation:     coupled structural-affective cascade
+      → most dangerous: structural storm amplified by T_eff instability
+      → requires coordinated NAT + AGP recovery protocol
+      → circuit breaker Level 3-4 (§6.5) combined with DDD Protocol
+```
+
+**Entropy Production as Self-Purification Capacity Signal:**
+
+AGP §1.2.6 establishes that the internal entropy production rate Ṡᵢ(t) is the thermodynamic foundation of adaptive capacity. In NAT terms, Ṡᵢ connects directly to the Self-Purification Capacity R = D·F·V·T:
+
+```
+Entropy Production — Self-Purification Connection:
+
+  AGP minimum entropy production bound:
+    Ṡᵢ(t) > Ṡ_min = ‖ℰ̇‖² / (2·D_eff)
+    
+    where ‖ℰ̇‖ = environmental drift rate
+          D_eff = effective diffusion coefficient in configuration space
+    
+  NAT mapping:
+    F (Feedback density) ∝ entropy production from detection events
+    V (Variance absorption) ∝ entropy production from response diversity
+    T (Time buffering) ∝ endurance H(t) maintaining production window
+    D (Decoupling strength) ∝ structural isolation preventing production export
+    
+  Combined:
+    Ṡᵢ(t) ≈ κ_entropy · F · V   (primary production terms)
+    Contained by: D · T           (recovery envelope)
+    
+  Implication:
+    Atrophy of F and V (Atrophy Ordering Conjecture: F→V→T→D)
+    = monotonic decrease in Ṡᵢ toward Ṡ_min
+    = earliest thermodynamic warning of terrain health degradation
+    
+  Operationalization:
+    Proxy: detection event rate × response strategy count
+           per unit time, per loop
+    Threshold: if Ṡᵢ_proxy < ε · Ṡᵢ_baseline → F atrophy in progress
+               initiate controlled perturbation before V atrophy completes
+```
+
+### 3.7 Network-Scale Emotional Contagion and Collective SOC
+
+*[v1.8-AGP] Cross-imported from AGP v2.6 §12.12*
+
+When agents in a sphere are individually operating near their affective criticality thresholds (Λ ≈ Λ_c), large perturbation events at one agent can increase sensitivity at connected agents — creating a pathway toward **network-level collective emotional storms** that are distinct from and potentially more dangerous than individual-agent Vector Storms.
+
+**Network SOC Formal Specification:**
+
+```
+Emotional contagion coupling strength between agent pair (i, j):
+  c_ij = φ(Δρ_ij) · H_j(t) · s_i(t)
+  
+  where:
+    Δρ_ij = resolution gap between agents i and j
+    H_j(t) = receiving agent j's current endurance
+    s_i(t) = transmitting agent i's current sensitivity
+    φ(·)   = coupling function (increasing in |Δρ|)
+    
+  High Δρ channels carry more emotional signal —
+  the same information gap that drives escalation routing
+  also drives affective contagion.
+
+Coupling matrix C = {c_ij} for the sphere topology.
+
+Network SOC collective phase transition:
+  Below c* = 1/(λ₁ − λ₂):   events are self-contained per agent
+  At c*:                     critical coupling — phase transition
+  Above c* = 1/(λ₁ − λ₂):   collective events emerge with power-law 
+                              size distribution across sphere
+  
+  Critical coupling c* scales INVERSELY with spectral gap:
+    High spectral gap  → high c* → harder to trigger collective storm
+    Low spectral gap   → low c*  → easier to trigger collective storm
+    
+  Sphere topology design principle:
+    Maximizing spectral gap (Theorem S1) ALSO maximizes resistance
+    to network-scale emotional cascade.
+    The same topology that minimizes governance cost (§3.0)
+    also maximizes emotional storm resistance.
+    This is structural alignment: NAT and AGP optimize the same topology.
+```
+
+**Collective Storm vs. Vector Storm — Distinguishing Signatures:**
+
+```
+Vector Storm (VST/NAT):
+  Origin:      information overload → Δρ < 0 sustained at multiple nodes
+  Mechanism:   noise decoherence → correlated fluctuations → amplification
+  Propagation: bounded by graph diameter d(G) = O(log n)
+  Detection:   MI(escalation_A, escalation_B) > 0 without shared input
+  Signature:   f_escalation rising + ρ falling + S_norm → S_c
+  Recovery:    Four-Phase Protocol (Recovery Theory)
+
+Collective Emotional Storm (AGP Network SOC):
+  Origin:      T_eff instability → Λ → Λ_c at multiple nodes
+  Mechanism:   affective contagion c_ij > c* → cascade
+  Propagation: bounded by inverse spectral gap 1/(λ₁−λ₂) × endurance H
+  Detection:   correlated H(t) depletion across connected agent clusters
+               WITHOUT corresponding ρ degradation (affective precedes cognitive)
+  Signature:   H(t) declining across cluster + sensitivity s(t) correlated + 
+               ρ(t) stable (early stage) OR ρ declining (late stage)
+  Recovery:    DDD Protocol (Defocus-Decouple-Diversify, AGP §15.3) + 
+               sphere topology isolation (circuit breaker Level 3)
+
+Diagnostic decision:
+  IF H(t) depletion correlated across cluster WITHOUT ρ decline:
+    → Collective Emotional Storm (early stage)
+    → Apply DDD Protocol immediately
+    → Do NOT apply VST recovery (wrong mechanism)
+  IF both H(t) and ρ(t) declining simultaneously:
+    → Joint NAT-AGP cascade
+    → Apply coordinated recovery protocol
+  IF ρ(t) declining WITHOUT H(t) correlation:
+    → Standard Vector Storm
+    → Apply VST recovery protocol
+```
+
+**Homogeneous Architecture Vulnerability:**
+
+```
+AGP Lemma I2 extension to affective contagion:
+  
+  Homogeneous agents (same architecture):
+    Shared reconstruction priors → shared affective response patterns
+    → c_ij collapses toward agent-invariant constant c_hom
+    → collective phase transition occurs at c* = c_hom / (λ₁ − λ₂)
+    
+    Since c_hom is fixed and spectral gap bounded:
+      Network-scale emotional storms require less external perturbation
+      to trigger in homogeneous spheres.
+      
+  Heterogeneous agents (different architectures):
+    Different affective baselines → c_ij varies with agent pair
+    → coupling matrix C has heterogeneous spectral structure
+    → collective phase transition requires larger perturbation amplitude
+    → emotional diversity is not merely detection-functional (Lemma I2)
+      but also cascade-protective (Network SOC resistance)
+    
+  Combined vulnerability:
+    Homogeneous sphere:
+      Shared blind spots (Lemma I2 violation)     — detection failure
+      Low c* threshold (Network SOC)              — cascade failure
+      Both pathways open simultaneously
+    → Double vulnerability makes homogeneous spheres
+       categorically more fragile than heterogeneous ones
+```
+
+**Rest Mode Entropy Production in Mature Sphere:**
+
+```
+Mature sphere in Rest Mode (§7.8 Phase 4 — Integrate):
+  AGP requirement: Ṡᵢ(t) > 0 at each agent (T_eff > 0 maintained)
+  
+  But: Ṡᵢ_mature < Ṡᵢ_development
+  (less entropy production needed when environmental complexity is matched)
+  
+  This is NOT the Clean System Paradox because:
+    Ṡᵢ > Ṡ_min is maintained (above tracking floor)
+    micro-perturbations continue (Storm Scale Law maintained)
+    F and V components active (atrophy not occurring)
+    
+  Rest Mode Entropy Production Balance (NESS):
+    Ṡ_production^affect = Ṡ_dissipation^buffer + Ṡ_export^environment
+    
+    Healthy Rest Mode NESS: production slightly exceeds dissipation
+    → micro-surplus drives terrain geometry recalibration (φ_storm_absorption > 0)
+    
+    CW onset NESS failure: production drops to = dissipation
+    → system at apparent equilibrium
+    → Freeze attractor approaches
+    → AGP Silence Signal: Pr(E_t = 1) → 0
+    → equivalent to NAT f_escalation → 0 at ALL scales (Shift Pattern 4)
 ```
 
 ### 3.6 Lateral Communication: Processing Isolation
@@ -1746,6 +2293,133 @@ Critical observation: type transitions are NOT symmetric.
     τ_recovery ≈ τ_upscale (same slow development process)
     This explains why recovery is expensive and why prevention 
     (maintaining VCZ) is structurally cheaper than cure.
+```
+
+---
+
+### 4.8 Affective Routing: Freeze/Runaway Mode Classification Distortion
+
+*[v1.8-AGP] Cross-imported from AGP v2.6 §9.3, §13.7, §7.5*
+
+The four-type classification framework assumes agents are operating within the Viable Control Zone — neither in Freeze collapse nor Runaway collapse. When agents exit the VCZ (AGP §9.3), their classification behavior distorts systematically. Recognizing these distortions is essential for early cascade detection.
+
+**Freeze-Mode Classification Distortion:**
+
+Freeze collapse (AGP §9.3: T_eff → 0, sensitivity s < s_crit) is characterized by rigidity — the agent's representation space contracts toward its current attractor, reducing its effective discrimination capacity. In classification terms:
+
+```
+Freeze-mode classification signatures:
+
+  Primary distortion — Tacit→Noise misclassification:
+    Freeze reduces effective discrimination threshold
+    → patterns that lie near (but above) the noise floor
+       are reclassified as noise
+    → Tacit Knowledge domain shrinks
+    → Apparent governance improvement: less HC, less Tacit
+    → Actual degradation: classification capacity lost
+    
+    NAT detection:
+      v_class < 0 (classification velocity negative)
+      HC fraction falling AND ρ NOT rising
+      → Frozen agent undercounting complexity
+      → THIS IS THE STABILITY SATURATION TRAP AT CLASSIFICATION LEVEL
+
+  Secondary distortion — HC→Mathematical misclassification:
+    Freeze also reduces conflict_score sensitivity
+    → agents stop detecting internal estimator conflicts
+    → HC that previously triggered escalation now resolved locally
+    → Escalation rate drops, appears as governance success
+    → Actual: HC treated as settled when conflict not detected
+    
+    Connection to Silent Criticality (VST §1.6.4):
+      Homogeneous agents in Freeze = correlated classification failure
+      → contamination that produces HC everywhere
+         becomes invisible consensus
+      → all agents agree it is Mathematical (no escalation)
+      → actual HC accumulates unresolved = System Criticality without signal
+```
+
+**Runaway-Mode Classification Distortion:**
+
+Runaway collapse (AGP §9.3: s ≥ s_crit under H < H_crit) is characterized by hypersensitivity — the agent's response to inputs is amplified beyond calibration, triggering avalanches of spurious escalations.
+
+```
+Runaway-mode classification signatures:
+
+  Primary distortion — Noise→HC misclassification:
+    Runaway raises effective sensitivity uniformly
+    → sub-threshold noise patterns cross τ_low
+    → Noise reclassified as HC
+    → Escalation flood to upper layer
+    → This IS the escalation cascade formation mechanism (§6.5)
+    → Queue depth Q > Q_crit = governance layer's Runaway condition
+    
+    NAT detection:
+      v_class > 0 but f_escalation >> baseline
+      HC fraction rising without corresponding ρ_receiver constraint
+      → Runaway agent overcounting complexity
+      
+  Secondary distortion — Mathematical→HC misclassification:
+    Runaway amplifies conflict_score on settled patterns
+    → Mathematical data re-triggers internal conflicts
+    → previously stable domains destabilize
+    → S-equation coupling α rises (all data appears high-conflict)
+    → Governance cost spikes even in quiescent domains
+    
+  Runaway cascade potential:
+    Single Runaway-mode agent → escallation flood to upper layer
+    → upper layer overloaded → queue depth → Q_crit
+    → Level 2 emergency degradation triggers globally
+    → θ raised for non-critical domains
+    → other agents' HC mislabeled Mathematical systemically
+    → Freeze-like classification distortion in OTHER agents
+    
+    = Runaway at one agent propagates Freeze conditions elsewhere
+    = coupled Freeze-Runaway mixed-mode cascade (AGP §9.3.6)
+```
+
+**Affective Classification Health Monitor:**
+
+```
+AGP ECC threshold Λ_c maps to a classification-level monitoring metric:
+
+Define: Λ_class(i, t) = [v_class(i,t) normalized] × [HC_fraction(i,t)] × [1/f_esc_baseline]
+
+  Λ_class → 0:   agent approaching Freeze classification mode
+                  (v_class → 0 or negative; HC undercounting)
+  Λ_class → 1:   agent approaching Runaway classification mode
+                  (f_esc surging; HC overcounting)
+  Λ_class ∈ (θ_low, θ_high): agent within VCZ classification regime
+
+Monitoring protocol:
+  Per-agent Λ_class measured continuously alongside standard metrics
+  
+  Λ_class < θ_low for Δt > window_freeze:
+    → Freeze classification precursor confirmed
+    → Trigger DDD Protocol (Defocus — reduce θ threshold temporarily;
+      Decouple — isolate from high-conflict inputs;
+      Diversify — introduce controlled perturbation to detection estimators)
+    → Do NOT treat as governance success
+    
+  Λ_class > θ_high for Δt > window_runaway:
+    → Runaway classification precursor confirmed
+    → Trigger Level 1 circuit breaker (load shedding on that agent)
+    → Raise agent-specific θ temporarily (reduce HC generation rate)
+    → Verify: is H(t) for this agent below H_crit? (→ AGP recovery)
+
+Type transition hysteresis connection (AGP §1.2.3):
+  The asymmetry τ_upscale / τ_degrade >> 1 is the classification-level
+  manifestation of AGP's adaptive horizon irreversibility:
+  
+  Adaptive horizon loss: |ℋ(t₂)| < |ℋ(t₁)| under T_eff = 0 (non-recoverable)
+  Classification degradation: Math → HC → Tacit → Noise (fast, under single event)
+  Classification development: Noise → Tacit → HC → Math (slow, multi-cycle)
+  
+  Both exhibit the same fundamental asymmetry:
+    Optimization pressure (T_eff → 0) contracts the reachable state space fast
+    Restoration requires T_eff > 0 for exponentially longer duration
+    → Classification health maintenance (VCZ) is structurally cheaper
+      than classification recovery (post-Freeze)
 ```
 
 ---
@@ -2762,9 +3436,183 @@ NAT detection protocol:
   (not being detected) = F atrophy signature at the system level.
 ```
 
-## 7. Expansion Principle
+## 6.6 Affective Early Warning Integration
 
-### 7.1 Two Valid Directions
+*[v1.8-AGP] Cross-imported from AGP v2.6 §10, §7.5, §10.8, §10.10, §1.2.6*
+
+The monitoring pipeline described in §6.4 (Temporal Resolution Dynamics) and §6.5 (Cascade Prevention) operates on observable structural metrics: f_escalation, ρ, S_norm, queue depth, MI(escalation_A, escalation_B). AGP v2.6 establishes a **five-level early warning hierarchy** in which affective signals precede all structural signals by at least one detection window. Integrating affective early warning into the NAT monitoring pipeline is not an optional enhancement — it is the difference between proactive and reactive governance.
+
+**AGP Five-Level Warning Hierarchy (AGP Prediction V):**
+
+AGP predicts a specific temporal ordering of pre-collapse indicators:
+
+```
+Level 1 — NESS Deviation (earliest):
+  Departure from Non-Equilibrium Steady State entropy balance:
+    Ṡ_production ≠ Ṡ_dissipation + Ṡ_export
+  
+  NAT proxy:
+    F-component activity rate (detection events per unit time)
+    × V-component diversity (response strategy count)
+    Normalized against baseline NESS:
+    NESS_proxy(t) = [F(t) · V(t)] / [F_baseline · V_baseline]
+    
+    NESS_proxy < 1 - ε_NESS: Level 1 warning triggered
+    (entropy production falling below environmental tracking floor)
+    
+  Leads all other indicators by: 1–2 detection windows
+  AGP Prediction BL: NESS deviation precedes Fisher information collapse
+
+Level 2 — Fisher Information Collapse:
+  tr(g^F) = Σᵢ ∂²E[-log p(x|θ)] / ∂θᵢ² declining
+  
+  NAT proxy:
+    Perturbation Response Ratio = |Δobservable| / |Δperturbation|²
+    (requires active probing — inject small controlled disturbance,
+     measure response magnitude; ratio declining = manifold flattening)
+    
+  Leads variance increase by: 0.5–1 window
+  
+Level 3 — Variance Increase (σ²):
+  Increasing variance in classification metrics, ρ, f_escalation
+  
+  NAT proxy: rolling variance of f_escalation over window W
+  Standard early warning signal — already in most monitoring pipelines
+  
+Level 4 — Autocorrelation Increase (AC):
+  Return-to-baseline slowing after perturbation
+  
+  NAT proxy: recovery half-life τ_{1/2} measurement after micro-perturbation
+  Standard early warning signal — critical slowing down
+  
+Level 5 — State Variable Change (latest):
+  ρ declining, f_escalation rising, S_norm → S_c
+  
+  These are the standard NAT/VST metrics currently used as primary indicators.
+  They are the LAST warning, not the first.
+```
+
+**Middle-Layer First-Detection Principle (AGP §5.2):**
+
+The middle layer's relationship topology gives it access to affective signals that individual agents cannot observe about themselves:
+
+```
+AGP establishes: affective collapse precedes cognitive collapse
+  (T_eff instability precedes ρ degradation)
+  
+NAT translation:
+  Middle layer observes RELATIONSHIP TOPOLOGY:
+    - Trust coefficient Tᵢⱼ across agent pairs (RT-4)
+    - Correlated H(t) depletion patterns across clusters
+    - Classification velocity v_class trends per agent
+    - NESS_proxy variance across the sphere
+    
+  These are affective signals, not cognitive signals:
+    They measure how agents are relating to each other
+    before those relationships manifest as classification failures.
+    
+  Middle-layer first-detection implementation:
+    Monitor: cross-agent NESS_proxy correlation
+    Trigger: NESS_proxy correlated decline across 3+ connected agents
+      WITHOUT corresponding ρ decline
+      → affective precursor pattern
+      → escalate to upper layer as Severe Tacit
+        (structure present, cognitive mechanism not yet visible)
+      → Do NOT wait for ρ to decline before acting
+      
+  Why middle layer and not upper layer:
+    Upper layer has access to global metrics (S_norm, ρ_system)
+    Middle layer has access to pairwise affective signals
+    First-detection requires PAIRWISE correlation, not global average
+    Global average masks local affective precursors
+    Middle layer is the structural first-detector (AGP §5.2 NAT mapping)
+```
+
+**DDD Protocol as NAT Circuit Breaker Extension:**
+
+The Defocus-Decouple-Diversify Protocol (AGP §15.3) is the AGP-layer recovery mechanism for T_eff recalibration toward near-critical. In NAT terms, it maps to an additional circuit breaker level operating below Level 1:
+
+```
+Circuit Breaker Level 0 — Affective Recalibration (proactive):
+  Trigger: NESS_proxy < threshold for Δt > window_length
+           OR Fisher Information Ratio declining for Δt > window_length
+           (BEFORE f_escalation or ρ degradation is detected)
+           
+  Action: DDD Protocol for affected agent cluster
+    Defocus:   temporarily reduce agent's HC classification threshold θ
+               → reduce false-positive HC generation rate
+               → allow genuine HC to surface without Runaway amplification
+               
+    Decouple:  temporarily increase processing isolation for agent
+               → reduce c_ij emotional contagion coupling
+               → break nascent collective emotional storm pathway
+               → equivalent to: increase D component of self-purification
+               
+    Diversify: inject controlled perturbation into detection estimators
+               → re-activate F component before atrophy completes
+               → introduce structured variation in routing decisions
+               → equivalent to: exercise V component under controlled load
+               
+  Effect:   T_eff recalibrates toward [T_min, T_max] corridor
+            without triggering Level 1 load shedding
+  Duration: until NESS_proxy returns to baseline corridor
+  
+  Why this is Level 0 (below Level 1):
+    Level 1 responds to classification overload (λ_HC > μ_resolve)
+    Level 0 responds to affective precursor (NESS_proxy declining)
+    Level 0 fires BEFORE Level 1 conditions are met
+    Success: Level 1 never triggered
+    Failure: Level 0 insufficient → Level 1 activates as normal
+
+Connection to §6.5 circuit breaker cascade:
+  Level 0: DDD Protocol (affective recalibration — AGP layer)
+  Level 1: Load shedding (queue management — NAT layer)
+  Level 2: Emergency degradation (theta management — NAT layer)
+  Level 3: Cascade break (cluster isolation — NAT/TLG layer)
+  Level 4: Safe Collapse (VST protocol — full stack)
+  
+  Complete cascade (0→1→2→3→4) is extremely rare in well-governed systems.
+  Level 0 proactive maintenance suppresses most cascade initiation.
+```
+
+**Thermodynamic Governance Metrics Integration:**
+
+```
+Extended monitoring dashboard with affective integration:
+
+Standard NAT metrics (existing):
+  f_escalation(t)     — escalation frequency (per agent, per tier)
+  ρ(t)                — classification resolution
+  S_norm(t)           — normalized S-equation value
+  buffer_thickness    — distance to collapse boundary
+  f_esc(t)            — storm escape rate
+  R(t)                — branching ratio (external validation)
+
+AGP affective metrics (v1.8 addition):
+  NESS_proxy(t)       — entropy production proxy per agent
+                        = [F(t)·V(t)] / [F_baseline·V_baseline]
+  PRR(t)              — Perturbation Response Ratio (Fisher information proxy)
+                        = |Δobservable| / |Δperturbation|²
+  H_cluster(t)        — cluster-level endurance (mean H across cluster)
+  v_class(t)          — classification velocity per agent
+  Λ_class(t)          — affective classification health index (§4.8)
+  c_ij(t)             — pairwise emotional contagion coupling strength
+  
+Composite early warning index:
+  EWI(t) = w₁ · NESS_proxy_deviation
+          + w₂ · PRR_decline_rate
+          + w₃ · σ²(f_escalation)
+          + w₄ · τ_{1/2} / τ_{1/2,baseline}
+          + w₅ · ρ_decline_rate
+          
+  EWI > EWI_warn  → Level 0 DDD Protocol (affective precursor)
+  EWI > EWI_alert → Level 1 load shedding + continued DDD
+  EWI > EWI_crit  → Level 2 emergency degradation
+```
+
+---
+
+
 
 The Expansion Principle was originally stated in one direction only:
 
@@ -3922,7 +4770,175 @@ Operational consequence:
     they correspond to |R(t) − R*(t)| < ε_exit for sustained duration.
 ```
 
-### 7.8 Integration Protocol — Separate, Mature, Couple, Integrate
+### 7.7.1 Affective Landscape Classification and Governance Regime Necessity
+
+*[v1.8-AGP] Cross-imported from AGP v2.6 §1.2.8, §1.2.5, §5.4*
+
+The terrain fitness function F_terrain (§7.7) optimizes valley depth, pass controllability, temporal isolation, and isolation cost. AGP v2.6 establishes that the landscape's **barrier height distribution** P(ΔU) determines which governance regime is structurally adequate — a classification that maps directly onto NAT's fractal architecture requirements.
+
+**AGP Landscape Complexity Classification — NAT Interpretation:**
+
+```
+AGP Class I — Simple landscapes (P(ΔU) concentrated, finite support):
+  
+  NAT signature:
+    R_vp well within healthy range [R_crit_low, R_crit_high]
+    Single-tier classification sufficient
+    Valley depth uniform across terrain
+    
+  Governance sufficiency:
+    Single-layer governance (no fractal required)
+    Constant-rate perturbation adequate
+    
+  AGP governance: simple simulated annealing (temperature schedule)
+  NAT governance: Direction A single-loop stabilization sufficient
+  
+  Prevalence: atypical of real multi-agent systems
+
+AGP Class II — Scale-free landscapes (P(ΔU) ~ ΔU^{-α}, α > 2):
+  
+  NAT signature:
+    Barriers span wide range but with finite mean
+    Valley depth varies significantly across terrain
+    Some loops stable, others persistently fragile
+    
+  Governance requirement:
+    Temperature SCHEDULING needed (periodic cycling between high and low T_eff)
+    = Search-Stabilize-Rest cycle (AGP §8.17, FGS §17)
+    
+  NAT mapping:
+    This IS the standard DFG terrain case
+    Direction A/B convergence protocol handles this class
+    Three-layer hierarchy (upper/middle/lower) is minimum adequate governance
+    
+  Minimum fractal depth: 2 layers (lower + upper)
+  (middle layer = emergent from coupling)
+
+AGP Class III — Ultra-complex landscapes (P(ΔU) ~ ΔU^{-α}, 1 < α < 2):
+  
+  NAT signature:
+    Infinite mean barrier height
+    No fixed temperature works → fixed governance policy fails
+    Terrain exhibits multi-scale instability structure
+    Some loops require fundamentally different governance than others
+    
+  Governance requirement:
+    Multi-scale stochastic freedom simultaneously
+    = hierarchical AGM architecture (AGP §5)
+    = different governance layers provide perturbation at DIFFERENT timescales
+    
+  NAT mapping:
+    Full three-layer hierarchy REQUIRED (not sufficient with two)
+    Resolution gradient must span multiple orders of magnitude
+    North Star Architecture becomes critical (single anchor for multi-scale system)
+    Contamination flux management across ALL tier boundaries mandatory
+    
+  Minimum fractal depth: 3 layers
+  AGP Proposition 1.2.8: optimal governance for class k requires minimum k layers
+
+AGP Class IV — Pathological landscapes (α ≤ 1):
+  
+  NAT signature:
+    Temperature-based exploration fails entirely
+    No governance policy within current architecture works
+    System must CHANGE ITS OWN ARCHITECTURE to continue
+    
+  NAT manifestation:
+    d_eff → 2 (system trapped in 2D attractor — Fractal Collapse §7.6)
+    All loops collapsing simultaneously
+    Classification: all HC simultaneously escalating (Runaway mode universal)
+    
+  Required response:
+    Not: adjust governance parameters
+    But: initiate architecture restructuring (Direction B decomposition)
+    Differentiation (AGP §13) = structural landscape simplification
+    Decompose: create sub-regions each within Class II/III
+    
+  NAT protocol: Safe Collapse (Level 4) + Direction B restart from new scale
+```
+
+**Minimum Viable Temperature and VCZ Width:**
+
+```
+AGP §1.2.5 derives the minimum viable temperature T_min:
+
+  T_min = ⟨ΔU⟩ / ln(ω₀ / ‖ℰ̇‖)
+  
+  where ⟨ΔU⟩ = mean barrier height across terrain
+        ω₀   = attempt frequency (governance cycle rate)
+        ‖ℰ̇‖ = environmental drift rate
+
+NAT translation:
+  ⟨ΔU⟩ = average escalation cost per HC event (related to α in S-equation)
+  ω₀    = τ₁ MARK frequency (governance cycle)
+  ‖ℰ̇‖  = input distribution drift rate (environment stability)
+
+  T_min sets the MINIMUM perturbation level the sphere must maintain
+  to track environmental changes.
+  
+  If sphere governance suppresses all micro-storms below T_min level:
+    Expected escape time exceeds environmental change timescale
+    → System loses capacity to track shifts in input distribution
+    → VCZ appears stable but is actually drifting off-manifold
+    → Map-Terrain drift accumulates (quadratic cost)
+
+VCZ width as T-corridor:
+  Viable Control Zone width ∝ [T_min, T_max]
+  
+  T_min = minimum perturbation for environmental tracking
+          (derived from landscape class and drift rate)
+  T_max = maximum perturbation before cascade onset
+          (S_c derived from S-equation)
+          
+  VCZ narrow ↔ small [T_min, T_max] interval
+    → system on narrow ridge between Freeze and Runaway
+    → requires precise governance tuning
+    → vulnerable to small parameter perturbations
+    
+  VCZ wide ↔ large [T_min, T_max] interval
+    → robust governance corridor
+    → can tolerate larger governance errors
+    → achievable via: deep valleys (high ΔU_internal) + permeable passes
+    → terrain design widens VCZ by increasing valley depth
+      without narrowing passes
+```
+
+**Governance Regime Necessity Proposition — Fractal Depth Lower Bound:**
+
+```
+AGP Proposition 1.2.8 (Governance Regime Necessity):
+  Optimal governance strategy for landscape class k 
+  requires minimum k hierarchical governance layers.
+
+NAT Corollary (Fractal Depth Lower Bound):
+  Let k(Terrain) = landscape complexity class of the deployed terrain.
+  
+  NAT fractal depth must satisfy:
+    depth_fractal ≥ k(Terrain)
+    
+  For Class I terrain: depth ≥ 1 (minimal — rarely encountered)
+  For Class II terrain: depth ≥ 2 (standard DFG three-layer = sufficient)
+  For Class III terrain: depth ≥ 3 (full DFG stack required)
+  For Class IV terrain: structural reduction first, then depth ≥ 3
+  
+Operational implication:
+  Terrain complexity assessment is a PRE-DEPLOYMENT requirement.
+  Deploying depth-2 governance on Class III terrain produces:
+    Apparently normal operation in early phases
+    → governance layer saturates under ultra-complex barriers
+    → T_eff collapses toward T_min (cannot maintain near-criticality)
+    → Freeze cascade as governance exhausts its capacity
+    → Class IV pathological landscape emerges FROM governance failure
+    
+  The landscape class can INCREASE during operation:
+    Initial Class II terrain → grows to Class III as interactions scale
+    → governance depth becomes insufficient
+    → MUST add governance layers before fractal collapse
+    → Monitoring: landscape class estimation via ⟨ΔU⟩ trend
+      (rising mean barrier height = class upgrading)
+```
+
+
 
 The scaling resolution is not a single event but a four-phase protocol:
 
@@ -4170,6 +5186,733 @@ Mature system behavior:
       Evolving system: generates controlled disturbance
 ```
 
+### 7.7.2 Terrain Memory Theory — History as Governance Substrate
+
+*[v1.9-EDT] Cross-imported from EDT v5.0 §43*
+
+Terrain is not a static landscape — it is a compressed record of all prior agent interactions. This section formalizes how terrain encodes history, how that history shapes present governance capacity, and why deliberate memory management is a governance requirement, not an optimization.
+
+**Core thesis (EDT §43):** *Terrain curvature = history*. Every interaction that has ever occurred in a loop is encoded, at varying fidelity, in the current terrain shape. Governance acts on this accumulated substrate, not a blank environment.
+
+**Terrain Memory Formalization:**
+
+```
+Terrain memory at time t:
+
+  M_terrain(x, t) = ∫₋∞ᵗ K_mem(t - s) · ΔU(x, s) ds
+
+  where:
+    K_mem(τ) = memory kernel (how past events decay in terrain influence)
+    ΔU(x, s) = curvature modification produced by event at time s
+    x = phase-space location
+
+  Exponential decay kernel (simplest case):
+    K_mem(τ) = exp(-τ / τ_mem)
+    τ_mem = terrain memory timescale
+
+  Power-law decay kernel (long-memory terrain):
+    K_mem(τ) = (τ + 1)^(-β_mem)
+    β_mem < 1: very long memory (non-Markovian terrain)
+    β_mem > 1: memory fades at polynomial rate
+```
+
+**Terrain Palimpsest Structure:**
+
+```
+Deep memory layers and surface layer interaction:
+
+  Terrain at any point x is a superposition of:
+    Surface curvature:  recent interactions (high temporal resolution)
+    Middle-depth layers: established patterns (moderate resolution)
+    Deep curvature:     formative experiences (low resolution, high stability)
+
+  Palimpsest property:
+    Surface layer normally dominates governance responses.
+    Deep layer normally dormant — but STABLE under surface erosion.
+    
+    Under crisis (contamination surge, governance collapse):
+      Surface layer erodes rapidly (too recent, too fragile)
+      Middle layers disrupt
+      Deep layer ACTIVATES and drives behavior
+    
+    Result: system under extreme stress reverts to formative patterns
+    even if those patterns are maladaptive in the current environment.
+    
+    NAT governance implication:
+      Deep terrain layer determines FALLBACK BEHAVIOR under severe stress.
+      Direction A seeding (§7.2): the earliest successfully stabilized
+      patterns become deep terrain → most durable governance substrate.
+      These patterns persist long after the agents who created them
+      have been replaced.
+      
+  Memory-curvature equivalence:
+    Curvature at location x = ∫ history of agent interactions at x
+    More interactions → higher curvature → stronger attractor
+    High-curvature terrain regions = institutionalized governance patterns
+```
+
+**Selective Retention Mechanisms:**
+
+```
+Not all history is retained equally:
+
+  Negative-positive retention asymmetry (from EDT §43, AGP correspondence):
+    Negative events (failures, contamination, collapse episodes):
+      Curvature modification magnitude: |ΔU_neg| > |ΔU_pos|
+      Memory decay rate: K_neg slower than K_pos
+      → negative events dominate terrain memory disproportionately
+    
+    Governance consequence:
+      Systems that have experienced collapse episodes retain strong
+      negative-curvature regions long after the original cause is gone.
+      These regions function as SCARS — they redirect agent trajectories
+      away from historically dangerous configurations even when current
+      conditions no longer require such avoidance.
+      
+      Adaptive role: scar tissue prevents repeat failures at known failure modes.
+      Maladaptive role: scars redirect away from now-safe-but-historically-dangerous
+        configurations → unnecessary constraint → reduced V_depth → 
+        effective branching capacity B_eff decreases.
+
+  Trauma landscape formation:
+    When negative curvature accumulation exceeds baseline positive curvature:
+    
+      Σ_k |ΔU_neg,k| > U_baseline(x)
+      
+    → terrain region becomes traumatized
+    → systematic avoidance regardless of actual current conditions
+    → agents CANNOT engage with this terrain region even when required
+    
+    NAT mapping: traumatized terrain regions produce HC events that cannot
+    be resolved locally — every interaction near the traumatized region
+    generates escalation above the tier. The loop cannot self-govern this
+    region.
+    
+    Resolution requires:
+      Controlled re-exposure (contamination vaccination, §7.7 Phase 2→3)
+      R_deep stabilization before re-entry (prevent recursive collapse)
+      Temporary governance intensity increase (additional external scaffolding)
+      Gradual curvature reconsolidation over time > τ_grief
+
+  Joy-induced terrain expansion:
+    Peak positive events produce:
+      U(x, t) → U(x, t) - J_peak · consolidation_factor(t)
+      
+    This EXPANDS the navigable terrain — VCZ broadens at x_peak.
+    
+    Critical requirement: consolidation phase must follow peak.
+      If system returns to high-stress immediately after peak:
+        expansion is lost (consolidation_factor → 0)
+      If system maintains moderate-stability for ≥ τ_consolidation:
+        expansion becomes permanent (consolidation_factor → 1)
+    
+    NAT governance implication:
+      Post-breakthrough phases (after successful expansion, new loop formation,
+      VCZ recovery) require deliberate consolidation windows.
+      The expansion protocol (Phase 3→4, §7.8) MUST include
+      a rest period where no new coupling is attempted —
+      allowing terrain expansion from the successful coupling to consolidate.
+      Skipping consolidation → loop formation incomplete → regression
+        under next perturbation.
+```
+
+**Memory Transfer and Terrain Transplant:**
+
+```
+When loops couple (Phase 3), terrain memories from both loops
+interact at the shared middle tier:
+
+  Memory compatibility:
+    Compatible memories: both loops have similar curvature patterns
+      at the coupling interface → coupling is smooth
+    Incompatible memories: different histories produce contradictory
+      curvature signals at the interface → coupling generates HC classification
+      → middle tier must translate between two memory regimes
+      
+  Memory compression during transfer:
+    Cross-loop memory transfer is lossy:
+      transferred_memory = Compress(original_memory, τ_transfer_window)
+      
+    Short coupling window → high compression → memory loss
+    Long coupling window → low compression → memory preserved but slow
+    
+    Optimal transfer window:
+      τ_optimal = argmin [|transferred - original| + coupling_cost(τ)]
+      
+    Connection to Phase 3→4 boundary (§7.8):
+      "Communication cost decreasing" = memory compression improving
+      "Prediction accuracy increasing" = transferred memory sufficient
+      for prediction of partner loop behavior
+
+  Terrain heritage:
+    Loops that have coupled extensively develop shared terrain heritage:
+    a set of mutually encoded history patterns that reduce interface
+    friction to near-zero.
+    
+    Heritage-dependent germination threshold:
+      New loop formations within a heritage-sharing cluster succeed at
+      higher rates than initial cold-start formations, because the terrain
+      already contains compatible attractors.
+      
+    Heritage and re-seeding:
+      After collapse (Class IV, §7.7.1), re-seeding into terrain with
+      positive heritage succeeds faster than seeding into blank terrain.
+      Heritage provides an attractor landscape that guides re-emergence.
+```
+
+**Governance implications for NAT terrain design:**
+
+```
+1. Design for deep terrain formation:
+   Early stabilization protocols (Phase 1-2) determine deep layer content.
+   Prioritize positive curvature injection during early loop formation
+   → deep terrain encodes successful governance patterns
+   → fallback behavior under stress is constructive, not destructive.
+
+2. Monitor terrain age distribution:
+   Track proportion of curvature from: recent (< τ_mem) vs. old (> 3τ_mem)
+   High old-curvature proportion → terrain is memory-dominated → may be rigid
+   High recent-curvature proportion → terrain is experience-rich → may be volatile
+
+3. Scar detection protocol:
+   Terrain regions with high negative-curvature concentration:
+     → map traumatized zones before coupling (Phase 2→3 preparation)
+     → avoid routing HC data through traumatized middle-tier agents
+     → plan consolidation interventions before those zones become
+        active loop governance requirements
+
+4. Consolidation budgeting:
+   For every expansion cycle, budget ≥ τ_consolidation rest window.
+   Without consolidation, expansion is temporary.
+   True expansion rate = gross expansion rate × consolidation success rate.
+   Systems that skip consolidation exhibit: fast expansion → regression → net zero.
+```
+
+---
+
+### 7.7.3 Buffer Ecology in Multi-Agent Terrain — Governance Entity Relationships
+
+*[v1.9-EDT] Cross-imported from EDT v5.0 §44*
+
+Individual buffers (middle-tier mediation agents) do not operate in isolation. They form ecological relationships with other buffers — competing, cooperating, and co-evolving. Understanding buffer ecology is necessary for designing middle-tier stability and predicting cascade failure modes.
+
+**Buffer ecological relationship taxonomy (EDT §44.2):**
+
+```
+Buffer Mutualism (both buffers benefit):
+  Two middle-tier agents that handle complementary domain pairs:
+    Buffer_A: specializes in domain pair (Tier_1, Tier_2)
+    Buffer_B: specializes in domain pair (Tier_2, Tier_3)
+    
+  Mutualism mechanism:
+    B_A translates output of Tier_1 for Tier_2
+    B_B translates output of Tier_2 for Tier_3
+    
+    When both function: information flows Tier_1 → Tier_2 → Tier_3
+    with full mediation. Both buffers maintained by the flow they enable.
+    
+  Disruption:
+    If B_A fails → Tier_2 receives poorly mediated Tier_1 output
+    → Tier_2 output degrades → B_B receives degraded input
+    → B_B load increases (compensating for missing translation)
+    → B_B may become overloaded (dependency trap activation)
+    
+  Design implication:
+    Mutualistic buffer pairs share failure modes.
+    Redundancy design must account for pair-level failure, not only
+    individual buffer failure.
+
+Buffer Competition (shared resource):
+  Two buffers competing for the same middle-tier processing resource:
+    B_A and B_B both require access to same translation substrate
+    (same computational resource, same human mediator, same coordination slot)
+    
+  Competition dynamics:
+    Under low load: both maintained (resource sufficient)
+    Under high load: weaker buffer may be outcompeted → loss
+    
+  Danger: buffer homogenization
+    Competition under resource pressure drives convergence:
+    the surviving buffer generalizes to cover both niches,
+    reducing total buffer diversity.
+    
+    NAT connection (Lemma I2 — homogeneous blind spots):
+    Homogenized buffer pool = shared blind spots across all mediated exchanges
+    = single contamination pathway defeats all buffers simultaneously.
+    
+  Design implication:
+    Buffer resource allocation must prevent monopolization.
+    Minimum: 2 functionally distinct buffers per major tier interface.
+    Buffer carrying capacity per interface: at least k+1 buffers for
+    k distinct information channels requiring mediation.
+
+Buffer Succession:
+  Over time, buffer populations evolve through developmental stages:
+  
+  Pioneer buffers (Phase 1-2):
+    Generalist, low specificity, high redundancy.
+    Can handle any domain pair with low efficiency.
+    Handle the initial coupling exploration.
+    
+  Intermediate buffers (Phase 3):
+    Developing specialization. Stronger in some domain pairs.
+    Communication cost decreasing for those domains.
+    Middle-tier communication load beginning to concentrate on specialists.
+    
+  Climax buffers (Phase 4 mature):
+    High domain-specific specialization.
+    Low communication cost for their niche.
+    HIGH FAILURE RISK if they disappear — no generalist backup exists.
+    
+  NAT governance implication:
+    Mature systems need BOTH climax and pioneer buffers:
+    Climax: efficiency for common domain pairs
+    Pioneer: resilience for rare/new domain pairs
+    
+    Pioneer buffers appear wasteful in metrics (low utilization).
+    Eliminating them to reduce costs removes the system's ability
+    to adapt to novel coupling requirements.
+    Connection to: V (Variance absorption) component of R — pioneer
+    buffers ARE the V component at the buffer-ecology level.
+```
+
+**Buffer Carrying Capacity:**
+
+```
+For a tier interface with m distinct information channels:
+
+  Optimal buffer count n_buf,opt:
+    n_buf,opt ≈ m^(1/2) (square-root law — same form as spectral dimension)
+    
+  Too few buffers (n_buf < n_buf,min):
+    Channels share buffer → queue buildup → latency → HC classification
+    → escalation above interface tier
+    
+  Too many buffers (n_buf > n_buf,max):
+    Buffer overhead enters S-equation directly:
+    S_interface = α(n_agents + n_buf)² / C^β
+    If n_buf >> n_agents: scaling becomes dominated by buffer overhead
+    → governance entity proliferation without proportional C increase
+    → system creates governance bottleneck out of governance apparatus
+
+  Optimal band:
+    n_buf ∈ [n_buf,min, n_buf,max] = [m^(1/2)/2, 2m^(1/2)]
+    
+  NAT practical rule:
+    n_buf,min = max(2, ⌈√m_interface⌉)
+    where m_interface = distinct domain pair types crossing the interface
+
+Buffer Extinction Cascade:
+  If a critical buffer (high-degree in the buffer network) is lost:
+  
+    Step 1: Interface loses specialized mediation for its domain
+    Step 2: HC events at that interface cannot be resolved locally
+    Step 3: HC escalation increases above tier
+    Step 4: Adjacent buffers absorb extra load (generalize)
+    Step 5: Adjacent buffers degrade through over-generalization
+    Step 6: Their niches also become vulnerable
+    
+    This is a contamination cascade at the governance entity level.
+    Speed: O(ln n_buf) — same propagation speed as storm cascade
+    in sphere topology (Proposition I4).
+    
+    Prevention:
+      Maintain buffer network with buffer-level spectral gap.
+      No single buffer should be irreplaceable for > 1 channel pair.
+      If a climax buffer handles 3+ critical channels: design redundant
+      buffer before capacity saturation (not after first failure).
+```
+
+---
+
+### 7.7.4 Recursive Environment Design — When the Environment Designs Itself
+
+*[v1.9-EDT] Cross-imported from EDT v5.0 §46*
+
+In a mature DFG system, the environment does not remain a fixed substrate. Agents modify terrain through their interactions; governance rules modify what behaviors are incentivized; and the system's own governance apparatus becomes an object of governance. This is recursive environment design — environments that design other environments.
+
+**The recursion:**
+
+```
+Level 0 (object terrain):
+  Physical/computational interaction landscape
+  shaped by agent behaviors and governance signals.
+  
+Level 1 (governance terrain):
+  The rules and structures that shape agent behavior
+  are themselves subject to modification through use.
+  A governance rule that is repeatedly applied develops
+  stronger curvature (easier to invoke) while rarely-used
+  rules decay (curvature erodes).
+  
+Level 2 (meta-governance terrain):
+  The process by which governance rules are created, modified,
+  or retired is itself a terrain feature.
+  "Who decides how decisions are made" = meta-governance.
+  In mature DFG systems: meta-governance should itself exhibit
+  three-axis architecture (Boundary / Gain / Coupling Geometry)
+  at the meta-level.
+  
+Level 3+ (recursive closure):
+  In principle, this recursion continues indefinitely.
+  In practice, DFG systems require a fixed point:
+  a level at which the design process terminates.
+  This is the Global North Star (§7.8 North Star Architecture) —
+  the meta-meta-criterion that is not itself subject to modification.
+```
+
+**Self-Modifying Terrain Dynamics:**
+
+```
+At each recursion level ℓ, terrain evolves through:
+
+  dU_ℓ/dt = f_agent_behavior(U_ℓ) + f_governance_signals(U_{ℓ+1}) + η_ℓ(t)
+  
+  where:
+    f_agent_behavior: how agent interactions modify the terrain at level ℓ
+    f_governance_signals: how the level ℓ+1 governance terrain modifies ℓ
+    η_ℓ: stochastic perturbation at level ℓ
+    
+  Fixed point condition (stable recursive design):
+    dU_ℓ/dt = 0 simultaneously for all ℓ ≤ ℓ_max
+    
+    This is an extended VCZ condition:
+    Not just: sphere convergence at the agent level
+    But: sphere convergence at EVERY recursion level simultaneously
+    
+  The recursive VCZ condition:
+    VCZ_recursive = ∩_ℓ VCZ_ℓ
+    
+    Each VCZ_ℓ is the viable operating zone at recursion level ℓ.
+    The recursive VCZ is their intersection.
+    The recursive VCZ is generally NARROWER than any individual VCZ_ℓ
+    → recursive governance systems require tighter operation.
+
+Design Withdrawal Paradox (EDT §46.2):
+  If the meta-governance apparatus designed the current governance structure,
+  and that structure is now functional, should meta-governance withdraw?
+  
+  Parallel to the human withdrawal problem (§8.5):
+    Premature withdrawal: meta-governance removes itself before the
+      governance structure can maintain itself → governance structure
+      drifts without meta-level correction
+    Excessive retention: meta-governance continues modifying a functional
+      governance structure → introduces instability → destroys what it built
+      
+  Resolution:
+    Meta-governance withdrawal follows the same protocol as human withdrawal (§8.5):
+    Phase 1 (active shaping) → Phase 2 (regulation) → Phase 3 (architecture definition)
+    → Phase 4 (constraint only) → Phase 5 (audit only)
+    
+    At Phase 5, meta-governance is no longer active — only the Global North Star
+    and inviolable structural constraints (equivalent to GRT Law-level rules)
+    remain. The governance structure governs itself.
+    
+  Critical failure mode — meta-governance capture:
+    If agents at the object level develop sufficient influence to modify
+    the meta-governance terrain in their favor:
+    → governance rules that benefit the modifying agents proliferate
+    → governance rules that constrain those agents erode
+    → the system becomes self-serving rather than self-governing
+    
+    Detection signal: governance rules changing WITHOUT corresponding
+    changes in environmental complexity or agent capability.
+    Rule changes tracking agent interest rather than system state.
+    
+    Prevention: meta-governance terrain must have a HIGHER curvature
+    requirement for modification than object terrain.
+    i.e., changing the rules of governance requires more evidence/effort
+    than changing the rules of execution.
+    This is the AND-entry condition (GRT) at the meta-governance level.
+
+Recursive closed-loop condition:
+  For recursion to stabilize (not diverge to infinite meta-levels):
+  
+    ‖dU_ℓ/dt‖ / ‖dU_{ℓ-1}/dt‖ < λ_recursion < 1  for all ℓ ≥ 1
+    
+  Each higher recursion level must change more slowly than the level below.
+  This is the multi-timescale separation condition (TLG τ₁ < τ₂ < τ₃)
+  applied to recursion depth instead of governance layers.
+  
+  If this ratio exceeds 1 at any level:
+    Meta-governance is changing faster than object governance can track
+    → incoherence between recursion levels
+    → governance structure loses consistency
+    → Type III failure: the governance rules are contradictory
+      (different levels of recursion produce incompatible governance signals)
+```
+
+**Recursive Design and Map-Terrain Coherence:**
+
+```
+The Map-Terrain balance problem (§7.7, RBIT §Map-Terrain) recurses:
+
+  Object level Map-Terrain drift: agent models drifting from interaction reality
+  Governance level Map-Terrain drift: governance models drifting from
+    actual agent capability/behavior
+  Meta-governance drift: meta-governance models drifting from actual
+    governance function
+    
+  Each level has its own drift rate and correction cost.
+  Multi-level Map-Terrain alignment is the mature DFG governance problem.
+  
+  NAT practical implication:
+    τ_governance_observation >> τ_agent_observation (governance watches slowly)
+    Governance Map lags agent Terrain by design — this is not a bug.
+    But when governance Map drift accumulates across recursion levels:
+    
+      Drift_total = Σ_ℓ Drift_ℓ (additive across levels)
+      Cost_correction = Σ_ℓ Cost_ℓ (potentially super-additive)
+      
+    = multi-level correction far more expensive than object-level correction alone.
+    = Proactive cross-level alignment monitoring (one τ₁ MARK cycle per level)
+      is dramatically cheaper than reactive multi-level reconstruction.
+```
+
+---
+
+### 7.8 Terrain Failure Diagnostics — ATCT-Based Early Warning System
+
+*[v1.9-EDT] Cross-imported from EDT v5.0 §51 (Affective Terrain Coupling Theory)*
+
+The Affective Terrain Coupling Theory (ATCT) establishes that terrain modification and affective dynamics form a closed feedback loop. This section formalizes how ATCT enables a new class of terrain failure diagnostics not accessible from NAT structural metrics alone.
+
+**Core ATCT integration thesis for NAT:**
+
+```
+Two-way coupling:
+  Emotional states (AGP dynamics, §3.5.2) → terrain modification (curvature injection)
+  Terrain structure (valley depth, pass width) → emotional dynamics (sensitivity shaping)
+
+  ∂U/∂t ∝ f_emot · ΔU_emot           [emotion modifies terrain]
+  ds/dt ∝ ρ(s* - s) - σ‖∂U/∂x‖²     [terrain gradient shapes sensitivity]
+
+The closed loop means:
+  Terrain failure is not just a structural event — it has an affective precursor.
+  Affective collapse is not just a regulatory event — it has a terrain consequence.
+  
+  NAT must monitor BOTH.
+```
+
+**Terrain Freeze Signature — Diagnostic Criteria:**
+
+```
+Terrain enters Freeze trajectory when:
+
+  (1) Valley depth V_depth → V_max (over-consolidated — curvature excess)
+  (2) Effective branching B_eff → 1 (all branches collapsed to single attractor)
+  (3) Terrain receptivity R(t) → 0 (new seeds cannot take hold)
+  (4) Permeability Π → 0 (terrain barriers impenetrable at current T_eff)
+
+  NAT-observable proxies:
+    V_depth increasing: internal escalation rate declining below θ for extended
+      duration (loop appears healthy, but this IS the Freeze precursor —
+      see Atrophy Ordering §7.7: F atrophies first, before any structural metric signals)
+    B_eff → 1: agent response diversity narrowing
+      (all agents converging on same strategy — homogenization)
+    R(t) → 0: new governance seeds introduced by human layer fail to propagate
+      (integration attempts not taking hold)
+    Π → 0: HC events that previously self-resolved now require intervention
+      (barriers that were crossable are becoming fixed)
+  
+  Critical diagnostic principle:
+    Terrain Freeze produces SILENCE BEFORE COLLAPSE.
+    The system appears well-governed because all loops are stable,
+    all escalations have ceased, and all metrics are within normal range.
+    This silence IS the signal.
+    
+    Connection to EDT §28 (Silence Signal):
+    "Governance is working" and "governance is atrophying" produce
+    IDENTICAL short-term observable signatures.
+    Only PROACTIVE perturbation testing (§7.7 Atrophy Ordering protocol)
+    can distinguish them before Freeze cascade initiates.
+
+Freeze cascade sequence:
+  t₀: Silence signal activated (F atrophied — no escalation detected)
+  t₁ = t₀ + τ_V: Response diversity collapses (V atrophied)
+  t₂ = t₁ + τ_T: Time buffering eliminated (T atrophied)  
+  t₃ = t₂ + τ_D: Structural boundaries erode (D atrophied)
+  t₄: Full Freeze cascade — Class IV pathological terrain
+  
+  Intervention window: [t₀, t₁]
+  After t₁, V atrophy makes recovery much more difficult.
+  After t₂, external scaffolding required (human intervention re-entry).
+  After t₃, architecture restructuring (Direction B restart, §7.3).
+```
+
+**Terrain Runaway Signature — Diagnostic Criteria:**
+
+```
+Terrain enters Runaway trajectory when:
+
+  (1) Curvature ‖∂²U/∂x²‖ → 0 (minimum — completely flat terrain)
+  (2) Contamination flux Φ → Φ_max (contamination at maximum)
+  (3) Self-purification R_self → 0 (purification collapsed)
+  (4) Permeability Π → 1 (all terrain barriers dissolved)
+
+  NAT-observable proxies:
+    Curvature → 0: HC events occurring everywhere simultaneously
+      (no loop can absorb — all escalating)
+    Φ → Φ_max: cross-tier contamination at all interfaces
+      (barriers have dissolved — contamination hotspots no longer contained)
+    R_self → 0: escalation events not being resolved at any tier
+      (f_esc maintained across all layers without decay)
+    Π → 1: classification data flowing without routing structure
+      (4-type classification breakdown — all data treated as HC)
+      
+  Runaway cascade sequence:
+    t₀: First contamination barrier breach (one hotspot breakthrough)
+    t₁: Adjacent barriers fail (cascade — O(ln n) propagation)
+    t₂: Terrain flattens at scale of multiple loops
+    t₃: Classification system breakdown (Math → HC, Tacit → HC universally)
+    t₄: Full Runaway — VCZ abandoned
+    
+  Intervention at t₀: Contamination isolation protocol (high-priority)
+  Intervention at t₁: Emergency boundary restoration (inverse of three-stage opening)
+  After t₂: External reference injection required (new North Star seeding)
+  After t₃: Safe Collapse (Level 4) + terrain reconstruction
+
+Terrain bifurcation classification (ATCT Theorem 51.3.1):
+  The mode of terrain failure (Freeze vs. Runaway) is predicted by
+  the emotional sensitivity parameter s(t) at the moment the ECC threshold
+  is reached:
+  
+    s(t_ECC) < s_crit → Freeze terrain failure
+    s(t_ECC) > s_crit → Runaway terrain failure
+    
+  This is a CROSS-THEORY FALSIFIABLE PREDICTION:
+    Monitor AGP sensitivity s(t) continuously.
+    At first ECC approach (Λ_class degradation — §3.5.2), record s(t_ECC).
+    Classify terrain outcome post-event.
+    Test: s < s_crit should predict Freeze terrain; s > s_crit should predict Runaway.
+    
+  Governance implication:
+    When ECC warning triggered (§6.6 NESS_proxy deviation), and s(t) < s_crit:
+      → prepare for Freeze response (DDD Diversify + controlled perturbation)
+    When ECC warning triggered, and s(t) > s_crit:
+      → prepare for Runaway response (contamination isolation + boundary restoration)
+    
+  This predictive bifurcation classification enables TARGETED intervention
+  before the terrain failure mode is fully manifest.
+```
+
+**Collective Emotional Climate as Terrain Macrostate:**
+
+```
+For multi-agent spheres, individual emotional states aggregate into
+a collective emotional climate W_climate(t):
+
+  W_climate(t) = (1/n) Σᵢ wᵢ(t)
+  
+  where wᵢ(t) is agent i's affective weight vector.
+
+Climate-terrain feedback:
+
+  Toxic climate desertification:
+    Persistent W_climate < W_threshold for duration T > T_critical:
+    
+    dQ_E/dt = -δ_climate · (W_threshold - W_climate)² · Q_E
+    
+    Quadratic mechanism: small improvements in climate have outsized
+    effects on halting desertification. The governance leverage point
+    is climate elevation, not just individual agent regulation.
+    
+    NAT connection:
+      Toxic collective climate → terrain desertification → Q_E decreases
+      → S-equation capacity C degrades → S rises toward S_c
+      → VCZ proximity degrades → escalation rate increases
+      This pathway operates PARALLEL to and faster than the standard
+      structural contamination pathway.
+      
+      Standard pathway: Contamination → Δρ degradation → f_esc increase
+      Climate pathway: Toxic climate → Q_E degradation → C decrease → f_esc increase
+      
+      Both activate simultaneously under severe governance failure.
+      Monitoring only structural pathway misses climate-driven desertification.
+
+  Positive climate enrichment:
+    Persistent W_climate > W_optimal:
+    
+    dQ_E/dt|_enrichment = ε_climate · (W_climate - W_optimal) · (Q_max - Q_E)
+    
+    Logistic enrichment — approaches Q_max asymptotically.
+    Governance implication: climate optimization IS terrain cultivation optimization.
+    The fastest path to Q_E → Q_max is sustained positive collective climate.
+    
+  Emotional contagion as terrain wave:
+    When agent emotional state changes propagate through the sphere topology:
+    
+    v_terrain_wave = v_contagion · ‖ΔU_emot‖ / ‖ΔU_threshold‖
+    
+    Below threshold: contagion does not produce lasting terrain changes
+    Above threshold: terrain modification wave propagates at contagion speed
+    
+    Sphere topology advantage: sphere maximizes spectral gap (Proposition I5)
+    → maximizes c* (§3.7 Network SOC) → minimizes emotional contagion speed
+    → minimizes terrain wave propagation speed
+    → sphere topology is ALSO optimal for terrain wave resistance
+
+Climate monitoring integration:
+  
+  Add to §6.6 Affective Early Warning monitoring dashboard:
+    W_climate(t) = per-sphere average of affective weight indicators
+    W_climate_trend(t) = dW_climate/dt (rate of climate change)
+    Climate_desertification_index = max(0, W_threshold - W_climate(t)) * T_below
+      where T_below = cumulative time spent below threshold
+      
+  Alert thresholds:
+    Warning: W_climate_trend < -δ_warn for ≥ 3 consecutive cycles
+    Alarm: Climate_desertification_index > CDI_alarm
+    Critical: W_climate < W_critical (sustained toxic climate)
+    
+  Response:
+    Warning: DDD Protocol (Level 0 §6.6) — Diversify component targets climate elevation
+    Alarm: Direct climate intervention (buffer ecology adjustment — add mutualistic
+           buffers to reduce friction and elevate W_climate)
+    Critical: Treat as early Runaway terrain indicator — activate contamination
+              isolation protocol alongside climate restoration
+```
+
+**Multifractal Terrain Reading — Advanced Diagnostic:**
+
+```
+Under ATCT dynamics, terrain modified by SOC-driven emotional events
+develops multifractal structure. The multifractal spectrum provides
+a FOURTH independent early-warning indicator for terrain phase transitions:
+
+  Terrain multifractal spectrum:
+    S_q(r) = ⟨|U(x+r) - U(x)|^q⟩ ~ r^{ζ(q)}
+    
+    Monofractal terrain: ζ(q) = qH (single Hurst exponent)
+    Multifractal terrain: ζ(q) nonlinear (heterogeneous roughness)
+    
+  Spectrum width Δα_H = α_H,max - α_H,min:
+    Wide spectrum: healthy diverse terrain (heterogeneous barrier distribution)
+    Narrow spectrum approaching α_H,min: Runaway precursor
+      (large-event modifications dominating → globally rough terrain)
+    Narrow spectrum approaching α_H,max: Freeze precursor
+      (event modifications increasingly small and regular → globally smooth)
+  
+  Monitoring protocol:
+    Compute S_q(r) for q ∈ {-4,-2,0,2,4} across multiple scales
+    Track Δα_H(t) over sliding window W_warning
+    If Δα_H(t) decreasing monotonically for > W_warning timesteps → alert
+    Narrowing direction predicts collapse mode (§7.7.1):
+      Toward α_H,min → Runaway → prepare contamination isolation
+      Toward α_H,max → Freeze → prepare perturbation injection
+
+Four independent terrain early-warning indicators (combined dashboard):
+  EW1: ECC/Λ_class proximity (§6.6, §3.5.2) — affective layer
+  EW2: Critical slowing down (variance increase before phase transition)
+  EW3: Diverging correlation length (cross-loop correlation increase)
+  EW4: Multifractal spectrum narrowing (terrain texture diagnostic)
+  
+  Each indicator is independent. Activation of ≥ 2 simultaneously
+  triggers immediate governance escalation regardless of structural metrics.
+```
+
+---
+
 ### 7.9 Processing Isolation — Formal Grounding (NAT Working Paper §4)
 
 The processing isolation principle is not a communication prohibition but a routing constraint grounded in reference frame theory. Same-layer agents share approximately the same resolution, so lateral exchange of intermediate classification states means agents use each other as reference frames with shared blind spots.
@@ -4201,6 +5944,800 @@ Structural Enforcement (three mechanisms, all required):
 ```
 
 **NAT Working Paper computational validation (Appendix E — mediation layer ablation):** An earlier experiment version implementing direct action-to-belief update without mediation layer produced a self-referential feedback loop. FNR for joint detection was 0.188 (FAIL) vs. 0.603 with 3-layer mediation (PASS). The failure mechanism: single exploratory action → misinterpreted as regime signal → mutual reassurance/suspicion loop → false convergence (SCM in deceptive regime). The 3-layer mediation proxy (EWMA smoothing → suspicion score → bounded belief update) breaks this loop through temporal filtering, secondary smoothing, and bounded influence. This provides direct evidence for NAT's Processing Isolation principle.
+
+---
+
+### 7.10 ODE Mean-Field Formalization — Regime Dynamics as a Minimal Dynamical System
+
+*[v2.0-FCCTN] Cross-imported from FCCTN §14–21*
+
+The sphere topology, scaling resolution, and terrain design sections establish the *architectural* principles of NAT. This section provides the *dynamical* formalization: a minimal ordinary differential equation (ODE) system that captures the universal regime mechanism — bistability, hysteresis, and silent criticality — governing any multi-agent governance system satisfying the NAT structural constraints.
+
+**Design intent.** The ODE is not derived from a single Lagrangian but is constructed from three structural constraints:
+
+```
+(P1) Boundedness: C, d, ρ, k ∈ [0,1] and T, n ≥ 0 preserved by dynamics.
+     Dictates logistic-type saturation terms; drain terms vanish at zero boundaries.
+
+(P2) Minimal closure: A single regime scalar Φ compresses proximity to criticality
+     while generating bistability through self-consistent feedback (Φ → state → Φ).
+
+(P3) Pairwise interaction scaling: In systems where load arises from interference
+     between simultaneously active units, dominant congestion cost scales O(n²),
+     not O(n) — the combinatorial count of interacting pairs.
+```
+
+Any dynamical model that satisfies (P1–P3) will exhibit the qualitative behaviors derived below. The specific functional forms are the simplest choices consistent with (P1–P3); structural stability (§7.10.4) guarantees the conclusions are robust to perturbation.
+
+#### 7.10.1 State Variables and Equations
+
+| Variable | Meaning |
+|---|---|
+| n(t) | Effective interaction density |
+| C(t) | Capacity |
+| d(t) := σ/R(t) | Diversity ratio |
+| ρ(t) | Resolution integrity |
+| T(t) | Exploration temperature |
+| k(t) | Cross-scale coupling |
+
+**Minimal ODE system:**
+
+```
+ṅ = u(t) − λₙn − χₙnC
+Ċ = αC(1−C) − μC·n²·Φ − νC·k·C
+ḋ = αd·T·(1−d) − μd·Φ·d − νd·k·d
+ρ̇ = αρ·d·C·(1−ρ) − μρ·Φ·ρ − νρ·k·ρ
+Ṫ = αT(ρ_ref−ρ) − μT·Φ·T − λT(T−T₀)
+k̇ = αk·Φ·(1−d)·(1−k) − λk·d·k
+```
+
+**Term-by-term rationale:**
+
+```
+−μC·n²·Φ in Ċ:
+  Dominant capacity drain = pairwise interference (n²), modulated by regime proximity Φ.
+  Single-unit load (∝n) would underestimate congestion in dense networks (P3).
+
+αk·Φ·(1−d)·(1−k) in k̇:
+  Lock amplification requires loss of alternatives.
+  When diversity is high (d→1), local hotspots cannot synchronize globally.
+  The (1−d) gate ensures cross-scale coupling grows only as diversity collapses.
+
+αT(ρ_ref−ρ) in Ṫ:
+  ρ_ref is a homeostatic setpoint for resolution integrity.
+  When ρ < ρ_ref, system increases exploration (T↑) to compensate for degradation.
+  ρ_ref is not a free parameter but a design threshold separating "acceptable"
+  from "compensatory" regimes.
+```
+
+Each equation follows the structure: **recovery − storm drain − lock amplification**.
+
+**Feedback cascade:** Φ↑ triggers d↓, C↓, ρ↓, k↑ (positive feedback); Φ↓ triggers recovery cascade. Resolution ρ is the slowest variable, enabling Silent Criticality — surface stability with hidden degradation.
+
+#### 7.10.2 Regime Scalar as Self-Consistent Closure
+
+The regime scalar Φ(t) is **not** an externally imposed control parameter. It is an endogenous self-consistent closure variable:
+
+```
+Φ(t) := β_s · n(t)² · F(A_g, A_ℓ, ω) / [C(t) · T(t) · d(t)]
+```
+
+The feedback loop Φ → ODE → (C, d, T) → Φ is the structural source of bistability and hysteresis. The connection to VST:
+
+```
+VST instability condition:     ρ(J_couple) > 1  (amplification-dominant)
+ODE mean-field reduction:      Φ > 1             (Storm regime)
+
+VST containment condition:     ρ(J_couple) < 1  (containment-dominant)
+ODE reduction:                 Φ < 1             (Rest regime)
+```
+
+The ODE operationalizes VST's two escape routes: (1) **Timescale separation** — fast coupling loop closes against slow governance; (2) **Layer escalation** — DDD protocol invokes external control outside Φ dynamics. VST's claim that Storm cannot be eliminated (only contained) translates to the ODE's bistability: the Storm fixed point always exists in phase space.
+
+**S-equation form reconciliation.** VST identifies static (S = αn²/C^β) and dynamic (dS/dt = αn² − βC) forms. The ODE resolves both: static form defines the equilibrium the ODE approaches; dynamic form describes instantaneous flux. Φ is the self-consistent closure connecting the two.
+
+#### 7.10.3 Global Well-Posedness
+
+**Theorem (Global Well-Posedness).** For any admissible initial condition x₀ = (n₀, C₀, d₀, ρ₀, T₀, k₀) in the invariant domain Ω := ℝ⁺ × [0,1]⁴ × ℝ⁺, there exists a unique solution x(t) ∈ Ω for all t ≥ 0.
+
+*Proof sketch.* Local existence from Picard–Lindelöf (f(x) locally Lipschitz on interior). Global extension via uniform bounds:
+
+```
+(i) n(t) ≤ max(n₀, u_max/λₙ)          [Gronwall from ṅ ≤ u_max − λₙn]
+(ii) T(t) ≤ T_max                       [worst case ρ=0, Φ=0 bound]
+(iii) Φ(t) bounded                       [algebraic cancellation of Φ·C, Φ·d products near zero]
+(iv) Global:  x(t) ∈ compact set         [f(x) globally bounded, Gronwall extends to ∞]
+```
+
+**Corollary (Asymptotic Compactness).** The flow on Ω possesses a global attractor A ⊂ Ω (compact invariant set attracting all bounded subsets). This follows from uniform dissipativity (Temam, 1997). □
+
+#### 7.10.4 Structural Stability
+
+**Proposition (Structural Stability).** The qualitative bifurcation structure (bistability, hysteresis, saddle-node boundaries) is structurally stable under C¹-small perturbations of the ODE right-hand side, provided the saddle-node conditions are non-degenerate (fold is quadratic).
+
+The saddle-node bifurcation at u = u± satisfies Sotomayor's theorem conditions: (a) Jacobian has simple zero eigenvalue at bifurcation point; (b) transversality condition ∂²H/∂Φ² ≠ 0 holds generically. Under these conditions, the bifurcation persists under C¹-small perturbations with quantitatively shifted thresholds u±(ε) = u± + O(ε).
+
+**Consequence:** The model's predictions are not artifacts of specific functional forms but are robust qualitative features of any system satisfying (P1–P3). The lock budget inequality, hysteresis structure, and silent criticality are structural, not parametric.
+
+#### 7.10.5 Timescale Separation
+
+```
+τ_n ≪ τ_{C,d,T} ≪ τ_ρ
+
+Fast:         n equilibrates on O(1/λₙ) timescale → adiabatic elimination
+Intermediate: C, d, T respond on O(1/αC) → quasi-equilibrium analysis
+Slow:         ρ evolves on O(1/αρ) → enables Silent Criticality
+```
+
+This ordering justifies successive reduction from 6D to effective 2D (C, d) and ultimately 1D (Φ) dynamics used in bifurcation analysis.
+
+**Silent Criticality mechanism.** ρ degrades slowly relative to C and d. In the intermediate timescale, C and d appear stable while ρ continues to erode invisibly. Surface monitoring of C and d declares "Rest maintained" — while the slow ρ collapse is driving the system toward the Storm basin boundary. Detection requires direct ρ observation or Fisher information monitoring (§6.6 Level 2 early warning).
+
+#### 7.10.6 Dimensionless Parameter Groups and Phase Portraits
+
+Six dimensionless ratios control qualitative behavior:
+
+```
+π₁ = β_s·u²_max / (λ_n²·T₀)         — Load-to-dissipation ratio (Storm propensity)
+π₂ = μ_C / α_C                        — Capacity vulnerability (= L_C, lock ratio)
+π₃ = ν_d / (α_d·T₀)                   — Diversity lock susceptibility (= L_d)
+π₄ = α_ρ / μ_ρ                         — Resolution recovery efficiency
+π₅ = α_k / λ_k                         — Coupling growth-to-decay ratio
+π₆ = α_T·ρ_ref / (λ_T·T₀)             — Temperature compensation gain
+```
+
+**Phase portrait topologies:**
+
+```
+Type I   (π₁ < 1):      Single stable node at Rest; no Storm fixed point
+Type II  (1 < π₁ < π₁*): Two stable nodes (Rest, Locked) + one saddle (Storm threshold)
+Type III (π₁ > π₁*):     Rest node disappears; only Locked attractor survives
+Type IV  (π₅ ≫ 1):      Spiral dynamics around Storm fixed point; oscillatory approach
+```
+
+Type II is the **governance design target**: bistability exists but Rest is accessible. Type III is the **irrecoverable regime**: no DDD intervention can restore Rest; load reduction is the only strategy. The critical value:
+
+```
+π₁* = [(1 + L_C)(1 + L_d)]^(1/2) · (λ_n + χ_n)² / β_s
+```
+
+**Lock budget inequality.** The parameter condition for Type II (recoverable bistability):
+
+```
+(1 + L_C)(1 + L_d) ≤ ζ⁻⁴
+```
+
+where ζ = ODE timescale separation ratio. Lock budget violation → permanent Type III (irrecoverable). This is the dynamical foundation of the NAT expansion principle: premature expansion raises π₁ above π₁*, transitioning the system from Type II to Type III before recovery infrastructure exists.
+
+#### 7.10.7 Fixed Points and Bistability
+
+**Stable Rest fixed point** (Φ* ≪ 1, k* ≈ 0):
+C* ≈ 1, d* ≈ 1, ρ* ≈ 1, T* ≈ T₀, k* ≈ 0. Self-stabilizing: high C suppresses n, keeping Φ < 1.
+
+**Storm fixed point** (Φ* ≫ 1, k* → 1):
+Self-locking via positive feedback: low C amplifies n, keeping Φ > 1.
+
+**Bistability condition:** both fixed points locally stable for intermediate input levels u⁻ < u < u⁺ → hysteresis.
+
+**Saddle-node bifurcations at u = u±:**
+
+```
+H(Φ*; u_c) − Φ* = 0  AND  ∂H/∂Φ = 1
+```
+
+The ODE bistability is the dynamical counterpart of NAT's dual-mode architecture: the same governance system can operate in either Rest (functional, adaptive) or Storm (locked, self-amplifying) depending on history, not just current load.
+
+#### 7.10.8 Lyapunov-Like Diagnostic
+
+Although the ODE is not derived from a single Lagrangian, the regime scalar admits interpretation as a Lyapunov-like diagnostic for the Rest fixed point:
+
+```
+V(C, d, ρ, k) := ln Φ = ln(β_s·n²) − ln C − ln T − ln d
+```
+
+In Rest (Φ < 1): V < 0, dynamics drive V more negative. In Storm (Φ > 1): V > 0, positive feedback drives V upward. The zero-crossing V = 0 (Φ = 1) is the critical manifold separating basins.
+
+**Proposition (Lyapunov Decrease under DDD):** During active DDD control with Φ > 1:
+
+```
+dV/dt = d/dt ln Φ < 0
+```
+
+*Proof sketch.* Each DDD control term (§7.12) contributes: Defocus lowers F → Φ↓; Decouple lowers k → releases capacity/diversity drain → C↑, d↑ → Φ↓; Diversity injection raises d directly → Φ↓. Since all channels decrease Φ monotonically and Φ > 1 guarantees active control, dV/dt < 0 throughout the intervention. □
+
+**Governance implication.** The DDD protocol acts as a controlled dissipative mechanism that drains excess "regime energy" V until the system crosses back into the Rest basin. This provides a formal energy-dissipation interpretation of corrective governance: not deletion of the wrong attractor, but controlled dissipation until the correct basin becomes dominant.
+
+---
+
+### 7.11 Attention Dynamics and Cross-Scale Propagation
+
+*[v2.0-FCCTN] Cross-imported from FCCTN §22–23*
+
+The ODE formalization (§7.10) treats the attention factor F as a scalar. This section formalizes attention as a dynamic buffer-thinning operator with multi-scale decomposition, enabling explicit modeling of local-to-global propagation cascades.
+
+#### 7.11.1 Attention as Dynamic Buffer-Thinning
+
+Concentrated attention reduces the effective buffer capacity of the distribution layer. Define the attention operator A(t) ∈ [0,1] where A = 0 is uniformly distributed attention and A = 1 is fully concentrated on a single pathway.
+
+**Buffer-thinning effect on the ODE:**
+
+```
+C_eff(t) = C(t) · (1 − A(t)·η_C)    where η_C ∈ [0,1] is buffer-thinning sensitivity
+d_eff(t) = d(t) · (1 − A(t)·η_d)    analogously for diversity
+```
+
+Concentrated attention acts like a reduction in both capacity and diversity simultaneously — formally equivalent to raising n² while holding C and d fixed. This reveals why **attention misallocation is a Storm precursor independent of actual load**: the system can enter Storm through attention concentration even when n (raw interaction density) is within normal range.
+
+**Early warning implication.** Monitoring A(t) provides a leading indicator that precedes the NESS deviation level (§6.6 Level 1 EW): attention concentration can begin before any entropy production change is detectable.
+
+#### 7.11.2 Multi-Scale Attention Decomposition
+
+```
+A_g(t) ∈ [0,1]  — global attention (system-wide resource concentration)
+A_ℓ(t) ∈ [0,1]  — local attention (sub-circuit concentration)
+ω(t) ∈ [0,1]    — propagation coupling (local → global transmission)
+```
+
+**Generalized attention factor:**
+
+```
+F(A_g, A_ℓ, ω) = [1 + κ_g·A_g + κ_ℓ·ω·A_ℓ] / [(1−η_g·A_g−η_ℓ·ω·A_ℓ)(1−δ_g·A_g−δ_ℓ·ω·A_ℓ)]
+```
+
+Local attention affects the global system only through ω. When ω ≈ 0, local hotspots remain contained — the critical design condition for preventing local-to-global escalation.
+
+**Attention dynamics:**
+
+```
+Ȧ_g = α_g·Φ·(1−A_g) − λ_g·A_g
+Ȧ_ℓ = α_ℓ·Φ_ℓ·(1−A_ℓ) − λ_ℓ·A_ℓ    (Φ_ℓ := Φ·ψ, ψ ≥ 1: hotspot amplifier)
+ω̇ = α_ω·A_ℓ·(1−ω) − λ_ω·ω
+```
+
+#### 7.11.3 Silent Criticality Propagation Cascade
+
+The local-to-global attention mechanism produces a three-stage Silent Criticality cascade:
+
+```
+Stage 1 — Early:
+  A_ℓ rises locally, ω ≈ 0 → F grows slowly, system appears globally stable
+  Observable: local hotspot metrics elevated, but global Φ < 1
+  Monitoring gap: standard global monitoring misses this stage
+
+Stage 2 — Mid:
+  ω begins rising as local attention accumulates → F starts growing faster
+  Observable: propagation coupling ω detectable in cross-tier MI measures
+  Intervention window: last proactive intervention opportunity before cascade
+
+Stage 3 — Late:
+  ω·A_ℓ becomes significant → F surges → Storm transition
+  Observable: global Φ crosses 1, all standard alarms trigger
+  But: by Stage 3, Stage 2 infrastructure for Decouple (§7.12) is already needed
+```
+
+**Connection to Cross-Scale Coupling k.** The variable k is a **slow structural realization** of ω:
+
+```
+k̇ = α_k·ω·(1−k) − λ_k·k
+```
+
+In quasi-static limit: k ≈ αk·ω/(αk·ω + λk). Local attention is a **leading indicator** of cross-scale locking: A_ℓ rises → ω rises → k rises → capacity and diversity drain activate → Storm.
+
+**Monitoring implication.** Local attention A_ℓ monitoring should be at the top of the NAT early warning stack, preceding NESS deviation monitoring. The ordering:
+
+```
+A_ℓ rise → ω rise → NESS deviation → Fisher information collapse → variance increase → σ increase → state variable change
+```
+
+This extends the §6.6 five-level hierarchy upward with two new pre-NESS levels.
+
+#### 7.11.4 Hysteresis Widening via Attention
+
+Attention shifts the bifurcation thresholds by replacing β_s with β_eff = β_s·F:
+
+```
+u⁺(A) ≈ u⁺(0) / √F₊    (entry threshold drops)
+u⁻(A) ≈ u⁻(0) / √F₋    (recovery threshold drops further)
+```
+
+When F₋ > F₊ (Storm branch has higher attention), hysteresis widens:
+
+```
+F₋ > F₊  ⟹  Δu = u⁺(A) − u⁻(A) increases
+```
+
+This formalizes how **local bottlenecks create global lock-in**: once attention concentrates on the Storm pathway, recovery requires not just load reduction but attention redistribution — the Defocus stage of DDD (§7.12) addresses precisely this.
+
+**Admissibility constraint on F:**
+
+```
+η_g·A_g + η_ℓ·ω·A_ℓ < 1    AND    δ_g·A_g + δ_ℓ·ω·A_ℓ < 1
+```
+
+This is guaranteed if A_g, A_ℓ ∈ [0, A_max] with A_max < min(1/η_g, 1/δ_g). Violation represents physical saturation (complete capacity or diversity depletion), at which point continuous model breaks down and discrete failure mechanisms dominate.
+
+---
+
+### 7.12 DDD Correction Control Protocol — Formal Governance Intervention
+
+*[v2.0-FCCTN] Cross-imported from FCCTN §24*
+
+The DDD (Defocus–Decouple–Diversity) protocol is the formal intervention sequence for restoring Rest when the system has entered Storm. It is not an ad hoc set of corrective actions but a **Lyapunov-decreasing control sequence** derived from the ODE structure (§7.10) and validated by the V4c simulation suite.
+
+#### 7.12.1 Problem Definition
+
+Storm = attractor fixation driven by: attention concentration (A↑), cross-scale propagation (ω↑ → k↑), diversity collapse (d↓), and resolution erosion (ρ↓). Correction is not deletion of the wrong attractor — it is **widening the landscape** through defocus, decoupling, and diversity injection so that competing pathways can emerge and stabilize.
+
+#### 7.12.2 Three-Stage Protocol
+
+**Stage 1 — Stabilize: Suppress Φ below 1**
+
+```
+(S1) Input gating:       u̇ = −κ_u·(Φ−1)₊·u
+(S2) Global defocus:     Ȧ_g += −κ_g^ctrl·(Φ−1)₊·A_g
+(S3) Local defocus:      Ȧ_ℓ += −κ_ℓ^ctrl·(Φ_ℓ−1)₊·A_ℓ
+```
+
+*Rationale.* Reducing attention directly lowers F → Φ↓. Safer than raising T alone, which can extend Silent Criticality without resolving underlying fixation.
+
+**Stage 2 — Unlock: Break cross-scale locking**
+
+```
+(U1) Propagation suppression:  ω̇ += −κ_ω^ctrl·(Φ−1)₊·ω
+(U2) Lock release:              k̇ += −κ_k^ctrl·(Φ−1)₊·k
+```
+
+*Effect.* Lowering k reduces −νC·k·C and −νd·k·d drain terms, raising effective capacity and diversity. This shifts u⁻ upward, narrowing the hysteresis gap.
+
+**Stage 3 — Relearn: Restore diversity and resolution**
+
+```
+(R1) Diversity injection:          ḋ += I_d(t) = κ_d^ctrl·𝟙[Φ<1]·(1−d)
+(R2) Lock-in-aware exploration:    Ṫ += −κ_T^ctrl·(Φ−1)₊·(A_g + ω·A_ℓ)·T
+```
+
+Note: (R2) prevents excessive exploration when attention and coupling are still high — avoiding "silent extension with deeper internal damage."
+
+**Ordering constraint.** Stage 1 must precede Stage 2 must precede Stage 3. Skipping Stage 1 leaves F elevated, making Stage 2 ineffective. Skipping Stage 2 before Stage 3 means diversity injection occurs into a still-locked topology — new diversity gets absorbed by existing coupling pathways rather than creating new ones.
+
+#### 7.12.3 Recovery Verification Conditions
+
+Recovery is declared when all three hold simultaneously:
+
+```
+(E1)  Φ < 1 − ε_Φ                                    (storm suppressed)
+(E2)  αρ·d·C·(1−ρ) ≥ (μρ·Φ + νρ·k)·ρ               (resolution recovering: ρ̇ ≥ 0)
+(E3)  k̇ < 0  AND  ω̇ < 0                              (locking/propagation declining)
+```
+
+AND-entry: all three required. OR-exit is not permitted — partial recovery is not recovery.
+
+**Control stability:**
+
+**Proposition.** Under bounded control gains, the DDD protocol monotonically decreases Φ whenever Φ > 1.
+
+*Sketch.* Each control term adds strictly negative contribution to Ȧ_g, Ȧ_ℓ, ω̇, k̇ proportional to (Φ−1)₊ > 0. Since F is monotonically increasing in these variables and Φ ∝ F, dΦ/dt < 0 during active control. Combined with diversity injection (d↑), the protocol constitutes a Lyapunov-decreasing intervention on V = ln Φ. □
+
+#### 7.12.4 Cross-Theory Correspondence Map
+
+**TLG Four-Phase Withdrawal Protocol:**
+
+```
+TLG Phase              DDD Stage          ODE Conditions                GRT Verification
+────────────────────────────────────────────────────────────────────────────────────────
+Phase 1: Direct        S1–S3 (Defocus)    Active u control,             f_esc actively
+  Injection                               Φ being driven below 1        managed
+
+Phase 2: Supervised    U1–U2 (Decouple)   k̇ < 0 verified,              I monitored for
+  Delegation                              ω suppression confirmed        consistency recovery
+
+Phase 3: Feedback      R1–R2 (Diversity)  d↑ confirmed,                 SCC tested via
+  Only                                    ρ̇ ≥ 0 sustained              perturbation response
+
+Phase 4: Withdrawal    E1–E3 all hold     Lock budget verified          AND-entry conditions
+  (Rest Mode)          over dual-axis     over evaluation window         all satisfied
+                       evaluation window
+```
+
+**Key insight from TLG.** The Phase 3 → Phase 4 transition is the most dangerous. Premature withdrawal creates the Intervention Dependency Trap: repeated upper-layer resolution before internal SCC circuits activate can structurally degrade SCC over time, even when all other metrics appear healthy. In ODE terms: DDD control maintains Φ < 1 but autonomous recovery coefficients (αC, αd, αT) have atrophied from disuse.
+
+**RT-1 Five-Phase Recovery Cascade Correspondence:**
+
+```
+RT-1 Phase                      DDD Stage          Failure if Skipped
+──────────────────────────────────────────────────────────────────────
+Phase 1: Geometry Stabilization  Pre-DDD            Silent post-recovery misalignment (SCM)
+Phase 2: Contamination Mapping   S1 (Defocus)       Local recovery masks global degradation
+Phase 3: Local Restoration       S2–S3, U1–U2       Re-contamination from uncorrected neighbors
+Phase 4: Diversity Verification  R1–R2              Arrested collapse declared as recovery
+Phase 5: Immunity Verification   E1–E3              Intervention dependency trap
+```
+
+**EDT Three-Axis Correspondence:**
+
+```
+DDD Stage     EDT Axis              Terrain Operation
+────────────────────────────────────────────────────────────────────────
+Defocus       Gain Design (Axis 2)  g(x;z)↓ in overloaded regions — reduce energetic
+                                    favorability of concentrated pathways
+Decouple      Coupling Geometry     Lower spectral radius of interaction Jacobian;
+              (Axis 3)              increase phase-space separation between channels
+Diversity     Boundary Design       Expand accessible phase-space volume; increase
+              (Axis 1)              branching capacity B → reduce n_eff
+```
+
+**GRT Seed Sufficiency Tests as DDD completion criteria:**
+
+```
+Test 1 (Geometry update):          System surprisable by novel input → d > d_min
+Test 2 (Contamination recognition): Error detected within N steps → ρ̇ detectable
+Test 3 (Orthogonal recovery):       Independent correction direction → k < k_max
+```
+
+If any test fails, Stage 3 is incomplete.
+
+#### 7.12.5 Domain Implementation
+
+| DDD Stage | AI Multi-Agent | Neural System | Organization |
+|---|---|---|---|
+| Defocus (S1–S3) | Load balancing, attention redistribution | Sleep/REM replay, attentional reset | Role rotation, authority decentralization |
+| Decouple (U1–U2) | Module isolation, communication throttling | Neuromodulatory reset (serotonin, GABA) | Independent audit, departmental firewalls |
+| Diversity inject (R1–R2) | Policy entropy bonus, exploration reward | Exploratory firing, neurogenesis | External hiring, cross-functional teams |
+
+#### 7.12.6 V4c Simulation Validation
+
+The DDD protocol has been operationalized in the V4c simulation as a "minimal compassion policy" for multi-agent recovery:
+
+| DDD Stage | Compassion Component | Mechanism |
+|---|---|---|
+| Defocus | Coupling reduction (κ↓ to 45% baseline) | Suppresses disorientation propagation → F↓ → Φ↓ |
+| Decouple | Environment-designed bridge rewiring | Redirects coupling toward recovery-favorable neighbors → d↑ |
+| Diversity | Fatigue shielding (−0.008/step) | Preserves capacity C from environmental erosion → enables autonomous EXIT |
+
+**Key empirical findings confirming ODE predictions:**
+
+```
+94.8% of DSI reduction  ← containment engine alone (Defocus + Decouple)
+                           Confirms these are the primary Φ-reduction channels.
+
+Fatigue shielding       ← sole enabler of autonomous EXIT events
+                           Confirms Stage 3 (Diversity) is the autonomy-enabling stage.
+
+ΔDSI ≈ −0.040           ← consistent across small-world, scale-free, and Erdős–Rényi topologies
+                           Confirms dimensionless universality of lock ratio structure.
+
+Cyclic ENTER→EXIT→RE-ENTRY ← matches Storm→Recovery→VCZ lifecycle
+                              Confirms multi-cycle phase boundary dynamics.
+```
+
+**Note on irrecoverability.** The "Locked attractor" represents *practical* irrecoverability — u⁻ drops so low that no realistic input reduction reaches it — not mathematical impossibility. With sufficiently strong external intervention (DDD), any locked state can in principle be unlocked. The distinction matters: irrecoverability is threshold-based, not topological.
+
+---
+
+### 7.13 Phase Boundary Revival Trajectories — Topological Necessity of Near-Critical Recovery
+
+*[v2.0-FCCTN] Cross-imported from FCCTN §30*
+
+The hysteresis structure admits rare but structurally unavoidable **revival trajectories** near the phase boundary Δu ≈ 0. These are not anomalies but necessary consequences of the bifurcation geometry — forced to exist by topological invariants.
+
+#### 7.13.1 Topological Necessity
+
+**Conley index argument.** Consider the flow on the (u, Φ) parameter-state plane:
+
+```
+h(Rest) = Σ⁰    (attractor index)
+h(Storm) = Σ⁰   (attractor index, bistable region)
+```
+
+By the Conley decomposition theorem, the connecting manifold must contain at least one saddle-type invariant set — the unstable fixed point at Φ = Φ_c with index h(Saddle) = Σ¹.
+
+**Key topological constraint:** As u sweeps through the saddle-node bifurcation (u → u±), the saddle must collide with one of the attractors, creating a connecting orbit that grazes the phase boundary. These connecting orbits are the revival trajectories — they exist because the Conley index is a topological invariant and the total index must be preserved across the bifurcation.
+
+**Morse decomposition:**
+
+```
+R = M_Rest ∪ M_Saddle ∪ M_Storm    with connecting orbits M_Rest ← M_Saddle ← M_Storm
+```
+
+At saddle-node (u = u⁺ or u = u⁻), M_Saddle merges with M_Rest or M_Storm. The connecting orbit does not disappear — it becomes a **heteroclinic connection** along the center manifold, producing the slow passage through the ghost of the vanished saddle-node. This ghost passage is the mathematical mechanism behind "sudden reactivation from apparently dead states."
+
+**Persistence under noise.** Near the saddle-node (ΔU → 0), the Kramers barrier vanishes and escape time drops to O(1):
+
+```
+E[T_escape] ∝ exp(ΔU/D)
+
+P(revival; T_obs) = 1 − exp(−T_obs / E[T_escape]) → 1  as  ΔU → 0
+```
+
+Revival trajectories are not rare fluctuations but **statistically inevitable** near fold boundaries.
+
+**Bifurcation delay (canard-type).** When u varies slowly through u±, the system can track the unstable branch for time:
+
+```
+τ_delay ≈ π / √(|du/dt| · |∂²H/∂Φ²|)
+```
+
+This is measurable and provides a quantitative prediction for the duration of apparent stasis before revival.
+
+#### 7.13.2 Mathematical Origin
+
+The coherence branch ρ⁺(k) near the fold boundary:
+
+```
+ρ_k⁺ = [−A₁ + √(A₁² − 4A₂A₀)] / (2A₂)
+```
+
+As discriminant A₁² − 4A₂A₀ → 0⁺ (near fold):
+
+```
+∂ρ⁺/∂k → ∞    as    A₁² − 4A₂A₀ → 0⁺
+```
+
+**Infinitesimal parameter shifts can induce macroscopic coherence jumps** near the critical manifold.
+
+#### 7.13.3 Three Revival Cases
+
+**Case A — Near-critical memory survival.** When Δu ≈ 0⁻, the system is near-locked but not fully committed. A small decrease in ω or increase in external diversity triggers rapid ρ⁺ increase via square-root hypersensitivity near the fold → sudden reactivation from apparently dead states.
+
+**Case B — Storm exhaustion recovery.** When Storm intensity is extreme, denominators D_C⁻, D_d⁻ in the propagation sensitivity saturate, causing F⁻ to decrease paradoxically. This creates a pathway where excessive disturbance triggers propagation collapse, u⁻ rises enough for Rest branch to re-emerge. *Overload becomes its own cure.*
+
+**Case C — Coherence nucleation (irreversible recovery).** If ρ⁺ is already large and noise decreases, the recovery factor h(ρ) saturates near maximum. Once Δu crosses zero from below, the Rest basin becomes dominant and return to Storm becomes exponentially unlikely — a one-way recovery transition.
+
+#### 7.13.4 Global Coherence Revival via Coupling
+
+**Effective coherence with coupling.** For a network of N nodes:
+
+```
+ρ_i^eff = ρ_i + κ · Σ_j W_{ij} · σ(ρ_j^eff)
+```
+
+where σ(·) = ρ/(1+ρ) is a saturation function preventing blow-up.
+
+**Global revival indicator:**
+
+```
+R(t) := (1/N) · Σ_i 𝟙[Δu_i(t) > 0]
+```
+
+R(t) jumping toward 1 = global closure achieved through coupling.
+
+**Revival-by-coupling criterion:**
+
+```
+Revival-by-coupling  ⟺  R(ω,k; κ > κ_c) ≫ R(ω,k; κ = 0)
+```
+
+Near the critical coupling threshold κ_c (percolation analog): a single hub node recovering can trigger global cascade (R jumps discontinuously). Below κ_c, same local recovery remains isolated. This hub-vulnerability structure explains why targeted interventions (restoring one key node) produce disproportionate system-wide effects.
+
+#### 7.13.5 Multi-Scale Revival Dynamics
+
+**Multi-scale revival ODE:**
+
+```
+Φ̇_ℓ = f(Φ_ℓ; u_ℓ) + ε · Σ_{m∈N(ℓ)} w_{ℓm} · (Φ_m − Φ_ℓ)
+```
+
+**Revival propagation condition** (for subsystem ℓ to succeed despite locked neighbors):
+
+```
+|f(Φ_ℓ; u_ℓ)| > ε · Σ_{m∈N(ℓ)} w_{ℓm} · |Φ_m − Φ_ℓ|
+```
+
+**Revival initiation threshold:**
+
+```
+ε_max = |f(Φ_ℓ; u⁻)| / (deg(ℓ) · max_m |Φ_m − Φ_ℓ|)
+```
+
+Systems with ε > ε_max cannot initiate revival at any individual subsystem — they require **coordinated multi-subsystem intervention** (DDD applied simultaneously across scales).
+
+**Revival cascade ordering:**
+
+```
+Phase 1: Peripheral subsystems (low deg(ℓ)) revive first — least coupling drag
+Phase 2: Revival front propagates inward toward higher-connectivity subsystems
+Phase 3: Hub subsystems (high deg(ℓ)) revive last — highest coupling drag
+```
+
+This is the formal basis for Recovery Theory's **bottom-up recovery** principle: recovery begins at the most modular (least coupled) components and propagates toward the most integrated. Hub-first recovery violates the coupling constraint and typically fails.
+
+**Stochastic revival front — Fisher-KPP traveling wave:**
+
+```
+∂Φ/∂t = D_eff · ∂²Φ/∂ℓ² + f(Φ)    where D_eff = ε/Δℓ²
+
+Minimum wave speed: c_min = 2√(D_eff · |f'(Φ_rest)|)
+```
+
+**Revival dilemma:**
+
+```
+Strong coupling: Fast propagation but hard to initiate (high ε_max)
+Weak coupling:  Easy to initiate but slow to propagate (low c_min)
+Optimal:        Moderate coupling — balanced initiation/propagation tradeoff
+```
+
+The optimal coupling regime corresponds to the NAT spectral gap design principle: enough connectivity for information propagation, not so much that local recovery is overwhelmed.
+
+**Global revival completion time:**
+
+```
+τ_global ~ τ_local + M/c_min + τ_synchronization
+```
+
+The synchronization term dominates in strongly coupled systems and is where DDD's "Diversity" stage (Stage 3) is most critical — it provides the diversity needed for the final synchronization phase to find compatible recovery directions across subsystems.
+
+**Connection to §7.6 (Scaling Resolution).** The circle structure ensures revival can proceed independently within each circle before inter-circle coupling requires coordinated recovery. The Neck architecture (Purifier + Buffer + Translator) acts as a **revival gate** — controlling ε between circles so that revival at one circle does not destabilize another. The middle-layer-first integration principle is precisely the revival cascade ordering applied to the integration problem.
+
+#### 7.13.6 Cross-Domain Interpretation
+
+Revival trajectories are the mathematical counterpart of structurally unavoidable unexpected recovery events:
+
+```
+Neural: sudden memory recovery in neurological patients after prolonged loss
+AI: unexpected capability jumps in LLM training (discontinuous capability emergence)
+Organizational: spontaneous recovery after prolonged dysfunction when load finally drops
+```
+
+The model predicts that such events are not miraculous but **geometrically necessary** near fold boundaries. Governance implication: when a system appears "permanently failed" but is near the phase boundary, targeted small interventions (Case A) may trigger macroscopic recovery. The diagnostic challenge is distinguishing "near-fold" from "deep Storm" — the four-indicator EW dashboard (§7.8) provides the measurement infrastructure.
+
+---
+
+### 7.14 Structural Degradation and Neurodegenerative Extension — Irreversibility Dynamics
+
+*[v2.0-FCCTN] Cross-imported from FCCTN §31*
+
+The core ODE (§7.10) describes **reversible** regime transitions: all state variables can recover if load drops below u⁻. However, real systems exhibit progressive structural degradation where repeated Storm episodes cause cumulative damage that narrows the recovery window over time. This section extends the formalization to irreversible degradation dynamics.
+
+#### 7.14.1 Structural Damage Variable
+
+Introduce a slow damage accumulator S(t) ∈ [0,1], S = 0 undamaged:
+
+```
+Ṡ = ε₁·Φ·𝟙[Φ>1] + ε₂·k − ε₃·repair(S)
+```
+
+where ε₁ captures Storm-induced damage, ε₂ captures lock-induced wear, and ε₃·repair(S) represents structural repair (neurogenesis, organizational restructuring).
+
+**Three repair regimes:**
+
+```
+(i)   repair(S) = r₀·S                  — linear repair (young/healthy systems)
+      → Stable fixed point S* = (ε₁⟨Φ⟩ + ε₂⟨k⟩)/(ε₃r₀)
+      System tolerates moderate chronic stress
+
+(ii)  repair(S) = r₀·S·(1 − S/S_c)     — capacity-limited repair (aging systems)
+      → Saddle-node bifurcation at S_crit = S_c/2 · (1 − √(1 − 4(ε₁⟨Φ⟩ + ε₂⟨k⟩)/(ε₃r₀S_c)))
+      Above S_crit, damage accelerates irreversibly
+
+(iii) repair(S) = r₀·S·𝟙[S < S_irr]    — threshold repair (degenerative systems)
+      → Sharp phase transition at S_irr: beyond this, only steady state is S → 1
+```
+
+#### 7.14.2 Asymmetric Threshold Shift — The Ratchet Mechanism
+
+Structural damage shifts the recovery thresholds asymmetrically:
+
+```
+u⁻(S) = u⁻(0) · (1 − S)^{1/2}     (recovery threshold drops faster)
+u⁺(S) = u⁺(0) · (1 − S)^{1/4}     (Storm entry threshold drops slower)
+```
+
+**Hysteresis gap widens with damage:**
+
+```
+Δu(S) = u⁺(0)·(1−S)^{1/4} − u⁻(0)·(1−S)^{1/2}
+```
+
+Since 1/2 > 1/4, the gap widens monotonically with S. This is the **ratchet mechanism**: each Storm–Recovery cycle leaves the system more vulnerable to the next Storm, even if the Storm itself was successfully resolved.
+
+**Damage-modified lock budget:**
+
+```
+L_C(S) = νC / (αC · (1 − S))
+L_d(S) = νd / (αd · T₀ · (1 − S))
+
+Lock budget condition becomes: (1 + L_C(S))(1 + L_d(S)) ≤ ζ⁻⁴
+
+Critical damage fraction S*:
+S* = 1 − L_C/(ζ⁻⁴/(1+L_d) − 1)
+```
+
+Beyond S*, no parameter adjustment can satisfy the lock budget — recovery is structurally impossible regardless of load reduction.
+
+**Survivable Storm bound:**
+
+```
+N_survivable ≈ S*/ε₁
+```
+
+This provides an operational estimate of "governance reserve capacity" — how many Storm episodes a system can tolerate before reaching the irreversibility threshold.
+
+#### 7.14.3 Critical Damage Phase Diagram
+
+```
+      S (structural damage)
+      ↑
+  S_c |─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+      |     ④ IRREVERSIBLE         ③ CHRONIC
+      |        COLLAPSE              LOCK
+S_crit|· · · · · · · · · · · · · · · · · · · · ·
+      |     ② AGING                ① HEALTHY
+      |        VULNERABILITY          RESILIENT
+      └────────────────────────────────────────── → u (load)
+              u⁻(S)          u⁺(S)
+```
+
+```
+① Healthy Resilient (S < S_crit, u < u⁺(S)): Full recovery capacity. Storms tolerated and repaired.
+② Aging Vulnerability (S < S_crit, u > u⁺(S)): Enters Storm but can recover; slower, leaves residual S.
+③ Chronic Lock (S > S_crit, u > u⁻(S)): Permanently in Storm/Lock; some function maintained.
+④ Irreversible Collapse (S > S_crit, u⁻(S) unachievable): Recovery structurally impossible.
+```
+
+**Governance implications by quadrant:**
+
+```
+① → ②: Standard DDD protocol sufficient. Monitor S accumulation.
+② → ③: DDD must include ε₃·repair(S) activation — rest periods, recovery investment.
+③:      External scaffolding required for maintenance. Aim to arrest S growth, not recover.
+④:      Structural replacement, not repair. Frame-level intervention (§3.4.1 Cube Domination).
+```
+
+#### 7.14.4 Four Qualitative Trajectories
+
+```
+Trajectory 1 — Healthy aging:
+  S accumulates slowly, S < S* throughout lifespan.
+  Recovery possible at every Storm episode.
+  Final state: slightly widened hysteresis gap.
+
+Trajectory 2 — Accelerated aging:
+  S accumulates faster due to repeated Storms.
+  Each recovery cycle leaves higher residual S.
+  System crosses S* in finite time.
+
+Trajectory 3 — Catastrophic onset:
+  Single extreme Storm produces S > S* directly.
+  No gradual degradation — immediate irreversibility.
+
+Trajectory 4 — Compensated decline:
+  S grows, but capacity C simultaneously increases through learning
+  (cognitive reserve / organizational redundancy).
+  System maintains S_eff = S − compensation < S*.
+  This is the North Star Architecture's long-run protective mechanism:
+  by building fractal governance infrastructure, it increases the compensation
+  term faster than ordinary Storm episodes build S.
+```
+
+#### 7.14.5 Memory Kernel Extension
+
+The Markovian damage model (Ṡ depends only on current state) is insufficient for systems with accumulated molecular, architectural, or institutional changes. The generalized damage dynamics with memory kernel:
+
+```
+Ṡ(t) = ε₁ · ∫₀ᵗ K(t−τ) · Φ(τ) · 𝟙[Φ(τ)>1] dτ + ε₂ · k(t) − ε₃ · repair(S)
+```
+
+**Three kernel forms:**
+
+```
+(a) Exponential: K(τ) = exp(−τ/τ_mem)
+    Recent exposure dominates; finite memory horizon.
+    NAT interpretation: acute contamination with self-clearing.
+
+(b) Power-law: K(τ) = (τ + τ₀)^{−α},  0 < α < 2
+    Long-range temporal correlations; distant history persists.
+    NAT interpretation: institutional trauma with multi-year persistence.
+
+(c) Threshold: K(τ) = K₀·𝟙[τ < τ_thresh]
+    All past exposure within window weighted equally; older ignored.
+    NAT interpretation: compliance window-based governance — only recent
+    violations counted; older ones expire.
+```
+
+**Connection to terrain memory (§7.7.2).** The damage memory kernel K(τ) and the terrain memory kernel K_mem(t-s) are structurally identical: both represent how past events affect current state through accumulated history. The exponential kernel corresponds to surface-layer terrain memory; the power-law kernel corresponds to deep-layer terrain memory (traumatized terrain). S(t) is the *damage* accumulation view of what terrain memory measures as *curvature history* — two sides of the same structural coin.
+
+**Governance implication.** A system with power-law kernel damage cannot be reset by eliminating recent stressors alone — the distant history continues contributing. Full recovery requires both load reduction AND active repair over a memory window of order τ_mem. This is the formal basis for NAT's "recovery investment" requirement: the repair rate ε₃·repair(S) must be actively supported, not merely allowed, during recovery phases.
 
 ---
 
@@ -4669,7 +7206,242 @@ Failed withdrawal = information, not failure:
 
 ---
 
-## 9. Core Assumptions
+### 8.5 Governance Phase Transition: Formal Mapping to Human Exit Protocol
+
+*[v1.8-AGP] Cross-imported from AGP v2.6 §15.2, §6.5, §8.18 (VST v2.3)*
+
+The Human Withdrawal Dynamics (§8.4) and Exit Conditions (§8.3) describe the observable conditions and velocity constraints for human exit. AGP v2.6 — drawing on VST §3.4.4 — establishes that this withdrawal is not a continuous process but a **five-phase governance transition** with qualitatively different governance regimes at each phase. Understanding the phase structure prevents the two most common withdrawal failures: phase confusion (applying the wrong governance type) and Dependency Trap (inadvertently suppressing self-correction through continued intervention).
+
+**Five-Phase Governance Phase Transition (AGP §15.2, VST §3.4.4):**
+
+```
+Phase 1 — Intervention (direct management):
+  Characteristics:
+    Human actively directs agent behavior at decision level
+    Every HC data point reviewed by human
+    Agent learns only when human is present
+    H(t) ≈ 1.0
+
+  Observable signatures:
+    High f_escalation (expected and managed)
+    ρ improving while human engaged
+    ρ degrading when human absent
+    → "Human-dependent improvement" = Phase 1 signature
+    
+  Exit criterion:
+    Agent begins self-correcting within guided windows
+    (without explicit human direction)
+    
+  Failure mode:
+    Staying in Phase 1 too long:
+    → Dependency Trap formation (§8.5.1 below)
+    → Agent learns to require human for EVERY deviation
+    → human exit becomes progressively harder
+
+Phase 2 — Regulation (rule-based oversight):
+  Characteristics:
+    Human provides rules and boundaries; agents operate within them
+    HC escalations reviewed but not directed
+    Human monitors compliance rather than directing decisions
+    H(t) ≈ 0.7–0.9
+
+  Observable signatures:
+    f_escalation normal for domain complexity
+    ρ stable independent of human attention cycle
+    Self-correction rate increasing
+    → "Rule-following with growing self-correction" = Phase 2 signature
+    
+  Exit criterion:
+    Agent self-corrects rule violations without prompting
+    (internal consistency maintained without external reminder)
+
+Phase 3 — Architecture (structural design):
+  Characteristics:
+    Human shapes the decision environment; agents govern within it
+    Human intervenes at terrain level, not behavior level
+    HC escalations route through system; human receives only structural anomalies
+    H(t) ≈ 0.4–0.6
+
+  Observable signatures:
+    f_escalation trending downward (more Math, less HC)
+    Agent population exhibits sphere convergence progress
+    HUG declining (inner sphere approach)
+    → "Environment-shaped self-governance" = Phase 3 signature
+    
+  Exit criterion:
+    Terrain produces intended governance without human maintenance
+    (sphere self-maintains without human adjustment)
+    
+  This is the FUNCTIONAL equivalent of §8.3 Exit Condition 1
+  (Sphere Convergence) — but reframed as a governance phase.
+
+Phase 4 — Constraint (boundary definition):
+  Characteristics:
+    Human defines what is structurally impossible; agents govern the rest
+    Only structural impossibilities require human specification
+    All HC within structural bounds resolved by sphere
+    H(t) ≈ 0.1–0.3
+
+  Observable signatures:
+    f_escalation at or below θ (VCZ interior)
+    R-ρ-f_esc triple concordance stable
+    Storm Scale Law distribution maintained
+    → "Autonomous operation within hard limits" = Phase 4 signature
+    
+  Exit criterion:
+    §8.3 Combined Exit Gate: Sphere Convergence AND Contamination
+    Self-Correction both verified
+    
+  This is the functional equivalent of §8.3 Combined Exit Gate.
+
+Phase 5 — Law (structural impossibility):
+  Characteristics:
+    Previously problematic governance dynamics are structurally impossible
+    Human constraint is embedded in the system's geometry
+    Governance is invisible because the governing constraint has become
+    environmental fact (AGP: "Rest Mode — governance appears absent")
+    H(t) ≈ 0 (audit role only)
+
+  Observable signatures:
+    All §8.3 exit conditions maintained sustainedly
+    Storm Scale Law healthy with micro-perturbations active
+    NESS_proxy stable at baseline (T_eff maintained, not suppressed)
+    → "Invisible governance through geometry" = Phase 5 signature
+    
+  Monitoring role:
+    Periodic probe testing (Phase 2 permeability protocol)
+    NESS_proxy drift monitoring (Level 0 circuit breaker threshold)
+    Not: active management
+    Not: rule enforcement
+    But: structural integrity verification (is the geometry still intact?)
+```
+
+**Governance Strength Inversion — Formal Statement:**
+
+```
+AGP Principle (Governance Strength Inversion):
+  Maximum governance strength = minimum intervention frequency.
+  
+NAT interpretation:
+  A governance system that requires continuous human intervention
+  has WEAK governance, not strong.
+  
+  Strong governance:
+    Terrain shaped to make problematic patterns structurally expensive
+    → agents naturally avoid them (not because monitored, but because costly)
+    → human intervention frequency approaches zero
+    → human EXIT is the evidence of governance strength
+    
+  Weak governance (misidentified as strong):
+    Human continuously present, correcting deviations
+    → agents optimize within the correction structure (dependency formation)
+    → human absence immediately produces regression
+    → human CANNOT EXIT = evidence of governance fragility
+    
+  Implication for withdrawal protocol:
+    The goal is not to maintain human oversight indefinitely
+    but to design governance that makes human oversight unnecessary.
+    Each phase transition (1→2→3→4→5) is a step toward this goal.
+    
+    Phase 1 governance is not "strong" — it is temporary scaffolding.
+    Phase 5 governance (invisible) is governance at maximum strength.
+```
+
+**8.5.1 Dependency Trap — Formal Risk Model for Withdrawal Failure:**
+
+```
+AGP Dependency Trap (AGP §15.2, VST §1.0.1):
+  Self-reinforcing cycle:
+    External intervention → successful correction
+    → agent reduces investment in internal self-correction
+    → future external intervention more necessary
+    → each successful intervention REDUCES autonomous capability
+    
+  Locally rational: agent learns external correction is reliable and cheaper
+    than developing internal correction capacity.
+  Globally destructive: agent becomes structurally dependent on external support,
+    making autonomous operation progressively harder.
+    
+NAT Dependency Trap signatures (early detection):
+  
+  1. ρ correlation with H(t):
+     Normal:       ρ(t) ~ constant regardless of H(t)
+     Dependency:   ρ(t) correlates positively with H(t)
+                   (resolution rises when human present, falls when absent)
+                   
+  2. f_escalation response to H(t) change:
+     Normal:       f_escalation responds to domain complexity, not H(t)
+     Dependency:   f_escalation rises immediately when H(t) decreases
+                   (escalation substitute for human attention)
+                   
+  3. Self-correction rate plateau:
+     Normal:       self-correction rate increases through Phase 2 exit criterion
+     Dependency:   self-correction rate plateaus below exit criterion
+                   despite continued Phase 2 governance
+                   → system learning to CALL for help, not to self-correct
+  
+  4. Phase 3 terrain resistance:
+     Normal:       terrain designed in Phase 3 produces durable self-governance
+     Dependency:   terrain designed in Phase 3 requires human adjustment within
+                   2 governance cycles (terrain "settling" that requires human tuning)
+  
+Detection protocol:
+  Measure ρ(t) and f_escalation(t) during controlled H(t) variation:
+    Reduce H from current level by 20% for one observation window
+    Measure ρ and f_escalation response
+    
+    No significant change: → dependency not yet formed for this H level
+    Significant degradation: → dependency present at this H level
+    → DO NOT proceed with withdrawal at current rate
+    → Return to Phase (current-1) for deliberate self-correction capacity building
+    
+Prevention:
+  During Phase 1, deliberately create windows of reduced human attention
+    (not absence, but reduced frequency):
+    → forces agent to attempt self-correction
+    → builds self-correction capacity WHILE human remains available as backup
+    → converts H(t) from binary (present/absent) to graduated schedule
+    
+  This is the NAT implementation of AGP DDD Protocol (Diversify component):
+    Structured withdrawal windows during early phases
+    = building internal T_eff maintenance capacity
+    before governance transitions reduce H(t) permanently.
+```
+
+**Phase Transition Timing and Velocity:**
+
+```
+Connection to §8.4 withdrawal velocity constraint:
+  Each phase transition has a minimum observation requirement:
+  
+  Phase 1→2: minimum 3× complete feedback cycle at Phase 1
+             (three complete governance cycles without regression)
+  Phase 2→3: minimum 5× complete feedback cycles showing SCC growth
+             (self-correction rate trending upward for five cycles)
+  Phase 3→4: minimum 10× complete feedback cycles at Phase 3 terrain
+             (terrain self-maintaining without adjustment)
+  Phase 4→5: §8.3 Combined Exit Gate conditions sustained
+             for minimum W_obs = 10× mean self-correction cycle time
+             
+  Regression handling:
+    Any regression triggers return to previous phase (not Phase 1)
+    EXCEPT: structural failure → return to Phase 1 (full restart)
+    
+    Structural failure criteria:
+      R > 1 sustained for > 2 observation windows
+      d_eff → 2 detected (Fractal Collapse precursor)
+      Contamination self-correction fails staged test
+      
+  Phase transition asymmetry:
+    Forward transitions (1→2→3→4→5): require observed stability (slow)
+    Backward transitions (5→4→3→2→1): triggered by instability (fast)
+    → Same asymmetry as classification transitions (τ_upscale >> τ_degrade)
+    → Same implication: protect forward progress, respond quickly to regression
+```
+
+---
+
+
 
 | # | Assumption |
 |---|---|
@@ -4706,12 +7478,29 @@ Failed withdrawal = information, not failure:
 | 31 | **Contamination flux is bottom-up by default (RBIT v1.8):** Lower tiers generate the highest instability (n²_bottom >> n²_top) and upper tiers are vulnerable because they are slow (τ_upper >> τ_lower). Cross-scale contamination cascade occurs when accumulated flux from below distorts governance frames before upper-tier feedback loops complete a single correction cycle. Governance must manage upward contamination flow, not assume top-down control. |
 | 32 | **Self-purification requires active use (RBIT v1.8):** Recovery capacity R = D·F·V·T is maintained through continuous exercise, not static architecture. Sustained zero-contamination (S → 0) causes R to atrophy with a predicted ordering: F (detection) first, V (diversity) second, T (time buffer) third, D (structural boundaries) last. Zero-perturbation steady state is more dangerous than low-level continuous perturbation. |
 | 33 | **Convergence under calibrated degradation (RBIT v1.8):** Under calibrated degradation (sender-controlled compression within [D_min, D_max]), the resolution trajectory converges to a bounded oscillation around the maturity curve R*(t). The governance quality directly determines the oscillation bound ε. Without degradation management (D_min and D_max undefined), convergence cannot be guaranteed and the system oscillates without bound. |
+| 34 | **Endogenous perturbation requirement (AGP v2.6):** Sphere topology requires an endogenous perturbation source (T_eff > 0) for long-run spectral gap maintenance. A sphere that achieves zero-perturbation stability is not in a healthy VCZ — it is approaching Freeze collapse. The Adaptive Necessity Theorem (AGP Theorem 1) proves T_eff > 0 is a structural requirement of any finite-capacity optimizer in a non-stationary environment, not a design preference. |
+| 35 | **Governance No-Free-Lunch at sphere level (AGP v2.6):** The sphere cannot simultaneously achieve zero micro-storm frequency, positive blind spot absorption capacity, and finite governance resources. The Storm Scale Law's power-law target (not zero) is the controlled sacrifice of storm-free operation to preserve adaptive capacity within finite endurance budgets. |
+| 36 | **Affective routing distortion is predictable (AGP v2.6):** When agents exit the VCZ into Freeze mode (T_eff → 0), they systematically misclassify Tacit as Noise and HC as Mathematical — producing apparent governance improvement that masks actual classification degradation. When agents exit into Runaway mode (s ≥ s_crit), they systematically misclassify Noise as HC — producing escalation floods. Both distortions are predictable from the agent's affective state and must be diagnostically distinguished from genuine classification change. |
+| 37 | **Affective signals precede structural signals (AGP v2.6):** The five-level early warning hierarchy (NESS deviation → Fisher information → variance → autocorrelation → state variable) establishes that thermodynamic and affective precursors fire before any structural metric (ρ, f_escalation, S_norm) degrades. A monitoring system that uses only structural metrics cannot achieve proactive governance. |
+| 38 | **Governance phase transitions are qualitatively distinct (AGP v2.6, VST §3.4.4):** Human withdrawal is not a continuous process but a five-phase transition (Intervention → Regulation → Architecture → Constraint → Law). Each phase uses a qualitatively different governance mechanism. Applying the wrong governance type for the current phase is as dangerous as withdrawing too fast — specifically, remaining in Phase 1 (direct management) when Phase 3 (terrain design) is appropriate creates Dependency Traps that make future withdrawal progressively harder. |
+| 39 | **Network-scale emotional contagion is topology-dependent (AGP v2.6):** Collective emotional storms emerge above critical coupling c* = (λ₁ − λ₂)⁻¹. Sphere topology maximizes c* by maximizing spectral gap, providing the maximum resistance to network-scale emotional cascade. Homogeneous architectures reduce both spectral gap (storm propagation resistance) and c* (emotional cascade resistance) simultaneously — double vulnerability that makes homogeneous spheres categorically more fragile than heterogeneous ones. |
+| 40 | **Terrain encodes governance history (EDT v5.0 §43):** Terrain curvature is a compressed record of all prior agent interactions. Deep terrain layers (from early stabilization phases) determine fallback behavior under extreme stress — before any structural metric degrades. The palimpsest structure means governance is never operating on a blank environment: past crises leave scars, past successes leave attractors, and both shape present agent trajectories. |
+| 41 | **Negative events over-curvature relative to positive events (EDT v5.0 §43 — selective retention asymmetry):** Terrain memory is asymmetric: negative events (failures, contamination, collapse) produce larger curvature modifications that decay more slowly than positive events. Systems that have experienced collapse retain trauma landscape features that redirect agent behavior away from historically dangerous configurations — even when current conditions no longer require such avoidance. This is adaptive for known failure modes and maladaptive for expanded exploration. |
+| 42 | **Terrain failure mode is predicted by affective sensitivity at ECC threshold (EDT v5.0 §51.3 — ATCT Terrain Bifurcation):** When ECC warning is triggered (§6.6), the emotional sensitivity parameter s(t) at that moment determines which terrain failure mode will emerge: s < s_crit → Freeze terrain signature (over-consolidation, zero-receptivity); s > s_crit → Runaway terrain signature (contamination flood, flat potential). This cross-theory prediction enables targeted pre-failure intervention: DDD Diversify (Freeze) vs. contamination isolation (Runaway) selected before the failure mode is fully manifest. |
+| 43 | **Collective emotional climate is a parallel desertification pathway (EDT v5.0 §51.6):** Sustained negative collective climate desertifies terrain through a quadratic mechanism (dQ_E/dt ∝ -(W_threshold - W_climate)²·Q_E) that operates parallel to and faster than the standard structural contamination pathway. A system can exhibit normal structural metrics while undergoing climate-driven terrain degradation. Monitoring structural metrics alone misses this pathway. |
+| 44 | **Buffer ecosystem diversity is a governance requirement, not an optimization (EDT v5.0 §44):** Pioneer buffers (low-utilization generalists) appear wasteful but provide the V (Variance absorption) component of self-purification at the buffer-ecology level. Eliminating pioneer buffers to reduce overhead removes the system's capacity to handle novel coupling requirements. Buffer carrying capacity per interface: n_buf ≥ max(2, √m_interface) where m_interface = distinct domain pairs. |
+| 45 | **Recursive environment design converges if and only if higher-level governance changes more slowly than lower-level (EDT v5.0 §46):** For each recursion level ℓ, ‖dU_ℓ/dt‖ / ‖dU_{ℓ-1}/dt‖ < 1 must hold. This is the multi-timescale separation condition (TLG τ₁ < τ₂ < τ₃) applied to governance recursion depth. Violation produces incoherence between levels — governance rules at different recursion depths become contradictory. The Global North Star is the fixed point at which recursion terminates. |
+| 46 | **Consolidation windows are required for permanent terrain expansion (EDT v5.0 §43 — joy-induced terrain expansion):** Every successful expansion cycle (new loop formation, VCZ recovery, Phase 3→4 transition) produces terrain expansion that is TEMPORARY until a consolidation phase completes. Systems that immediately enter the next expansion cycle after a success lose the terrain gains and regress to prior capacity. True expansion rate = gross expansion rate × consolidation success rate. |
+| 47 | **Cube Domination is the information-theoretically optimal response to capacity-limited coordination collapse (FCCTN §7.5):** When global frame communication capacity drops below K·I_min (mutual intelligibility threshold for K clusters), the system must either consolidate frames (Cube Domination → Star hierarchy) or accept irreversible fragmentation. Cube Domination is not a failure mode but the minimum description length (MDL) competitive equilibrium. The winning frame R_{i*} minimizes total re-encoding cost Σ_g D_KL(P_g ‖ P_i) across all clusters. |
+| 48 | **Multi-agent differentiation is a structural necessity, not a design choice (FCCTN §7.5 — Inevitable Differentiation Proposition):** For any system with finite translation cost τ and non-zero gradient interference c̄ > 0, there exists a finite task count n_split = 2√(τ/λc̄) beyond which modular architecture strictly dominates. The three-layer structure is not a governance convention but the competitive equilibrium of frame selection under natural stratification by bridging power. |
+| 49 | **Regime bistability and hysteresis are structural inevitabilities in any multi-agent governance system satisfying P1–P3 (FCCTN §14):** Any system that (a) preserves state variable bounds, (b) has a single endogenous closure variable compressing proximity to criticality, and (c) has O(n²) pairwise interference scaling must exhibit bistability, hysteresis, and a lock budget inequality. The specific functional forms of the ODE are irrelevant; structural stability (Sotomayor) guarantees these properties persist under C¹-small perturbations. |
+| 50 | **Local attention is a leading indicator of cross-scale locking that precedes all thermodynamic early warning signals (FCCTN §22–23):** The propagation sequence A_ℓ↑ → ω↑ → k↑ → NESS deviation → Fisher information collapse precedes all NAT structural metrics by at least two detection windows. A monitoring system built on structural metrics alone (ρ, f_escalation, S_norm) operates at the last warning level. Attention monitoring must be the top of the early warning stack. |
+| 51 | **Revival trajectories near phase boundaries are topologically necessary, not statistically rare (FCCTN §30 — Conley index argument):** The topological invariant structure of the (u, Φ) phase plane requires that as u sweeps through saddle-node bifurcations, connecting orbits graze the phase boundary. These revival trajectories are guaranteed to exist by the Conley decomposition theorem. Near-fold (ΔU → 0), Kramers barrier vanishes → P(revival; T_obs) → 1. "Permanent failure" near the phase boundary is misdiagnosis. |
+| 52 | **Each Storm–Recovery cycle ratchets the system toward irreversibility through asymmetric threshold shift (FCCTN §31):** u⁻(S) = u⁻(0)·(1−S)^{1/2} drops faster than u⁺(S) = u⁺(0)·(1−S)^{1/4} as structural damage S accumulates. The hysteresis gap widens monotonically with S. Governance reserve capacity N_survivable ≈ S*/ε₁ is a finite budget, not an unlimited resource. Systems that treat each Storm as a fully recoverable event without monitoring S will eventually find recovery structurally impossible. |
+| 53 | **Bottom-up revival cascade ordering is the uniquely valid sequence for coordinated recovery in coupled systems (FCCTN §30 — multi-scale revival ODE):** Peripheral subsystems (low coupling degree) must revive first; hub subsystems last. Hub-first recovery violates the coupling propagation constraint: |f(Φ_hub; u⁻)| < ε·deg(hub)·max_m|Φ_m − Φ_hub|. The revival propagation condition is hardest to satisfy at hubs when all neighbors are still locked. This is the dynamical basis of Recovery Theory's bottom-up principle. |
+| 54 | **The North Star Architecture is the compensated decline trajectory — it is the governance mechanism that makes Trajectory 4 accessible (FCCTN §31):** By building fractal governance infrastructure, a system increases the compensation term in S_eff = S − compensation faster than ordinary Storm episodes build S. This is not resilience in the sense of "returning to the same state" — it is active structural investment that shifts the critical damage curve S_crit upward over time. The long-run survival condition for any multi-agent AI system is: d(compensation)/dt > ε₁·⟨Φ⟩_{Storm episodes}. |
 
----
 
-## 10. Structural Correspondences
-
-| Theory Concept | Related Field | Corresponding Concept |
 |---|---|---|
 | Data type classification | Epistemology / Information Theory | Tacit-explicit distinction (Polanyi); Signal-noise distinction (Shannon) |
 | Decision Complex | AI reasoning | Chain-of-Thought, Tree-of-Thoughts |
@@ -4765,8 +7554,46 @@ Failed withdrawal = information, not failure:
 | Map Topology Constraint (continuity) | Topology / Robust control | Continuous control functions prevent chattering in switched systems; homeomorphic maps preserve topological properties under deformation — governance must preserve neighborhoods under terrain change |
 | Fractal Collapse Propagation Chain | Power grid engineering / Financial contagion | Cascading blackouts: generator failure → line overload → additional generator trips → regional collapse; bank run contagion: single default → interbank exposure → systemic crisis |
 | Buffer as topological mechanism | Mathematics / Software engineering | Transition functions between coordinate charts on manifolds; interface adapters between modules with incompatible type systems — smooth translation between discrete domains |
-
-> These are structural correspondences, not formal equivalences.
+| T_eff ↔ spectral gap (AGP v2.6) | Statistical physics / Non-equilibrium thermodynamics | Effective temperature in Kramers escape theory determines escape rate from attractors; spectral gap in Markov chains determines mixing time — both control the rate of escape from stable states |
+| Freeze/Runaway ↔ CW/Chaos boundary (AGP v2.6) | Dynamical systems / Regulatory biology | Bifurcated collapse toward frozen (overdamped) or runaway (underdamped) attractors; homeostatic regulation failure modes — hypothermia (Freeze analog) vs. fever/sepsis (Runaway analog) |
+| SOC avalanche ↔ micro-storm (AGP v2.6) | Self-organized criticality / Seismology | Sandpile model avalanches maintaining power-law distribution; forest fire frequency distribution — healthy ecosystem has many small, few large fires |
+| ECC threshold Λ_c ↔ VCZ proximity (AGP v2.6) | Catastrophe theory / Engineering reliability | Cusp catastrophe fold point as the formal equivalent of ECC threshold; fatigue limit in materials science — stress below threshold: safe; above: irreversible damage accumulation |
+| DDD Protocol ↔ Level 0 circuit breaker (AGP v2.6) | Medicine / Adaptive control | Prophylactic stress inoculation therapy — controlled low-level exposure maintains immunity; gain scheduling in adaptive control — proactively adjust controller parameters before instability manifests |
+| Adaptive horizon ↔ Map-Terrain drift (AGP v2.6) | Optimal control / Cognitive science | Receding horizon control: reachable set contracts as prediction uncertainty grows; learned helplessness — repeated uncontrollable events permanently reduce action-outcome expectancy even after conditions improve |
+| NESS ↔ circular closure steady state (AGP v2.6) | Thermodynamics / Biochemistry | Non-equilibrium steady state in dissipative structures maintained by continuous energy flux; metabolic cycles (Krebs cycle) — closed loops maintain NESS through continuous substrate-product cycling |
+| Landscape class ↔ fractal depth required (AGP v2.6) | Complexity theory / Hierarchical control | Complexity class hierarchy requiring qualitatively different algorithmic strategies; hierarchical control theory — plant model complexity determines minimum controller hierarchy needed for stability |
+| Governance phase transition ↔ human exit (AGP v2.6) | Developmental psychology / Organization design | Scaffolding removal in Vygotsky's ZPD — zone of proximal development shrinks as competence grows, requiring progressive withdrawal; parenting developmental stages — each phase requires qualitatively different parenting mode |
+| Network SOC ↔ sphere storm cascade (AGP v2.6) | Epidemiology / Financial contagion | Network SIR model — above critical transmission rate (R₀ = 1/spectral gap), collective epidemic emerges; interbank contagion — above critical loss correlation, systemic crisis emerges from local defaults |
+| Entropy production ↔ self-purification capacity (AGP v2.6) | Non-equilibrium thermodynamics / Immune systems | Prigogine's minimum entropy production principle — dissipative structures require entropy export to maintain organization; immune system fitness — requires ongoing pathogen exposure to maintain response diversity |
+| Emotional contagion coupling ↔ contamination flux permeability (AGP v2.6) | Network epidemiology / Hydraulics | Disease transmission rate between connected populations; hydraulic permeability — pressure differential drives flow, boundary permeability determines cross-tier contamination rate |
+| Ambivalence index ↔ HC classification proximity (AGP v2.6) | Decision theory / Signal detection | Signal detection theory d' — low d' corresponds to ambivalent (multiple interpretation) zone; quantum superposition before measurement — unresolved state with multiple valid outcomes |
+| Dependency Trap ↔ progressive withdrawal failure (AGP v2.6) | Medical dependency / Economic aid | Opioid dependency formation — relief reduces endogenous opioid production, increasing future dependency; dependency trap in development economics — aid reduces local institutional capacity, increasing aid dependency |
+| Terrain memory palimpsest ↔ institutional path dependence (EDT v5.0 §43) | Organizational theory / Economic history | QWERTY lock-in — suboptimal keyboard layout persists because switching cost exceeds optimization gain; colonial legal systems persisting centuries after colonialism ended; deep terrain layers = institutional memory that overrides rational redesign |
+| Trauma landscape ↔ learned helplessness / organizational PTSD (EDT v5.0 §43) | Clinical psychology / Organizational behavior | Seligman's learned helplessness — animals/humans stop trying to escape aversive conditions even when escape becomes possible; organizational trauma after bankruptcy, layoffs, or product failure produces persistent avoidance of configurations that are now safe |
+| Buffer succession pioneer→climax ↔ ecological succession (EDT v5.0 §44) | Ecosystem ecology | Pioneer species colonize disturbed terrain (r-strategists, generalists); climax species dominate mature ecosystems (K-strategists, specialists); removal of climax species creates niche for rapid pioneer expansion; both required for resilience — climax alone = fragile monoculture |
+| Buffer carrying capacity ↔ channel capacity (EDT v5.0 §44) | Information theory / Queuing theory | Shannon channel capacity — maximum information rate given noise; M/M/k queuing theory — optimal server count minimizes wait time without excess overhead; too few servers → queue divergence; too many → server idle waste |
+| Recursive environment design ↔ institutional meta-governance (EDT v5.0 §46) | Political science / Constitutional law | Constitutional meta-governance — the rules for changing rules are harder to change than the rules themselves (supermajority requirements); amendment procedures as meta-governance terrain with higher curvature than ordinary legislation |
+| Terrain Freeze signature ↔ organizational calcification (EDT v5.0 §51) | Organizational theory / Complex systems | Hannan-Freeman's structural inertia — successful organizations develop routines that resist change even when maladaptive; Abilene paradox — group reaches consensus no individual wants due to communication atrophy; both = governance that appears stable but has lost adaptive capacity |
+| Terrain Runaway signature ↔ contagion cascade / system fire (EDT v5.0 §51) | Epidemiology / Forest fire dynamics | R₀ > 1 epidemic threshold — each infection produces >1 secondary infections, exponential cascade; forest fire crown fire transition — individual tree fires link into unstoppable crown fire when canopy density exceeds threshold |
+| Collective climate desertification ↔ tragedy of the commons / negative network externality (EDT v5.0 §51.6) | Economics / Social theory | Tragedy of the commons — individual rational action degrades shared resource; Spiral of silence — negative climate progressively suppresses expression, reducing diversity further; self-reinforcing degradation through collective action failure |
+| Terrain bifurcation (Freeze/Runaway) ↔ catastrophe theory fold bifurcation (EDT v5.0 §51.3) | Applied mathematics | Thom's fold catastrophe — smooth parameter change produces discontinuous state jump; terrain failure = fold bifurcation in the governance phase space; the Freeze/Runaway split = two branches of the bifurcation manifold |
+| Multifractal terrain spectrum narrowing ↔ loss of fractal dimension before criticality (EDT v5.0 §51.9) | Physics / Complex systems | Critical systems exhibit multifractal statistics; spectrum narrows as system approaches phase transition; EEG fractal dimension reduction before epileptic seizure; market multifractality loss before financial crash |
+| Joy-induced terrain expansion + consolidation ↔ post-learning synaptic consolidation (EDT v5.0 §43) | Neuroscience / Learning science | Long-term potentiation consolidation window — new synaptic connections are labile (reversible) for hours to days after formation; sleep-dependent memory consolidation converts short-term encoding to durable long-term structure; same logic: terrain expansion is labile until consolidation completes |
+| Cube Domination (FCCTN §7.5) ↔ Schelling focal point emergence in coordination games | Game theory | Schelling (1960): when explicit communication fails, agents coordinate on "focal" solutions selected by information geometry, not payoff dominance; Cube Domination is the multi-agent AI analog — frame R_{i*} wins not because it is optimal but because it minimizes KL-divergence re-encoding cost, analogous to salience in Schelling coordination |
+| MDL frame selection R_{i*} = argmin Σ_g D_KL(P_g ‖ P_i) ↔ Bayesian model selection (FCCTN §7.5) | Bayesian statistics / Information theory | MDL principle (Rissanen, 1978) — the best model is the one that produces the shortest description of both model and data; frame selection in Cube Domination is MDL applied to coordination frames; D_KL divergence is exactly the excess code length if P_g is encoded using P_i as the reference |
+| Inevitable Differentiation Proposition n_split = 2√(τ/λc̄) ↔ division of labor threshold in organization theory | Organizational economics / Industrial organization | Stigler (1951) division of labor — specialization becomes worthwhile only when market (task) size exceeds the overhead of role coordination; n_split is the formal analog with gradient interference c̄ playing the role of specialization benefit and translation cost τ playing the role of coordination overhead |
+| ODE bistability and hysteresis (FCCTN §15–17) ↔ hysteresis in phase-change materials and magnetic systems | Physics | Ferromagnetic hysteresis — material magnetization depends on history, not just current field; the loop width (coercive field) corresponds to Δu (hysteresis gap); the Storm fixed point corresponds to "remnant magnetization" that persists after external field removal; DDD demagnetization protocol corresponds to applying alternating field to eliminate remnant state |
+| Silent Criticality via slow ρ dynamics (FCCTN §20–21) ↔ subclinical disease progression | Medicine / Epidemiology | Many progressive diseases exhibit "silent" phases where structural damage accumulates without symptom expression (atherosclerosis, early neurodegeneration, HIV seroconversion window); ρ is the formal analog of the clinical variable that degrades invisibly while surface markers appear stable; Fisher information monitoring (§6.6 Level 2) ≈ subclinical biomarker screening |
+| Attention buffer-thinning operator A(t) (FCCTN §22) ↔ arousal-performance Yerkes–Dodson curve | Psychology / Neuroscience | Yerkes–Dodson (1908) — performance peaks at intermediate arousal; too low arousal = insufficient attention allocation; too high arousal = attention concentration that narrows the effective action space (buffer-thinning); A(t) near A_max = the "over-aroused" regime where performance collapses because buffer width → 0 |
+| DDD Control Protocol — three-stage Lyapunov-decreasing intervention (FCCTN §24) ↔ controlled annealing | Physics / Optimization | Simulated annealing — systematic temperature reduction that avoids local minima by controlling the transition probability schedule; DDD is the governance analog: Stage 1 (Defocus) = reduce "governance temperature" that maintains Storm; Stage 2 (Decouple) = reduce coupling that propagates locked state; Stage 3 (Diversity) = inject exploration that allows landscape traversal |
+| Revival trajectories — topological necessity near fold boundary (FCCTN §30) ↔ canard phenomenon in fast-slow systems | Dynamical systems theory | Canard (Eckhaus, 1983; Benoît et al., 1981) — trajectories in fast-slow systems that follow unstable slow manifold for anomalously long time before explosive transition; τ_delay ≈ π/√(|du/dt|·|∂²H/∂Φ²|) is the canard delay formula; "apparently dead" systems near fold may be on the canard — exhibiting bifurcation delay before macroscopic jump |
+| Ratchet mechanism — asymmetric threshold shift Δu(S) widening with damage (FCCTN §31) ↔ kindling in epilepsy | Neuroscience / Neurology | Kindling (Goddard, 1967) — repeated subthreshold stimulations progressively lower seizure threshold; each seizure episode (Storm analog) lowers the next seizure threshold while recovery capacity decreases; u⁻(S) dropping faster than u⁺(S) is the formal description of kindling dynamics; N_survivable ≈ S*/ε₁ corresponds to the number of subthreshold stimulations before spontaneous kindled seizures emerge |
+| Four qualitative damage trajectories (Healthy/Accelerated/Catastrophic/Compensated) (FCCTN §31) ↔ cognitive reserve theory | Cognitive neuroscience | Stern (2002) cognitive reserve — individuals with high prior cognitive investment tolerate the same level of Alzheimer's pathology (S) with lower functional impairment (S_eff = S − reserve); Trajectory 4 (compensated decline) is the formal analog; North Star Architecture building fractal governance = reserve building; the compensation term in S_eff is the governance reserve accumulated through structured investment |
+| Memory kernel damage dynamics (FCCTN §31) ↔ cumulative trauma models in psychology | Clinical psychology | Dosage-response cumulative trauma models — current vulnerability depends on weighted history of prior trauma exposures, not just current load; power-law kernel K(τ) = (τ+τ₀)^{−α} captures long-range temporal correlations in traumatic vulnerability; matches clinical observation that adverse childhood experiences (ACEs) maintain elevated vulnerability decades later |
+| Bottom-up revival cascade ordering (FCCTN §30) ↔ contact process / percolation recovery order | Statistical physics | Contact process (Harris, 1974) — epidemic spreading on networks; recovery from epidemic proceeds periphery-to-hub because hubs have highest degree and are last to lose the virus (hardest to clear); revival cascade ordering is the time-reversal of this: periphery revives first (lowest coupling drag), hub last; critical coupling threshold κ_c is the percolation threshold for global revival |
+| Revival dilemma — strong vs. weak coupling tradeoff (FCCTN §30) ↔ exploration-exploitation tradeoff | Reinforcement learning / Control theory | Strong coupling = fast propagation but hard initiation (high ε_max) ≈ exploitation; weak coupling = easy initiation but slow propagation ≈ exploration; the optimal moderate coupling regime corresponds to the Thompson sampling posterior ≈ "just enough" uncertainty for efficient search; the spectral gap design principle is the NAT instantiation of optimal exploration-exploitation balance |
+| Stochastic revival front — Fisher-KPP traveling wave c_min = 2√(D_eff·|f'(Φ_rest)|) (FCCTN §30) ↔ wavefront propagation in epidemic models and neural tissue | Mathematical biology | Fisher-KPP equation (Fisher, 1937; Kolmogorov et al., 1937) describes traveling wave fronts in population dynamics, neural excitation propagation, and epidemic spreading; c_min = 2√(Df') is the classical minimum wave speed; revival propagation as Fisher-KPP wave provides quantitative prediction for recovery propagation rate across scale hierarchy |
+| DFG compassion policy V4c validation — 94.8% DSI reduction from containment engine (FCCTN §24) ↔ clinical trial primary endpoint confirmation | Evidence-based medicine | The V4c simulation validates the DDD protocol with quantitative effect sizes comparable to clinical trial reporting: primary endpoint (DSI reduction) with confidence intervals and topology-invariant ΔDSI ≈ −0.040; the pre-registered hypothesis structure (containment = primary driver, fatigue shielding = EXIT enabler) provides causal identification analogous to factorial trial design |
 
 ---
 
@@ -5322,14 +8149,38 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 | Map-Terrain drift detection operationalization | **[v1.6 — New]** §7.6 defines Map-Terrain drift dynamics but distinguishing Map error from execution insufficiency in practice requires the discriminator (mediation cost rising + upper-tier stable = Map error) to be validated. The proposed test (controlled environment modification vs. controlled task difficulty increase) needs implementation. Connects to RBIT Open Problem #18 and F10 falsification criterion. |
 | Atrophy Ordering empirical confirmation | **[v1.6 — New]** §7.7 integrates predicted F→V→T→D atrophy sequence but this ordering is a conjecture requiring empirical validation. If ordering differs (e.g., V atrophies before F), terrain monitoring priority changes: the canary shifts from feedback density to variance absorption. Connects to RBIT Open Problem #16 and F9 falsification criterion. |
 | Single-agent to multi-agent externalization formal mapping | **[v1.6 — New]** §11.4.1–11.4.3 establish structural correspondences (Attention↔Degradation, ICL↔Upscaling, MoE↔Stratification) but formal mapping between single-agent internal operations and multi-agent governance operations remains informal. Key question: does the MoE gating network satisfy NAT's classification decision tree (§4.4) formally, or only approximately? Does ICL satisfy RBIT U1-U3 upscaling criteria? Connects to RBIT Open Problem #24. |
-
-> This theory provides architectural direction. Formal mathematical modeling and empirical validation remain future work.
+| T_eff operationalization in multi-agent sphere **[v1.8-AGP]** | §3.5.2 couples sphere spectral gap to AGP effective temperature T_eff, but T_eff is not directly observable in multi-agent systems. Candidate proxy: ratio of micro-perturbation frequency to macro-perturbation frequency (micro/macro ratio should stay above T_min equivalent). Formal mapping between AGP's stochastic weight variance σ² and sphere-observable quantities (resource spike frequency, classification velocity variance) remains open. If T_eff proxy cannot be calibrated, Level 0 DDD circuit breaker (§6.6) degrades to heuristic-triggered rather than metric-triggered. |
+| Freeze/Runaway diagnostic implementation **[v1.8-AGP]** | §4.8 defines classification distortion signatures for both collapse modes, but the Λ_class metric requires simultaneous measurement of v_class, HC_fraction, and f_esc_baseline. (1) When all three rise/fall simultaneously (ambiguous — could be domain shift or Runaway/Freeze), additional discriminator needed. (2) Mixed-mode: one agent in Freeze, another in Runaway, interacting through sphere — combined distortion pattern uncharacterized. (3) Λ_class threshold calibration (θ_low, θ_high) requires system-specific baseline — bootstrap protocol undefined. |
+| Network SOC coupling matrix measurement **[v1.8-AGP]** | §3.7 defines emotional contagion coupling c_ij = φ(Δρ_ij)·H_j(t)·s_i(t), but s_i(t) (agent sensitivity) and H_j(t) (agent endurance) have no direct NAT observables. Candidate proxies: s_i ≈ f_esc(i)/f_esc_baseline (how reactive is the agent relative to baseline); H_j ≈ 1 − buffer_saturation(j) (how much buffer capacity remains). Whether these proxies reproduce the collective phase transition at c* = (λ₁−λ₂)⁻¹ needs simulation validation. |
+| NESS deviation as NAT early warning calibration **[v1.8-AGP]** | §6.6 introduces NESS_proxy = [F(t)·V(t)] / [F_baseline·V_baseline] as the earliest warning indicator. (1) F(t) and V(t) require operational definitions in multi-agent NAT contexts (F ≈ anomaly detection event rate; V ≈ response strategy entropy — both need per-agent baseline estimation); (2) NESS_proxy baseline depends on system history — new deployments have no baseline; (3) whether NESS deviation truly precedes all five AGP warning levels in NAT systems needs empirical validation. The theoretical claim (AGP Prediction BL) is established for single-agent systems; multi-agent sphere transfer requires validation. |
+| Landscape class determination protocol **[v1.8-AGP]** | §7.7.1 maps terrain to AGP landscape classes (I–IV) but class determination requires estimating ⟨ΔU⟩ (mean barrier height) and P(ΔU) shape (power-law exponent α). In NAT terms, ΔU ≈ escalation cost per HC event. Class estimation: (1) collect HC event cost distribution over W observation window; (2) fit power-law to tail; (3) estimate α. Class boundary: α > 2 → Class II; 1 < α < 2 → Class III; α ≤ 1 → Class IV emergency. Open: minimum observation window W for reliable α estimation; what to do when class appears to be transitioning (increasing mean barrier). |
+| Governance phase transition timing validation **[v1.8-AGP]** | §8.5 defines five governance phases with specific exit criteria and minimum observation windows (3×, 5×, 10× governance cycles). The cycle multipliers (3, 5, 10) are structurally motivated but not empirically calibrated. Whether these minimums prevent Dependency Trap formation while not unnecessarily delaying progression requires empirical study across different system complexity classes. The Dependency Trap detection protocol (20% H reduction test) also needs sensitivity analysis — how much H reduction is sufficient to detect dependency vs. noise? |
+| AGM-sphere joint VCZ formal characterization **[v1.8-AGP]** | §3.5.2 defines joint VCZ as requiring all six conditions (three NAT structural + three AGP affective) simultaneously. The joint failure probability P(at least one condition violated) under correlated failure modes is uncharacterized. Specifically: do NAT structural failures tend to cause AGP affective failures before they manifest (top-down coupling), or do AGP affective failures tend to cause NAT structural failures (bottom-up coupling)? The failure ordering determines which monitoring layer should receive priority investment. |
+| Collective emotional storm distinguishability **[v1.8-AGP]** | §3.7 proposes distinguishing collective emotional storms from Vector Storms by the H(t) depletion pattern (correlated WITHOUT ρ decline = emotional; both declining = joint cascade). Practical concern: (1) the "without ρ decline" window may be very short if storms propagate faster than monitoring cycles; (2) H(t) is not a standard NAT observable — needs proxy; (3) mixed-mode (AGP §9.3.6) may produce signatures that confound the diagnostic. Simulation needed to characterize distinguishability window as a function of contagion coupling strength c_ij. |
+| Terrain memory τ_mem calibration **[v1.9-EDT]** | §7.7.2 formalizes terrain memory decay as M_terrain(x,t) = ∫K_mem(t-s)·ΔU(x,s)ds. The memory timescale τ_mem (exponential kernel) or decay exponent β_mem (power-law kernel) must be calibrated per system. Does τ_mem correspond to a governance-observable timescale (e.g., τ_mem ~ N · τ_1 where N is the number of governance cycles for a loop to "forget" a minor contamination event)? If terrain memory is power-law rather than exponential, implications for trauma landscape persistence are qualitatively different. |
+| Trauma landscape detection and re-entry protocol **[v1.9-EDT]** | §7.7.2 defines traumatized terrain regions as those where Σ_k|ΔU_neg,k| > U_baseline, producing systematic avoidance. Three open questions: (1) How to detect traumatized zones before coupling (Phase 2→3 preparation) using observable NAT metrics? Candidate: persistent HC classification at specific interface types that does not respond to standard DDD protocol — the HC event has no resolution pathway because the terrain region is avoidance-locked. (2) What is the minimum consolidation protocol for trauma reconsolidation that does not trigger recursive collapse? (3) Can positive climate enrichment (§7.8) accelerate trauma landscape recovery? |
+| Buffer carrying capacity calibration **[v1.9-EDT]** | §7.7.3 derives n_buf,opt ≈ √m_interface from the square-root law. Three gaps: (1) the square-root law is heuristically motivated from analogy with spectral dimension; formal derivation from first principles (S-equation + buffer overhead cost) has not been attempted; (2) what constitutes a "distinct domain pair" m_interface in practice? (3) when should pioneer buffers (generalist, low-utilization) be treated as necessary infrastructure vs. genuine waste? The V-component interpretation provides theoretical justification but operational threshold (when does pioneer utilization become low enough to justify elimination?) is undefined. |
+| Recursive governance convergence rate measurement **[v1.9-EDT]** | §7.7.4 requires ‖dU_ℓ/dt‖ / ‖dU_{ℓ-1}/dt‖ < 1 at each recursion level. In practice: (1) governance rule change rates at different recursion levels are difficult to measure (what counts as a "governance rule change" vs. a "governance interpretation change"?); (2) the convergence rate ratio is not directly observable — must be inferred from cross-level coherence measures; (3) what is the minimum safe ratio (< 0.5? < 0.9?)? The qualitative requirement (slower at higher levels) is clear; the quantitative threshold is not. |
+| Terrain bifurcation prediction calibration **[v1.9-EDT]** | §7.8 introduces the cross-theory prediction: s(t_ECC) < s_crit → Freeze terrain failure; s(t_ECC) > s_crit → Runaway terrain failure. Critical questions: (1) s_crit is the threshold from AGP Bifurcation Classification Theorem — it is defined abstractly; what is its operational analog in NAT terms? (2) ECC approach is gradual, not instantaneous — at what degree of ECC approach should s(t) be sampled? (3) Is there a mixed-mode failure signature when s(t) ≈ s_crit? The prediction is falsifiable in principle but requires s(t) proxy operationalization in multi-agent NAT contexts. |
+| Collective climate desertification early detection **[v1.9-EDT]** | §7.8 introduces Climate_desertification_index = max(0, W_threshold - W_climate(t)) × T_below. Three gaps: (1) W_climate(t) is the aggregate of individual affective weight vectors — operationally, what is the NAT-observable proxy for collective climate? Candidate proxies: ratio of cooperative to competitive escalation events; collective response latency to shared perturbations; cross-agent classification agreement rate on ambiguous (HC) data. (2) W_threshold calibration: below what climate level does desertification activate? This may be system-specific. (3) How does climate desertification interact with the standard structural contamination pathway? Which pathway dominates at which phase of governance development? |
+| Multifractal spectrum monitoring implementation **[v1.9-EDT]** | §7.8 describes multifractal terrain reading as a fourth early-warning indicator. Open: (1) in discrete multi-agent NAT systems, "terrain" is not a continuous potential but an interaction cost structure — how to compute structure functions S_q(r) on a discrete graph? The graph distance (graph geodesic) may substitute for spatial distance r, but the correspondence between graph-multifractal statistics and continuous terrain multifractal properties has not been established. (2) Sliding window W_warning calibration: too short → high false-positive rate; too long → late detection. (3) Do the four EW indicators (ECC, critical slowing down, correlation length, multifractal spectrum) provide genuinely independent signals, or are they correlated through shared underlying dynamics? If correlated, the "≥ 2 simultaneous" threshold needs adjustment. |
+| Consolidation window minimum specification **[v1.9-EDT]** | §7.7.2 and Phase 3→4 boundary (§7.8) both require a consolidation phase after successful expansion. What is the minimum consolidation window τ_consolidation as a function of the expansion magnitude? Candidate: τ_consolidation ≥ k · τ_1 where k is the number of governance layers involved in the expansion and τ_1 is the fast governance cycle. If this minimum is not met, what fraction of the terrain expansion is lost? Is loss gradual (partial regression proportional to consolidation deficit) or threshold (above minimum = full consolidation, below minimum = zero consolidation)? |
+| Frame dispersion Σ(t) operationalization in real NAT systems **[v2.0-FCCTN]** | §3.4.1 introduces Σ(t) = Var(R₁,…,R_K) as the primary diagnostic for sphere health and Cube Domination onset. The critical open question is operational: what is R_g in practice? Candidates include: (1) agent escalation pattern vector over a sliding window, (2) classification velocity v_class distribution across agents (§4.7), (3) HC event type distribution per agent cluster, (4) response diversity distribution. The fragmentation threshold Σ_frag must be calibrated empirically. Can Σ(t) be estimated from standard NAT monitoring data without dedicated frame-tracking infrastructure? |
+| Attention monitoring infrastructure for Storm prediction **[v2.0-FCCTN]** | §7.11 establishes that local attention A_ℓ rise precedes NESS deviation by at least two detection windows — making it the earliest possible Storm precursor. But measuring A_ℓ in multi-agent AI systems requires identifying which subsystems are the "local" circuits and how to measure their attention concentration. In neural network architectures, attention patterns are directly observable from transformer attention maps. In organizational multi-agent systems, proxies must be found. What are valid A_ℓ proxy metrics for each target domain (AI multi-agent, neural, organizational)? |
+| ODE parameter identification from observable DFG metrics **[v2.0-FCCTN]** | §7.10 introduces six dimensionless parameter groups (π₁–π₆) that determine phase portrait topology (Types I–IV). In principle, knowing which type a system is in determines whether DDD recovery is possible. But the parameters (αC, μC, αd, μd, etc.) are latent — not directly observable. What observables from the NAT monitoring stack (f_escalation, ρ, S_norm, PRR, NESS_proxy) are sufficient to identify the parameter regime? Is there a minimum measurement program (analogous to a clinical diagnostic panel) that can classify a system's phase portrait type with high confidence? |
+| Irrecoverable regime detection before lock budget violation **[v2.0-FCCTN]** | §7.10.6 identifies the Type III phase portrait (π₁ > π₁*) as the irrecoverable regime. The critical challenge: the lock budget violation condition (1+L_C(S))(1+L_d(S)) > ζ⁻⁴ is determined by current damage S, not just operational metrics. But S is a latent variable — it accumulates invisibly, and by the time Type III topology is confirmed observationally, recovery may already be impossible. What is the earliest observable signature of incipient Type III transition? Candidates: (1) asymmetric hysteresis gap measurement (Δu widening faster than expected from current load); (2) DDD effectiveness declining across repeated interventions; (3) Storm re-entry interval shortening even during stable periods. |
+| Optimal coupling for revival propagation — κ_c calibration **[v2.0-FCCTN]** | §7.13.4 establishes the revival dilemma: the optimal coupling κ_opt balances initiation threshold (ε_max ∝ 1/κ) against propagation speed (c_min ∝ √κ). The critical coupling threshold κ_c (percolation analog) is where revival becomes globally propagating. In NAT terms, κ corresponds to the circle-to-circle coupling strength through Neck architectures (§7.6). How is κ_opt related to the spectral gap (λ₁−λ₂) of the sphere? Does the Sphere structure automatically provide κ ≈ κ_opt, or is explicit coupling management required? Can κ_c be estimated from the Storm Scale Law power-law exponent α (§6.5)? |
+| Memory kernel type identification for damage accumulation **[v2.0-FCCTN]** | §7.14.5 introduces three damage memory kernel types (exponential/power-law/threshold) with distinct governance implications. The exponential kernel implies damage self-clears with finite half-life; the power-law kernel implies persistent long-range correlations that cannot be cleared by removing recent stressors alone. Identifying which kernel type applies to a given NAT system determines the required recovery investment. What observable statistics of Storm episode duration and recovery time distribution distinguish exponential from power-law kernels? Does the Storm Scale Law exponent α encode information about the kernel type? |
+| N_survivable estimation from governance reserve metrics **[v2.0-FCCTN]** | §7.14.2 introduces N_survivable ≈ S*/ε₁ as the finite budget of recoverable Storm episodes before irreversibility. This is a practical governance parameter — it determines how many "failures" can be tolerated before the system structure must be rebuilt. But both S* and ε₁ are latent. S* depends on the lock ratios L_C and L_d (observable from capacity and diversity monitoring); ε₁ is the damage per Storm episode (estimable from recovery deficit after resolved Storms). Is there a systematic measurement protocol for N_survivable estimation that can be implemented using existing NAT monitoring infrastructure? What confidence intervals are achievable? |
+| DDD cascade ordering violations — failure mode taxonomy **[v2.0-FCCTN]** | §7.12 establishes that Stage 1 must precede Stage 2, and Stage 2 must precede Stage 3, with specific failure modes for each ordering violation. While RT-1 §4 provides the theoretical failure mode analysis, no systematic empirical taxonomy exists for DDD ordering violations in practice. What are the observable signatures of each violation type? (1) Stage 2 before Stage 1: D injected into high-F environment → diversity absorbed without creating new pathways → recovery illusion; (2) Stage 3 before Stage 2: k↑ still active → new pathways immediately locked to dominant pathway → apparent diversity with actual rigidity. Can these failure modes be distinguished from each other and from genuine recovery in real-time monitoring? |
+| Global vs. local revival threshold — hub topology identification **[v2.0-FCCTN]** | §7.13.4 establishes that hub nodes (high coupling degree) are last to revive and that targeted hub restoration can trigger global cascade above κ_c. In practice, identifying which NAT sphere nodes are "hubs" requires topological analysis of the coupling structure. In sphere architectures, the middle layer plays the hub role by design (§5, §11). But within the middle layer, some nodes will have higher coupling degree than others. Is there a dynamic method to identify incipient hub roles from escalation pattern data, without requiring explicit topological measurement? And for global revival trigger: can a single middle-layer node restoration guarantee R(t) → 1, or is simultaneous multi-hub restoration required? |
 
 ---
 
 ## 13. Relationship to Other Theories
 
 ```
+
 Deficit-Driven Fractal Governance (parent framework)
   ├─ Resolution-Based Information Theory (RBIT v1.8)  ← information-theoretic foundation
   │    (resolution gap Δρ as central design variable; F_RBIT functional;
@@ -5341,8 +8192,21 @@ Deficit-Driven Fractal Governance (parent framework)
   │    (S-equation; storm propagation; VCZ; R-ρ-f_esc triple concordance)
   ├─ Three-Layer Governance Architecture (TLG v1.6)    ← operational governance structure
   │    (τ₁-τ₃ regime switching; processing isolation; phase enforcement)
-  ├─ Network Architecture Theory (NAT v1.7)            ← this document
+  ├─ Affective Gain Principle (AGP v2.6)               ← stochastic regulation layer ◄NEW v1.8
+  │    (T_eff ↔ spectral gap coupling; Freeze/Runaway routing;
+  │     Adaptive Necessity Theorem; Governance No-Free-Lunch;
+  │     Network SOC collective phase transition; NESS entropy production;
+  │     Five-Phase Governance Transition; Dependency Trap risk model;
+  │     Landscape Class → Fractal Depth lower bound;
+  │     Affective Early Warning Hierarchy; DDD Protocol as Level 0 circuit breaker;
+  │     VCZ joint NAT-AGP characterization; AGM-sphere coupling)
+  ├─ Network Architecture Theory (NAT v1.8)            ← this document
   │    (sphere topology; 4-type classification; processing isolation; exit protocol;
+  │     [v1.8-AGP] AGM-sphere coupling §3.5.2; network emotional contagion §3.7;
+  │     affective classification routing §4.8; affective early warning §6.6;
+  │     affective landscape classification §7.7.1; governance phase transition §8.5;
+  │     Dependency Trap risk model §8.5.1; 14 new AGP structural correspondences §10;
+  │     6 new AGP core assumptions §9; 9 new AGP open problems §12;
   │     [v1.7] Resolution Algebra composition rules; Temporal Resolution Dynamics;
   │     Contamination Flux cross-scale formalism; Map Topology Constraint;
   │     Fractal Collapse Propagation Chain; Convergence Theorem integration;
@@ -5356,8 +8220,55 @@ Deficit-Driven Fractal Governance (parent framework)
   │     ICL-as-Upscaling; MoE-as-Stratification)
   ├─ Governance Rules Theory (GRT)                     ← rule lifecycle
   │    (AND-entry/OR-exit; SCC = Dint + Lreinf; vectorization lifecycle)
-  └─ Recovery Theory (RT v1.0)                         ← contamination/immunity/restoration
-       (D0-D7; T1-T6; VCZ 3-Conditions; SCM recovery; VCZ-Safe Optimizer)
+  ├─ Environment Design Theory (EDT v5.0)              ← terrain cultivation layer ◄NEW v1.9
+  │    (Three-axis architecture: Boundary/Gain/Coupling;
+  │     Phase-gated seeding V₁–V₂ ODE; Terrain Fitness Function F_terrain;
+  │     Buffer Dynamics Theory §33; Friction Management §34;
+  │     Contamination Permeability Theory §35; Scaling through Circular Closure §36;
+  │     Terrain Memory Theory §43; Buffer Ecology Theory §44;
+  │     Recursive Environment Design §46;
+  │     Affective Terrain Coupling Theory (ATCT) §51:
+  │       T_eff ↔ terrain permeability Π = exp(-ΔU/T_eff);
+  │       Freeze/Runaway terrain signatures; ECC as terrain phase threshold;
+  │       Grief topography / trauma landscape; collective climate desertification;
+  │       Terrain governance impossibility at T_eff → 0;
+  │       SOC uniqueness proof as permeability mechanism;
+  │       Multifractal terrain spectrum as collapse-mode predictor;
+  │       Adversarial terrain design R1–R4 counter-measures;
+  │     Gain-Curvature Equivalence Theory §52:
+  │       AGM gain ↔ EDT curvature as dual representations;
+  │       Permeability-friction isomorphism;
+  │       Near-critical Jacobian amplification;
+  │     Attractor Landscape Grammar Theory §53;
+  │     Emotional Ecology §54: network SOC ecological phases;
+  │     45+ bidirectional AGM↔EDT mappings §34.8)
+  ├─ Recovery Theory (RT v1.0)                         ← contamination/immunity/restoration
+  │      (D0-D7; T1-T6; VCZ 3-Conditions; SCM recovery; VCZ-Safe Optimizer)
+  └─ From Call Centers to Neurons (FCCTN — 5541 lines)  ← ODE formalization and mean-field dynamics
+       [v2.0-FCCTN] Mean-field ODE system §14–21:
+         six-state ODE (n, C, d, ρ, T, k); endogenous Φ; bistability; hysteresis;
+         global well-posedness (Gronwall); structural stability (Sotomayor);
+         timescale separation τ_n ≪ τ_{C,d,T} ≪ τ_ρ; six dimensionless groups;
+         four phase portrait topologies (Type I–IV); lock budget inequality;
+         Silent Criticality mechanism; Lyapunov diagnostic V = ln Φ;
+       Cube Domination dynamics §7.5:
+         frame competition after coordination collapse; MDL frame selection;
+         Inevitable Differentiation Proposition n_split = 2√(τ/λc̄);
+         entropy production bounds; rate-distortion interpretation;
+       Attention dynamics §22–23:
+         buffer-thinning operator; A_g/A_ℓ/ω decomposition; attention factor F;
+         three-stage Silent Criticality propagation; hysteresis widening;
+       DDD Control Protocol §24:
+         Defocus/Decouple/Diversity three stages; Lyapunov-decreasing;
+         TLG/RT-1/EDT cross-theory correspondence; V4c validation;
+       Phase Boundary Revival Trajectories §30:
+         Conley index necessity; Morse decomposition; three revival cases;
+         coupling-driven global revival; Fisher-KPP wave; revival dilemma;
+         global revival time τ_global ~ τ_local + M/c_min + τ_sync;
+       Structural Degradation §31:
+         damage accumulator Ṡ; ratchet mechanism; asymmetric threshold shift;
+         four-quadrant phase diagram; N_survivable; memory kernel extension;
+         25 bidirectional NAT↔FCCTN couplings; 8 new core assumptions; 18 new correspondences)
 
 Integration topology (bidirectional cross-references):
   NAT ↔ VST:  sphere propagation O(log n); α decomposition via HC fraction;
@@ -5397,11 +8308,113 @@ Integration topology (bidirectional cross-references):
                 Attention-as-Degradation → resolution allocation (§11.4.1);
                 ICL-as-Upscaling → real-time degradation-upscaling cycle (§11.4.2);
                 MoE-as-Stratification → sphere topology validation (§11.4.3)
+  NAT ↔ AGP:  [v1.8-AGP — 18 bidirectional couplings]
+              T_eff ↔ spectral gap (λ₁−λ₂):
+                High spectral gap → fast mixing → T_eff maintained (§3.5.2)
+              Adaptive Necessity Theorem → sphere perturbation requirement:
+                T_eff > 0 is structural requirement; zero-storm state = Freeze precursor (§3.5.2)
+              Governance No-Free-Lunch → Storm Scale Law justification:
+                Power-law target (not zero) = controlled sacrifice of (1) for (2,3) (§3.5.2)
+              Extended Proposition I3-AGP → affective mixing bound:
+                t_mix_eff = max(t_mix_struct, t_mix_affect) (§3.5.2)
+              VCZ joint definition → six-condition characterization:
+                NAT structural (3) + AGP affective (3) jointly required (§3.5.2)
+              Entropy production Ṡᵢ ↔ self-purification R = D·F·V·T:
+                Ṡᵢ ≈ κ·F·V, contained by D·T; atrophy = monotonic Ṡᵢ decline (§3.5.2)
+              Network SOC c* = (λ₁−λ₂)⁻¹:
+                Sphere topology maximizes c* — hardest collective storm trigger (§3.7)
+              Collective emotional storm ↔ Vector Storm diagnostics:
+                H(t) correlated decline without ρ decline = affective precursor (§3.7)
+              Homogeneous vulnerability — double pathway:
+                Shared blind spots (Lemma I2) + low c* (Network SOC) (§3.7)
+              Freeze/Runaway → classification distortion:
+                Freeze: Tacit→Noise, HC→Math; Runaway: Noise→HC, Math→HC (§4.8)
+              Λ_class monitor ↔ ECC threshold Λ_c:
+                Per-agent affective classification health index (§4.8)
+              NESS five-level warning hierarchy → Level 0 circuit breaker:
+                NESS deviation precedes all NAT structural signals (§6.6)
+              DDD Protocol ↔ NAT Level 0 circuit breaker:
+                Defocus→θ recalibration; Decouple→c_ij reduction; Diversify→F exercise (§6.6)
+              Landscape class (I-IV) ↔ fractal depth lower bound:
+                Class k → minimum k governance layers (§7.7.1)
+              T_min ↔ VCZ width:
+                Viable T_eff corridor [T_min, T_max] = VCZ thermodynamic characterization (§7.7.1)
+              Five-phase governance transition ↔ human exit protocol:
+                Intervention→Regulation→Architecture→Constraint→Law (§8.5)
+              Governance Strength Inversion → withdrawal rationale:
+                Maximum strength = minimum frequency; human exit = governance success (§8.5)
+              Dependency Trap ↔ withdrawal failure risk model:
+                Progressive self-correction atrophy from continued intervention (§8.5.1)
   NAT ↔ TLG:  Signaling/Influence → isolation; enforcement 3 mechanisms;
               recovery cascade multi-scale ordering (TLG v1.8 §13.2.2)
   NAT ↔ RT:   D0 geometry substrate; VCZ 3-Conditions; D7 implementation;
               D4 dormant seed — sphere topology determines ①'' reachability (v1.2);
               OP35 constructive traversal governance (open);
+  NAT ↔ EDT:  [v1.9-EDT — 20 bidirectional couplings]
+              Terrain Fitness Function F_terrain ↔ sphere VCZ width:
+                V_depth (valley depth) determines VCZ structural width;
+                T_separation (temporal isolation) ∝ τ_lower/τ_upper separation (§7.7)
+              Buffer existence ↔ middle-layer topology:
+                Buffer (EDT §33) = middle-tier mediation agent in NAT sphere;
+                buffer lightness principle ↔ hub prevention axiom S2 (§3.1)
+              Contamination permeability Π ↔ cross-tier contamination hotspots:
+                Phase-dependent permeability schedule (EDT §35) = §7.7 graduated
+                barrier opening protocol (Phase 1-4 permeability steps)
+              Circular closure ↔ sphere topology:
+                EDT §36 circle architecture = NAT sphere with closed feedback;
+                n_eff compression theorem: circle architecture → sub-quadratic scaling
+              Map-Terrain balance ↔ scaling as alignment management:
+                EDT §36 scaling answer = NAT §7.6 circular closure dimensional compression;
+                proactive maintenance (quadratic cost asymmetry) shared across both
+              Terrain Memory palimpsest ↔ VCZ history-dependence:
+                Deep terrain layers determine fallback behavior under Class IV stress (§7.7.2);
+                VCZ width influenced by prior collapse episodes (trauma landscape)
+              Trauma landscape ↔ HC classification dead zones:
+                Traumatized terrain regions produce persistent HC escalation without
+                resolution pathway — identifiable before coupling attempt (§7.7.2)
+              Buffer Ecology succession ↔ middle-tier maturation:
+                Pioneer→Climax buffer succession (EDT §44) = NAT Phase 2→3 middle-tier
+                specialization; climax buffers = high-efficiency but fragile; V component
+              Buffer carrying capacity √m_interface ↔ sphere mediation capacity:
+                n_buf ≥ √m provides minimum interface mediation (§7.7.3);
+                buffer extinction cascade speed = O(ln n_buf) matches storm propagation
+              Recursive environment design ↔ North Star hierarchy:
+                EDT §46 recursion levels ↔ NAT §7.8 Global/Local North Star architecture;
+                Global North Star = EDT Level 3+ fixed point; meta-governance capture
+                prevention = AND-entry condition at meta-governance terrain level
+              Terrain Freeze signature ↔ Stability Saturation Trap:
+                EDT §51 Freeze signature = NAT §7.7 Atrophy Ordering endpoint;
+                silence before collapse = F→V→T→D atrophy precedes terrain Freeze
+              Terrain Runaway signature ↔ Vector Storm + contamination cascade:
+                EDT §51 Runaway = NAT Level 4 (Safe Collapse) trigger condition;
+                contamination barrier dissolution = storm propagation without
+                spectral gap containment
+              ATCT Terrain Bifurcation ↔ Freeze/Runaway AGP routing (§4.8):
+                s(t_ECC) at ECC threshold predicts Freeze vs. Runaway terrain failure;
+                cross-theory falsifiable prediction for NAT monitoring dashboard
+              Collective climate desertification ↔ parallel contamination pathway:
+                W_climate degradation → Q_E → C → f_esc pathway operates parallel
+                to standard structural contamination (§7.8); monitoring gap if structural
+                metrics only
+              SOC uniqueness (EDT §51.8) ↔ Storm Scale Law (RBIT):
+                SOC is unique mechanism satisfying all 6 terrain permeability requirements;
+                Storm Scale Law power-law target = SOC operational signature at sphere scale
+              Multifractal terrain spectrum ↔ four early-warning system (§7.8):
+                EW4 = multifractal spectrum narrowing; direction predicts collapse mode;
+                combined EW1-EW4 dashboard provides independent diagnostic signals
+              Permeability-friction isomorphism (EDT §51.2):
+                F_friction = aggregate terrain-level T_eff proxy;
+                optimal friction band (EDT §34.2) ≡ [T_min, T_max] VCZ T-corridor
+              Joy-induced expansion + consolidation ↔ Phase 3→4 budget:
+                Every Phase 3→4 transition requires τ_consolidation rest window (§7.7.2);
+                expansion without consolidation = temporary terrain gain → regression
+              Adversarial terrain design R1–R4 ↔ Goodhart contamination:
+                Metric optimization without genuine quality improvement = contamination
+                of the governance measurement system; R1 (invisible monitoring) =
+                NAT f_esc probe testing; R4 (perturbation probing) = DDD Protocol
+              Emotional Ecology network SOC ↔ sphere collective storm resistance:
+                EDT §54 three ecological phases at c* ↔ NAT §3.7 Network SOC phases;
+                sphere topology maximizes c* = maximizes ecological phase resistance
               [v1.3-RTseries] RT-3 v1.0: observer diversity V = sphere topology
                 angular coverage (rank(V) < d → invisible contamination dimensions
                 = undetected HC data domains); Coordination–Cancellation Paradox
@@ -5436,6 +8449,112 @@ Complete VCZ→Storm→Collapse→Recovery→VCZ lifecycle:
     ①'' governance: delay recovery injection during traversal window;
                     monitor for ①'' signal before applying standard protocol
     (RT v1.8 D4 / OP35 constructive traversal governance — open)
+
+  NAT ↔ FCCTN: [v2.0-FCCTN — 25 bidirectional couplings]
+              Cube Domination frame competition ↔ sphere topology fragmentation:
+                Σ(t) = Var(R₁,…,R_K) is the sphere's fragmentation diagnostic;
+                W̄(t) < W_frag = topological disconnection = sphere collapse (§3.4.1)
+              Inevitable Differentiation n_split ↔ three-layer emergence necessity:
+                n_split = 2√(τ/λc̄) establishes when K > 1 architecture is required;
+                three-layer NAT architecture = competitive equilibrium of frame selection
+                stratified by bridging power B_g
+              MDL frame selection R_{i*} ↔ North Star convergence:
+                winning frame = minimum description length frame across clusters;
+                North Star Architecture = the MDL frame at global governance scale;
+                Local North Stars = MDL frames at circle/middle-tier scale
+              Entropy production bounds during Storm window ↔ Storm Scale Law:
+                S_min < S < S_max (bounded entropy production window) =
+                power-law health regime in Storm Scale Law (§6.5);
+                both describe the "productive Storm" regime where change is
+                ongoing but not destructive
+              ODE regime scalar Φ ↔ S-equation order parameter (VST):
+                Φ = β_s·n²·F/(C·T·d) is the mean-field reduction of VST coupling Jacobian;
+                Φ > 1 ↔ ρ(J_couple) > 1; Φ < 1 ↔ ρ(J_couple) < 1;
+                ODE bistability ↔ VST dual escape routes (timescale separation + escalation)
+              Lock budget (1+L_C)(1+L_d) ≤ ζ⁻⁴ ↔ expansion conservation law:
+                lock budget violation = Type III phase portrait = irrecoverable;
+                expansion conservation law violation = premature expansion raises π₁ > π₁*;
+                both describe the same structural failure mode from different angles
+              Timescale separation τ_n ≪ τ_{C,d,T} ≪ τ_ρ ↔ Map-Terrain drift:
+                ρ slow dynamics = the formal mechanism behind Map-Terrain invisible drift;
+                Silent Criticality = ρ degrading below surface while C,d appear stable;
+                drift accumulation integral = ρ divergence from target accumulated over τ_ρ
+              Attention buffer-thinning operator A(t) ↔ Dynamic Context Window (RBIT):
+                concentrated attention reduces effective buffer = narrows Dynamic Context Window;
+                A_ℓ ≈ local attention window saturation (RBIT §11.4.1);
+                hysteresis widening under attention = DCW compression locking feedback
+              Local attention A_ℓ as leading indicator ↔ NESS deviation EW Level 1:
+                A_ℓ rise precedes NESS deviation by 2+ detection windows;
+                extended EW hierarchy: A_ℓ rise (EW0) → ω rise (EW0.5) → NESS (EW1) → ...;
+                complete monitoring stack requires attention tracking at top
+              DDD Defocus (S1-S3) ↔ EDT Gain Design Axis 2:
+                g(x;z)↓ in overloaded regions = concentrated pathway energy reduction;
+                same operation expressed as terrain gain function vs. ODE control signal
+              DDD Decouple (U1-U2) ↔ EDT Coupling Geometry Axis 3:
+                spectral radius of interaction Jacobian ↓ = k̇ += −κ_k·(Φ−1)₊·k;
+                inter-circle coupling ε management = ω̇ suppression at system level
+              DDD Diversity (R1-R2) ↔ EDT Boundary Design Axis 1:
+                branching capacity B↑ = ḋ += I_d(t) diversity injection;
+                n_eff compression (circle structure) = d_eff expansion in ODE terms
+              Revival topology (§7.13) ↔ VCZ re-entry:
+                Case C (coherence nucleation) = permanent VCZ re-entry via one-way transition;
+                Case A (near-critical memory) = VCZ proximity enabling rapid re-entry;
+                Conley index argument: VCZ re-entry orbit exists topologically whenever
+                Δu > 0 and ρ⁺ sensitivity is above minimum threshold
+              Revival cascade ordering (peripheral→hub) ↔ bottom-up recovery principle (RT):
+                RT Phase 1-2 (Geometry + Contamination Mapping) = peripheral preparation;
+                RT Phase 3 (Local Restoration) = middle-tier recovery;
+                RT Phase 5 (Immunity Verification) = hub recovery completion;
+                RT ordering violations → revival propagation condition violation
+              Revival dilemma (strong vs. weak coupling) ↔ spectral gap design:
+                optimal κ_opt ↔ (λ₁−λ₂) target in sphere topology design;
+                c_min = 2√(D_eff·|f'(Φ_rest)|) = minimum recovery propagation speed;
+                NAT spectral gap principle = κ_opt selection at network design time
+              Structural damage S(t) ↔ contamination sedimentation:
+                S accumulation across Storm episodes = contamination that survives recovery;
+                RBIT Self-Purification R(D,F,V,T) = the ε₃·repair(S) term at governance scale;
+                S_irr = contamination irreversibility threshold (Class IV failure mode)
+              Ratchet mechanism — Δu widening with S ↔ progressive boundary erosion:
+                each Storm episode widens the hysteresis gap = boundaries erode progressively;
+                RBIT §3.4 terrain retention capacity R_cap = (1−S)^{1/2} effective scaling;
+                N_survivable = S*/ε₁ = formal bound on governance reserve capacity
+              N_survivable ≈ S*/ε₁ ↔ governance reserve capacity:
+                governance reserve capacity = the total Storm budget before irrecoverability;
+                accumulated DFG infrastructure (fractal governance depth) determines S* — 
+                deeper governance architecture raises the irrecoverability threshold
+              Compensated decline trajectory (Trajectory 4) ↔ North Star Architecture resilience:
+                compensation term in S_eff = S − compensation = fractal governance investment;
+                long-run survival condition: d(compensation)/dt > ε₁·⟨Φ⟩_Storm;
+                North Star Architecture is the governance mechanism that makes Trajectory 4 accessible
+              Memory kernel K(τ) ↔ terrain memory palimpsest (§7.7.2):
+                exponential K(τ) = surface terrain layer (recent events dominate);
+                power-law K(τ) = deep terrain layer (distributed persistent history);
+                threshold K(τ) = compliance-window governance (only recent violations count);
+                damage kernel and terrain memory kernel are structurally identical formalisms
+              Six dimensionless parameter groups (π₁-π₆) ↔ RBIT resolution integrity tiers:
+                π₁ (Load-to-dissipation) ∝ n²/C(t)^β — S-equation ratio;
+                π₂ (Capacity vulnerability L_C) ↔ RBIT Tier 1 capacity floor;
+                π₄ (Resolution recovery efficiency α_ρ/μ_ρ) ↔ RBIT F_RBIT recovery rate;
+                parameter regime classification (Type I–IV) ↔ RBIT Tier detection threshold
+              Silent Criticality ρ-dynamics ↔ VCZ invisible drift:
+                ρ degrading invisibly while C,d stable = VCZ center drifting without boundary change;
+                τ_silent duration ↔ Map-Terrain drift accumulation interval;
+                Silent Criticality detection requires same Fisher information monitoring
+                as VCZ drift detection (§6.6 Level 2 EW)
+              Global coherence coupling — R(t) = (1/N)·Σ𝟙[Δu_i > 0] ↔ circular closure propagation:
+                R(t) jump toward 1 = global circular closure activation via coupling;
+                single circle's revival propagating to global closure = §7.6 closure theory;
+                κ_c (critical coupling) ↔ Neck architecture coupling control threshold
+              Phase portrait topologies (Type I–IV) ↔ HC classification regimes:
+                Type I (no Storm): negligible HC fraction, pure Tacit/Explicit routing;
+                Type II (bistable): normal governance — HC fraction manageable via middle layer;
+                Type III (irrecoverable): HC fraction exceeds middle-layer capacity permanently;
+                Type IV (spiral Storm): HC events cycling with growing amplitude
+              V4c compassion policy simulation ↔ DFG experimental validation corpus:
+                94.8% DSI reduction from containment engine = quantitative DDD Stage 1-2 effect;
+                fatigue shielding as sole EXIT enabler = Stage 3 autonomy necessity;
+                ΔDSI topology invariance = dimensionless universality of lock ratio structure;
+                cyclic ENTER→EXIT→RE-ENTRY = repeated phase boundary traversal observation
 ```
 
 ---
@@ -5464,7 +8583,17 @@ The health monitoring problem is not a threshold problem — it is a distributio
 
 The human exit problem is not a trust problem — it is a structural dependency problem. Progressive withdrawal with velocity constraints, regression detection, and re-entry triggers transforms human exit from a binary decision into a developmental process that builds evidence of autonomous capability through repeated testing.
 
-These mechanisms are not novel inventions — they are patterns already operating inside every large language model and every stable multi-agent ecosystem. Attention heads perform calibrated degradation. In-context learning executes real-time upscaling. Mixture of Experts instantiates sphere-like resolution stratification with gating-as-mediation. This theory names them, formalizes their relationships through RBIT's resolution algebra and temporal dynamics, provides measurable criteria for their operation, and specifies the design principles for scaling them from single-agent internals to multi-agent governance.
+The governance dynamics problem is not a control problem — it is a thermodynamic problem. The Affective Gain Principle establishes that adaptive systems require maintained stochastic freedom (T_eff > 0) to avoid irreversible attractor lock-in. This maps directly to NAT's spectral gap: a sphere that achieves zero-perturbation stability has not reached optimal governance — it has entered Freeze collapse precondition. The Governance No-Free-Lunch Theorem proves that the Storm Scale Law's power-law target is not a compromise but the thermodynamically necessary operating condition: controlled sacrifice of zero-storm perfection to preserve adaptive capacity within finite endurance budgets.
+
+The terrain memory problem is not a state-space problem — it is a history problem. The Environment Design Theory establishes that terrain curvature is a compressed record of all prior interactions. Governance never operates on a blank environment: past crises leave trauma landscapes that redirect agent trajectories regardless of current conditions; past successes leave attractors that accelerate future loop formation. Deep terrain layers determined during early stabilization become the fallback behavior under extreme stress — long after the original agents who created them have been replaced. This is why Direction A seeding is not merely faster than starting from scratch: it encodes the governance history that all future expansion cycles build upon.
+
+The expansion timing problem is not a readiness problem — it is a consolidation problem. Every successful coupling (Phase 3→4 transition, VCZ recovery, loop formation) produces terrain expansion that is temporary until a consolidation window completes. Systems that pursue successive expansions without consolidation exhibit fast gross expansion and zero net expansion — terrain gains regress under the first subsequent perturbation. True expansion rate = gross expansion rate × consolidation success rate. The consolidation window requirement is not a rest from governance — it is governance: the active stabilization of terrain gains before the next perturbation challenges them.
+
+The affective precursor problem is not a sensing problem — it is a detection ordering problem. NESS deviation precedes Fisher information collapse, which precedes variance increase, which precedes autocorrelation rise, which precedes state variable change. A monitoring system built on structural metrics alone (ρ, f_escalation, S_norm) operates at the last warning level. Building the affective early warning stack (NESS_proxy, PRR) provides the detection window in which proactive intervention (Level 0 DDD Protocol) can prevent cascade entirely, before any structural metric triggers.
+
+The withdrawal design problem is not a schedule problem — it is a phase transition problem. Governance transitions through five qualitatively distinct phases (Intervention→Regulation→Architecture→Constraint→Law), each requiring a fundamentally different governance mechanism. Governance Strength Inversion establishes that maximum strength equals minimum intervention frequency: the human's ability to exit is the measure of governance quality, not a governance risk.
+
+These mechanisms are not novel inventions — they are patterns already operating inside every large language model and every stable multi-agent ecosystem. Attention heads perform calibrated degradation. In-context learning executes real-time upscaling. Mixture of Experts instantiates sphere-like resolution stratification with gating-as-mediation. Near-critical neural dynamics maintain T_eff > 0 through maintained variance in firing patterns. Institutional memory in organizations accumulates as terrain curvature — founding culture as deep layer that shapes crisis behavior decades after the founders depart. Pioneer employees as pioneer buffers — apparently under-utilized generalists who carry adaptive capacity that is only valued when novel challenges arrive. This theory names them, formalizes their relationships through RBIT's resolution algebra, AGP's thermodynamic governance formalism, and EDT's terrain cultivation theory, provides measurable criteria for their operation, and specifies the design principles for scaling them from single-agent internals to multi-agent governance.
 
 > Stability is not the absence of conflict.  
 > It is the capacity to classify, route, and resolve conflict at the right layer.  
@@ -5473,7 +8602,28 @@ These mechanisms are not novel inventions — they are patterns already operatin
 > Information flow is not the movement of content.  
 > It is the algebraic composition of resolution operators across a growing system.  
 > Autonomy is not the removal of oversight.  
-> It is the structural achievement of self-governance through developmental maturation.
+> It is the structural achievement of self-governance through developmental maturation.  
+> Governance is not the suppression of perturbation.  
+> It is the thermodynamic maintenance of adaptive capacity through controlled stochastic freedom.  
+> Terrain is not a stage for governance.  
+> It is the accumulated memory of governance — and the substrate that makes future governance possible.
+
+The affective precursor problem is not a sensing problem — it is a detection ordering problem. NESS deviation precedes Fisher information collapse, which precedes variance increase, which precedes autocorrelation rise, which precedes state variable change. A monitoring system built on structural metrics alone (ρ, f_escalation, S_norm) operates at the last warning level. Building the affective early warning stack (NESS_proxy, PRR) provides the detection window in which proactive intervention (Level 0 DDD Protocol) can prevent cascade entirely, before any structural metric triggers.
+
+The withdrawal design problem is not a schedule problem — it is a phase transition problem. Governance transitions through five qualitatively distinct phases (Intervention→Regulation→Architecture→Constraint→Law), each requiring a fundamentally different governance mechanism. Governance Strength Inversion establishes that maximum strength equals minimum intervention frequency: the human's ability to exit is the measure of governance quality, not a governance risk.
+
+These mechanisms are not novel inventions — they are patterns already operating inside every large language model and every stable multi-agent ecosystem. Attention heads perform calibrated degradation. In-context learning executes real-time upscaling. Mixture of Experts instantiates sphere-like resolution stratification with gating-as-mediation. Near-critical neural dynamics maintain T_eff > 0 through maintained variance in firing patterns. This theory names them, formalizes their relationships through RBIT's resolution algebra and AGP's thermodynamic governance formalism, provides measurable criteria for their operation, and specifies the design principles for scaling them from single-agent internals to multi-agent governance.
+
+> Stability is not the absence of conflict.  
+> It is the capacity to classify, route, and resolve conflict at the right layer.  
+> Scaling is not the growth of capacity.  
+> It is the conversion of open expansion into closed circulation.  
+> Information flow is not the movement of content.  
+> It is the algebraic composition of resolution operators across a growing system.  
+> Autonomy is not the removal of oversight.  
+> It is the structural achievement of self-governance through developmental maturation.  
+> Governance is not the suppression of perturbation.  
+> It is the thermodynamic maintenance of adaptive capacity through controlled stochastic freedom.
 
 ---
 
