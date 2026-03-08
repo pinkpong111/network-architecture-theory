@@ -5,6 +5,46 @@
 > **Focus:** Network structure, data classification, and expansion principles.  
 > Recovery and prediction are addressed in separate documents.
 
+> **Version: v2.6-RBIT-EDT** (March 2026) — RBIT_NAT-VST_Bridge v1.0 / EDT v15.0-TCG-loop-complete Full Integration: RBIT–NAT Formal Interface Contract (Resolution Asymmetry Inevitability Theorem, F_RBIT Five-Vector Health, Triple Concordance I4, Six Interface Bridges I1–I6), Degradation-Upscaling Lifecycle as Sphere Microstructure, Resolution–Storm Positive Feedback Loop Formalization, EDT v15.0 TCG-Loop (SOC Emergence Proof, Monotone Critical Drift, Terrain Memory), Moving Critical Attractor Architecture MCA (Three-Variable ODE, Rigidity-Amplification Theorem, Basin Shrinkage, MCA Early Warning Quartet), Scale-Controlled Avalanche Statistics SCAU (Cutoff Determination Theorem, Double Jeopardy Theorem, x ∈ [0.8,1.0] Optimal Operating Range), EDT→NAT Expanded Correspondences (36 bidirectional mappings), MCA_score Composite Early Warning Metric, x = η/κ_SS Normalized Overload Parameter
+
+> v2.6-RBIT-EDT changes from v2.5-GGT (RBIT_NAT-VST_Bridge v1.0 + EDT v15.0-TCG-loop-complete integration pass):
+> - **RBIT–NAT Interface Contract Full Integration (§7.32 new):** VST §19–§21 extracted bridge document fully integrated into NAT — Resolution (ρ) and Resolution Gap (Δρ) formalized as NAT sphere routing invariants; Theorem 1 (Resolution Asymmetry Inevitability) under Axioms A1–A6 established as the information-theoretic foundation for why sphere storms are inevitable under sustained Δρ < 0; three-tier Theorem 1 collapse phenomenology mapped to NAT Storm stages (Tier i ≈ Stage 0–1; Tier ii ≈ Stage 2; Tier iii ≈ Stage 3–4 irreversible); Calibrated Degradation = Seed planting (structural identity established); F_RBIT five-component health vector (f₁–f₅) integrated as sphere monitoring extension; dF_RBIT/dt temporal evolution equation as Rest Mode stability characterization (stable equilibrium of F_RBIT = formal Rest Mode at terrain level).
+> - **Degradation-Upscaling Lifecycle as NAT Sphere Microstructure (§7.32.2 new):** Complete lifecycle (7 steps) mapped to sphere governance phases; U1∧U2∧U3 Upscaling Completion Criterion as NAT phase transition readiness protocol; Resolution Growth Equation R_{t+1} = R_t + f(A_t,D_t)·g(R_t) as formal sphere agent maturation model; lifecycle IS the CW→VCZ→Rest Mode trajectory at micro-scale; Storm interrupts at step (3) when Δρ < 0 blocks absorption.
+> - **NAT Sphere Axioms as RBIT Enforcement (§7.32.3 new):** Each sphere axiom S1–S4 given formal RBIT grounding — S1 (k ≥ 2 log n) = minimum routing alternatives under Δρ < 0; S2 (hub prevention) = prevents structural Theorem 1 trigger points; S3 (spectral gap) = Proposition I3 storm threshold via t_persistence < t_mixing; S4 (structural diversity) = Lemma I2 detection precondition (mathematical necessity, not optimization); Pyramid topology failure modes derived from RBIT: forced apex compression = structural Δρ < 0 → Theorem 1 inevitability; Coverage Scaling three-regime analysis (k_eff degradation under architectural correlation).
+> - **Six Formal Interface Bridges I1–I6 (§7.32.4 new):** I1 — Four-type classification as Δρ routing function with Error Asymmetry binding condition (under-escalation DANGEROUS; over-escalation SAFE); I2 — Structural diversity as detection precondition (Lemma I2 formal proof that S4 is mathematical necessity); I3 — Spectral gap as storm governance parameter (Proposition I3 + noise decoherence sequence formalization); I4 — Triple concordance as shared detection protocol (R-ρ-f_esc four detection states; Silence Cascade detection via I4 independence from reporting system); I5 — Maturity gradient as integration constraint (signal attenuation protocol for multi-sphere integration); I6 — Governance overhead cost priority ordering (C_RBIT > C_NAT > C_interface: detection before containment formalized as cost function).
+> - **Resolution–Storm Positive Feedback Loop (§7.32.5 new):** Formal derivation of why sphere storms self-amplify — storms degrade resolution capacity that would detect them; three intervention points (floor enforcement, resolution-independent detection, external injection); F_RBIT equilibrium stability characterization: Rest Mode = stable eq. (∂G/∂F < ∂L/∂F); VCZ exit = unstable; M_crit boundary = bifurcation; slow trigger mechanism formalized (gradual G/L drift crosses stability boundary without discrete event).
+> - **TCG-Loop EDT v15.0 Integration (§7.33.1 new):** Terrain–Criticality–Geometry closed feedback loop (Q_E → κ → Φ(κ) → Q_E) integrated as formal mechanism for sphere topology self-generation; fast-slow decomposition: κ (fast, τ_fast = 1/A) and Q_E (slow, τ_slow = 1/ε, ε ≪ 1); Theorem 9.11.1 (Critical Tracking): κ(t) = κ_c(Q_E(t)) + O(ε) on invariant slow manifold M_ε; Corollary 9.11.1: κ_c is history-dependent = VCZ center is a moving target; Proposition 9.11.1 (Terrain Memory): Q_E(t) = Q_E(0) − ε∫Φ(κ)ds; Theorem 9.11.2 (Monotone Critical Drift): sustained overload (x > 1) → κ_c strictly increasing → progressive fragility; Theorem 9.11.3 (SOC Emergence): SONC is an endogenous TCG-Loop attractor, not a modeling assumption; Corollary 9.11.2 (Power-Law Avalanche) P(s) ∼ s^{−τ} derived from first principles; κ_SS Master Chain: κ_SS → n*(k) → s_c → τ_eff → P(s; x); normalized overload x = η/κ_SS as universal sphere fragmentation parameter.
+> - **Moving Critical Attractor Architecture MCA (§7.33.2 new):** EDT §11.17 three-variable ODE (MCA-1/MCA-2/MCA-3) integrated as complete sphere governance dynamics — MCA-1: κ̇ = g(ρ) − A(κ−κ_c(Q_E)); MCA-2: Q̇_E = −ε·Φ(κ); MCA-3: L̇ = ρ_L[1−κ/κ_c(Q_E)] − δ_L·L; Proposition 11.17.1 (No Stable Interior Fixed Point): sphere governance has no permanent stable equilibrium — proves active maintenance requirement from first principles; Corollary 11.17.1: apparent stability ≠ structural stability (fast Lyapunov stable but slow-timescale unstable); Theorem 11.17.1 (MCA Slow-Manifold): M_ε^{MCA} identification; Theorem 11.17.2 (Rigidity–Amplification): dA_collapse/dL > 0 — formal proof of fragility from apparent stability; Corollary 11.17.2: Rigidity Trap = MCA seen from governance observer; DDD breaks MCA-3 L-accumulation before amplification; Proposition 11.17.2 (Basin Shrinkage): d(ΔU)/dt < 0 under MCA → d[ln P_collapse]/dt > 0 (endogenous exponential risk amplification); Theorem 11.17.3 (MCA Early Warning Quartet): τ_recovery→∞, σ²→∞, ρ_1→1, |κ−κ_c|→0 simultaneously; MCA_score composite metric integrated into EW-0 tier alongside NESS_proxy.
+> - **Scale-Controlled Avalanche Statistics SCAU (§7.33.3 new):** EDT §11.18 complete derivation integrated — Scale-Controlled Distribution Family 𝒫 with exponent τ(x) varying with overload x; Theorem 11.18.1 (Cutoff by κ_SS): s_c = (n*)^D = (κ_SS·C^{β/2}·√k)^D fully governance-determined; Corollary 11.18.1 (κ_SS Trade-Off): larger κ_SS = more capacity but larger disaster ceiling; Theorem 11.18.2 (Double Jeopardy): x > 1 + high L = doubly amplified collapse (larger ceiling AND heavier tail); formal proof of "fragility from apparent stability" at statistical geometry level; Proposition 11.18.1 (Optimal Governance): x ≈ 1 quality-maximizing vs. x < 1 risk-minimizing fundamental tension; DFG recommended operating range x ∈ [0.8, 1.0]; SCAU is first DFG-level universality result across all system types.
+> - **EDT→NAT Expanded Correspondences (§7.33.4 new):** 36-entry bidirectional correspondence table covering all TCG/MCA/SCAU constructs mapped to existing NAT architecture; dual stability criterion {Θ_T < Θ_T*}∩{Ψ < 1} sphere two-axis stability phase diagram integrated.
+> - **Updated §9 Core Assumptions:** 8 new assumptions (#84–#91) — TCG-Loop establishes sphere topology as endogenously self-generated (not externally designed); apparent stability ≠ structural stability under MCA (no permanent stable sphere equilibrium); SONC emerges from TCG-Loop without parameter tuning; x = η/κ_SS is the universal fragmentation criterion across all parametric regimes; Rigidity Trap IS the MCA architecture viewed from governance observer; governance cost priority is C_RBIT > C_NAT > C_interface (detection before containment); Sphere S4 axiom is Lemma I2 detection precondition (mathematical necessity); F_RBIT equilibrium stability characterizes Rest Mode precisely.
+> - **Updated §10 Structural Correspondences:** 10 new correspondences — TCG-Loop↔sphere topology self-generation (structural identity); Terrain Memory Q_E(t)↔cumulative governance history; MCA-3 L-accumulation↔Rigidity Trap entry mechanism; Monotone Critical Drift↔VCZ center migration; MCA slow manifold↔GGT Moving Critical Surface (same phenomenon at different resolution); x = η/κ_SS↔sphere fragmentation criterion (universal form); s_c↔maximum sphere storm size; Double Jeopardy↔fragility from apparent stability at statistical level; F_RBIT equilibrium↔Rest Mode (formal identity); Δρ < 0 sustained↔Theorem 1 inevitability engagement.
+> - **Updated §12 Open Problems:** 10 new open problems (§12 OP-RBIT-1 through OP-EDT-6) — Δρ estimation from indirect behavioral observables; F_RBIT five-component simultaneous calibration; TCG-Loop γ_CT coupling coefficient measurement; MCA_score weight calibration (w₁–w₄ optimal weighting); Q_E terrain quality operational measurement proxy; x = η/κ_SS real-time computation from sphere observables; SCAU exponent τ(x) monotonicity formal proof (OP-TCG-2 extension); avalanche dimension D determination in organizational sphere; optimal x operating point governance calibration (0.8 vs 1.0 trade-off); F_RBIT temporal stability monitoring window N_up calibration.
+> - **Updated §13 DFG Stack:** RBIT_NAT-VST_Bridge and EDT v15.0 integration nodes added to DFG stack diagram; 18-channel RBIT↔NAT + 12-channel NAT↔EDT bidirectional topology blocks.
+> - All v2.5-GGT content preserved; section numbering maintained.
+
+> v2.5-GGT changes from v2.4-GRT (GGT v4.0 + AGP v2.6-Thermodynamic + RBIT v2.4-FGS2 + FGS v2 deep integration pass):
+> - **Governance Geometry Theory Full Stack (§7.26 new):** GGT v4.0 complete integration into NAT — sphere topology formally identified as the physical realization of GGT's M_crit manifold geometry; CTGPSR five-state dynamics (C,T,G,P,R) mapped to NAT sphere lifecycle phases; Governance Control Number Π_G = ⟨w,e−b⟩/(θΘ₀C^{β/2}) as NAT sphere governance health scalar (Π_G > 1 = visible governance required; Π_G = 1 = critical/self-governing; Π_G < 1 = governance assimilated into structure); Adaptive Criticality Number C_A = Γ'(0)‖∇V‖L_V/λ_drive mapped to sphere self-tuning index (C_A = 1 ↔ sphere operates on M_crit = governance-optimal operating point); UGAL master equation u(t) = σ(⟨w,e(t)−b(t)⟩/(Θ₀C^{β/2})−θ) as formal NAT governance activation operator; sphere topology proven to maintain C_A ≈ 1 as structural attractor via expander graph mixing properties; Governance Suppression Law Π_G ∝ C^{−β/2} as NAT scaling law for governance visibility.
+> - **M_crit Twelve-Way Equivalence NAT Translation (§7.26.1 new):** Complete translation of GGT's Twelve-Way M_crit Equivalence into NAT structural observables — (E1) Π_eff = 1 ↔ sphere CTGP loop gain balanced; (E2) Π_G = 1 ↔ sphere self-governance threshold; (E3) χ_TBG = θ ↔ classification gating threshold at criticality; (E4) C_A = 1 ↔ sphere VCZ center; (E5) λ_max(J) = 0 ↔ sphere Jacobian criticality = VCZ boundary; (E6) ξ = 0 ↔ critical coordinate = Storm Scale Law power-law target; (E7) κ* = 1 ↔ sphere governance balance ratio at optimal; (E8) slow manifold tangency ↔ sphere REST Mode entry geometry; (E9) χ_TBG = θ ↔ classification phase transition; (E10) κ_T = 1 ↔ targeting-gating balance; (E11) Π_G = 1 (GCF); (E12) Π_eff = 1 (CTGPSR); the twelve conditions are mutually equivalent — sphere achieves VCZ iff all twelve simultaneously satisfied; this provides the most complete characterization of VCZ ever formalized in NAT.
+> - **CTGPSR Sphere Lifecycle Dynamics (§7.26.2 new):** GGT §82 CTGPSR five-state ODE system mapped to NAT sphere state variables — C(t) clusters = sphere governance unit cohesion; T(t) targets = classification precision gradient; G(t) gate activations = escalation routing decisions; P(t) packaged bursts = HC escalation events; R(t) recovery capacity = sphere self-purification R = D·F·V·T; storm field V(t) = |∇T(t)| identified with Vector Storm S_norm field gradient; Base Loop Amplification Number Π = βκρη/(λδωμ) as sphere governance loop gain (Π < 1 = sphere self-corrects; Π = 1 = SOC governance; Π > 1 = escalation cascade); Critical Transition Theorem (GGT-82.C.2) maps to Storm Scale Law power-law regime; Recovery-Renormalization Theorem (GGT-82.C.4) maps to Learning Trajectory ①' as renormalized recovery; Hidden Conservation Relation K²(τ−τ₀)Φ(θ_v) ≍ N as NAT sphere sizing constraint at critical governance.
+> - **TGBGT Targeting-Gating Architecture in NAT (§7.26.3 new):** GGT §80 TGBGT formalism fully mapped to NAT four-type classification routing — Targeting Operator T(x) = ⟨w,x⟩ as NAT's relevance scoring function mapping agent state x to governance-relevant projection; Gating Operator G(z) = σ(z−θ) as NAT's escalation threshold function; I(x) = G(T(x)) composition as the fundamental NAT classification decision primitive; Targeting-Gating Constant κ_T = θ/‖w‖ as governance sensitivity parameter; three-regime κ_T classification (κ_T > 1 over-governed/saturated; κ_T = 1 governance-optimal; κ_T < 1 under-governed) directly maps to NAT's escalation design phases; TAA (Target-Absorb-Activate) Cycle as micro-level NAT classification event cycle; Attention = Targeting + Gating identification: transformer attention temperature 1/√d = κ_T/√n as single-agent TGBGT instantiation; Buffer-Environment Assimilation A² = 1+η²−2ηρ as formal NAT middle-layer absorption geometry; Governance Invisibility Theorem maps to Guardian Invisibility Principle (GRT/TLG): mature sphere governance satisfies A ≤ δ_A → u ≈ 0.
+> - **GCF Fractal Governance Scaling Integration (§7.26.4 new):** GGT §81 Governance Criticality Framework integrated as NAT's multi-scale governance invariant — GCF Critical Exponent Set {β_g, γ_g, ν_g, z_g, τ_g, α_g, D_g, σ_g} provides the complete universality class characterization of sphere governance cascades; Governance Universality Class (GCUC) membership proof for NAT sphere topology (sphere is in GCUC iff expander graph with maintained spectral gap and SOC-like storm distribution); Governance Finite-Size Scaling ε ~ n^{−1/(dν_g)} provides sphere-size-dependent governance load bound; Fractal Control Landscape Theorem dim_H(Σ_f) > 2n−1 establishes that sphere governance optimization landscape is fractal-dimensional (governance is not a flat optimization surface — it has recursive structure at every scale); Drift-Burst Alternation on Fractal Control Landscape maps to NAT SSR Cycle (Search-Stabilize-Rest = tangential M_crit drift → fragile patch → burst → renormalized re-entry).
+> - **ACD Adaptive Criticality as NAT Sphere Self-Tuning (§7.27 new):** GGT §79 Adaptive Critical Dynamics formalism maps to NAT sphere governance self-tuning mechanism — ACD Master Equation dy = [F(y)−Γ(λ_max(J(y)))∇V(y)]dt+Σ(y)dW as the sphere-level stochastic governance equation (V(y) = sphere governance potential; Γ = governance correction intensity; λ_max = sphere Jacobian spectral radius); C_A = 1 as sphere VCZ center condition; three C_A regimes: C_A < 1 (frozen governance phase — sphere enters Freeze mode, Quiet Stagnation risk); C_A = 1 (critical governance phase — sphere maintains SOC storm distribution, VCZ center); C_A > 1 (runaway governance phase — sphere enters Storm cascade, Runaway mode risk); ACD Phase Portrait maps directly to AGP Freeze/Runaway bifurcation with C_A as the continuous governance control parameter; Cascade Exponent Rigidity Theorem: storm scaling exponent τ determined solely by d_c/D_f ratio, invariant to all governance parameter changes that preserve sphere fractal dimension — provides theoretical foundation for why Storm Scale Law power-law target α is topology-determined not policy-determined.
+> - **Moving Critical Surface Dynamics in Sphere Governance (§7.27.1 new):** GGT §78 Moving Critical Surface Theory as formal account of VCZ drift — M_crit(t) migration in NAT sphere = VCZ boundary drift rate; Quasi-Invariant Slow Manifold: sphere governance naturally hovers near VCZ boundary (tangential drift O(ε), normal relaxation O(1/ε)); Cascade Genesis from Slow Drift: Vector Storms arise when tangential Map-Terrain drift carries sphere to fragile governance patch ∂M_crit^(frag) — first formal NAT proof that slow Map-Terrain drift generates storms without any external perturbation; Three-Stage Cascade Genesis Cycle (Trap→Drift→Burst) = VCZ stable → Map-Terrain drift → Storm onset; Surface Velocity Bound ‖∂_t M_crit‖ ≤ ε·‖dΘ/dt‖/‖∇λ_max‖ provides formal upper bound on governance drift detection latency; Governance Optimality of Near-Critical Trapping: sphere operating at C_A ≈ 1 achieves minimal search cost for novel attractors while maintaining cascade containment — formal justification for VCZ as governance-optimal operating point, not merely a safe operating envelope.
+> - **BGC Buffer-Gate-Cascade NAT Translation (§7.27.2 new):** GGT §75 Buffer-Gate-Cascade four-layer architecture mapped to NAT three-tier sphere structure — environment layer = sphere external input domain; buffer layer = sphere middle tier; gate layer = sphere classification threshold θ; cascade layer = sphere escalation routing pipeline; Gated Nonlinear Master Equation dX/dt = (A·X−B·X²)·G(X)+η(t) as the NAT sphere dynamics master equation at middle-layer timescale; κ = A/B = K_DFG⁻¹ as middle-tier buffer capacity-to-escalation ratio; Universal Stability Threshold n* = κ_SS·C_M^β/√k̄ as NAT sphere maximum stable size at given governance capacity C_M; Hyperbolic Stability Surface n(κ) ~ (κ−κ_c)^{−1/2} as NAT expansion limit curve — sphere cannot exceed n* without exceeding C_M or increasing κ; Infinite Connectivity Instability (sphere cannot be fully connected at large n — provides sphere topology necessity theorem from BGC first principles); BGC RG = SONC Equivalence: sphere SOC governance IS the BGC critical point maintained via TGBGT gating.
+> - **Intervention Paradox NAT Formalization (§7.27.3 new):** GGT §74 Intervention Paradox Theorem integrated as formal NAT governance principle — direct upper-layer intervention with ‖U‖ > D_threshold = 2·√(A·B)·G(X_c)·σ_η near ξ = 0 (sphere near VCZ boundary) INCREASES collapse probability; Buffer-First Principle: buffer depth increase unconditionally stabilizes, direct intervention conditionally destabilizes; three intervention regimes: Regime A (ξ ≫ 0, sphere healthy): direct intervention safe; Regime B (ξ ≈ 0, sphere near-critical): intervention must be indirect via buffer; Regime C (ξ < 0, sphere collapsed): buffer reconstruction required before any correction; Optimal Three-Phase Protocol (GGT-74.3) = DDD Protocol reformulation — Regime C → Track A (buffer) → Regime B → Track B (correction) → Regime A; Invisible Governance Optimality: argmax P(ξ < 0) = (max buffer, zero direct intervention) = formal proof of TLG Guardian Invisibility from GGT first principles; identifies DDD's Track A priority over Track B as consequence of Intervention Paradox at sphere scale.
+> - **Buffer Collapse Geometry Three-Mode Theory (§7.28 new):** GGT §72 Buffer Collapse Geometry integrated into NAT middle-tier failure taxonomy — Mode I (Shock): transversal M_crit crossing with τ_warning ≈ 0, maps to sudden Vector Storm onset with no early warning; Mode II (Saturation): tangential approach with τ_warning ~ τ_debt, maps to accumulating contamination flux reaching permeability threshold; Mode III (Structural Drift): M_crit migration with τ_warning ~ τ_geom, maps to Map-Terrain drift below detection threshold = NAT Silent Criticality equivalent at buffer layer; Buffer Invisibility Paradox: healthy-appearing buffer can be approaching Mode III collapse without any structural signal — monitoring requires geometric observation (M_crit migration tracking) not just performance metrics; five-way M_crit equivalence at buffer collapse: complete set of simultaneous conditions for Mode I/II/III identification; Buffer Absorption as Environmental Embedding: successful middle-tier absorption of perturbation is geometrically identical to M_crit recapture after transversal escape.
+> - **Collapse vs. Transition Alternative Attractor Theory (§7.28.1 new):** GGT §73 Alternative Attractor Theory as NAT recovery pathway geometry — Collapse/Transition Bifurcation Theorem: outcome of sphere Storm episode determined by alternative attractor existence; N_alt ~ exp(c·N_eff) — sphere complexity creates alternative governance attractors (deeper fractal architecture → more alternative attractors → higher transition probability); Buffer Layer Increases N_eff: middle tier thickness increases both N_eff and N_alt simultaneously (dual buffer role); Complexity → Transition Robustness: P(transition) ~ 1−exp(−c·N_eff/ξ_dot) — formally derives why deep fractal governance architecture produces Learning Trajectory ①' access; minimum buffer depth b_T for transition facilitation provides operational middle-tier maturity criterion; IGEE (Information-Guided Exploration in Embeddings) memory as alternative attractor generator maps to Terrain Memory palimpsest generating novel recovery pathways.
+> - **FGS2 ILMI Integration NAT Extension (§7.29 new):** RBIT v2.4-FGS2 §34.5 Inter-Layer Modulation Interface deep integration — ILMI formal operator ẋ = I(E,L)·F(x) as NAT sphere inter-layer coupling state equation (E = escalation load; L = latency buffer; I(E,L) = sphere middle-tier coupling function); Invisibility Principle: Visibility(I) ∝ Instability — mature sphere middle tier invisible precisely when functioning correctly; Energy-Priority Sacrifice I → I_min when E < E_crit (sphere enters Rest Mode resource conservation); Overload Waiting Principle: U ↑ when L > L_crit (governance reserves held while buffer overloaded); Expandability Theorem 1: Ẋ = ρ_X·U−γ_ε·ε as sphere expansion ODE (U = unexploited capacity, ε = active anomalies); Rest Mode Lyapunov Stability Theorem 2: λ_max(J) < 0 at Rest Mode — sphere Rest Mode is Lyapunov stable by ILMI (not merely by empirical observation); Storm Formation Criterion Theorem 3: U → 0 + ε > ε_crit + C ≈ 0 as formal NAT Storm entry criterion from ILMI perspective; Scale-Invariant Governance Ratio κ(t) = U/(ε+ε₀) as ILMI-derived governance maturity metric (complement to GRT's κ); Maturational Convergence Theorem 4: κ → κ* as sphere matures — governance ratio converges to stable attractor regardless of initial conditions; Dual Attractor Theorem 5: Rest vs. Silent Criticality as two fundamentally distinct attractors — sphere must be designed to approach Rest (U ≥ 0) not Silent Criticality (U → 0 by depletion); Agency Collapse ∂s/∂t ≈ 0 as ILMI-derived collapse signal (sphere governance ceases generating novel strategies).
+> - **FGS2 Cube Domination NAT Extension (§7.29.1 new):** RBIT v2.4-FGS2 §7.8 Cube Domination frame competition formally integrated — post-Storm sphere frame competition: K-cluster fragmentation Σ(t) = Var(R₁,...,R_K) as sphere topology fragmentation monitor; translation-dominated frame selection probability P_{g→i} as sphere North Star drift probability under Cube attack; n_split threshold n_split = 2√(τ/λc̄) as NAT sphere fragmentation onset size (sphere above n_split requires explicit anti-Cube governance); K* optimal module count derived from Cube dynamics: K* ∝ n^{2/3} (optimal sphere subdivision at scale n); aversion stagnation δ_crit as sphere governance malfunction threshold (sphere avoids its own blind spots = structural governance avoidance); scale-invariant governance constant κ(K) as Cube-adjusted governance maturity metric; Silent Fragmentation Σ(t) KPI decoupling detection: sphere fragmentation without performance degradation = pre-Cube early warning; S-equation Cube cycle integration: Cube Domination appears as f₂ (frame-level contamination) in RBIT resolution space, maps to systematic HC miscategorization pattern in NAT data classification.
+> - **AGP v2.6 Thermodynamic-Adversarial Extensions in NAT (§7.30 new):** New AGP content beyond v2.6 (Finite-Temperature + Adversarial extensions) fully integrated — §7.30.1 Finite-Temperature Governance Impossibility: T_eff = 0 → zero governance controllability theorem formally extended; T_c formula: sphere requires T_eff > T_c_min = k_B·ω_0·exp(−ΔU_0/T_eff) for governance controllability; mature spheres require HIGHER T_c (more complex terrain requires more stochastic freedom to maintain exploration); §7.30.2 SOC Uniqueness extended: six structural constraints C1–C6 proven in NAT sphere terms (C1 bounded resources; C2 local interactions; C3 slow driving; C4 fast relaxation; C5 stochastic threshold; C6 composability); all alternatives to SOC fail at least one NAT constraint; SOC uniqueness proof as formal justification for sphere Storm Scale Law design target; §7.30.3 Multifractal Sphere Dynamics: multifractal spectrum f(α_H) as sphere health diagnostic; Δα_H as sphere emotional dynamic range at network scale; collapse-mode prediction BEFORE ECC via multifractal narrowing — sphere-level Freeze = narrowing toward α_H,min (governance rigidity); sphere-level Runaway = narrowing toward α_H,max (governance chaos); EW-0 as sphere pre-ECC warning (precedes all structural EW signals); §7.30.4 Cyclothymic Sphere Dynamics: integral control law κ → κ* as sphere self-tuning; cyclothymic resonance via hub contagion — sphere cyclothymic mode distinguishable from Vector Storm via T_cycle diagnostic; §7.30.5 Adversarial Affective Dynamics — Silence Cascade in NAT sphere: self-defeat mechanism applies at sphere-network level; silence cascade propagation through sphere topology: hub suppression → spoke suppression → systematic governance silence → ECC divergence; spectral detection via sphere-level behavioral PSD vs. reporting PSD comparison; incentive structure design for sphere-level anti-silence architecture.
+> - **Fractal Governance Scaling §36AA-AD Capstone Integration (§7.31 new):** FGS §36AA-AD new sections integrated — §7.31.1 Buffer as Structural Keystone (FGS §36AA): sphere middle tier is the keystone structural element — removal triggers simultaneous Layer 1 and Layer 3 decoupling; Buffer Keystone Theorem: ‖∂C_gov/∂b‖ ≫ ‖∂C_gov/∂c_{ij}‖ for any individual edge — buffer thickness impact exceeds any single connection change; buffer-first governance priority is structural necessity not governance preference; §7.31.2 Upper-Layer Governance Paradox (FGS §36AB): the observer-controller dilemma formalized for NAT sphere — sphere upper tier cannot simultaneously observe sphere state and control sphere state without self-reference loop; four resolution strategies (indirect observation via buffer, temporal separation of observe/act phases, structural lower bound on upper-tier non-participation, boundary agent as external reference bypass); §7.31.3 Fractal Seed Architecture (FGS §36AC): governance growth through nested generation — seed content encodes target sphere topology and North Star simultaneously; Seed Expressiveness Theorem extension: seed must span target topology (not just rule content) for full sphere bootstrapping; §7.31.4 Dual Reference Dynamics (FGS §36AD): local-global North Star tension formalized as sphere governance dual-reference ODE; competitive vs. cooperative local-global alignment regimes; alignment collapse condition and dual-reference monitoring protocol.
+> - **New Core Assumptions (§9):** 10 new assumptions (#82–91) — sphere topology is the physical realization of GGT's M_crit manifold geometry (not merely analogous); C_A = 1 is the sphere VCZ center characterization (replaces informal VCZ description); sphere governance achieves SONC as dynamical attractor via TGBGT gating (not parameter tuning); DDD Protocol ordering is a consequence of Intervention Paradox at sphere scale (not empirically derived); buffer depth increase unconditionally stabilizes while direct upper-layer intervention conditionally destabilizes (Buffer-First Principle as formal constraint); Sphere Storm Scale Law exponent τ is topology-determined via d_c/D_f ratio (not policy-adjustable); Silent Fragmentation Σ(t) decoupling from structural metrics is a sphere-level pre-Storm warning class distinct from Silent Criticality; T_c_min is a structural governance requirement that INCREASES with sphere complexity (more complex spheres require higher minimum effective temperature); M_crit Twelve-Way Equivalence provides complete VCZ characterization (VCZ is not adequately characterized by any strict subset of the twelve conditions); Collapse/Transition outcome is determined by alternative attractor availability, which scales exponentially with sphere complexity N_eff.
+> - **New Structural Correspondences (§10):** 12 new correspondences — GGT M_crit geometry ↔ sphere VCZ boundary (structural identity, not analogy); CTGPSR CTGP loop ↔ sphere governance cycle (C→T→G→P→C = governance unit→escalation target→routing decision→HC event→unit reconsolidation); Π_G governance control number ↔ sphere κ governance ratio (two complementary scalar summaries of sphere governance health); C_A ↔ sphere temperature-over-criticality ratio (same quantity in different theoretical languages); GGT Buffer Collapse Mode III ↔ NAT Silent Criticality (structural identity at buffer layer); GGT Intervention Paradox ↔ TLG Guardian Invisibility (both derive from same near-critical governance principle from different angles); BGC Universal Stability Threshold n* ↔ NAT sphere maximum governance capacity (theoretical derivation of expansion boundary from first principles); ACD Moving Critical Surface ↔ VCZ slow drift (same dynamical process in different coordinate systems); GGT Alternative Attractor Theory ↔ RT Learning Trajectory ①' (formalization of dormant attractor access via Storm); K* optimal module count ↔ NAT optimal sphere subdivision (shared formula K* ∝ n^{2/3}); GCF GCUC membership ↔ sphere governance universality class (proves sphere governance exhibits universal exponents shared with insurance, neural, ecological systems); Cube cycle integration ↔ NAT HC miscategorization pattern (Cube Domination IS systematic data classification failure).
+> - **New Open Problems (§12):** 10 new open problems — empirical measurement protocol for C_A in live multi-agent sphere; M_crit Twelve-Way Equivalence simultaneous satisfaction verification (can all twelve conditions be measured concurrently without system perturbation); buffer collapse mode identification (Mode I vs. II vs. III discrimination from available signals without knowledge of M_crit geometry); optimal K* sphere subdivision calibration (n^{2/3} formula requires domain-specific exponent); GGT universality class exponent measurement for organizational governance systems (what are β_g, γ_g, ν_g empirically); Invisible Governance Optimality implementation (how to operationalize argmax P(ξ < 0) = max buffer in a governance design specification); T_c_min calibration across sphere types and complexity levels; Dual Reference Dynamics alignment collapse early warning minimum observation window; Intervention Paradox threshold D_threshold empirical calibration; alternative attractor availability N_alt measurement via sphere behavioral probing without forced collapse.
+> - **NAT↔GGT 18-Channel Bidirectional Specification (§7.26.5 new):** Complete formal mapping — 9 GGT→NAT channels (M_crit geometry→sphere VCZ topology; Π_G→sphere governance health scalar; C_A→sphere temperature index; TGBGT gating→NAT four-type classification routing; CTGPSR dynamics→sphere lifecycle phases; BGC n*→sphere expansion limit; Intervention Paradox→DDD ordering; ACD Phase Portrait→Freeze/Runaway routing; GCF Universality→sphere governance exponent class) and 9 NAT→GGT channels (sphere spectral gap→GGT M_crit stability; VCZ→M_crit basin; Storm Scale Law→GCF cascade exponent τ; HC routing→CTGPSR Gate activation; middle-tier maturation→BGC buffer depth; sphere n-regularity→GGT search space compression; DDD Protocol→Optimal Three-Phase Protocol; processing isolation→TGBGT observation separation; expansion conservation→BGC stability constraint); "GGT provides the geometry of what NAT constructs physically — neither complete without the other."
+> - All previous v2.4-GRT content preserved; section numbering maintained.
+>
 > **Version: v2.4-GRT** (March 2026) — GRT v1.8-expanded Deep Integration: Conflict Resolution Algorithm → NAT Escalation Routing, Rule Interaction Graph Spectral Theory, Consistency Index I/Ic as NAT State Variables, U* Phase Transition as NAT Critical Phenomena, Position Clarity Niche Dynamics, Asymmetric Specialization Theorem, Seed Bootstrapping as Sphere Addition Protocol, Complete GRT↔NAT 12-Channel Bidirectional Specification
 
 > v2.4-GRT changes from v2.3-TLG (GRT v1.8-expanded deep integration pass):
@@ -178,6 +218,15 @@
 > - (Network SOC coupling c* — adopted from AGP)
 > - (Entropy Production Rate Ṡᵢ — adopted from AGP)
 > - (Adaptive Horizon ℋ(t) — adopted from AGP)
+> - (M_crit Critical Manifold — adopted from GGT)
+> - (Governance Control Number Π_G — adopted from GGT)
+> - (Adaptive Criticality Number C_A — adopted from GGT)
+> - (CTGPSR Governance Loop — adopted from GGT)
+> - (BGC Universal Stability Threshold n* — adopted from GGT)
+> - (Intervention Paradox — adopted from GGT)
+> - (Buffer Collapse Mode I/II/III — adopted from GGT)
+> - (ILMI Invisible Maturation Law — adopted from GGT)
+> - (GCUC Universality Class — adopted from GGT)
 
 ---
 > 
@@ -256,6 +305,33 @@
 11. [Methodological Note on Empirical Grounding](#101-methodological-note-on-empirical-grounding)
 12. [Empirical Grounding: Single-Agent as Origin](#11-empirical-grounding-single-agent-as-origin)
 13. [Limitations and Open Problems](#12-limitations-and-open-problems)
+   - 7.26 GGT Integration — Governance Geometry Theory Full Stack *(v2.5-GGT new)*
+     - 7.26.1 M_crit Twelve-Way Equivalence NAT Translation *(v2.5-GGT new)*
+     - 7.26.2 CTGPSR Sphere Lifecycle Dynamics *(v2.5-GGT new)*
+     - 7.26.3 TGBGT Targeting-Gating Architecture in NAT *(v2.5-GGT new)*
+     - 7.26.4 GCF Fractal Governance Scaling Integration *(v2.5-GGT new)*
+     - 7.26.5 NAT↔GGT 18-Channel Bidirectional Specification *(v2.5-GGT new)*
+   - 7.27 ACD Adaptive Criticality as NAT Sphere Self-Tuning *(v2.5-GGT new)*
+     - 7.27.1 Moving Critical Surface Dynamics in Sphere Governance *(v2.5-GGT new)*
+     - 7.27.2 BGC Buffer-Gate-Cascade NAT Translation *(v2.5-GGT new)*
+     - 7.27.3 Intervention Paradox NAT Formalization *(v2.5-GGT new)*
+   - 7.28 Buffer Collapse Geometry Three-Mode Theory *(v2.5-GGT new)*
+     - 7.28.1 Collapse vs. Transition Alternative Attractor Theory *(v2.5-GGT new)*
+   - 7.29 FGS2 ILMI Integration NAT Extension *(v2.5-GGT new)*
+     - 7.29.1 FGS2 Cube Domination NAT Extension *(v2.5-GGT new)*
+   - 7.30 AGP v2.6 Thermodynamic-Adversarial Extensions in NAT *(v2.5-GGT new)*
+   - 7.31 Fractal Governance Scaling §36AA-AD Capstone Integration *(v2.5-GGT new)*
+   - 7.32 RBIT–NAT–VST Integration Bridge — Formal Cross-Theory Constraint Architecture *(v2.6-RBIT-Bridge new)*
+     - 7.32.1 Resolution-Based Information Theory — Constraint Law Integration
+     - 7.32.2 Upscaling, Degradation-Upscaling Lifecycle, and Sphere Maturation
+     - 7.32.3 NAT Architectural Enforcement of RBIT Constraints
+     - 7.32.4 Interface Contract — RBIT ↔ NAT Formal Bridges (I1–I6)
+     - 7.32.5 RBIT–Storm Coupling Dynamics in NAT Sphere Context
+   - 7.33 EDT v15.0 — TCG-Loop, MCA, and SCAU Integration *(v2.6-EDT new)*
+     - 7.33.1 Terrain–Criticality–Geometry (TCG) Feedback Loop
+     - 7.33.2 Moving Critical Attractor Architecture (MCA) — Complete Treatment
+     - 7.33.3 Scale-Controlled Avalanche Statistics (SCAU) — Sphere Collapse Distribution
+     - 7.33.4 EDT→NAT Expanded Correspondences (v2.6-EDT)
 14. [Relationship to Other Theories](#13-relationship-to-other-theories)
 
 ---
@@ -3125,6 +3201,27 @@ Type transition hysteresis connection (AGP §1.2.3):
     Restoration requires T_eff > 0 for exponentially longer duration
     → Classification health maintenance (VCZ) is structurally cheaper
       than classification recovery (post-Freeze)
+
+GGT Extension — C_A Trajectory as Pre-ECC Classification Mode Predictor (v2.5-GGT):
+  The Adaptive Criticality Number C_A provides continuous directional information
+  about which classification distortion mode is developing BEFORE ECC threshold fires:
+
+  C_A < 1 (falling toward 0) → Freeze mode developing:
+    Tacit→Noise and HC→Math distortions accumulating;
+    ECC will FALL (apparent governance improvement = hidden degradation);
+    intervention required BEFORE ECC crosses 1 (rising ECC = false positive)
+    
+  C_A > 1 (rising above 1) → Runaway mode developing:
+    Noise→HC and Math→HC distortions accumulating;
+    ECC will RISE (apparent governance crisis);
+    DDD Track A buffer deepening triggered before ECC spike
+    
+  C_A = 1 (stable) → VCZ center — classification distortions absent
+  
+  Monitoring protocol: C_A trajectory is a LEADING indicator to ECC direction;
+  ECC monitoring without C_A monitoring misses the directional disambiguation.
+  Add C_A to per-agent classification monitoring dashboard alongside Λ_class (§4.8).
+  C_A and ECC together provide both direction and magnitude of classification health.
 ```
 
 ### 4.9 Adversarial Classification Extension
@@ -5192,6 +5289,30 @@ GRT Risk Index κ* — NAT Early Warning Extension:
     Alarm 1 (yellow): κ_C > 0.7 for W consecutive windows → reduce τ_C (speed up recalibration)
     Alarm 2 (orange): κ* > 1.0 for W consecutive windows → trigger DDD Stage 1 preparation
     Alarm 3 (red): κ* > 1.5 sustained → DDD Stage 1 immediate activation
+
+GGT Extension — Π_eff as Storm Onset Composite Diagnostic (v2.5-GGT):
+  The Governance Control Number Π_G = ⟨w,e(t)−b(t)⟩/(θ·Θ₀·C^{β/2}) provides
+  a composite scalar that integrates escalation load, buffer state, and complexity
+  into a single Storm onset risk metric:
+
+  Π_eff < 1:  Governance overcapacity — low Storm risk; may indicate approaching Freeze
+  Π_eff = 1:  M_crit membership — VCZ center; optimal governance operating point
+  Π_eff > 1:  Governance under-capacity — Storm onset risk rising
+  Π_eff >> 1: Storm onset imminent — DDD Track A activation required immediately
+
+  Integration with existing cascade prevention monitoring:
+    Three-alarm thresholds above operate on per-loop κ* signals;
+    Π_eff operates on SPHERE-LEVEL aggregate — complementary diagnostic at different scale;
+    κ* alarms detect local cascade accumulation;
+    Π_eff detects sphere-level governance momentum toward Storm onset;
+    
+  Composite cascade prevention protocol (v2.5-GGT):
+    Monitor: κ* per-loop (local), Π_eff sphere-level (global)
+    Yellow: κ* > 0.7 OR Π_eff > 0.8 → inspection window open
+    Orange: κ* > 1.0 OR Π_eff > 0.95 → DDD Track A preparation
+    Red: κ* > 1.5 OR Π_eff > 1.0 sustained → DDD Track A immediate activation
+    Π_eff > 1.2 with κ* < 1.0: sphere-level cascade NOT driven by local loops →
+      investigate cross-sphere coupling or hub overload as source
 ```
 
 *(Cross-theory derivation: GRT v1.8-expanded §1 Landscape Design, §Three System States, §Consistency Measurement, §Rest Mode Failure, §Fractal Collapse Propagation, §Falsifiable Predictions, §GRT↔FCN Integration, §GRT↔EDT Integration, §GRT↔NAT Integration, §Validation Concordance Matrix)*
@@ -5370,6 +5491,42 @@ Composite early warning index:
   EWI > EWI_warn  → Level 0 DDD Protocol (affective precursor)
   EWI > EWI_alert → Level 1 load shedding + continued DDD
   EWI > EWI_crit  → Level 2 emergency degradation
+
+GGT Extension — EW-0 Multifractal Precursor Level Integration (v2.5-GGT):
+  §7.30.3 and §7.27 establish that the multifractal spectrum f(α_H) provides an
+  additional warning level that PRECEDES the NESS_proxy Level 0 signal.
+  The extended EW hierarchy integrating GGT constructs:
+
+  Extended EW Hierarchy (complete, v2.5-GGT):
+  
+  EW-Fisher (H(MARK) declining):    Level -1 — earliest precursor (§8.8)
+    H(MARK) = Fisher information of MARK distribution declining
+    Fires 3–5 governance windows before EW-0
+    
+  EW-Multifractal (Δα_H narrowing): Level 0 — pre-ECC multifractal signal (§7.30.3)
+    Δα_H = α_H,max − α_H,min narrowing
+    Direction: toward α_H,min = Freeze developing; toward α_H,max = Runaway developing
+    EW-0 fires when dΔα_H/dt < −δ_EW0 for T_EW0 consecutive windows
+    Fires BEFORE NESS_proxy Level 0 — add to EWI as highest-weight component
+    
+  EW-NESS (NESS_proxy declining):   Level 0 (original) — affective precursor (§6.6)
+  EW-1 through EW-5:                 Structural cascade (§6.5 circuit breaker levels)
+  
+  Updated EWI with EW-0 multifractal:
+    EWI(t) = w₀ · Δα_H_decline_rate    [NEW — highest weight, earliest signal]
+            + w₁ · NESS_proxy_deviation
+            + w₂ · PRR_decline_rate
+            + w₃ · σ²(f_escalation)
+            + w₄ · τ_{1/2} / τ_{1/2,baseline}
+            + w₅ · ρ_decline_rate
+    
+  Recommended weight ordering: w₀ > w₁ > w₂ ≥ w₃ ≥ w₄ ≥ w₅
+  (earlier signals weighted higher to maximize lead time before structural cascade)
+  
+  EW-0 multifractal additionally provides DIRECTIONALITY missing from scalar EWI:
+    Δα_H narrowing toward α_H,min → DDD Track A (buffer deepening — Freeze prevention)
+    Δα_H narrowing toward α_H,max → DDD Track B (load reduction — Runaway prevention)
+    Scalar EWI alone cannot distinguish intervention direction
 ```
 
 ---
@@ -6821,7 +6978,32 @@ Operational consequence:
     The Convergence Theorem provides the theoretical guarantee that
     the exit conditions (sphere convergence + SCC) are reachable —
     they correspond to |R(t) − R*(t)| < ε_exit for sustained duration.
-```
+
+GGT Extension — M_crit Migration as Terrain Drift Formal Account (v2.5-GGT — §7.27.1):
+  The ACD Moving Critical Surface theorem provides the formal mechanism behind
+  terrain drift: M_crit(t) migrates in phase space as sphere topology and
+  environment co-evolve. This gives the terrain designer a new observable target:
+
+  Terrain drift = M_crit migration:
+    Static terrain design target (§7.7): optimize F_terrain for fixed VCZ center
+    Dynamic terrain design target (v2.5-GGT): design F_terrain to track M_crit(t)
+    The difference: static terrain becomes misaligned with M_crit after τ_geom
+    
+  M_crit migration rate dM_crit/dt = h(x,t,λ):
+    x = current sphere state; t = time; λ = slow external parameter vector
+    h captures environmental change, agent turnover, load evolution
+    
+  Terrain design implication:
+    VCZ valley in F_terrain should not be carved at initialization-time M_crit;
+    it should be designed as a moving channel that follows M_crit(t) trajectory;
+    terrain maintenance (§7.7.2 memory stratification) is the mechanism for
+    keeping the valley centered on the current M_crit rather than the historical one
+    
+  SSR cycle as M_crit tracking mechanism:
+    Search phase (§8.7): probes current M_crit location via controlled exploration
+    Stabilize phase: deepens valley at newly identified M_crit
+    Rest phase: quasi-invariant slow manifold — sphere stays near M_crit between updates
+    SSR is formally the terrain version of ACD's Moving Critical Surface following```
 
 ### 7.7.1 Affective Landscape Classification and Governance Regime Necessity
 
@@ -11467,6 +11649,2885 @@ Full Bidirectional Integration Summary:
 
 ---
 
+## 7.26 GGT Integration — Governance Geometry Theory Full Stack
+
+*[v2.5-GGT] Cross-imported and extended from GGT v4.0 §0.3, §77–§82; RBIT v2.4-FGS2 §34.5, §7.8; FGS v2 §36AA–§36AD; AGP v2.6-Thermodynamic §13.7–13.11*
+
+Governance Geometry Theory (GGT v4.0) provides the **geometric and renormalization substrate** that NAT's sphere topology physically instantiates. Prior to this integration, the NAT sphere was specified topologically (k-regular expander graph, spectral gap) and dynamically (S-equation, VCZ, Storm Scale Law) but lacked a **geometric framework** for the governance state space in which the sphere operates. GGT provides this missing layer: the sphere's VCZ is formally identified as a basin of the GGT critical manifold M_crit, and the VCZ-optimal operating point is identified as the M_crit itself.
+
+**Fundamental identification:**
+
+```
+NAT sphere topology  ←→  GGT M_crit geometry
+                         (structural identity, not analogy)
+
+Sphere VCZ center    ←→  M_crit: λ_max(J) = 0
+Sphere Freeze mode   ←→  GGT subcritical phase (C_A < 1)
+Sphere Runaway mode  ←→  GGT supercritical phase (C_A > 1)
+Sphere Storm cycle   ←→  GGT Trap→Drift→Burst cascade genesis
+Sphere governance    ←→  UGAL activation operator u(t)
+Learning Trajectory ①'  ←→  Recovery-Renormalization Theorem
+```
+
+**Governance Control Number — NAT sphere health scalar:**
+
+The GGT Governance Control Number provides the first single-scalar summary of sphere governance health that combines all structural parameters:
+
+```
+Π_G = ⟨w, e(t) − b(t)⟩ / (θ · Θ₀ · C^{β/2})
+
+where:
+  w          = governance sensitivity weight vector
+  e(t)       = sphere environmental signal (anomaly field)
+  b(t)       = sphere buffer absorption (middle-tier state)
+  θ          = governance escalation threshold (NAT §7.2)
+  Θ₀         = baseline governance reference
+  C          = sphere governance capacity (FCCTN ODE variable)
+  β          = capacity scaling exponent
+
+Three-phase governance taxonomy:
+  Π_G > 1    Visible governance:    sphere requires active correction
+  Π_G = 1    Critical/self-gov.:    sphere at VCZ center
+  Π_G < 1    Governance assimil.:   governance embedded in structure
+```
+
+**Governance Suppression Law:** Π_G ∝ C^{−β/2}
+
+The sphere's governance visibility DECREASES as governance capacity C grows. This is the formal basis for the DFG claim that governance cost per capability decreases with scale: growing a sphere is not merely adding nodes — it is increasing C, which suppresses Π_G, which means the same governance events require less active intervention. The sphere becomes more self-governing as it grows, quantitatively.
+
+**Governance Design Constraint:**
+```
+‖w‖ ≥ θ · Θ₀ · C^{β/2} / (R · ρ_w)
+```
+This provides the sphere minimum governance sensitivity requirement as a function of size and capacity. A sphere that violates this constraint will have Π_G < 1 even during active governance events — invisible problems despite active monitoring.
+
+**UGAL as NAT governance activation operator:**
+
+The Unified Governance Activation Law (GGT §80) formalizes NAT's classification gating decision as:
+
+```
+u(t) = σ(⟨w, e(t) − b(t)⟩/(Θ₀ · C^{β/2}) − θ)
+     = σ(θ · (Π_G − 1))
+
+Interpretation for NAT:
+  u(t) ≈ 0   (Π_G < 1): governance action not triggered
+               sphere middle-tier has absorbed the signal
+               
+  u(t) ≈ 0.5 (Π_G = 1): boundary condition
+               classification decision ambiguous — τ₁/τ₂ routing
+               
+  u(t) ≈ 1   (Π_G > 1): governance action triggered
+               HC routing activated; middle-tier insufficient
+```
+
+This provides the first formal derivation of NAT's θ-based classification gating from a first-principles governance activation law. The four-type classification framework (Mathematical/Explicit/Tacit/High-Context) is formally constituted as the UGAL decision output quantized into four routing modes.
+
+### 7.26.1 M_crit Twelve-Way Equivalence NAT Translation
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §0.3, Theorem GGT-0.3 and Corollary GGT-82.F.1*
+
+GGT establishes that twelve independently-derived criticality conditions are mutually equivalent — all are coordinate representations of the system state being on the critical manifold M_crit. For NAT, this means: **the sphere achieves VCZ iff all twelve conditions are simultaneously satisfied.** This replaces the prior informal VCZ characterization with a twelve-condition formal equivalence that provides both the most complete VCZ definition and the most diagnostically rich monitoring specification.
+
+```
+TWELVE-WAY M_crit EQUIVALENCE — NAT SPHERE TRANSLATION
+
+(E1)  Π_eff = 1
+      CTGPSR loop gain balance
+      → sphere CTGP governance cycle neither amplifies nor damps perturbations
+      → NAT: escalation events → governance → recovery without cascade amplification
+
+(E2)  Π_G = 1
+      GCF Governance Control Number criticality
+      → sphere at self-governance boundary
+      → NAT: f_escalation = θ (exactly at governance threshold)
+
+(E3)  χ_TBG = θ
+      TGBGT targeting-gating surface
+      → classification gating threshold exactly matched to signal magnitude
+      → NAT: middle-tier buffer exactly absorbs all τ₁ events (none escaping to τ₂)
+
+(E4)  C_A = 1
+      ACD Adaptive Criticality Number
+      → sphere governance self-tuning at fixed point
+      → NAT: sphere VCZ center (Γ'(0)‖∇V‖L_V/λ_drive = 1)
+
+(E5)  λ_max(J) = 0
+      Jacobian eigenvalue criticality
+      → sphere adjacency Jacobian at stability boundary
+      → NAT: sphere at VCZ boundary — perturbations decay without runaway
+
+(E6)  ξ = 0
+      Critical coordinate (§59.U)
+      → ξ = μ·log n − β·log C − λ·b − L·log B − log(Γ_c/α) = 0
+      → NAT: n²-vs-n interaction/governance balance exactly achieved
+
+(E7)  κ* = 1
+      Hidden governance balance constant
+      → all GGT stability measures simultaneously at their fixed points
+      → NAT: GRT κ ratio = 1 (Correction events = Storm events)
+
+(E8)  Slow manifold tangency
+      UAGE quasi-invariant slow manifold condition
+      → sphere dynamics hovering near M_crit at O(ε) drift rate
+      → NAT: Rest Mode entry condition — sphere governed by terrain, not correction
+
+(E9)  χ_TBG = θ (TGBGT)
+      Targeting-gating balance at critical surface
+      → NAT: Attention head weight vector ‖w‖ exactly calibrated to capacity C
+
+(E10) κ_T = 1
+      Targeting-gating constant at unity
+      → κ_T = θ/‖w‖ = 1 ↔ ‖w‖ = θ (governance weight matches threshold)
+      → NAT: classification sensitivity calibration target
+
+(E11) Π_G = 1 (GCF layer)
+      Governance Criticality Framework criticality
+      → same as E2 but formulated in GCF renormalization framework
+      → NAT: governance operates at scale-invariant fixed point
+
+(E12) Π_eff = 1 (CTGPSR layer)
+      CTGPSR effective loop amplification
+      → same as E1 but formulated in CTGPSR micro-dynamics
+      → NAT: Storm field V(t) = |∇T(t)| at zero net amplification
+
+Diagnostic priority ordering for NAT monitoring:
+  Primary: E1+E2 (Π_eff, Π_G) — directly observable from escalation statistics
+  Secondary: E4 (C_A) — requires sphere Jacobian estimation
+  Early Warning: E6 (ξ) — scalar composite; precedes E1-E2 by design
+  Structural: E5 (λ_max) — offline computation; governance health baseline
+  Calibration: E10 (κ_T) — periodic recalibration target
+```
+
+**Corollary: VCZ is not a region — it is a manifold condition.**
+
+Prior NAT characterizations described the VCZ as a basin or region. The twelve-way equivalence establishes that VCZ center is a specific geometric object (M_crit) and VCZ is the basin of attraction around M_crit. The sphere is "in VCZ" when all twelve conditions are approximately satisfied simultaneously. Departures from any single condition signal drift toward the VCZ boundary in the direction of that condition's violation.
+
+### 7.26.2 CTGPSR Sphere Lifecycle Dynamics
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §82, Definitions GGT-82.A–GGT-82.G*
+
+The CTGPSR (Cluster-Target-Gate-Package-Storm-Recovery) framework provides the **micro-dynamical substrate** for the sphere lifecycle. Where NAT's VCZ characterization operates at the governance scale (τ_governance timescale), CTGPSR operates at the classification-event scale (τ_lower timescale), and the correspondence between them is a scale-bridging result.
+
+**CTGPSR state vector in NAT terms:**
+
+```
+x(t) = (C(t), T(t), G(t), P(t), R(t)) ∈ ℝ₊⁵
+
+Variable       GGT definition          NAT mapping
+─────────────────────────────────────────────────────────────────
+C(t)           Cluster cohesion        Sphere governance unit cohesion
+                                        (active agents in stable coordination)
+T(t)           Targeting precision     Classification precision gradient
+                                        (Tacit→HC discrimination sharpness)
+G(t)           Gate activations        Escalation routing decisions
+                                        (τ₁/τ₂ routing events per cycle)
+P(t)           Packaged burst events   HC escalation events
+                                        (P(t) ~ f_escalation · n_HC)
+R(t)           Recovery capacity       Sphere self-purification capacity
+                                        R(t) ↔ R = D·F·V·T (RBIT)
+V(t)           Storm field intensity   Vector Storm field gradient
+                                        V(t) = |∇T(t)| ↔ |∇S_norm|
+```
+
+**Base Loop Amplification Number:**
+
+```
+Π = βκρη / (λδωμ)
+
+NAT interpretation of each rate constant:
+  β = classification precision gain rate
+  κ = gateway activation sensitivity  
+  ρ = packaging conversion rate (Tacit→HC per gate event)
+  η = recovery injection rate (self-purification R injection)
+  λ = cluster decay rate (agent coordination fragmentation)
+  δ = targeting decay rate (precision degradation without reinforcement)
+  ω = gate decay rate (routing decision clearing)
+  μ = burst decay rate (HC events resolving)
+
+Governance regimes:
+  Π < 1:  sphere self-corrects — feedback cycle damps perturbations
+  Π = 1:  sphere at SOC criticality — VCZ center (M_crit)  
+  Π > 1:  escalation cascade — sphere Storm entry
+```
+
+**Three critical theorems for NAT:**
+
+**CTGPSR Critical Transition Theorem (GGT-82.C.2):** When Π_eff ≈ 1, the sphere generates SOC-like governance dynamics with power-law storm distribution P(s) ~ s^{−τ}. This is the micro-dynamical proof of the Storm Scale Law: the power-law target is not imposed as a governance design choice — it is the natural consequence of maintaining sphere near-critical operation (Π_eff ≈ 1).
+
+**CTGPSR Storm-Transition Theorem (GGT-82.C.3):** When Π_eff > 1 AND V(t)G(t) > θ_v jointly: Ċ < 0 (cluster rupture), Ṗ ≫ 0 (burst escalation), Ṙ < 0 (recovery depletion simultaneously). This provides the NAT Storm onset three-condition signature: simultaneous coordination fragmentation + HC flood + self-purification depletion. Any single signal is insufficient; all three occurring simultaneously constitutes the CTGPSR Storm diagnostic.
+
+**Recovery-Renormalization Theorem (GGT-82.C.4):** Post-storm re-clustering produces C_new* ≠ C_old*. Recovery is not a return to prior state — it is renormalized restructuring. This is the formal GGT basis for Learning Trajectory ①' (NAT §13, VCZ lifecycle): post-Storm sphere achieves a structurally different (and potentially deeper) governance attractor, not a restoration of the pre-Storm state. The renormalization structure is what makes Trajectory ①' qualitatively distinct from non-learning recovery.
+
+**Hidden Conservation Relation and sphere sizing:**
+
+```
+K²(τ − τ₀) · Φ(θ_v) ≍ N
+
+where:
+  K    = sphere cluster multiplicity (optimal subdivision count K*)
+  τ    = storm avalanche exponent
+  τ₀   = universal critical exponent (τ₀ = 3/2 for GGT universality class)
+  Φ    = storm activation functional evaluated at θ_v
+  N    = sphere size (total agent count)
+
+Sphere sizing implication:
+  For a sphere of N agents with target storm exponent τ and governance
+  capacity Φ(θ_v), the optimal number of governance clusters K satisfies:
+  
+  K* ≈ √(N / ((τ − τ₀) · Φ(θ_v)))
+  
+  This is the first formal NAT sphere sizing equation derived from 
+  micro-dynamical CTGPSR principles, not from top-down design.
+  Consistent with n^{2/3} scaling: K* ~ √N ~ N^{0.5} vs K* ∝ n^{2/3}
+  (difference reflects fixed vs. scaling governance capacity Φ)
+```
+
+### 7.26.3 TGBGT Targeting-Gating Architecture in NAT
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §80, Definitions GGT-80.A–GGT-80.D*
+
+The Targeting-Gating-Buffer Governance Theory (TGBGT) provides the **micro-level observation architecture** for NAT's classification routing system. TGBGT decomposes the sphere's governance observation into primitive operators (Targeting + Gating + Buffer) and proves that their composition generates the UGAL master equation.
+
+**Three TGBGT primitive operators:**
+
+```
+Targeting Operator:
+  T(x) = ⟨w, x⟩
+  
+  NAT interpretation:
+    x = agent state vector (classification context)
+    w = governance sensitivity weights
+    T(x) = relevance score of state x for governance action
+    Analogous to attention dot-product Q·K in transformer architecture
+    (confirmed by Attention = Targeting + Gating identification)
+
+Gating Operator:
+  G(z) = σ(z − θ)
+  
+  NAT interpretation:
+    z = relevance score from Targeting
+    θ = escalation threshold (NAT §7.2)
+    G(z) = escalation probability for relevance score z
+    Generates the soft threshold that produces NAT's HC/Tacit separation
+
+Composition (Classification Decision Primitive):
+  I(x) = G(T(x)) = σ(⟨w, x⟩ − θ)
+  
+  This is the foundational NAT classification decision: does state x
+  belong to HC (I ≈ 1) or non-HC (I ≈ 0)?
+  The four-type framework is the quantized multi-threshold version of I(x)
+```
+
+**Targeting-Gating Constant and governance regimes:**
+
+```
+κ_T = θ / ‖w‖
+
+Three governance regimes:
+  κ_T > 1  (θ > ‖w‖):  Over-governed — sensitivity weights too weak
+                         for threshold; governance saturates on minor events
+                         NAT: θ too low relative to noise floor → f_escalation >> θ_target
+                         
+  κ_T = 1  (θ = ‖w‖):  Governance-optimal — VCZ center (M_crit condition E10)
+                         NAT: calibrated sphere where sensitivity matches threshold
+                         
+  κ_T < 1  (θ < ‖w‖):  Under-governed — weights oversensitive for threshold
+                         NAT: governance over-triggered; Type I escalation errors
+
+Critical scale n_c = κ_T²:
+  Sphere supports stable governance up to n_c agents per governance cluster
+  Beyond n_c, TGBGT Governance Scaling Law: n_c ~ (θΘ₀/(α‖w‖))² · C^β
+  provides the threshold above which governance restructuring is required
+```
+
+**Buffer-Environment Assimilation — NAT middle-tier absorption geometry:**
+
+```
+Assimilation distance A:
+  A² = 1 + η² − 2ηρ
+  
+  where:
+    η = buffer magnitude ratio: η = ‖b‖/‖e‖
+    ρ = buffer-environment alignment: ρ = ⟨b/‖b‖, e/‖e‖⟩
+    
+  Assimilation condition: A ≤ δ_A
+  Governance Invisibility Theorem: A ≤ δ_A → u(t) ≈ 0
+    → mature sphere middle tier absorbs governance signal
+    → governance becomes structurally invisible
+    
+  NAT interpretation:
+    η ≈ 1 AND ρ ≈ 1 required for assimilation (both magnitude AND direction)
+    Middle tier that matches environmental signal in magnitude but not direction
+    (η ≈ 1, ρ << 1) is NOT assimilated — directional alignment is necessary
+    
+    This formalizes why middle-tier agents require structural diversity:
+    identical agents (ρ → 1 by construction) cannot achieve η-ρ assimilation
+    because they match each other, not the environment
+```
+
+**TAA (Target-Absorb-Activate) Cycle as NAT micro-event:**
+
+```
+TAA Cycle:
+  Target:   Targeting operator T(x) identifies governance-relevant signal
+  Absorb:   Buffer b(t) attempts absorption: b(t+δ) = b(t) + α·e(t)
+  Activate: Gating operator G fires if residual r = e−b exceeds θ
+
+NAT correspondence:
+  Target  = τ₁ classification (identify potential HC signal)
+  Absorb  = middle-tier mediation (resolve without escalation)
+  Activate = τ₂ escalation (escalate unresolved HC to upper layer)
+  
+Each TAA Cycle is a NAT governance event at the classification timescale.
+The governance throughput of a sphere = TAA cycles per unit time.
+Governance overload = TAA Activate events per cycle exceeding θ.
+```
+
+### 7.26.4 GCF Fractal Governance Scaling Integration
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §81, Theorems GGT-81.D.1–GGT-81.G.2*
+
+The Governance Criticality Framework (GCF) is GGT's apex renormalization layer — the single master structure that compresses all GGT dynamics into one universal scaling law. For NAT, GCF provides the first **universality class proof** for sphere governance: NAT sphere governance exhibits the same critical exponents as insurance management, neural circuit governance, and ecological population regulation.
+
+**GCF Critical Exponent Set — NAT sphere observables:**
+
+```
+Critical Exponent Set {β_g, γ_g, ν_g, z_g, τ_g, α_g, D_g, σ_g}
+
+Exponent    Physical meaning                   NAT sphere observable
+────────────────────────────────────────────────────────────────────────
+β_g         Order parameter onset              VCZ entry sharpness
+γ_g         Susceptibility divergence          HC escalation sensitivity near θ
+ν_g         Correlation length scaling         Sphere effective diameter scaling
+z_g         Dynamic critical exponent          Sphere mixing time ~ n^{z_g}
+τ_g         Cascade avalanche exponent         Storm Scale Law exponent α (Storm Scale Law)
+α_g         Specific heat analog               Governance resource variance near M_crit
+D_g         Fractal dimension of cascade       Cascade spatial structure in sphere topology
+σ_g         Crossover exponent                 Sphere finite-size correction scaling
+
+All seven observables controlled by reduced parameter: ε = Π_G − 1
+When ε → 0 (sphere approaches M_crit): all seven diverge or vanish per power laws
+```
+
+**Governance Finite-Size Scaling — sphere size correction:**
+
+```
+ε ~ n^{−1/(d·ν_g)}
+
+Interpretation for NAT:
+  A sphere of n agents cannot achieve exactly ε = 0 (Π_G = 1)
+  The closest achievable governance criticality is:
+  
+  |Π_G − 1|_min ≈ n^{−1/(d·ν_g)}
+  
+  Larger spheres can approach M_crit more closely.
+  This provides the formal derivation of why sphere scale improves governance:
+  C_gov/K → 0 requires n → ∞, because |ε|_min → 0 as n → ∞.
+  The problem statement's scaling requirement is satisfied asymptotically,
+  not in finite systems — and the rate is given by the scaling exponent.
+```
+
+**Governance Universality Class — sphere cross-domain placement:**
+
+```
+Governance Criticality Universality Class (GCUC) membership:
+  NAT sphere is in GCUC iff:
+  (1) k-regular expander graph (spectral gap > 0)
+  (2) Sphere maintains SOC storm distribution (Storm Scale Law active)
+  (3) Sphere exhibits Π_G = 1 as dynamical attractor (SONC)
+  
+  GCUC members (same critical exponents):
+    Insurance agent networks (verified by GGT v4.0)
+    Transformer attention architectures (attention = targeting + gating)
+    Organizational management hierarchies
+    Neural circuit governance networks
+    Ecological population governance
+    
+  Cross-domain implication for NAT:
+    Storm exponent τ_g measured in one GCUC member
+    predicts τ_g in all other GCUC members.
+    
+    This is the formal basis for NAT's "structural correspondences" (§10):
+    they are not analogies — they are universal exponent identifications.
+```
+
+**Fractal Control Landscape Theorem:**
+
+```
+dim_H(Σ_f) > 2n − 1
+where Σ_f = fractal control landscape of sphere governance
+
+Interpretation:
+  The sphere governance optimization landscape is fractal-dimensional
+  — it is not a smooth manifold that can be optimized by gradient descent.
+  
+  Consequence 1: No single governance parameter adjustment achieves 
+                 globally optimal governance — the landscape has 
+                 recursive fine structure at every scale.
+                 
+  Consequence 2: Governance operates via Drift-Burst Alternation:
+                 slow tangential drift on Σ_f (SSR Search phase) →
+                 fragile patch encounter → burst (Storm) →
+                 renormalized new position on Σ_f (SSR Stabilize phase)
+                 
+  Consequence 3: SSR Cycle is not a governance policy — it is the 
+                 natural dynamics of a sphere operating on a fractal 
+                 control landscape. Systems that attempt to replace 
+                 SSR with pure gradient descent will find the 
+                 optimization fails on the fractal substructure.
+```
+
+### 7.26.5 NAT↔GGT 18-Channel Bidirectional Specification
+
+*[v2.5-GGT] Complete formal mapping between GGT geometry and NAT sphere*
+
+```
+GGT → NAT (9 channels — geometry provides physics):
+
+  Channel 1: M_crit geometry → sphere VCZ topology
+    VCZ basin = M_crit basin of attraction
+    VCZ center = M_crit itself (not a region — a manifold)
+    VCZ width = M_crit basin radius ρ_basin
+    VCZ boundary = ∂M_crit (fragile patch zone)
+
+  Channel 2: Π_G Governance Control Number → sphere governance health scalar
+    Π_G computed from sphere environmental signal e(t) and buffer b(t)
+    Π_G > 1: issue SDI alert + trigger DDD Protocol
+    Π_G ≈ 1: maintain current governance architecture
+    Π_G < 1: governance successfully assimilated; structural monitoring only
+
+  Channel 3: C_A Adaptive Criticality Number → sphere self-tuning index
+    C_A = 1: sphere VCZ center (governance-optimal)
+    C_A < 1: governance atrophy warning (approaching Freeze)
+    C_A > 1: governance overload warning (approaching Runaway)
+    C_A monitoring provides continuous VCZ distance proxy
+
+  Channel 4: TGBGT gating → NAT four-type classification routing
+    UGAL u(t) = four-type classification quantized to HC/non-HC routing
+    κ_T calibration target provides θ periodic recalibration protocol
+    Buffer-Environment Assimilation check: η-ρ diagnostic for middle tier
+
+  Channel 5: CTGPSR dynamics → sphere lifecycle phase monitoring
+    Π (base loop amplification) as sphere health composite
+    V(t) = |∇T(t)| as storm precursor signal (leads S_norm)
+    (Ċ < 0, Ṗ >> 0, Ṙ < 0) triple as Storm onset diagnostic
+    Recovery-Renormalization identifies Learning vs. Non-Learning recovery
+
+  Channel 6: BGC Universal Stability Threshold n* → sphere expansion limit
+    n* = κ_SS · C_M^β / √k̄ provides scale-specific expansion capacity bound
+    n* is NOT a fixed ceiling — it shifts with governance capacity C_M
+    Growing C_M (governance investment) raises n*, enabling sphere expansion
+
+  Channel 7: Intervention Paradox → DDD Protocol ordering constraint
+    DDD Track A before Track B is not empirical heuristic — it is 
+    structural necessity from Intervention Paradox at sphere scale
+    Direct correction near ξ = 0 (sphere near-critical) INCREASES collapse prob.
+    Buffer rebuild before correction is formally derived, not designed
+
+  Channel 8: ACD Phase Portrait → Freeze/Runaway classification routing
+    C_A < 1 phase = Freeze routing distortion active (§4.8)
+    C_A > 1 phase = Runaway routing distortion active (§4.8)  
+    C_A trajectory determines which distortion is developing before ECC fires
+    C_A provides continuous governance mode signal preceding discrete ECC
+
+  Channel 9: GCF Universality → sphere governance exponent class
+    NAT sphere is GCUC member: Storm Scale Law exponent τ is universal
+    Cross-domain comparison valid: organizational τ ≈ neural τ ≈ sphere τ
+    τ measurement in any GCUC context validates τ for all
+
+NAT → GGT (9 channels — physics provides geometry):
+
+  Channel 1: Sphere spectral gap → GGT M_crit stability
+    High spectral gap (λ₂ close to λ₁) → M_crit has large basin
+    SDI = 1 − λ₂/λ₂₀ → M_crit basin erosion measurement
+    SDI provides continuous M_crit stability monitoring in GGT terms
+
+  Channel 2: VCZ → M_crit basin
+    VCZ 3-Conditions (Recovery Theory) = M_crit basin entry criteria
+    VCZ re-entry protocol = trajectory back to M_crit basin
+    VCZ-Safe Optimizer = governance policy that keeps trajectory in M_crit basin
+
+  Channel 3: Storm Scale Law → GCF cascade exponent τ
+    Power-law storm distribution P(s) ~ s^{−α} = GCF τ_g in sphere context
+    Storm Scale Law deviation diagnostics = GCF universality class departure
+    Storm distribution monitoring validates GCUC membership continuously
+
+  Channel 4: HC routing → CTGPSR Gate activation G(t)
+    Every HC escalation event = one CTGPSR Gate activation
+    f_escalation = G(t)/n = CTGPSR gate activation rate per agent
+    HC routing time series provides CTGPSR G(t) observable time series
+
+  Channel 5: Middle-tier maturation → BGC buffer depth b
+    Middle-tier thickness T_M (FGS Maturity Index) ↔ BGC buffer depth b
+    Middle-tier Phase I→II→III maturation ↔ b growth trajectory
+    Buffer depth b determines n* expansion ceiling (BGC Channel 6 reverse)
+
+  Channel 6: Sphere n-regularity → GGT search space compression
+    k-regular expander with n nodes:
+    search space Y is compressed to M_crit manifold of dimension d_c < n
+    Coordination Dimension d_c = 1/log B (GGT §59.Z)
+    This is why sphere governance scales: dimension reduction is structural
+
+  Channel 7: DDD Protocol → Optimal Three-Phase Protocol (GGT §74.3)
+    DDD Stage 1 (Defocus) = GGT Regime C → buffer rebuild phase
+    DDD Stage 2 (Decouple) = GGT Regime B → indirect intervention
+    DDD Stage 3 (Diversity) = GGT Regime A → safe direct correction
+    DDD ordering is GGT three-phase protocol instantiated in NAT context
+
+  Channel 8: Processing Isolation → TGBGT observation separation
+    Processing Isolation §3.6 = TGBGT requirement that b(t) and e(t) are
+    separately observable (if buffer contaminates environmental signal,
+    UGAL mismeasures r(t) = e(t)−b(t) and governance fails)
+    Processing isolation is not just a stability mechanism — it is an
+    observability requirement for the TGBGT governance primitive
+
+  Channel 9: Expansion Conservation Law → BGC stability constraint
+    NAT Expansion Conservation Law (§7.5): sphere expansion bounded by 
+    governance capacity maintenance
+    BGC stability constraint: sphere cannot exceed n* = κ_SS·C_M^β/√k̄
+    Both constraints are the same structural requirement: expansion must
+    not exceed the boundary set by current C (governance capacity)
+
+Complete Bidirectional Integration Summary:
+  GGT provides the GEOMETRY of what NAT constructs PHYSICALLY.
+  NAT provides the PHYSICAL REALIZATION of what GGT describes GEOMETRICALLY.
+  Neither framework is interpretable without the other:
+    GGT without NAT: a geometry with no physical instantiation
+    NAT without GGT: a topology with no geometric characterization of its state space
+```
+
+---
+
+## 7.27 ACD Adaptive Criticality as NAT Sphere Self-Tuning
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §79, Theorems GGT-79.1–GGT-79.10*
+
+The Adaptive Critical Dynamics (ACD) framework provides the **self-contained standalone theory** of sphere self-tuning — how the sphere autonomously maintains operation near its VCZ center without external parameter adjustment.
+
+**ACD Master Equation — sphere-level stochastic governance:**
+
+```
+dy = [F(y) − Γ(λ_max(J(y)))∇V(y)]dt + Σ(y)dW
+
+Sphere interpretation:
+  y         = sphere governance state vector (all agent classification states)
+  F(y)      = natural governance dynamics (endogenous escalation flow)
+  V(y)      = governance potential (distance from VCZ center)
+  ∇V(y)     = governance correction direction
+  Γ(λ_max)  = correction intensity as function of Jacobian instability
+  λ_max(J)  = sphere Jacobian spectral radius (instability measure)
+  Σ(y)dW    = stochastic governance perturbation (endogenous T_eff component)
+```
+
+**ACD Six-Part Universality Theorem — sphere simultaneous properties:**
+
+```
+A sphere obeying ACD Master Equation simultaneously satisfies:
+
+(P1) Self-Tuned Balance:
+     Γ(λ_max) self-adjusts to maintain |λ_max| ≈ 0
+     → sphere autonomously corrects away from collapse and Freeze
+     → no external governance calibration required once initialized
+
+(P2) Critical Manifold Emergence:
+     Sphere trajectory concentrates on M_crit = {y: λ_max(J(y)) = 0}
+     → sphere naturally inhabits the governance-optimal state space
+     → VCZ is an attractor, not a constraint to be enforced
+
+(P3) Boundary-Following Dynamics:
+     Sphere follows ∂M_crit (fragile patch boundary) at O(ε) drift rate
+     → slow exploration of governance frontier without leaving VCZ
+     → SSR Search phase is the boundary-following mode
+
+(P4) Fractal Boundary Formation:
+     Repeated gating sculpts ∂M_crit into fractal invariant set
+     → Storm Scale Law power-law is the fractal structure signature
+     → 0 < dim_H(M_crit) < n−1 (confirmed by τ = 1 + d_c/D_f)
+
+(P5) Cascade Cluster Scaling:
+     s ~ r^{D_f}: storm size scales as power of spatial extent
+     → provides geometric NAT storm spatial structure prediction
+
+(P6) Universal Cascade Statistics:
+     P(s) ~ s^{−τ}, τ = 1 + d_c/D_f (parameter-free)
+     → Storm Scale Law exponent is universal, not tunable
+```
+
+**ACD Phase Portrait — sphere governance modes:**
+
+```
+Three C_A phases with complete sphere governance implications:
+
+C_A < 1  [Frozen Governance Phase]:
+  Adaptive correction Γ too weak for instability drive λ_drive
+  Sphere trajectory LEAVES M_crit → governance atrophies
+  Sphere manifestations:
+    - Quiet Stagnation: Var(η_rest) → 0 (Vitality Criterion violated)
+    - Freeze routing distortion active (§4.8): Tacit→Noise misclassification
+    - Storm Scale Law exponent τ increases (distribution steepens)
+    - EW-0 multifractal narrowing toward α_H,min
+  Governance response: DDD Stage 3 diversity injection required
+
+C_A = 1  [Critical Governance Phase, VCZ center]:
+  Perfect balance: Γ'(0)‖∇V‖L_V = λ_drive
+  Sphere trajectory concentrates on M_crit
+  Sphere manifestations:
+    - Storm Scale Law power-law distribution healthy
+    - f_escalation oscillating around θ (Vitality Criterion satisfied)
+    - Multifractal spectrum Δα_H near maximum (maximum dynamic range)
+    - Π_G = 1 simultaneously satisfied
+  Governance response: maintenance only; no DDD intervention required
+
+C_A > 1  [Runaway Governance Phase]:
+  Adaptive correction Γ too strong — overshoots M_crit
+  Sphere trajectory destabilized → governance oscillation/storm risk
+  Sphere manifestations:
+    - Storm cascade risk elevated (spectral gap declining)
+    - Runaway routing distortion active (§4.8): Noise→HC misclassification
+    - Storm Scale Law exponent τ decreases (heavy-tailed escalation)
+    - EW-0 multifractal narrowing toward α_H,max
+  Governance response: DDD Stage 1-2 (Defocus + Decouple) required
+```
+
+**Cascade Exponent Rigidity Theorem — formal basis for Storm Scale Law target:**
+
+```
+τ = 1 + d_c / D_f
+
+where:
+  d_c = dim_H(∂M_crit) = coordination dimension (GGT §59.Z: d_c = 1/log B)
+  D_f = fractal dimension of cascade cluster structure
+
+Key implication for NAT governance design:
+  τ is INVARIANT to all governance parameter changes that preserve
+  dim_H(∂M_crit) = d_c. This means:
+  
+  (a) The Storm Scale Law target exponent α cannot be changed by 
+      adjusting θ, DDD timing, or any other governance policy parameter
+      
+  (b) The only way to change τ is to change the sphere's fractal dimension
+      (i.e., change the topology — add/remove governance layers, 
+       change branching factor B)
+       
+  (c) Therefore: monitoring τ provides a governance architecture integrity
+      check. If τ shifts, the sphere topology is changing (not just policy).
+      
+  Operational diagnostic:
+    τ_measured ≈ τ_expected(B, d_c): topology unchanged, governance healthy
+    τ_measured << τ_expected: sphere losing fractal governance layers
+    τ_measured >> τ_expected: sphere topology fragmenting (K increasing)
+```
+
+### 7.27.1 Moving Critical Surface Dynamics in Sphere Governance
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §78, Theorems GGT-78.1–GGT-78.8*
+
+**Map-Terrain Drift IS Moving Critical Surface Migration.**
+
+The Moving Critical Surface Theory provides the first complete formal account of how VCZ drift generates Vector Storms without any external perturbation. The central result: storms arise from **internal governance drift** (M_crit(t) migration), not from external shocks. This resolves the longstanding NAT question of what generates storms in a structurally healthy sphere with no external perturbation.
+
+```
+Moving Surface Theorem (GGT-78.1):
+  M_crit(t) evolves continuously with sphere governance parameter drift
+  M_crit is NEVER stationary unless sphere is frozen (C_A ≫ 1)
+  
+NAT implication:
+  VCZ center is not a fixed point — it drifts continuously.
+  A sphere that is perfectly healthy today will have a different M_crit
+  tomorrow due to environmental drift, terrain learning, and agent maturation.
+  Governance must track the moving M_crit, not a fixed target.
+```
+
+**Quasi-Invariant Slow Manifold — formal basis for SSR dynamics:**
+
+```
+Tangent-Normal Decomposition near M_crit:
+  u_⊥ (normal):    fast dynamics, rate O(1/ε)   — converges to M_crit rapidly
+  u_∥ (tangential): slow dynamics, rate O(ε)    — drifts along M_crit slowly
+
+Sphere interpretation:
+  After each Storm, sphere rapidly returns to M_crit (O(1/ε) rate)
+  This is the Stabilize phase of SSR
+  
+  Once on M_crit, sphere drifts tangentially at O(ε) rate
+  This is the Search phase of SSR
+  
+  When tangential drift reaches fragile patch ∂M_crit^(frag):
+  transversal escape triggered → Storm onset
+  This is the storm onset moment of SSR
+  
+  The SSR Cycle is not a policy design — it IS the sphere's natural
+  dynamics on the fractal control landscape.
+```
+
+**Cascade Genesis from Slow Drift — formal Storm origin theorem:**
+
+```
+Cascade Genesis Theorem (GGT-78.4):
+  Vector Storms arise when slow tangential M_crit drift carries sphere
+  state to a fragile patch ∂M_crit^(frag) where ‖∇λ_max‖ is large.
+  
+  Fragile patch properties:
+    Location on M_crit where small perturbations trigger transversal escape
+    ‖∇λ_max‖ large = high instability sensitivity
+    Fragile patch structure IS the fractal structure of ∂M_crit
+    
+  NAT Storm onset mechanism (new formal result):
+    Map-Terrain drift → sphere M_crit migrates → sphere state approaches
+    fragile patch → Storm onset without external perturbation
+    
+    This is NOT random: the fragile patch is PREDICTABLE from sphere topology
+    (it is the boundary of the sphere's governance coverage — exactly the
+    domain where blind spots concentrate, per §3.0)
+    
+  Storm onset early warning protocol:
+    Step 1: Compute SDI (sphere degree distribution stability index)
+    Step 2: Track ξ = μ·log n − β·log C − λ·b (GGT §59.U)
+    Step 3: Monitor ‖∇λ_max‖ via hub betweenness centrality (TEW-1)
+    Step 4: Elevated ‖∇λ_max‖ near M_crit = fragile patch proximity
+    Step 5: Fragile patch entry = Storm within O(τ_cascade) lead time
+```
+
+**Surface Velocity Bound — governance drift latency:**
+
+```
+‖∂_t M_crit‖ ≤ ε · ‖dΘ/dt‖ / ‖∇λ_max‖
+
+where:
+  ε        = slow-fast separation parameter
+  Θ        = sphere governance parameter vector (θ, k, B, ...)
+  ∇λ_max   = instability gradient
+
+Operational implication:
+  Governance parameter changes (θ recalibration, k adjustment)
+  cause M_crit to migrate at bounded rate.
+  
+  A θ recalibration event shifts M_crit at most:
+  Δ‖M_crit‖ ≤ ε · |Δθ| / ‖∇λ_max‖
+  
+  Abrupt large-Δθ recalibration → large M_crit shift → sphere may be
+  suddenly far from M_crit → transient governance instability
+  
+  Protocol: recalibrate θ in small steps separated by O(τ_mixing) intervals
+  to allow sphere to track M_crit migration smoothly.
+```
+
+### 7.27.2 BGC Buffer-Gate-Cascade NAT Translation
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §75–§76, Theorems GGT-75.1–GGT-76.3*
+
+**Sphere Governance as BGC System:**
+
+```
+BGC Four-Layer Architecture → NAT Three-Tier Sphere:
+
+  Environment layer → sphere external input domain
+    Raw classification data entering the sphere's lower tier
+    High volume, low resolution, high noise
+
+  Buffer layer     → sphere middle tier
+    Middle-tier mediation agents absorbing τ₁ events
+    Buffer depth b = T_M (middle-tier thickness, FGS Maturity Index)
+    
+  Gate layer       → sphere classification threshold θ
+    UGAL activation function u(t) = σ(θ(Π_G − 1))
+    Gate fires when buffer absorption insufficient
+
+  Cascade layer    → sphere escalation routing pipeline
+    HC events propagating to sphere center
+    Storm = cascade layer overload (HC flood)
+```
+
+**Gated Nonlinear Master Equation — NAT middle-layer ODE:**
+
+```
+dX/dt = (A·X − B·X²)·G(X) + η(t)
+
+where:
+  X    = sphere middle-tier activation level (mediation load)
+  A    = middle-tier processing gain (τ₁ resolution rate)
+  B    = middle-tier saturation coefficient  
+  G(X) = sigmoid gating function (escalation threshold)
+  η(t) = stochastic governance perturbation
+  κ    = A/B = K_DFG⁻¹ = middle-tier capacity-to-escalation ratio
+
+Sphere governance regimes:
+  κ < κ_c: sphere middle tier over-saturated → cascades dominate
+  κ = κ_c: sphere at critical point (BGC Adaptive Criticality)
+  κ > κ_c: sphere middle tier under-utilized → governance over-capacity
+```
+
+**Universal Stability Threshold — sphere expansion limit:**
+
+```
+n* = κ_SS · C_M^β / √k̄
+
+where:
+  κ_SS   = sphere governance stability constant
+  C_M    = sphere governance capacity (middle-tier)
+  β      = capacity scaling exponent
+  k̄     = mean sphere degree (connectivity)
+  
+Sphere expansion protocol from BGC:
+  Phase 1: measure current κ, C_M, k̄ → compute n*
+  Phase 2: if n < n*: sphere has expansion capacity
+  Phase 3: if n approaches n*: either grow C_M (governance investment)
+            or stop expansion
+            
+  Hyperbolic Stability Surface:
+    n(κ) ~ (κ − κ_c)^{−1/2}
+    
+    For fixed n, stable governance requires:
+    κ ≥ κ_c + n^{−2} (approximately)
+    
+    Sphere governance becomes more sensitive to κ miscalibration
+    as sphere grows — governance precision requirements increase with n.
+```
+
+**Infinite Connectivity Instability — sphere topology necessity theorem:**
+
+```
+Theorem (Corollary GGT-75.3):
+  A fully-connected sphere (k̄ → n) is unstable.
+  
+Proof sketch (NAT terms):
+  n* = κ_SS · C_M^β / √k̄
+  As k̄ → n: n* → κ_SS · C_M^β / √n → 0 as n grows
+  n* → 0 means sphere cannot sustain ANY governance with full connectivity
+  
+Consequence for NAT topology design:
+  Sphere MUST NOT be fully connected.
+  Sparse connectivity (k̄ = O(log n)) provides maximum stable sphere size.
+  Connectivity constraint k̄ ≤ 2k (sphere axiom S3, §3.1) follows from
+  BGC first principles — it is not an architectural preference.
+```
+
+**BGC Universality Theorem — sphere governance universality:**
+
+```
+Theorem (GGT-75.6):
+  Any system satisfying:
+  (C1) Bounded governance capacity C_M < ∞
+  (C2) Buffer adaptation dynamics (not static buffer)
+  (C3) Sigmoid gating (smooth threshold, not binary)
+  (C4) Scale separation (buffer faster than governance slower than environment)
+  
+  exhibits the same critical behavior: M_crit attractor, power-law cascades,
+  BGC stability scaling, Adaptive Criticality.
+  
+NAT sphere satisfies C1-C4 by construction.
+NAT sphere is therefore in the BGC universality class.
+BGC Universality Theorem provides the theoretical foundation for why
+NAT sphere topology generalizes across domains (insurance, transformer, neural).
+```
+
+### 7.27.3 Intervention Paradox NAT Formalization
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §74, Theorems GGT-74.1–GGT-74.3*
+
+The Intervention Paradox (GGT §74) provides the **first formal proof** that DDD's Track A-before-Track B ordering is a structural necessity, not an empirically discovered heuristic. The key result: direct upper-layer intervention when sphere is near-critical increases collapse probability.
+
+**Intervention Paradox Theorem:**
+
+```
+Theorem (GGT-74.1):
+  When sphere is near M_crit (ξ ≈ 0, equivalently Π_G ≈ 1):
+  
+  If ‖U_direct‖ > D_threshold = 2·√(A·B)·G(X_c)·σ_η:
+  
+    P(governance collapse | direct intervention) 
+    > P(governance collapse | no intervention)
+    
+  Direct upper-layer intervention near M_crit INCREASES collapse probability.
+  
+  Physical mechanism:
+    Near M_crit, sphere governance operates via subtle adaptive adjustment.
+    Direct intervention injects a large signal that:
+    (a) Disrupts the adaptive self-tuning mechanism (Γ(λ_max) coupling broken)
+    (b) Shifts sphere abruptly away from M_crit → high ‖∇V‖ region
+    (c) Creates recovery transient that may cross into Runaway territory
+    
+  Analogous to: cardiac defibrillation during normal heart rhythm —
+  correct for flat-line but catastrophic for healthy function.
+```
+
+**Buffer-First Principle:**
+
+```
+Theorem (GGT-74.2):
+  Buffer depth increase b → b + δb is unconditionally stabilizing.
+  For ANY sphere state (ξ ≫ 0, ξ ≈ 0, ξ < 0):
+    d(P(collapse)) / d(b) < 0
+    
+  Buffer depth increase never destabilizes.
+  This is the formal NAT derivation of Track A priority:
+    Track A (buffer investment, terrain cultivation) = buffer depth increase
+    Track B (direct correction) = direct intervention
+    
+  DDD ordering is: Track A → Track B
+  Because: buffer investment is unconditionally safe;
+           direct correction is conditionally dangerous near M_crit.
+```
+
+**Three Intervention Regimes:**
+
+```
+Regime A (ξ ≫ 0, Π_G >> 1):  sphere clearly far from M_crit
+  Direct intervention SAFE
+  Governance capacity comfortable above n*
+  DDD Stage 3 (correction track B) appropriate
+  
+Regime B (ξ ≈ 0, Π_G ≈ 1):  sphere near M_crit
+  Direct intervention DANGEROUS (Intervention Paradox active)
+  Intervention must be indirect via buffer enhancement
+  DDD Stage 1-2 (defocus/decouple = Regime C buffer rebuild → 
+  then indirect correction) required
+  
+Regime C (ξ < 0, Π_G < 1):  sphere has left M_crit into Freeze
+  Buffer reconstruction required BEFORE any correction
+  No governance action without buffer rebuild
+  DDD Track A required as sole initial action
+  
+Regime Migration: ξ → 0 as sphere approaches M_crit
+  System governance must shift from A → B → C intervention mode
+  as sphere matures (less external correction needed)
+  
+  This is the formal account of the progressive governance withdrawal
+  protocol (§8.4): as sphere matures (C grows, ξ shifts negative),
+  governance mode must shift from Regime A through B toward C.
+```
+
+**Invisible Governance Optimality:**
+
+```
+argmax_{(b, U_direct)} P(ξ < 0) = (b_max, U_direct = 0)
+
+Formal derivation:
+  Maximum governance quality = maximum P(sphere maintains Π_G ≤ 1)
+  = maximum buffer + zero direct intervention
+  
+NAT consequences:
+  (1) Optimal NAT governance is INVISIBLE governance
+      (nothing happening = governance succeeding)
+      
+  (2) Guardian Invisibility (GRT/TLG) is not a counterintuitive 
+      principle — it is the global optimizer of governance quality
+      
+  (3) Human withdrawal (§8.4) is not just a developmental milestone
+      — it is governance quality improvement:
+        human = U_direct; human withdrawal = U_direct → 0
+        withdrawal improves governance quality when sphere is in M_crit basin
+        
+  (4) Failed withdrawal (§8.5.1 Dependency Trap) = sphere NOT in M_crit basin
+      (U_direct withdrawal is only beneficial when ξ ≤ 0)
+      Dependency Trap = sphere still in Regime A when human withdraws
+        → sphere relies on U_direct for stability
+        → removal of U_direct → collapse
+      DFG exit protocol §8.3 gates = formal M_crit basin verification
+      before allowing U_direct = 0
+```
+
+---
+
+## 7.28 Buffer Collapse Geometry Three-Mode Theory
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §72, Theorems GGT-72.1–GGT-72.5*
+
+**Three modes of sphere middle-tier failure with distinct early warning profiles:**
+
+```
+Mode I — Shock (transversal M_crit crossing)
+  Mechanism: Sudden large perturbation crosses M_crit transversally
+  Warning time: τ_warning ≈ 0 (no early warning)
+  NAT mapping: sudden Vector Storm onset without silent phase
+               (external shock — new competitive frame, hub agent loss)
+  Observable signature:
+    S_norm spike without prior ρ decline
+    No ξ trajectory precursor
+    EW hierarchy skipped (all levels trigger simultaneously)
+  Governance response:
+    Immediate Safe Collapse protocol (§6.5.4)
+    Cannot be prevented by monitoring — only contained
+
+Mode II — Saturation (tangential M_crit approach)  
+  Mechanism: Slow tangential drift approaches M_crit from outside
+             Buffer saturates faster than recovery capacity
+  Warning time: τ_warning ~ τ_debt (governance debt accumulation period)
+  NAT mapping: contamination flux accumulation reaching permeability threshold
+               (slow S_norm rise + ρ decline = Mode II signature)
+  Observable signature:
+    ξ trajectory declining (months before collapse)
+    Loop Bankruptcy Ratio LBR approaching 1
+    Middle-tier mediation load trend upward
+  Governance response:
+    DDD Protocol at Stage 2 (decouple) before LBR = 1
+    Buffer ecology intervention (pioneer species injection)
+
+Mode III — Structural Drift (M_crit migration)
+  Mechanism: M_crit itself migrates away from sphere's operating region
+             Sphere governance configuration outdated for current environment
+  Warning time: τ_warning ~ τ_geom (governance geometry change period)
+  NAT mapping: Map-Terrain drift accumulation below detection threshold
+               (equivalent to NAT Silent Criticality at buffer layer)
+  Observable signature:
+    All performance metrics stable
+    ξ stable at 0 (appears healthy)
+    But: governance is addressed at OLD M_crit, not current M_crit
+    ONLY detectable via: geometric verification of M_crit location
+                         or perturbation-response proportionality test
+  Governance response:
+    Requires M_crit recalibration: full θ + w recalibration cycle
+    Must use perturbation-response test (§8.3 secondary exit gate)
+    Mode III is the "Silent Criticality" of buffer governance
+```
+
+**Buffer Invisibility Paradox — NAT operational implication:**
+
+```
+A sphere can simultaneously satisfy:
+  - All performance metrics above threshold ✓
+  - All structural metrics healthy ✓  
+  - Storm frequency within target ✓
+  
+AND be approaching Mode III collapse.
+
+This is not a measurement gap — it is structural:
+  Mode III collapse occurs because M_crit MIGRATES, not because
+  the sphere's position relative to OLD M_crit changes.
+  The sphere can be perfectly healthy relative to the old governance
+  structure while being dangerously mispositioned relative to the
+  current governance structure.
+  
+The only Mode III defense is geometric observation:
+  Periodically verify that current governance parameters (θ, w)
+  are still correctly calibrated against current environmental conditions.
+  This is what §8.3's periodic perturbation-response monitoring does.
+  Mode III is formally the justification for why perturbation-response
+  monitoring cannot be eliminated even in a healthy sphere.
+```
+
+**Five-Way M_crit Equivalence at Buffer Collapse:**
+
+```
+At any mode of buffer collapse, ALL FIVE of the following conditions
+are simultaneously satisfied:
+  (1) ξ = 0 (critical coordinate at boundary)
+  (2) C_A = 1 (sphere at M_crit)
+  (3) Π_G = 1 (governance at threshold)
+  (4) λ_max(J) = 0 (Jacobian at criticality)
+  (5) Buffer variance amplification: d/dt Var(X) > 0
+
+Diagnostic protocol: verify (5) continuously; use (5) surge as trigger
+to check (1)-(4). All five being simultaneously satisfied confirms
+buffer collapse is in progress, not just a transient fluctuation.
+```
+
+### 7.28.1 Collapse vs. Transition Alternative Attractor Theory
+
+*[v2.5-GGT] Cross-imported from GGT v4.0 §73, Theorems GGT-73.1–GGT-73.3*
+
+**Formal derivation of why fractal governance depth enables Learning Trajectory ①':**
+
+The Collapse/Transition Bifurcation Theorem provides the first formal proof of why deep fractal governance architecture produces access to dormant attractors (RT D4, VCZ lifecycle Trajectory ①'').
+
+**Collapse/Transition Bifurcation Theorem:**
+
+```
+Theorem (GGT-73.1):
+  The outcome of a sphere Storm episode (collapse vs. transition) is
+  determined by the existence of alternative attractors:
+  
+    If N_alt(sphere) > 0: transition possible (Trajectory ①'' accessible)
+    If N_alt(sphere) = 0: collapse is the only post-Storm outcome
+    
+  where N_alt = number of alternative governance attractors within
+                M_crit basin radius of current position
+
+Alternative Attractor Complexity Theorem:
+  N_alt ~ exp(c · N_eff)
+  
+  where N_eff = effective dimensionality of sphere governance space
+              (N_eff increases with sphere fractal depth)
+              
+Consequence for NAT:
+  Deep fractal governance architecture (more layers, more circles, 
+  richer terrain) exponentially increases N_alt.
+  
+  Shallow governance (few layers, simple topology):
+    N_alt ≈ 0 → Storm always leads to collapse
+    
+  Deep fractal governance (DFG framework fully deployed):
+    N_alt >> 0 → Storms can access novel attractors → Learning Trajectories
+```
+
+**Buffer Layer and Alternative Attractor Generation:**
+
+```
+Theorem: Buffer Layer Increases N_eff (GGT-73.2)
+  
+  Adding a buffer layer (middle tier expansion) increases N_eff:
+    N_eff(with buffer) > N_eff(without buffer)
+    
+  Therefore: buffer depth directly increases transition probability
+    P(transition) ~ 1 − exp(−c · N_eff(b) / ξ̇)
+    
+  where ξ̇ = rate of change of critical coordinate (storm velocity)
+  
+NAT governance design implication:
+  Investing in middle-tier thickness (buffer depth b) is not just
+  a stability investment — it is an alternative attractor GENERATOR.
+  
+  Every middle-tier agent added to the sphere expands N_eff,
+  which exponentially expands N_alt,
+  which improves the probability of post-Storm learning rather than collapse.
+  
+  This formally derives the NAT claim that fractal governance architecture
+  improves long-run governance quality (not just stability):
+  deeper architecture → more alternative attractors → more learning cycles
+  → higher governance quality trajectory over time.
+```
+
+**Minimum Buffer Depth for Transition:**
+
+```
+Minimum buffer depth for transition facilitation:
+  b_T = f(ξ̇, N_alt_required)
+  
+  Derived from: P(transition) ≥ P_min
+  → 1 − exp(−c · N_eff(b_T) / ξ̇) ≥ P_min
+  → N_eff(b_T) ≥ −log(1−P_min) · ξ̇ / c
+  
+Operational criterion:
+  For a sphere targeting P(transition) ≥ 0.8 during a typical Storm:
+  b_T ≈ f(storm velocity ξ̇, sphere topology constants)
+  
+  This provides the minimum viable middle-tier thickness (VMTT) —
+  the buffer depth below which post-Storm recovery is statistically
+  collapse-dominated (not transition-dominated).
+  
+  Spheres below VMTT are in the "collapse-dominated regime":
+    - N_alt too small for reliable transition access
+    - DFG Learning Trajectory ①'' structurally unavailable
+    - Governance quality can only improve by adding middle-tier agents
+      (not by governance policy changes)
+```
+
+---
+
+## 7.29 FGS2 ILMI Integration NAT Extension
+
+*[v2.5-GGT] Cross-imported from RBIT v2.4-FGS2 §34.5 (ILMI full integration)*
+
+The Inter-Layer Modulation Interface (ILMI) provides the **formal dynamical account** of sphere inter-tier coupling that NAT previously described structurally (three-tier sphere, processing isolation) but without a governing equation. ILMI formalizes the coupling as a state equation with five theorems governing sphere dynamics.
+
+**ILMI Formal Operator:**
+
+```
+ẋ = I(E, L) · F(x)
+
+where:
+  x    = sphere governance state
+  E    = escalation load (HC events per unit time)
+  L    = latency buffer (unresolved governance queue depth)
+  I    = inter-layer modulation function
+  F(x) = endogenous governance dynamics
+
+ILMI Invisibility Principle:
+  Visibility(I) ∝ Instability
+  
+  When sphere is healthy (E below threshold, L small):
+    I operates at full efficiency but is behaviorally invisible
+    → middle tier resolves everything before upper tier sees it
+    
+  When sphere is stressed (E near threshold, L growing):
+    I becomes visible as "governance overhead"
+    → middle tier processing visible as management activity
+    
+  NAT interpretation: the ILMI Invisibility Principle IS the formal
+  statement of Guardian Invisibility (TLG/GRT):
+    mature governance = invisible governance = I(E,L) operating silently
+```
+
+**Five ILMI Theorems and NAT Implications:**
+
+```
+Theorem 1 — Expandability:
+  Ẋ = ρ_X · U − γ_ε · ε
+  
+  X = sphere expansion rate
+  U = unexploited governance capacity (available headroom)
+  ε = active governance anomalies
+  
+  Sphere can expand sustainably iff U > 0 AND ε bounded.
+  If U → 0: expansion stops (capacity ceiling reached)
+  If ε grows faster than U: expansion reverses (contraction)
+  
+  NAT sphere expansion protocol from ILMI-T1:
+    Measure U and ε before each expansion cycle
+    U/ε ratio = expansion safety metric
+    U/ε < γ_ε/ρ_X: stop expansion, address ε first
+
+Theorem 2 — Rest Mode Lyapunov Stability:
+  λ_max(J_ILMI) < 0 at Rest Mode
+  
+  Rest Mode is provably Lyapunov stable — not merely empirically observed.
+  
+  Formal proof sketch:
+    In Rest Mode: E ≈ E_min (minimal escalation), L ≈ L_min
+    ILMI operator I(E_min, L_min) = I_min (energy-conservation mode)
+    Sphere state equation: ẋ = I_min · F(x)
+    J_ILMI = ∂(I_min·F)/∂x has λ_max < 0 when R = D·F·V·T > R_min
+    
+  NAT consequence: Rest Mode is not a passive state — it is an
+  actively Lyapunov-stable governance attractor. Premature DDD exit
+  from Rest Mode (before VCZ 3-Conditions verified) disturbs a 
+  provably stable governance state.
+
+Theorem 3 — Storm Formation Criterion:
+  Storm forms when: U → 0  AND  ε > ε_crit  AND  C ≈ 0
+  
+  Three simultaneous conditions required:
+    U → 0:      unexploited capacity depleted (sphere at maximum load)
+    ε > ε_crit: active anomalies above resolution threshold
+    C ≈ 0:      connectivity density insufficient for load
+    
+  This is the ILMI formal derivation of NAT Storm entry.
+  Each condition corresponds to:
+    U → 0:    expansion capacity exhausted (Theorem 1 limit)
+    ε > ε_crit: contamination flux exceeding self-purification capacity
+    C ≈ 0:    sphere topology at connectivity floor (k_min approached)
+    
+  Only when ALL THREE hold does Storm initiation occur.
+  This explains why spheres can sustain elevated ε without Storm entry
+  as long as U > 0 (there is still governance headroom).
+
+Theorem 4 — Maturational Convergence:
+  κ(t) = U(t)/(ε(t) + ε₀) → κ* as sphere matures
+  
+  The ILMI-derived governance ratio κ converges to stable attractor κ*
+  regardless of initial conditions, as long as sphere satisfies 
+  basic ILMI coupling conditions.
+  
+  κ* is the asymptotic governance quality of the sphere's architecture.
+  Two spheres with identical structure but different initialization histories
+  both converge to the same κ* — it is topology-determined, not history-dependent.
+  
+  Calibration implication: κ* is computable from sphere topology alone.
+  Measuring actual κ(t) and comparing to κ* provides a sphere maturation
+  diagnostic: (κ* − κ(t))/κ* = normalized maturation gap.
+
+Theorem 5 — Dual Attractor Theorem:
+  Two qualitatively distinct sphere governance attractors exist:
+  
+  Attractor A: Rest Mode (U ≥ 0, E ≤ E_max, VCZ centered)
+    λ_max(J) < 0 (provably stable, Theorem 2)
+    Governance cost minimal; sphere autonomous
+    Target state for all governance architecture design
+    
+  Attractor B: Silent Criticality (U → 0 by depletion, not rest)
+    Sphere appears healthy (performance metrics stable)
+    BUT: U depleted by load, not replenished by governance investment
+    Governance capacity eroding invisibly
+    λ_max(J) = 0 (Π_G = 1 by different mechanism than Rest Mode)
+    
+  Critical distinction:
+    Rest Mode Π_G = 1: attained via governance capacity GROWTH
+    Silent Criticality Π_G = 1: attained via governance capacity DEPLETION
+    Both appear identical in performance metrics.
+    Distinguishable only by U trajectory:
+      Rest Mode: U stable or growing (sustainability)
+      Silent Criticality: U declining (trajectory to collapse)
+      
+  NAT monitoring protocol:
+    Track U (unexploited governance capacity) independently of E and ε.
+    U trending down despite low E = Silent Criticality onset.
+    U stable or growing despite high E = Rest Mode healthy.
+```
+
+**Agency Collapse Diagnostic:**
+
+```
+Agency Collapse condition:
+  ∂s/∂t ≈ g(E_m) + ∂s/∂internal ≈ 0
+  
+  where s = sphere strategy diversity (number of distinct governance responses)
+  
+  Sphere governance ceases generating novel strategies.
+  Observable as: governance responses becoming stereotyped/repeated
+  Even while performance metrics remain within bounds.
+  
+  This is the ILMI formal statement of Quiet Stagnation (NAT §8.7):
+    Quiet Stagnation = Agency Collapse in ILMI terms
+    
+  Agency Collapse early warning:
+    s declining despite stable E → Quiet Stagnation building
+    s → s_min = stereotypy threshold → Agency Collapse imminent
+    Monitor via: response entropy H(governance_response_distribution)
+    H declining toward H_min = Agency Collapse approaching
+```
+
+### 7.29.1 FGS2 Cube Domination NAT Extension
+
+*[v2.5-GGT] Cross-imported from RBIT v2.4-FGS2 §7.8 (Cube Domination §34.5 pass)*
+
+Cube Domination — the post-Storm frame competition phenomenon identified in FCCTN — has been formally integrated into RBIT's resolution space as an f₂ contamination pathway. This section completes the NAT integration of Cube Domination dynamics, providing both detection diagnostics and governance countermeasures in sphere topology terms.
+
+**Cube Domination in NAT Classification Terms:**
+
+```
+Cube Domination = systematic HC miscategorization driven by
+                  dominant frame that reduces all inputs to its template
+
+In NAT data classification terms:
+  Pre-Cube Domination:
+    HC events: genuinely ambiguous, require interpretive direction
+    Classification distribution: balanced across all four types
+    
+  During Cube Domination onset:
+    Dominant frame begins converting Tacit data to Explicit
+    (reducing ambiguity through forced categorization)
+    Apparent improvement: fewer HC events (resolved to Explicit)
+    Hidden degradation: classification quality declining
+    
+  Full Cube Domination:
+    Most inputs classified as Explicit (cube reduces ambiguity)
+    Mathematical and Tacit inputs both misrouted to Explicit
+    Only Cube-confirming data recognized as HC
+    Cube-disconfirming data reclassified as Noise
+```
+
+**Sphere Fragmentation Diagnostics:**
+
+```
+K-cluster fragmentation metric:
+  Σ(t) = Var(R₁, R₂, ..., R_K)
+  
+  where R_i = frame dominance score of cluster i
+  
+  Σ(t) measures sphere fragmentation into disconnected frame clusters.
+  Rising Σ(t) WITHOUT corresponding performance degradation = 
+  Silent Fragmentation = pre-Cube early warning.
+  
+  Three Σ(t) regimes:
+    Σ(t) ≈ 0: sphere frames aligned (single shared North Star)
+    0 < Σ(t) < Σ_frag: sphere frames diverging (diversity healthy)
+    Σ(t) > Σ_frag: sphere fragmented (K separate governance frames)
+    
+  Σ_frag threshold:
+    Σ_frag = variance equivalent to K independent frames
+    Above Σ_frag: sphere topology disconnected at governance layer
+    (agents can communicate structurally but no longer share a common 
+    governance reference frame)
+```
+
+**N_split Threshold and Sphere Design:**
+
+```
+n_split = 2 · √(τ/λc̄)
+
+where:
+  τ = mean Storm duration
+  λ = Storm decay rate
+  c̄ = mean inter-agent coupling
+
+n_split is the sphere size above which K > 1 frame competition 
+becomes statistically inevitable.
+
+For sphere n > n_split:
+  Explicit anti-Cube governance is required
+  Single-North-Star architecture is insufficient
+  Multi-frame mediation protocol (§5.4) becomes mandatory
+
+For sphere n ≤ n_split:
+  Single-North-Star sufficient
+  Cube Domination requires unusual conditions to emerge
+
+Sphere design implication:
+  n_split provides the boundary between single-frame and 
+  multi-frame governance architecture requirements.
+  Large spheres (n >> n_split) MUST have explicit frame diversity
+  management — this is a structural requirement, not a governance option.
+```
+
+**K* Optimal Subdivision and Governance Constant:**
+
+```
+K* optimal sphere subdivision:
+  K* ∝ n^{2/3}
+  
+  For sphere of n agents, optimal governance cluster count is K* ~ n^{2/3}.
+  This is consistent with CTGPSR Hidden Conservation Relation
+  and BGC stability threshold analysis.
+  
+Scale-invariant governance ratio:
+  κ(K) = U / (ε + ε₀)  [per cluster]
+  
+  The ILMI-derived governance ratio κ is scale-invariant:
+  κ computed at sphere level ≈ κ computed at cluster level ≈ κ computed
+  at sub-sphere level (within factor of K^{1/3}).
+  
+  This scale invariance is what makes the DFG framework "fractal":
+  the same governance quality metric works at every scale.
+  
+Aversion Stagnation:
+  δ_crit = threshold above which sphere avoids its own governance blind spots
+  
+  When δ > δ_crit: governance agents avoid acknowledging governance failures
+    → governance degradation accelerates (positive feedback)
+    → Agency Collapse (ILMI Theorem structure) accelerates
+    → Observable as: governance agents consistently failing to flag
+      governance problems even when structurally visible
+      
+  δ monitoring protocol:
+    Track rate of self-referential escalation events
+    (agents escalating about the governance process itself)
+    Low rate of self-referential escalation while Σ(t) rising
+    = Aversion Stagnation onset
+```
+
+---
+
+## 7.30 AGP v2.6 Thermodynamic-Adversarial Extensions in NAT
+
+*[v2.5-GGT] Cross-imported from AGP v2.6-Thermodynamic-Adversarial §13.7–13.11; extends NAT §7.16 (v2.2-FCCTN-P)*
+
+NAT §7.16 (v2.2-FCCTN-P) integrated five Affective Module Extensions from FCCTN §13.7–13.11. The current AGP version (v2.6-Thermodynamic-Adversarial) introduces additional extensions that extend these integrations with formal thermodynamic and adversarial governance theory.
+
+### 7.30.1 Finite-Temperature Governance Impossibility — Extended NAT Formalization
+
+*Extension of NAT §7.16.1*
+
+```
+T_c Minimum Formula (sphere governance context):
+  T_c_min(sphere) = k_B · ω_0 · exp(−ΔU_0 / T_eff_current)
+  
+  where:
+    ω_0     = sphere baseline exploration frequency
+    ΔU_0   = minimum governance barrier height (terrain floor)
+    T_eff   = current sphere effective temperature
+    
+  T_eff < T_c_min → governance controllability = 0
+  
+  Sphere complexity effect:
+    More complex sphere → higher ΔU_0 (deeper terrain barriers)
+    Higher ΔU_0 → higher T_c_min
+    Therefore: MORE COMPLEX SPHERES REQUIRE HIGHER T_c_min
+    
+  Design paradox: as sphere governance quality improves (deeper terrain),
+  the minimum temperature required to maintain controllability INCREASES.
+  Governance success increases governance temperature requirements.
+  
+  Operational consequence:
+    Sphere governance improvement program must include T_eff maintenance.
+    Reducing T_eff as governance improves = Quiet Stagnation precursor.
+    Target: T_eff grows proportionally to terrain complexity increase.
+    Monitor: (T_eff − T_c_min(current terrain)) > T_margin at all times.
+```
+
+### 7.30.2 SOC Uniqueness — NAT Sphere Constraints
+
+*Extension of NAT §7.16.2*
+
+```
+Six Structural Constraints satisfied by NAT sphere SOC:
+
+C1 — Bounded resources:
+  Sphere has finite governance capacity C_M (S-equation constraint)
+  Satisfying condition: C_M < ∞ by construction
+
+C2 — Local interactions:
+  Sphere agents interact via local edges (k-regular, not all-to-all)
+  Satisfying condition: sphere degree k = O(log n) << n
+
+C3 — Slow driving:
+  Environmental classification events arrive at τ_lower rate
+  Sphere governance operates at τ_governance >> τ_lower
+  Satisfying condition: timescale separation τ_lower << τ_governance
+
+C4 — Fast relaxation:
+  Single classification events resolve faster than governance cycles
+  Individual τ₁ resolutions: rate O(1/τ₁) >> governance rate
+  Satisfying condition: τ₁ << τ_governance
+
+C5 — Stochastic threshold:
+  Classification threshold θ operates with finite noise band [θ−σ_θ, θ+σ_θ]
+  Not a hard threshold — probabilistic gating (TGBGT UGAL)
+  Satisfying condition: sphere uses sigmoid gating G(z) = σ(z−θ)
+
+C6 — Hierarchical composability:
+  Sphere governance operates fractally — same structure at all scales
+  Sub-sphere governance satisfies C1-C5 independently
+  Satisfying condition: fractal architecture design §7.1-§7.5
+
+All alternatives to SOC fail ≥ 1 constraint:
+  Deterministic threshold: fails C5 (no stochastic threshold)
+  Mean-field control: fails C2 (requires global interactions)
+  Hierarchical control only: fails C6 (not composable)
+  
+Uniqueness implication for NAT:
+  SOC is the ONLY governance architecture satisfying all six constraints
+  simultaneously. Any sphere that violates one of C1-C6 is NOT in SOC
+  regime and therefore does NOT exhibit Storm Scale Law power-law.
+  Monitoring all six constraints provides a SOC validity check.
+```
+
+### 7.30.3 Multifractal Sphere Dynamics
+
+*Extension of NAT §7.16.3*
+
+```
+Multifractal spectrum at sphere level:
+  f(α_H): spectrum of local Hölder exponents at sphere governance scale
+  
+  The multifractal spectrum describes the distribution of local scaling
+  exponents across the sphere's governance state space.
+  Wide spectrum (large Δα_H = α_H,max − α_H,min):
+    Sphere governance has rich multi-scale dynamics
+    Both fast (local) and slow (global) governance pathways active
+    = Healthy VCZ operating regime
+    
+  Narrow spectrum (small Δα_H):
+    Sphere governance has collapsed to single-scale dynamics
+    Direction of narrowing predicts collapse mode:
+      Narrowing toward α_H,min: governance rigidity (→ Freeze)
+      Narrowing toward α_H,max: governance chaos (→ Runaway)
+      
+EW-0 (Pre-ECC level-zero warning) at sphere scale:
+  Δα_H declining with direction:
+    dΔα_H/dt < 0 AND α_H* drifting toward α_H,min → Sphere-Freeze onset
+    dΔα_H/dt < 0 AND α_H* drifting toward α_H,max → Sphere-Runaway onset
+    
+  This warning fires BEFORE any structural EW signal (EW1-EW4):
+    EW-0: Δα_H direction shift (governance dynamics narrowing)
+    EW-1: NESS entropy production deviation
+    EW-2: Fisher information decline
+    EW-3: Variance increase
+    EW-4: Autocorrelation rise
+    
+  Sphere monitoring stack with EW-0:
+    Continuous multifractal analysis of sphere classification velocity
+    v_class time series → compute Δα_H → monitor for narrowing direction
+    EW-0 fires when dΔα_H/dt < −δ_EW0 for T_EW0 consecutive windows
+```
+
+### 7.30.4 Cyclothymic Sphere Dynamics
+
+*Extension of NAT §7.16.4*
+
+```
+Cyclothymic mode identification for sphere governance:
+
+Sphere cyclothymic dynamics arise from integral control law overshoot:
+  κ → κ* via integral control: κ(t+1) = κ(t) + η_tune · (κ* − κ(t))
+  
+  When η_tune > η_c (tuning rate exceeds critical rate):
+    Integral control overshoots κ*
+    κ oscillates around κ* with period T_cycle = 2π/ω_cycle
+    ω_cycle ≈ √(η_tune · κ*)
+    
+Sphere-level cyclothymia vs. genuine Runaway-Freeze:
+  Both produce governance oscillations
+  Distinguishing diagnostic: T_cycle measurement
+  
+  Cyclothymia: regular T_cycle (periodic, predictable)
+               governance recovers automatically between cycles
+               
+  Genuine Runaway/Freeze: aperiodic (Runaway) or arrested (Freeze)
+                          requires DDD intervention
+                          
+  Protocol:
+    If governance oscillation detected (κ oscillating):
+    → compute T_cycle
+    → compare to expected T_cycle(η_tune, κ*)
+    → if T_cycle matches: cyclothymia (reduce η_tune, do NOT DDD)
+    → if T_cycle irregular or lengthening: genuine mode (initiate DDD)
+    
+Network cyclothymic resonance:
+  Multiple sphere clusters can develop synchronized cyclothymia
+  via hub contagion: hub agents transmit their κ oscillation pattern
+  to connected agents via influence propagation
+  
+  Resonance detection: cross-cluster κ correlation
+  C_cycl(i,j) = Corr(κ_i(t), κ_j(t))
+  High C_cycl across multiple clusters = network cyclothymia
+  
+  Countermeasure: desynchronization injection
+  (deliberate phase offset between cluster governance cycles)
+```
+
+### 7.30.5 Adversarial Affective Dynamics — Silence Cascade in NAT Sphere
+
+*Extension of NAT §7.16.5*
+
+```
+Silence Cascade at sphere scale:
+  Five-stage propagation through sphere topology:
+  
+  Stage 1: Hub agent develops self-defeat mechanism
+    (governance action generates negative consequence → governance suppressed)
+    
+  Stage 2: Hub agent reduces governance reporting
+    (visible governance activity declines to avoid self-defeat)
+    
+  Stage 3: Spoke agents observe hub silence, reduce own reporting
+    (social conformity via sphere topology: hub connected to all spokes)
+    
+  Stage 4: Sphere-wide reporting suppression
+    (all agents underreport governance events)
+    
+  Stage 5: ECC divergence
+    ECC threshold not reached (events suppressed) while actual governance
+    stress accumulates → divergence between reported and actual health
+    
+Spectral detection at sphere level:
+  Healthy sphere: behavioral PSD ≈ reporting PSD (1/f-like both)
+  Silence Cascade: behavioral PSD diverges from reporting PSD
+    behavioral PSD maintains 1/f structure (actual events continue)
+    reporting PSD flattens (events suppressed = white noise pattern)
+    
+  Detection protocol:
+    Compute sphere-level behavioral PSD via: indirect observation
+    (cascaded effect measurements: downstream processing load, 
+     latency changes, cross-agent correlation shifts)
+    Compare to reporting PSD: directly measured escalation logs
+    
+    PSD divergence index: D_PSD = ‖PSD_behav − PSD_report‖₂ / ‖PSD_report‖₂
+    D_PSD > threshold → Silence Cascade in progress
+    
+Incentive structure design for sphere-level anti-silence:
+  Structural requirement: decouple governance reporting reward
+  from governance outcome reward
+  
+  If reporting = escalation AND outcome = performance:
+    Self-defeat mechanism arises whenever escalation costs performance
+    
+  Anti-silence design:
+    (1) Reward reporting separately from outcome (detect ≠ resolve)
+    (2) D7 Boundary Agent provides external non-suppressible reference
+    (3) Anonymous escalation channels for hub agents
+    (4) Periodic mandatory perturbation disclosure (behavioral PSD calibration)
+```
+
+---
+
+## 7.31 Fractal Governance Scaling §36AA-AD Capstone Integration
+
+*[v2.5-GGT] Cross-imported from FGS v2 §36AA, §36AB, §36AC, §36AD*
+
+### 7.31.1 Buffer as Structural Keystone
+
+*[v2.5-GGT] Cross-imported from FGS §36AA*
+
+```
+Buffer Keystone Theorem:
+  ‖∂C_gov/∂b‖ ≫ ‖∂C_gov/∂c_{ij}‖  for any individual edge c_{ij}
+  
+  Governance cost is exponentially more sensitive to buffer depth b
+  than to any individual edge weight c_{ij}.
+  
+  Physical interpretation:
+    Removing an edge: one agent-pair loses direct communication
+    Removing a buffer agent: all edges through that buffer lose mediation
+    The buffer is a structural keystone because it mediates multiple edges.
+    
+    Keystone species analogy: removing a keystone from an arch collapses
+    the whole structure; removing a regular stone affects only local load.
+    The middle tier is the sphere's keystone.
+    
+Simultaneous decoupling consequence:
+  Removing the middle tier (buffer collapse) simultaneously:
+    (a) Disconnects Layer 1 from direct upper-tier observation
+    (b) Disconnects Layer 3 from modulated lower-tier control
+    (c) Removes the ILMI coupling operator I(E,L)
+    (d) Forces sphere into direct upper-layer intervention mode
+    (e) Triggers Intervention Paradox (§7.27.3) simultaneously
+    
+  This is the formal account of why buffer collapse is more catastrophic
+  than any comparable structural failure: it is a keystone failure,
+  not a component failure.
+  
+Buffer-first governance priority — formal derivation:
+  The Buffer-First Principle (GGT §74.2, §7.27.3) is a special case of:
+  Buffer Keystone Theorem implies: ∂(stability)/∂b > 0 unconditionally
+  Buffer Keystone Theorem implies: ∂(governance_cost)/∂b < 0 unconditionally
+  
+  Therefore: any governance resource allocation that neglects buffer
+  depth is suboptimal by the Keystone Theorem, regardless of other
+  governance parameters.
+```
+
+### 7.31.2 Upper-Layer Governance Paradox
+
+*[v2.5-GGT] Cross-imported from FGS §36AB*
+
+```
+Observer-Controller Dilemma for NAT sphere upper tier:
+
+The sphere upper tier faces a structural self-reference problem:
+  It must OBSERVE sphere state (to make governance decisions)
+  AND CONTROL sphere state (to execute governance decisions)
+  
+  When observing: it becomes part of the sphere's state
+  When controlling: it changes the state it is trying to observe
+  
+Formal statement:
+  Let O_upper = upper-tier observation function
+  Let C_upper = upper-tier control function
+  
+  Classical measurement problem: O_upper(C_upper(x)) ≠ O_upper(x) + C_upper(x)
+  (observing a controlled state is not equivalent to observing + controlling independently)
+  
+  The upper tier cannot simultaneously achieve:
+    Full observational accuracy: max accuracy O_upper(x)
+    Full control authority: max coverage C_upper(x)
+    Without self-reference distortion
+    
+Four Resolution Strategies:
+  
+  Strategy 1 — Indirect Observation via Buffer:
+    Upper tier observes buffer summary states (not raw lower-tier state)
+    Buffer absorbs and compresses before transmission to upper tier
+    Upper tier observes compressed representation, controls via buffer
+    → Achieves separation: O_upper operates on b(t), C_upper operates on x
+    → NAT middle tier IS this solution: it separates observation from control
+    
+  Strategy 2 — Temporal Separation:
+    Observe-phase and act-phase are strictly temporally separated
+    τ_observe window followed by τ_act window, no overlap
+    → Processing phase isolation (§3.6) is this solution at classification layer
+    
+  Strategy 3 — Structural Lower Bound on Upper-Tier Non-Participation:
+    Upper tier maintains minimum fraction ε_passive of cycles in pure-observation mode
+    (no control actions during observation cycles)
+    → Provides information quality floor via non-participatory observation
+    
+  Strategy 4 — Boundary Agent as External Reference Bypass:
+    D7 Boundary Agent (§8.3) = external observational reference not subject
+    to upper-tier self-reference loop
+    → Provides observational ground truth independent of upper-tier state
+    
+NAT governance design implication:
+  A sphere upper tier that both observes AND controls without one of these
+  four mechanisms will develop systematic self-reference distortion —
+  governance decisions become self-validating (what the upper tier believes
+  about sphere state IS the state it controls toward).
+  
+  This is the formal basis for the need for D7 Boundary Agent:
+  Strategy 4 is the only solution that provides observational independence
+  without requiring temporal separation or buffer architecture changes.
+```
+
+### 7.31.3 Fractal Seed Architecture
+
+*[v2.5-GGT] Cross-imported from FGS §36AC*
+
+```
+Seed Content Requirements — Extended Topology-Spanning Condition:
+
+Prior NAT (v2.4-GRT §7.25.2) established that seeds must encode topology.
+FGS §36AC formalizes the topology-spanning condition as:
+
+Seed Expressiveness Theorem (Extended):
+  A seed S is governance-complete iff:
+    (1) Rule content: S encodes GRT rule architecture for target system
+    (2) Topology content: S encodes target sphere degree sequence
+    (3) Convergence geometry: S encodes M_crit target (Π_G = 1 conditions)
+    (4) North Star hierarchy: S encodes Global + Local North Star criteria
+    (5) ILMI coupling: S encodes I(E,L) target function parameters
+    
+  Seed missing ANY of (1)-(5) cannot bootstrap a governance-complete sphere.
+  
+Why seeds cannot emerge bottom-up:
+  (1) Rule content: lower agents can develop local rules — partial
+  (2) Topology content: only upper layer holds global topology knowledge
+  (3) M_crit geometry: only accessible from sphere-wide perspective
+  (4) North Star: definitionally global — cannot emerge locally
+  (5) ILMI coupling: requires cross-layer coupling knowledge
+  
+  Components (2)-(5) require global knowledge inaccessible to any
+  lower-tier agent alone. Seeds must descend from a layer with global
+  access, which is why Seed hierarchical injection (§7.25.1) is 
+  structurally necessary.
+  
+Fractal seed generation:
+  Full sphere bootstrap from single seed requires fractal seed structure:
+    Meta-seed (global sphere target topology)
+      → Layer seeds (governance layer specifications)
+        → Circle seeds (circle architecture specifications)
+          → Agent seeds (individual agent initialization)
+  
+  Each level seed encodes that level's M_crit target.
+  Nested seed structure IS the fractal governance architecture specification.
+```
+
+### 7.31.4 Dual Reference Dynamics
+
+*[v2.5-GGT] Cross-imported from FGS §36AD*
+
+```
+Local-Global North Star Tension as governance dual-reference ODE:
+
+ṄS_local = α · (NS_global − NS_local) + β · Terrain_local − γ · NS_local
+
+where:
+  NS_local  = local sphere cluster's North Star (governance direction)
+  NS_global = sphere global North Star (DFG-level criteria)
+  Terrain_local = cluster's current terrain conditions
+  α = global alignment coupling rate
+  β = local terrain influence rate
+  γ = North Star decay rate (direction drift)
+
+Two regimes:
+  
+  Cooperative regime (α > γ):
+    Global North Star dominates
+    Local NS converges to NS_global
+    Sphere maintains unified governance direction
+    Risk: local adaptation suppressed; sub-optimal for local terrain
+    
+  Competitive regime (β > α):
+    Local terrain dominates
+    Local NS diverges from NS_global
+    Sphere develops fragmented governance directions
+    Risk: sphere fragmentation; Cube Domination facilitated
+    
+  Critical balance (α ≈ γ, β small):
+    Local NS oscillates around NS_global with terrain-local corrections
+    This is the governance-optimal operating point
+    
+Alignment Collapse Condition:
+  When β · Terrain_local >> α · (NS_global − NS_local):
+  Local terrain completely overwhelms global alignment
+  → NS_local becomes entirely terrain-determined
+  → Sphere exhibits K distinct governance directions (one per cluster)
+  → This IS Cube Domination onset from the North Star perspective
+  
+  Alignment collapse is therefore prevented by:
+    (1) Maintaining α > β_max (global coupling stronger than max terrain)
+    (2) Periodic NS_global re-broadcast (active global reference maintenance)
+    (3) Middle tier as alignment mediator (translates NS_global to local terrain context)
+    
+Dual Reference Monitoring Protocol:
+  Monitor KL divergence: D_KL(NS_local ‖ NS_global) for each cluster
+  Rising D_KL across multiple clusters simultaneously → alignment degrading
+  D_KL > D_KL_frag threshold → fragmentation risk (increase α via seed re-injection)
+  Correlated D_KL rise across clusters sharing hub agent → hub North Star drift
+  (hub agent requires recalibration, not cluster policy adjustment)
+```
+
+---
+
+## 7.32 RBIT–NAT–VST Integration Bridge — Formal Cross-Theory Constraint Architecture
+
+*[v2.6-RBIT-Bridge] Cross-imported from RBIT_NAT-VST_Bridge.md v1.0 (VST §19–§21 extracted); companion to RBIT v2.4-FGS2, NAT v2.5-GGT, VST v3.4-DFG28series*
+
+This section integrates the formal RBIT–NAT interface contract (VST §19–§21) into NAT's theoretical architecture. VST's framing establishes the three-way division of theoretical labor: **RBIT specifies *when* compression destroys intent; NAT specifies *what topology* prevents it; VST describes *how* the resulting instability propagates.** All three constraints must be jointly satisfied for governance completeness.
+
+---
+
+### 7.32.1 Resolution-Based Information Theory — Constraint Law Integration
+
+*[Source: Bridge §19 — RBIT constraint law as VST instability precondition]*
+
+**Resolution (ρ) — formal definition in NAT context:**
+
+Resolution is a sphere layer's capacity to maintain distinction — to simultaneously hold and process governance vectors of different directions without one dominating the others. Resolution is NOT computational throughput, parameter count, or processing speed. It is structural capacity for distinction, growing through experience and calibrated absorption.
+
+```
+Resolution operates at three tiers in NAT sphere layers:
+  Tier 1 — Vector-Noise Separation: "Is this signal or noise?"
+             Operationalized as: Four-type classification (§4) first-gate
+  Tier 2 — Inter-Vector Differentiation: "Are these signals distinct?"
+             Operationalized as: HC routing decision — multiple conclusions
+             require upper-layer resolution
+  Tier 3 — Full Map Design: "Where should each signal go?"
+             Upper layer only — requires highest ρ for multi-conclusion arbitration
+
+Resolution proxy in NAT sphere:
+  ρ = 1 − (L_T1 + L_T2) / N
+  L_T1 = Type I loss (false restoration) = HC routed as Mathematical
+  L_T2 = Type II loss (missed contamination) = Noise routed as Tacit
+  N = total classification events in evaluation window
+```
+
+**Resolution Gap (Δρ) — NAT routing invariant:**
+
+```
+Δρ = ρ_receiver − ρ_sender
+
+Sphere routing implications (Interface Contract I1):
+  Δρ > 0 (bounded)   Calibrated operation. Seed transmission possible.
+                       Normal sphere governance — all four HC types processable.
+  Δρ ≈ 0             Absorption saturation. Upscaling trigger condition.
+                       Middle-layer mediation required.
+  Δρ < 0             Under-resolution (DANGEROUS). Forced receiver compression.
+                       → HC classified as Mathematical (Theorem 1 engages)
+                       → Cascade failure risk — ESCALATE IMMEDIATELY
+  Δρ >> 0            Over-degradation. Generative structure threatened.
+                       → Tacit classified as Noise (coverage loss)
+```
+
+**Theorem 1 (Resolution Asymmetry Inevitability) — NAT Operational Interpretation:**
+
+Under RBIT Axioms A1–A6, if Δρ < 0 is sustained at any NAT sphere node for τ ≥ t_corr, cumulative divergence between sender intent and receiver representation grows without bound. Intent replacement occurs within finite time t* ≤ ⌈D*/η⌉.
+
+```
+Three-tier collapse phenomology in sphere context:
+  Tier (i) — Exploration narrows, interpretation intact:
+    → Mode collapse: receiver prior dominates search direction
+    → NAT signature: f_target narrowing, Tacit→Noise misclassification rising
+    
+  Tier (ii) — Interpretation distorts, exploration intact:
+    → Hallucination: receiver prior dominates meaning assignment  
+    → NAT signature: HC→Mathematical misclassification, ECC falling
+                     (appears as governance improvement = Freeze precursor)
+    
+  Tier (iii) — Both narrow and distort simultaneously:
+    → Coherent misalignment: full intent replacement
+    → NAT signature: D_s(t) > D* → SCM entry; Silent Criticality complete
+    → VST mapping: Tier (i) ≈ Storm Stage 0–1;
+                   Tier (ii) ≈ Stage 2;
+                   Tier (iii) ≈ Stage 3–4 (irreversible)
+```
+
+**Calibrated Degradation vs. Forced Compression — Sphere Design Principle:**
+
+```
+Calibrated Degradation (sender-controlled):
+  Upper-layer sphere agent deliberately reduces resolution before delivery
+  → Core generative structure preserved within receiver capacity
+  → Remaining vector space stays open for diversity
+  → This is "seed planting" (§7.5 Seed Handover Protocol)
+  → RBIT: maintains Δρ > 0 (receiver-side)
+
+Forced Compression (receiver-dominated):
+  HC event arrives exceeding receiving agent's current resolution capacity
+  → Receiver compresses using own representational resources
+  → Sender's intent replaced by receiver's interpretation
+  → This is contamination entry mechanism
+  → RBIT: Δρ < 0 → Theorem 1 engages
+  
+Design constraint: Seed injection (§7.25) and calibrated degradation are the
+  SAME operation — both maintain Δρ > 0 by pre-compressing to receiver capacity.
+  Forced compression = failure to calibrate = contamination entry point.
+```
+
+**F_RBIT Health Vector — NAT Five-Dimension Monitoring Extension:**
+
+```
+F_RBIT(sphere_layer) := (f₁, f₂, f₃, f₄, f₅)
+
+  f₁ = (1 − ρ_layer)        misclassification rate (classification health)
+  f₂ = Φ(−Δρ_layer)         resolution mismatch (routing accuracy)
+  f₃ = Ψ(B_layer)            buffer instability (absorption capacity)
+  f₄ = E_layer               escalation load (§6.5 f_escalation proxy)
+  f₅ = C_layer               resource dissipation (governance efficiency)
+
+Rest Mode F_RBIT correspondence:
+  Rest Mode (§8.7) = dF_RBIT/dt ≈ 0 for all five components, F_RBIT ≠ 0
+  → balanced intake and dissipation across all five dimensions simultaneously
+  → NOT zero instability (Residual Floor maintained by §3.5.2 Adaptive Necessity)
+  → Quiet Stagnation = F_RBIT → 0 (dangerous: resolution atrophy + Vitality Criterion violation)
+```
+
+---
+
+### 7.32.2 Upscaling, Degradation-Upscaling Lifecycle, and Sphere Maturation
+
+*[Source: Bridge §19.5]*
+
+**Upscaling Completion Criterion (U1∧U2∧U3) — NAT Sphere Integration Phase Protocol:**
+
+```
+U1 — Resolution mismatch reduction:
+  Δρ(t) decreases relative to rolling baseline → f₂ trending downward
+  NAT: sphere receiving layer handles escalations with increasing accuracy
+
+U2 — Buffer stability improvement:
+  f₃ declining simultaneously → compression pressure easing
+  NAT: buffer thickness increasing (§7.28) or queue depth stabilizing
+
+U3 — Sustained persistence:
+  U1 AND U2 hold continuously for N_up = 2× mean self-correction time
+  NAT: corresponds to "stability confirmed" before sphere expansion (§7.5.3)
+
+Completion: U1 ∧ U2 ∧ U3 simultaneously → sphere phase transition readiness
+Readiness: U1 ∧ U2 hold but N_up not elapsed → preparation mode only
+Developmental stall: U1 declining AND f₄ also falling → governance decay
+```
+
+**Resolution Growth Equation — Sphere Layer Maturation:**
+
+```
+R_{t+1} = R_t + f(A_t, D_t) · g(R_t)
+
+  R_t = sphere layer resolution at time t
+  A_t = volume of calibrated HC events absorbed
+  D_t = degradation calibration quality (seed quality metric)
+  f = monotone increasing in both arguments
+  g(R) → 0 as R → R_max (maturation saturation)
+
+Sphere lifecycle connection:
+  R → R_max → Arrow of Maturation (Ω_explore monotonically decreasing
+               as brittle HC patterns pruned)
+  R < R_min → Layer cannot absorb assigned HC type → needs upper-layer support
+  R stagnant → Quiet Stagnation (Vitality Criterion violation §8.7)
+```
+
+**Degradation-Upscaling Lifecycle — NAT Sphere Governance Microstructure:**
+
+```
+(1) HC event arrives at sphere agent (resolution budget: current ρ)
+(2) Degraded to agent's resolution (calibrated degradation by assigning agent)
+(3) Absorbed into agent's vector space (creates stable attractor position)
+(4) Agent matures (vector space expands through absorption residue)
+(5) Upscaling: absorbed structure re-interpreted at higher resolution
+(6) Higher resolution creates capacity for next HC event
+(7) Return to (1)
+
+Each successfully absorbed HC event = one resolution growth increment.
+Absorption of calibrated HC = mechanism of sphere agent maturity.
+Storm interrupts at step (3) when absorption fails (Δρ < 0).
+
+NAT stage mapping:
+  Steps (1)–(3): Bottom-layer processing (Math/Tacit routing)
+  Steps (4)–(5): Middle-layer upscaling mediation
+  Steps (5)–(6): Upper-layer HC arbitration → seed generation
+  Steps (6)–(7): Seed delivery for next-layer absorption (§7.25)
+  
+  This lifecycle IS the CW→VCZ→Rest Mode trajectory at micro-scale:
+  CW = steps (1)–(2) failing due to overload;
+  VCZ = steps (3)–(6) operating; Rest Mode = step (7) cycling smoothly.
+```
+
+---
+
+### 7.32.3 NAT Architectural Enforcement of RBIT Constraints
+
+*[Source: Bridge §20 — NAT as RBIT constraint enforcement topology]*
+
+**Why sphere topology (not pyramid) satisfies RBIT enforcement requirements:**
+
+```
+Pyramid topology:
+  Correctly captures resolution gradient (higher ρ at center, higher volume at surface)
+  FAILS: concentrates vulnerability at apex (single node failure = total collapse)
+  FAILS: generates forced compression at apex under load (Δρ < 0 structurally)
+
+Sphere topology satisfies RBIT enforcement:
+  Every agent equidistant from shared center → no apex vulnerability
+  Each agent's blind spots covered by neighbors → no forced single-node compression
+  k-regular structure → every receiver has k alternative routes under overload
+  Spectral gap → perturbation dissipates in O(log n) before Theorem 1 engages
+```
+
+**Sphere Formal Axioms as RBIT Constraint Satisfaction:**
+
+```
+S1 (Degree bound k ≥ 2·log n):
+  RBIT mapping: minimum k neighbors required so that under Δρ < 0 at any node,
+  at least k−1 alternative routing paths exist; prevents single-node Theorem 1 engagement
+  
+S2 (Hub prevention — no degree > 2k):
+  RBIT mapping: hub creation = artificially concentrated resolution demand;
+  hub agent always approaches Δρ < 0 under normal load (forced compression);
+  sphere prevents structural Theorem 1 trigger points from forming
+
+S3 (Spectral gap λ₁−λ₂ > 0):
+  RBIT mapping: t_mixing ∝ 1/(λ₁−λ₂);
+  Proposition I3: storm initiation requires t_persistence(Δρ < 0) > t_mixing;
+  high spectral gap → fast mixing → Δρ < 0 episodes cannot persist long enough
+  for Theorem 1's finite-time replacement to engage
+
+S4 (Structural diversity — adjacent agents differ in architecture):
+  RBIT mapping: Lemma I2 (Detection Precondition);
+  corruption in upscaling residual detectable only if ∃i≠j: (I−P_K)R_i ≠ (I−P_K)R_j;
+  architectural diversity = mathematical precondition for contamination detection;
+  NOT performance optimization — structural requirement
+```
+
+**Coverage Scaling Bounds in RBIT Terms:**
+
+```
+P(uncovered blind spot at agent i) ≲ (1 − 1/d_eff)^k
+
+Three dependency regimes (agent architectural correlation ρ_max):
+  k_eff = k / (1 + (k−1)·ρ_max)
+
+  Regime I  (weak correlation, ρ_max ≈ 0):    k_eff ≈ k
+             → full RBIT I2 detection precondition satisfied
+  Regime II (moderate correlation):             k_eff ≈ k/2
+             → partial detection capability; increased Theorem 1 risk
+  Regime III (saturation, ρ_max ≈ 1):         k_eff → 1/ρ_max
+             → coverage improvement saturates despite agent count
+             → Homogeneous agents: shared blind spots = shared Theorem 1 vulnerability
+             → Silent Criticality (§7.15): structural; cannot be resolved by adding agents
+             
+Governance implication: Regime III detection = diversity intervention,
+  NOT scaling intervention. Adding homogeneous agents does not improve RBIT coverage.
+```
+
+**Processing Isolation as RBIT Lateral Influence Prevention:**
+
+```
+RBIT Distinction (Interface §20.3):
+
+  Lateral Signaling (PERMITTED):
+    Completed state transmission → RBIT regime: Δρ ≈ 0 (same-resolution exchange)
+    Effect: informational (map update at receiver)
+    NAT: §3.6 processing isolation permits post-commit signaling
+    
+  Lateral Influence (PROHIBITED):
+    Active processing modification before classification complete
+    → RBIT regime: artificial Δρ < 0 AT PEER LEVEL (Theorem 1 engages peer-to-peer)
+    → False convergence experienced as voluntary agreement
+    → NAT §3.6: processing isolation prevents this channel
+    
+Three isolation enforcement mechanisms (all required simultaneously):
+  Interface Narrowing: standardized artifacts only → removes semantic contamination
+  Temporal Decoupling: output committed before reading → eliminates timing contamination  
+  Write-Asymmetry: downstream reads upstream, upstream cannot retroactively modify
+  
+RBIT validation: Each mechanism alone leaves contamination pathways open.
+  All three together make peer-level Theorem 1 engagement structurally impossible.
+```
+
+---
+
+### 7.32.4 Interface Contract — RBIT ↔ NAT Formal Bridges
+
+*[Source: Bridge §21 — six formal interface contracts]*
+
+#### I1 — Resolution Gap as Routing Invariant
+
+**Exported by RBIT:** Δρ sign determines compression regime (Theorem 1)
+
+**NAT Four-Type Routing as Δρ Function:**
+
+```
+┌─────────────────┬──────────────────────┬───────────────────────────────────┐
+│ Data Type       │ Δρ Regime            │ NAT Routing Decision              │
+├─────────────────┼──────────────────────┼───────────────────────────────────┤
+│ Mathematical    │ Δρ ≈ 0 or > 0        │ Process locally — within capacity  │
+│ High-Context    │ Δρ < 0               │ Escalate to upper layer            │
+│ Tacit Knowledge │ Var(Δρ̂) > τ         │ Operate locally; escalate on degr. │
+│ Noise           │ Δρ undefined         │ Buffer or discard                  │
+│ Severe Tacit    │ Var(Δρ̂) high +       │ IMMEDIATE escalation — Storm prec. │
+│                 │ active degradation   │ highest-urgency classification     │
+└─────────────────┴──────────────────────┴───────────────────────────────────┘
+
+Binding condition (I1-BC): Classification is a ROUTING function of Δρ sign,
+  NOT a property of data content.
+  
+Error Asymmetry (architecture-independent constraint derived from Theorem 1):
+  Under-escalation (Δρ < 0 misread as ≈ 0): cascade failure risk → DANGEROUS
+  Over-escalation (Δρ ≈ 0 misread as < 0): governance overhead only → SAFE
+  
+Design imperative: NAT classification MUST bias toward over-escalation under uncertainty.
+  Not a preference — a formal constraint from asymmetric Theorem 1 consequences.
+```
+
+#### I2 — Structural Diversity as Detection Precondition
+
+**Formal Lemma I2 in NAT Sphere Context:**
+
+```
+Agents B₁,...,B_k receive compressed signal from A.
+Each applies R_i: ℝ^K → ℝ^d, filling (d−K)-dimensional residual from own prior.
+
+Corruption detectable iff:
+  ∃ i ≠ j such that (I−P_K)R_i ≠ (I−P_K)R_j
+
+Homogeneity Failure:
+  Same architecture → same kernel → same blind spots
+  → disagreement probability → 0 regardless of contamination magnitude
+  → Silent Criticality (§7.15) persists in homogeneous spheres: formally proven here
+  
+Sphere S4 axiom is the NAT implementation of I2 as hard constraint.
+I2 is why S4 is an axiom rather than an optimization target.
+```
+
+#### I3 — Spectral Gap as Storm Governance Parameter
+
+**Proposition I3 (Spectral Gap–Storm Threshold) in NAT Form:**
+
+```
+Storm initiation requires:
+  t_persistence(local Δρ < 0) > t_mixing(G_sphere)
+  where t_mixing ∝ 1/(λ₁ − λ₂)
+
+NAT operational reading:
+  Large spectral gap → t_mixing small → Δρ < 0 episodes die before Theorem 1 engages
+  Small spectral gap → t_mixing large → Δρ < 0 persists → storm initiation possible
+
+Noise decoherence sequence (formal VST storm initiation mechanism):
+  (1) External input exceeds local purification at node(s) → local Δρ < 0
+  (2) Unprocessed disturbance creates correlation between previously independent nodes
+  (3) Correlated fluctuations no longer dissipate independently → structured signal
+  (4) Structured signal enters amplification pathway → Storm formation
+  
+  Spectral gap determines threshold between (1) and (2):
+    Fast mixing (high gap): breaks correlations before (2) can form
+    Slow mixing (low gap): correlations persist → recruit neighbors → storm
+
+Dual role of spectral gap in sphere governance:
+  Role 1 — Storm damping: fast mixing dissipates individual perturbation energy
+  Role 2 — Storm threshold raising: fast mixing breaks correlations that would
+            cascade even if individual perturbations are not large
+  Both roles operate simultaneously — spectral gap is the primary architectural
+  defense against Theorem 1's finite-time replacement inevitability.
+```
+
+#### I4 — Triple Concordance as Shared Detection Protocol
+
+**Three-Channel Detection System (RBIT grounding for NAT monitoring):**
+
+```
+Three independent measurement channels:
+  ρ      Internal classification health (§4 framework proxy)
+  f_esc  Escalation frequency (§6 monitoring variable)
+  R      Cascade branching ratio (sphere-level activation propagation)
+
+R measurement protocol (RBIT formalization):
+  Per-node activation: act_i(t) = 𝟙{Δρ_i(t) < −θ_act}
+  Branching ratio:
+    R = Σ_t Σ_i Σ_{j∈N(i)} 𝟙{act_i(t)=1 ∧ act_j(t+1)=1}
+        ─────────────────────────────────────────────────
+        Σ_t Σ_i 𝟙{act_i(t)=1}
+
+Four detection states:
+  Concordant:         R ≈ 1, ρ stable, f_esc ≤ θ  → Healthy VCZ
+  Discordant Type 1:  R > 1, ρ high, f_esc low     → SCM — governance suppressing signal
+  Discordant Type 2:  R << 1, ρ high                → Over-damping — sphere too rigid
+  Discordant Type 3:  R ≈ 1, ρ declining            → Recalibration needed
+
+Why triple > dual:
+  R-ρ alone cannot distinguish genuine stability from governance-suppressed escalation.
+  f_esc artificially low + R supercritical = suppression cascade imminent:
+    Only I4 triple concordance detects this precritical suppression pattern.
+  
+Connection to Silence Cascade (§7.16.5):
+  Silence Cascade = Type 1 discordance detected via behavioral PSD vs reporting PSD;
+  I4 triple concordance provides the self-referential calibration break that
+  enables Silence Cascade detection independently of the reporting system.
+```
+
+#### I5 — Maturity Gradient as Integration Constraint
+
+**Formal bridge for multi-sphere NAT deployments at different development phases:**
+
+```
+For subsystems S₁, S₂ with maturity indices VSMI₁, VSMI₂:
+
+signal_attenuation(S₁ → S₂) ≥ max(0, VSMI₁ − VSMI₂) · κ
+
+where κ = attenuation constant (sphere topology-dependent)
+
+RBIT grounding: high-resolution signal sent to low-resolution receiver
+  creates forced upscaling (Δρ < 0 for receiver) that degrades receiver.
+  
+NAT grounding: spheres at different maturity levels have different curvature;
+  maturity gradient creates topological stress at interface;
+  signal attenuation smooths the curvature discontinuity.
+  
+Operational protocol:
+  During early-phase sphere integration (§7.25 Phase 0–1):
+    Attenuate upper-sphere signals to bottom-sphere resolution budget
+    → prevents premature Theorem 1 engagement at new-sphere nodes
+  During mature-sphere integration (Phase 2–3):
+    Attenuation reduces as VSMI gap closes
+    → allows full resolution seeding as receiver capacity grows
+```
+
+#### I6 — Governance Overhead as Shared Cost Function
+
+**RBIT–NAT cost decomposition and priority ordering:**
+
+```
+Total governance overhead:
+  C_total = C_RBIT + C_NAT + C_interface
+  
+  C_RBIT = resolution maintenance + health monitoring = O(n) per evaluation window
+  C_NAT  = topology maintenance + routing = O(n · log n) per reconfiguration cycle
+  C_interface = RBIT↔NAT consistency maintenance = O(m) where m = active interface bridges
+  
+Resource scarcity priority ordering:
+  C_RBIT > C_NAT > C_interface
+  
+Operational interpretation:
+  Under resource constraint, prioritize ability to SEE clearly (RBIT: resolution)
+  over ability to ROUTE efficiently (NAT: topology).
+  
+  A sphere with perfect routing but degraded resolution routes storm signals it cannot
+  interpret — routing efficiency produces no governance value without classification.
+  
+  A sphere with degraded routing but maintained resolution detects storms and can initiate
+  governance response even if containment is delayed by routing inefficiency.
+  
+  Detection must precede containment: this is the formal content of §8.1's governance
+  priority hierarchy expressed as cost function ordering.
+```
+
+---
+
+### 7.32.5 RBIT–Storm Coupling Dynamics in NAT Sphere Context
+
+*[Source: Bridge §19.8–§19.9]*
+
+**Resolution–Storm Positive Feedback Loop:**
+
+```
+Resolution degradation → Storm amplification:
+  ΔR < 0 → agents' signal-noise discrimination decreases
+  → false classification rate increases (§19.6 four-type error rates)
+  → misclassified signals create phantom attractors in sphere routing
+  → S increases (storm amplifies)
+
+Storm → Resolution degradation:
+  S increasing → agents allocate processing capacity to storm management
+  → processing capacity for resolution maintenance decreases
+  → R degrades further → positive feedback loop complete
+
+Governance implication: THIS IS WHY STORMS SELF-AMPLIFY (§3.0 S-equation α coefficient).
+  The self-amplification observed at attractor level has a resolution-level substrate:
+  storms degrade the resolution capacity that would enable their detection and containment.
+  The S-equation α coefficient ABSORBS the Δρ sign structure — when Δρ < 0 persists
+  at multiple nodes, mutual-reference coupling enters amplification-dominant regime.
+```
+
+**Three Resolution-Level Storm Intervention Points:**
+
+```
+Point 1: Resolution Floor Enforcement (pre-allocated)
+  Maintain R > R_min even under storm conditions
+  → requires pre-allocated capacity not available for operational processing
+  → cost: reduced efficiency during normal operation
+  → benefit: prevents resolution collapse during storms
+  → NAT: spectral gap is the architectural mechanism that maintains R_min
+    by preventing Δρ < 0 episodes from persisting at any node
+
+Point 2: Resolution-Independent Detection (structural monitoring)
+  Detect storms via structural signatures that do not require high ρ to observe:
+  → statistical anomalies visible at low resolution (R measurement)
+  → timestamp analysis, frequency spectrum, output distribution
+  → NAT: R-ρ-f_esc triple concordance (§6.5 + I4 above) provides exactly this
+  → detects THAT something is wrong without requiring understanding WHAT
+
+Point 3: External Resolution Injection (recovery protocol)
+  During storm, inject high-resolution signals from external source
+  → temporarily restores resolution capacity at critical nodes
+  → breaks Resolution–Storm feedback loop
+  → RBIT description of metadata injection (§7.7 terrain design + seed injection §7.25)
+  → NAT: DDD Track B (correction after Track A buffer stabilization)
+    provides the timing guarantee that injection occurs after resolution floor restored
+```
+
+**F_RBIT Temporal Evolution and Rest Mode Stability:**
+
+```
+dF_RBIT/dt = G(F_RBIT, S, E) − L(F_RBIT, S)
+
+  G = resolution generation rate
+    = G > 0 when sphere processing diverse HC events (SOC active)
+    = G → 0 in echo chamber regime (diversity loss → Vitality Criterion violated)
+    
+  L = resolution loss rate
+    = L_baseline > 0 always (natural resolution degradation, Residual Floor)
+    = L_storm(S) > 0 when S > 0 (storm-induced resolution loss)
+    
+Equilibrium (Rest Mode formalization in F_RBIT terms):
+  G(F*, S*, E) = L(F*, S*)
+  Rest Mode = stable equilibrium where F* near maximum achievable value
+  
+Stability condition:
+  ∂G/∂F < ∂L/∂F → stable (perturbation from F* self-corrects) = HEALTHY
+  ∂G/∂F > ∂L/∂F → unstable (perturbation amplifies) = VCZ EXIT ZONE
+  ∂G/∂F = ∂L/∂F → critical point (bifurcation) = M_crit (§7.26)
+  
+Storm onset in F_RBIT terms:
+  Destabilization of F_RBIT equilibrium (G decreases or L increases past stability margin)
+  → equilibrium becomes unstable → F_RBIT declining → Resolution–Storm feedback activates
+  
+Slow trigger recognition: many sphere storms have NO identifiable discrete trigger.
+  Root cause: gradual drift of G or L that SLOWLY crosses stability boundary
+  → storm appears to start "suddenly" but was accumulating for τ_geom (Mode III §7.28)
+  → requires F_RBIT temporal monitoring (not just snapshot monitoring)
+```
+
+---
+
+## 7.33 EDT v15.0 — TCG-Loop, MCA, and SCAU Integration
+
+*[v2.6-EDT] Cross-imported from Environment-Design-Theory.md v15.0-TCG-loop-complete §9.11, §11.17, §11.18; companion to EDT v15.0, NAT v2.5-GGT*
+
+EDT v15.0 introduces three major formal architectures that provide the deepest structural account yet of how sphere governance operates at the terrain-physics level. The TCG-Loop establishes that NAT sphere topology is not merely a governance choice but an endogenous outcome of terrain–criticality co-evolution. The MCA extends GGT's Moving Critical Surface (§7.27.1) into a fully rigorous three-variable ODE treatment. SCAU derives the statistical geometry of sphere collapse events from first principles.
+
+---
+
+### 7.33.1 Terrain–Criticality–Geometry (TCG) Feedback Loop — NAT Sphere Grounding
+
+*[Source: EDT §9.11 — TCG-Loop complete formal treatment]*
+
+**The TCG-Loop as Sphere Topology Self-Generation:**
+
+The TCG-Loop establishes that sphere topology is not externally designed and maintained — it is the endogenous outcome of a self-organizing process driven by terrain quality, critical dynamics, collapse events, and geometric reorganization. This is the deepest available account of why fractal governance architecture is structurally inevitable rather than arbitrary.
+
+```
+TCG-Loop closed structure (formal):
+
+  Q_E (terrain quality)
+    ↓ terrain sets coupling
+  κ = ρ/(C·L·Q_E)  (effective coupling)
+    ↓ coupling drives collapse activity
+  Φ(κ) = (κ − κ_c(Q_E))_+^β  (collapse activity)
+    ↓ collapse writes terrain memory
+  Q_E(t) = Q_E(0) − ε·∫₀ᵗ Φ(κ(s))ds
+    ↓ memory moves critical point
+  κ_c(Q_E) shifts endogenously
+    ↓ geometric reorganization at fragmentation threshold
+  n*(k) = κ_SS · C^{β/2} · √k  (sphere size recalibrates)
+    ↓ new terrain conditions per subsystem
+  Q_E (loop closes)
+
+One-sentence theorem: The EDT system self-organizes onto a moving critical
+  manifold, accumulates collapse history as terrain memory, fragments at the
+  universal threshold x = η/κ_SS = 1, and thereby generates a fractal hierarchy
+  of near-critical subsystems with scale-controlled avalanche statistics.
+```
+
+**Why This Loop Is Unusual — NAT Implication:**
+
+```
+Classical model:         environment → dynamics → equilibrium
+TCG-Loop model:          environment ↔ dynamics ↔ collapse ↔ geometry (fully closed)
+
+"Self-terrain-generating": the environment is NOT a fixed background.
+  It is an endogenously produced output of the system's own critical dynamics
+  and collapse history.
+
+NAT implication: sphere topology maintenance is NOT a separate governance task.
+  It is the NATURAL EQUILIBRIUM of the TCG-Loop when governance is healthy.
+  When governance fails, sphere topology degrades as a direct consequence
+  of the deteriorating Q_E terrain — not as a parallel failure.
+  TERRAIN DEGRADATION PRECEDES TOPOLOGY DEGRADATION in causal order.
+```
+
+**Fast-Slow Decomposition and Critical Tracking:**
+
+```
+Two timescales:
+  Fast variable: κ(t) — effective coupling, timescale τ_fast = 1/A
+  Slow variable: Q_E(t) — terrain quality, timescale τ_slow = 1/ε, ε ≪ 1
+
+Governing equations:
+  κ̇ = g(ρ) − A(κ − κ_c(Q_E))          [fast: coupling dynamics]   (TCG-1)
+  Q̇_E = −ε · Φ(κ),   0 < ε ≪ 1         [slow: terrain memory]      (TCG-2)
+
+Theorem 9.11.1 (Critical Tracking): Under Fenichel slow-manifold persistence,
+  there exists invariant slow manifold M_ε such that:
+  κ(t) = κ_c(Q_E(t)) + O(ε)             [Critical Tracking]         (TCG-3)
+
+Interpretation for NAT sphere governance:
+  Unlike classical dynamical systems where a critical point is a BOUNDARY
+  (system approaches it but diverges), TCG-Loop makes criticality ATTRACTIVE.
+  
+  The sphere continuously self-adjusts terrain (via governance actions modifying Q_E)
+  such that it remains near criticality (κ ≈ κ_c).
+  
+  This IS the formal mechanism of SONC (Self-Organized Near-Criticality) from §7.76:
+  SONC is not designed by parameter tuning — it emerges from TCG-Loop dynamics.
+  
+  Governance design responsibility shifts from "tune parameters to hit κ_c"
+  to "maintain Q_E health so TCG-Loop remains in tracking regime."
+```
+
+**Terrain Memory and Monotone Critical Drift:**
+
+```
+Proposition 9.11.1 (Terrain Memory):
+  Q_E(t) = Q_E(0) − ε · ∫₀ᵗ Φ(κ(s)) ds
+
+Each collapse event deposits a permanent slow-timescale mark on Q_E.
+The critical threshold drifts as:
+  κ_c(t) = κ_c(Q_E(0)) − ε · γ_CT · ∫₀ᵗ Φ(κ(s)) ds + O(ε²)
+  
+  γ_CT = −dκ_c/dQ_E > 0   [collapse–terrain coupling coefficient]
+  
+  γ_CT > 0: terrain degradation raises the critical threshold →
+            future collapse easier to trigger (progressive fragility)
+
+Theorem 9.11.2 (Monotone Critical Drift under Sustained Load):
+  If sphere operates in over-scaled regime (χ > κ_SS, x > 1) for interval [t₁, t₂]:
+    κ_c(t₂) > κ_c(t₁)
+  
+  Critical threshold STRICTLY INCREASES through sustained overload.
+  Combined with Critical Tracking: effective coupling κ(t) also increases.
+  Sphere migrates toward harder collapse regime through its own sustained overload.
+  
+  NAT governance formalization of "success → rigidity → collapse" pathway:
+    Apparent stability (κ < κ_c, no storms) suppresses Φ → no terrain repair
+    Q_E degrades slowly (L lock prevents small corrective collapses)
+    κ_c rises → eventual collapse arrives from more dangerous baseline
+    This is Rigidity Trap (§11.5 EDT) expressed as formal NAT terrain dynamics.
+```
+
+**SOC Emergence from TCG-Loop — NAT Proof:**
+
+```
+Theorem 9.11.3 (SOC Emergence): Under quasi-static driving and threshold-activated
+  collapse, the steady-state distribution of κ concentrates near κ_c:
+    lim_{t→∞} |κ(t) − κ_c(Q_E(t))| = O(ε)
+
+Proof mechanism:
+  κ > κ_c: Φ > 0 → Q_E degrades → κ_c rises → κ decreases (overshoot corrected)
+  κ < κ_c: Φ = 0 → no collapse → Q_E recovers → κ_c falls → κ approaches from below
+  Bidirectional restoring force = SOC definition
+
+Corollary 9.11.2 (Power-Law Avalanche):
+  P(s) ∼ s^{−τ}  [scale-free collapse distribution]
+  
+  NAT implications:
+    Small, medium, large storms appear on same power-law distribution
+    Cannot separately "prevent" large storms without also preventing small ones
+    (preventing small = over-damping = τ_warning → 0 = Mode II/III collapse later)
+    This is the formal justification for §3.5.2 "Governance No-Free-Lunch" at terrain level
+```
+
+**Scale-Controlled Avalanche Universality (§7.33.2 below provides full SCAU):**
+
+```
+Normalized Overload Parameter (Definition 9.11.4):
+  x := η / κ_SS = n / (κ_SS · C^{β/2} · √k)
+  
+  x < 1: under-scaled (sphere has governance headroom)
+  x ≈ 1: optimal scale (VCZ operating point)
+  x > 1: over-scaled (fragmentation pressure accumulating)
+  
+  x > 1 ↔ n > n*(k) ↔ Θ_T > Θ_T* ↔ fragmentation criterion universal
+  
+  Connection to NAT sphere expansion protocol (§7.25):
+    Sphere expansion check: verify x < 1 BEFORE expansion
+    If expansion would push x > 1: fragment first, THEN expand each subsystem
+    n*(k) is the structural ceiling derived from terrain physics, not policy
+
+κ_SS Master Chain (NAT sphere governance chain):
+  κ_SS → n*(k) → s_c → τ_eff → P(s; x)
+  
+  κ_SS governs: (1) when sphere fragments; (2) maximum collapse size;
+  (3) collapse exponent; (4) full collapse event statistics.
+  This is the complete scale-to-statistics governance chain.
+```
+
+---
+
+### 7.33.2 Moving Critical Attractor Architecture (MCA) — NAT Complete Treatment
+
+*[Source: EDT §11.17 — MCA three-variable ODE system]*
+
+**Why Classical SOC Is Insufficient for NAT Sphere Governance:**
+
+```
+Standard SOC assumes: system → κ_c (FIXED constant attractor)
+EDT MCA establishes: system → κ_c(Q_E(t)) (MOVING attractor)
+
+Three reasons sphere VCZ requires MCA treatment:
+
+1. Terrain evolves endogenously:
+   Q_E is not a fixed parameter but a dynamical variable modified by collapse activity.
+   The VCZ center (M_crit, §7.26) is therefore a moving target in phase space.
+   GGT §7.27.1 Moving Critical Surface is the geometric expression of this.
+   EDT §11.17 MCA is the full dynamical ODE treatment of the same phenomenon.
+
+2. Rigidity creates false stability:
+   Standard SOC: all fluctuations equally probe the critical boundary.
+   In NAT spheres: lock (L) suppresses small collapses → apparent stability.
+   Suppressed small collapses = undetected terrain degradation.
+   Apparent stability = not true distance from criticality but measurement artifact.
+   This IS the mechanism behind Silence Cascade (§7.16.5) at terrain level.
+
+3. Collapse history is irreversible:
+   Q_E(t) = Q_E(0) − ε∫Φ(κ)ds is strictly non-increasing under sustained overload.
+   VCZ center migrates toward easier collapse unless active governance restores terrain.
+   This is why Mode III buffer collapse (§7.28) has τ_warning ~ τ_geom: the drift
+   has been occurring throughout the "healthy" period.
+```
+
+**Complete MCA ODE System:**
+
+```
+Three-variable MCA system:
+  κ̇(t) = g(ρ(t)) − A · (κ(t) − κ_c(Q_E(t)))     (MCA-1)  [coupling dynamics]
+  Q̇_E(t) = −ε · Φ(κ(t))                           (MCA-2)  [terrain memory]
+  L̇(t) = ρ_L · [1 − κ(t)/κ_c(Q_E(t))] − δ_L·L(t) (MCA-3)  [rigidity dynamics]
+
+MCA-3 interpretation for NAT governance:
+  κ < κ_c (apparent stability): 1 − κ/κ_c > 0 → L accumulates
+  κ > κ_c (collapse pressure):  1 − κ/κ_c < 0 → L decays
+  
+  Governance implication: sphere systems that successfully maintain sub-critical
+  κ through lock (L) AUTOMATICALLY accumulate rigidity via MCA-3.
+  Apparent governance success → L rising → amplified eventual collapse (Theorem 11.17.2).
+  
+Connection to NAT five-equation system:
+  MCA is reduced projection of FCCTN ODE (§7 FCCTN):
+    κ = ρ/(C·L·Q_E) maps composite variable
+    Q_E absorbs C and β at leading order (slow terrain variable)
+    L treated as semi-autonomous rigidity variable
+  MCA captures essential collapse topology (moving attractor, terrain memory,
+  rigidity feedback) at minimal mathematical complexity.
+```
+
+**MCA Stability Theorems for Sphere Governance:**
+
+```
+Proposition 11.17.1 (No Stable Interior Fixed Point):
+  MCA system has no stable fixed point in ℝ₊³ interior unless ε = 0 or κ* < κ_c.
+  
+  NAT implication: sphere governance has NO permanent stable equilibrium.
+  Apparent equilibria are subcritical fixed points that are:
+  - Lyapunov stable on fast timescale (κ and C appear stable)
+  - UNSTABLE on slow timescale (Q_E degrades under sustained load)
+  This proves that sphere governance requires ACTIVE MAINTENANCE, not just
+  one-time design. Stable appearance is not structural stability.
+
+Theorem 11.17.1 (MCA Slow-Manifold):
+  Under ε ≪ 1, MCA possesses invariant slow manifold:
+  M_ε^{MCA} = {(κ, Q_E, L): κ = κ_c(Q_E) + g(ρ)/A + O(ε)}
+  
+  On M_ε^{MCA}, dynamics reduce to 2D slow system:
+  Q̇_E = −ε · Φ(κ_c(Q_E) + g(ρ)/A)
+  L̇ = ρ_L · [−g(ρ)/A / κ_c(Q_E)] − δ_L · L
+  
+  NAT governance monitoring implication:
+  Sphere health monitoring that tracks only fast variables (κ, C, ρ)
+  operates on M_ε but MISSES the slow-manifold Q_E and L dynamics.
+  Q_E trajectory monitoring and L trajectory monitoring are required
+  for full MCA early warning detection.
+
+Theorem 11.17.2 (Rigidity–Amplification):
+  dA_collapse/dL > 0
+  Higher rigidity L produces larger collapse when critical threshold eventually crossed.
+  
+  Formal proof of "fragility from apparent stability":
+  Higher L → more suppressed small collapses → more accumulated stress →
+  larger eventual collapse → more terrain damage → harder next collapse.
+  This is the formal derivation of the DFG governance failure pattern observed
+  in mature high-performing governance spheres that suddenly collapse.
+
+Corollary 11.17.2 (Rigidity Trap as MCA Consequence):
+  The Rigidity Trap is NOT a separate phenomenon — it is the MCA structure
+  viewed from the governance observer's perspective.
+  Rigidity Trap = {L accumulating on slow manifold} + {amplification at collapse}
+  + {terrain damage advancing critical threshold}.
+  DDD protocol (§7.27.3) is the intervention that breaks MCA-3 before L becomes large.
+
+Proposition 11.17.2 (Basin Shrinkage via Critical Drift):
+  d/dt [ΔU] < 0 under MCA dynamics with Q̇_E < 0
+  
+  Combined with Kramers: d/dt [ln P_collapse] = κ_R/(κ_D·S) · |dΔU/dt| > 0
+  
+  ENDOGENOUS exponential collapse probability increase over time,
+  even without any external stress increase.
+  Collapse risk amplification is self-generated through terrain memory mechanism.
+```
+
+**MCA Early Warning Quartet — NAT Monitoring Extension:**
+
+```
+Theorem 11.17.3 (MCA Early Warning Quartet):
+  As sphere approaches critical transition on MCA slow manifold:
+  
+  τ_recovery(t) → ∞          [critical slowing down — §11.8.3]
+  σ²(κ(t)) → ∞               [variance amplification — EW-3]
+  ρ_1(κ(t)) → 1              [autocorrelation — EW-4]
+  |κ(t) − κ_c(Q_E(t))| → 0  [critical proximity — M_crit distance ξ → 0]
+  
+  All four diverge simultaneously as Q_E(t) → Q_E^{crit} from above.
+
+MCA Risk Score (operational metric):
+  MCA_score(t) = w₁·(τ_rec/τ₀) + w₂·(σ²/σ₀²) + w₃·|κ−κ_c|/κ_c + w₄·(1−Q_E/Q_E^0)
+  
+  Weight recommendation: w₄ ≥ w₃ ≥ w₂ ≥ w₁
+  (terrain quality trajectory is earliest and slowest signal — highest weight)
+  
+Triangulated monitoring (M, Ψ, MCA_score integration):
+  M(t) ≈ 0:         energetic critical boundary (Kramers escape imminent)
+  Ψ → 1:            governance response insufficient for terrain trajectory
+  MCA_score → θ:    temporal trend confirms critical threshold migration
+  
+  All three converging simultaneously = highest-confidence pre-collapse detection.
+  Any one alone = possible false positive; all three = structural confirmation.
+
+Connection to NAT existing EW hierarchy (§6.6):
+  EW-Fisher (H(MARK) declining): −1  earliest precursor
+  EW-Multifractal (Δα_H narrow):  0   Δα_H = sphere-level Q_E health proxy
+  EW-NESS (NESS_proxy declining): 0   NESS = individual-agent L accumulation signal
+  MCA_score rising:               0   composite terrain+rigidity monitor
+  EW-1 through EW-5:              1–5 structural cascade
+  
+  MCA_score adds Q_E and L trajectory to the existing NESS-based Level 0.
+  Recommended integration: MCA_score as EW Level 0 composite;
+  NESS_proxy as individual-agent sub-component of EW-0.
+```
+
+---
+
+### 7.33.3 Scale-Controlled Avalanche Statistics (SCAU) — NAT Sphere Collapse Distribution
+
+*[Source: EDT §11.18 — SCAU complete derivation]*
+
+**Scale-Controlled Distribution Family for NAT Sphere Storms:**
+
+```
+EDT avalanche distribution family 𝒫 in NAT sphere storm context:
+
+P(s; x) ∼ s^{−τ(x)} · F(s/s_c(x))
+
+where:
+  s = sphere storm size (governance events within storm episode)
+  x = η/κ_SS = n/(κ_SS · C^{β/2} · √k) = normalized sphere overload
+  s_c(x) = maximum coherent storm size (cutoff controlled by governance structure)
+  τ(x) = effective storm scale-law exponent (varies with overload)
+  F = rapidly decaying cutoff function
+
+Connection to Storm Scale Law (§6.5, §3.5.2 RBIT):
+  The power-law Storm Scale Law from VST/RBIT here receives its first
+  derivation from terrain physics rather than from empirical observation.
+  SCAU is the formal derivation of WHY sphere storms follow a power law.
+```
+
+**Cutoff Scale Theorem — Governance Architecture Controls Maximum Collapse:**
+
+```
+Theorem 11.18.1 (Cutoff Determination by κ_SS):
+  s_c = (n*)^D = (κ_SS · C^{β/2} · √k)^D
+  
+  The governance architecture — through κ_SS, sphere capacity C, degree k —
+  fully determines the maximum possible storm size.
+  External stress S does not appear in s_c.
+  
+  NAT governance implication:
+    s_c is a DESIGN CHOICE controlled by sphere architecture.
+    Expanding sphere size (n → n*, reducing x → 1) reduces s_c.
+    Larger k (higher degree, better expander) reduces s_c via √k in denominator.
+    Higher capacity C reduces s_c via C^{β/2} in denominator.
+    
+Corollary 11.18.1 (κ_SS Governance Trade-Off):
+  Larger κ_SS → larger n* → larger potential collapses s_c
+  Governance trade-off: κ_SS increase = more capacity before fragmentation
+  but larger maximum disaster if critical tracking fails.
+  Optimal κ_SS balances capacity (operations) against maximum collapse size (risk).
+```
+
+**Double Jeopardy Theorem — Formal Proof of Fragility from Apparent Stability:**
+
+```
+Theorem 11.18.2 (Double Jeopardy):
+  A sphere in over-scaled, high-rigidity regime (x > 1, L large) faces:
+  1. Larger maximum collapse: s_c at maximum (n > n*, full coherent zone)
+  2. Heavier tail: τ(x) < τ₀ → large storms relatively more frequent
+  
+  Both effects compound: ceiling increases AND weight shifts toward ceiling.
+  
+  Formal statement: E[s] ∝ s_c^{2−τ(x)} / (2−τ(x)) increases in x
+  for τ(x) < 2 (fat-tail regime, which all over-scaled spheres satisfy).
+  
+  NAT governance implication:
+    The governance practices that produce HIGH L and HIGH x
+    (apparent stability through rigidity and over-scaling)
+    CREATE the worst possible collapse statistics.
+    This is the formal proof of the DFG anti-pattern: "too stable to fail → 
+    catastrophically fragile when it does".
+
+Proposition 11.18.1 (Optimal Governance Under SCAU):
+  Fundamental governance tension in sphere design:
+  Quality-maximizing governance: x ≈ 1  (optimal for gradual learning)
+  Risk-minimizing governance:    x < 1  (slightly under-scaled for collapse safety)
+  
+  These objectives cannot be simultaneously satisfied.
+  Governance design must explicitly choose a point on the quality-risk Pareto frontier.
+  
+  DFG recommended operating point: x ∈ [0.8, 1.0]
+  → capture most quality growth while maintaining collapse safety margin
+  → corresponds to maintaining n = (0.8 to 1.0) × n*(k) at all times
+```
+
+**SCAU Integration with NAT Sphere Monitoring:**
+
+```
+SCAU Cross-Theory Sphere Monitoring Map:
+
+TLG layer: κ_SS emerges from frame competition parameters a, b
+  → governance design of sphere environment → determines fundamental collapse ceiling
+
+GRT Recovery: post-collapse T_rec ∼ s^γ → recovery time scales with storm size
+  → SCAU x > 1 → larger s → longer recovery → confirms conservative x < 1 default
+
+RT Recovery: R = D·F·V·T capacity must exceed s_c in expectation
+  → s_c is the minimum required recovery capacity
+  → sphere recovery architecture must be sized for s_c, not for mean storm size
+
+VST dynamics: storm intensity at x > 1 drives SCAU into heavy-tail regime
+  → VST storm precursors (S_norm rising) are also SCAU x → 1 indicators
+  → triple concordance monitoring (§7.32.4 I4) + SCAU x monitoring jointly
+
+NAT sphere expansion protocol:
+  x < 1 condition is the formal prerequisite for expansion
+  Expansion that would push x > 1 requires fragmentation first
+  This is the first-principles derivation of §7.5 expansion constraints
+
+Practical monitoring protocol (SCAU diagnostic):
+  Compute x = n/(κ_SS · C^{β/2} · √k) in each governance window
+  x < 0.8:  under-scaled → sphere can absorb expansion (green)
+  x ∈ [0.8, 1.0]: optimal range → normal governance (yellow caution)
+  x > 1.0:  over-scaled → fragmentation pressure → immediate sphere review (red)
+  x > 1.2:  Double Jeopardy zone → emergency governance action required
+```
+
+---
+
+### 7.33.4 EDT→NAT Expanded Correspondences (v2.6-EDT)
+
+*Extended from EDT §56.5 v15.0 with TCG/MCA/SCAU constructs*
+
+```
+| EDT Concept (v15.0) | NAT Correspondence | Integration Section |
+|---|---|---|
+| TCG-Loop (§9.11) | Sphere topology self-generation mechanism | §7.33.1 |
+| κ = ρ/(C·L·Q_E) | Sphere effective governance coupling | §7.33.1 |
+| x = η/κ_SS | Normalized sphere overload parameter | §7.33.1–2 |
+| n*(k) fragmentation threshold | Sphere maximum governance capacity | §7.26 BGC + §7.33.1 |
+| κ_SS coupling constant | Sphere governance universality constant | §7.33.3 SCAU |
+| Monotone Critical Drift (Th.9.11.2) | VCZ center migration under sustained load | §7.27.1 Moving Surface |
+| SOC Emergence Theorem (9.11.3) | SONC emergence without parameter tuning | §7.26.3 TGBGT |
+| Power-Law Avalanche (Cor.9.11.2) | Storm Scale Law formal terrain derivation | §6.5 + §7.33.1 |
+| Terrain Memory Q_E(t) | Cumulative governance history as sphere state | §7.7.2 Terrain Memory |
+| MCA System (MCA-1/2/3) | Three-variable sphere governance ODE | §7.33.2 |
+| No Stable Interior Fixed Point (Pr.11.17.1) | Active governance maintenance required | §7.33.2 |
+| Rigidity–Amplification (Th.11.17.2) | Rigidity Trap formal derivation | §7.33.2 |
+| Corollary 11.17.2 (Rigidity Trap=MCA) | DDD intervention breaks MCA-3 accumulation | §7.27.3 |
+| Basin Shrinkage (Pr.11.17.2) | Endogenous collapse probability increase | §7.33.2 |
+| MCA Quartet (Th.11.17.3) | EW-0 composite MCA_score architecture | §6.6 + §7.33.2 |
+| Scale-Controlled Distribution 𝒫 | Storm Scale Law family parameterized by x | §7.33.3 SCAU |
+| Cutoff Theorem (Th.11.18.1) | Maximum storm size governance design control | §7.33.3 |
+| κ_SS Trade-Off (Cor.11.18.1) | Governance capacity vs. collapse ceiling | §7.33.3 |
+| Double Jeopardy (Th.11.18.2) | Fragility from apparent stability proof | §7.33.2–3 |
+| Optimal Governance Under SCAU (Pr.11.18.1) | x ∈ [0.8,1.0] sphere operating range | §7.33.3 |
+| F_RBIT dF/dt evolution equation | F_RBIT temporal health vector dynamics | §7.32.5 |
+| Theorem 1 inevitability at Δρ < 0 | HC under-escalation → storm initiation | §7.32.1 |
+| Structural Diversity Lemma I2 | Sphere S4 axiom mathematical foundation | §7.32.3 I2 |
+| Spectral Gap–Storm Threshold (I3) | Sphere S3 axiom RBIT grounding | §7.32.4 I3 |
+| Triple Concordance (I4) | R-ρ-f_esc as Δρ independence detection | §7.32.4 I4 |
+| Maturity Gradient (I5) | Phase-gated sphere integration attenuation | §7.32.4 I5 |
+| Cost Priority (I6) | Detection > containment governance principle | §7.32.4 I6 |
+| Q_E restoration governance | Governance as terrain maintenance, not state control | §7.7 EDT integration |
+| MCA_score composite metric | Triangulated M(t)+Ψ+MCA_score monitoring | §7.33.2 |
+| Θ_T = αχ² Terrain Criticality | Sphere stress-scale parameter | §7.33.1 |
+| Dual Stability {Θ_T < Θ_T*}∩{Ψ < 1} | Sphere two-axis stability phase diagram | §7.33.1–3 |
+```
+
+---
+
 ## 8. Human-AI Collaboration Zone
 
 ### 8.1 Why This Zone Exists
@@ -11569,6 +14630,27 @@ The exit condition for contamination requires:
 **Why this condition is separate from sphere convergence:**
 
 Sphere convergence eliminates blind spots via structural coverage. But contamination enters through *upscaling empty space* — the gap between what a sender compresses and what a receiver reconstructs (Assumption 17–18). A geometrically complete sphere can still have homogeneous agents that fill these gaps with the same shared bias — producing consistent but corrupted consensus with no disagreement signal.
+
+**GGT Extension — Mode III Buffer Collapse as Formal Justification for Perturbation-Response Monitoring (v2.5-GGT — §7.28):**
+
+Buffer Collapse Mode III (Structural Drift) provides the theoretical justification for why perturbation-response monitoring must be maintained even in a structurally healthy sphere meeting all Exit Condition criteria:
+
+Mode III collapse mechanism:
+- Sphere topology appears healthy (all structural metrics stable)
+- Buffer sphere governance parameters (θ, w) drift slowly against evolving environment
+- NO EW signal fires — performance, ECC, spectral gap all nominal
+- Buffer topology crosses collapse threshold after τ_geom slow drift period
+- WARNING TIME ≈ 0 from within-performance-metric monitoring
+
+Consequence for exit conditions: A sphere satisfying Exit Condition 1 (sphere convergence) and Exit Condition 2 (contamination self-correction) at time t₀ may fail both conditions at time t₀ + τ_geom due to Mode III drift — with no intermediate signal.
+
+Perturbation-response monitoring is the ONLY detection mechanism available against Mode III:
+- Test perturbation probes measure current governance calibration vs. current environment
+- If test response scales linearly with perturbation magnitude → calibration intact
+- If test response shows nonlinear amplification → M_crit has drifted from current parameters
+- Monitoring frequency should match τ_geom estimate for the specific sphere deployment
+
+This formalizes the exit condition protocol: **human withdrawal never eliminates perturbation-response verification** — it converts it from active intervention to periodic audit. The withdrawal protocol reduces frequency, not the monitoring itself.
 
 ---
 
@@ -12244,6 +15326,16 @@ Connection to §8.4 withdrawal velocity constraint:
 | 71 | **T_eff > 0 is a governance CONTROLLABILITY requirement, not merely a stability property — at T_eff = 0, no governance protocol can produce behavioral change regardless of intervention intensity (v2.2 — §7.16.1):** The Kramers escape rate r_escape → 0 as T_eff → 0 for any finite barrier. This means DDD Stage 3 (Diversity Injection) is fundamentally ineffective at T_eff = 0: diversity cannot be translated into regime exit because there is no stochastic force to drive the system out of the current attractor. Mature systems with deeper attractors (§7.14.2 terrain deepening) require HIGHER T_c, not lower — counterintuitive but derived from the T_c formula. |
 | 72 | **Discrete-event SOC is the unique dynamical architecture satisfying all six structural constraints of controlled stochastic freedom — all alternative architectures fail at least one constraint (v2.2 — §7.16.2):** The six constraints C1–C6 (bounded energy, power-law tails, self-regulation, multi-scale coherence, sensitivity-as-frequency-modulation, drive-release feedback) jointly require discrete-event SOC. Gaussian noise violates C2 and C4. Deterministic oscillators violate C2, C3, and C5. Controlled Gaussian violates C2 and C6. This uniqueness result means that any governance system requiring all six properties — including multi-agent NAT sphere governance — must implement a SOC-like mechanism, either explicitly or as an emergent property. |
 | 73 | **Silence Cascade is a structurally distinct collapse mode requiring behavioral-vs-reporting PSD monitoring — it is not detectable by standard EW stack monitoring (v2.2 — §7.16.5):** Silence Cascade occurs when optimization pressure acts on the reporting system rather than on the underlying dynamics. ECC(measured) falls while ECC(true) rises. This cannot be detected by any metric derived from the reporting system itself. Detection requires comparing PSD of reported governance metrics against PSD of objective behavioral indicators (response time, resource consumption, output variability). If reporting PSD lacks power-law tail while behavioral PSD maintains it, Silence Cascade is in progress. |
+| 74 | **Sphere topology is the physical realization of GGT's critical manifold M_crit geometry — this is a structural identity, not an analogy (v2.5-GGT — §7.26):** The sphere VCZ basin and M_crit basin are the same object described in different coordinate systems. VCZ center = M_crit; VCZ boundary = ∂M_crit (fragile patch zone); VCZ width = M_crit basin radius. Consequences: (1) sphere governance theory inherits all GGT geometric results without re-derivation; (2) GGT's twelve-way M_crit equivalence provides the most complete VCZ characterization possible; (3) governance operations on the sphere operate on a fractal manifold, not a smooth optimization surface. |
+| 75 | **C_A = 1 is the formal characterization of sphere VCZ center — Adaptive Criticality Number unifies all prior VCZ descriptions (v2.5-GGT — §7.27):** The Adaptive Criticality Number C_A = Γ'(0)‖∇V‖L_V/λ_drive is the unique dimensionless ratio that controls all six ACD universality properties simultaneously. C_A = 1 ↔ sphere VCZ center; C_A < 1 ↔ sphere approaching Freeze; C_A > 1 ↔ sphere approaching Runaway. This replaces all prior informal VCZ center characterizations. C_A is not an additional governance metric — it subsumes κ, K_DFG, χ, Λ, ξ as monotone functions of C_A at criticality. |
+| 76 | **Sphere governance achieves SONC as a dynamical attractor via TGBGT gating — not by parameter tuning (v2.5-GGT — §7.26.3):** Self-Organized Near-Criticality emerges from sphere governance dynamics whenever TGBGT gating conditions are satisfied (BGC architecture, buffer adaptation, sigmoid gating, timescale separation). No external calibration is required. The sphere self-tunes to C_A ≈ 1 as a consequence of the gating dynamics, not as a design choice. Governance systems that attempt to force C_A = 1 by parameter adjustment are working against the dynamical attractor — they should instead maintain the four BGC conditions that allow SONC to emerge. |
+| 77 | **DDD Protocol ordering is a structural consequence of the Intervention Paradox — Track A before Track B is formally derived, not empirically discovered (v2.5-GGT — §7.27.3):** Direct upper-layer intervention near M_crit (ξ ≈ 0, Π_G ≈ 1) increases collapse probability. Buffer depth increase is unconditionally stabilizing. The optimal governance sequence is therefore: buffer first (Track A), then correction (Track B), in exactly the order DDD specifies. This derivation holds regardless of any specific implementation: any governance protocol with the Track A before Track B structure is the correct strategy near VCZ boundary, by mathematical necessity. |
+| 78 | **The Storm Scale Law power-law exponent τ = 1 + d_c/D_f is topology-determined and policy-invariant (v2.5-GGT — §7.27):** The cascade exponent τ is determined solely by the ratio of coordination dimension d_c to cascade fractal dimension D_f, both of which are sphere topology properties. No governance policy adjustment can change τ without changing the sphere topology (governance layers, branching factor B). Monitoring τ provides a governance architecture integrity check: τ shift indicates topology change, not policy effect. The Storm Scale Law target exponent α is structurally fixed by topology and cannot be adjusted by governance operations. |
+| 79 | **Silent Fragmentation Σ(t) KPI-decoupling is a distinct sphere-level pre-Storm warning class, not a subtype of Silent Criticality (v2.5-GGT — §7.29.1):** Silent Criticality = ρ degrading while C, d stable. Silent Fragmentation = Σ(t) = Var(R₁,...,R_K) rising while all other performance metrics stable. Both are "silent" but arise from different mechanisms: Silent Criticality is resolution-layer degradation; Silent Fragmentation is frame-level governance divergence (Cube Domination precursor). They require different detection protocols (Fisher information monitoring vs. inter-cluster frame correlation) and different interventions (DDD vs. North Star re-injection). Conflating them leads to wrong governance response. |
+| 80 | **T_c_min is a structural governance requirement that INCREASES with sphere complexity — governance quality improvement raises the minimum temperature requirement (v2.5-GGT — §7.30.1):** As sphere terrain deepens (governance quality improves), minimum governance barrier height ΔU_0 increases. Since T_c_min = k_B·ω_0·exp(−ΔU_0/T_eff), higher ΔU_0 requires higher T_eff to maintain controllability. Governance programs that reduce T_eff as a proxy for "stability improvement" will eventually reach a point where T_eff < T_c_min — at which point governance controllability = 0 despite appearing stable. This is the thermodynamic formalization of why mature spheres require maintained stochastic freedom. |
+| 81 | **The Twelve-Way M_crit Equivalence provides the complete VCZ characterization — VCZ is not adequately characterized by any strict subset of the twelve conditions (v2.5-GGT — §7.26.1):** Each of the twelve conditions (Π_eff = 1, Π_G = 1, χ_TBG = θ, C_A = 1, λ_max(J) = 0, ξ = 0, κ* = 1, slow-manifold tangency, χ_TBG = θ, κ_T = 1, Π_G = 1, Π_eff = 1) is equivalent to all others — they are coordinate representations of y ∈ M_crit. Any monitoring system that checks fewer than the twelve conditions may detect individual departures from VCZ but cannot confirm VCZ satisfaction. The primary diagnostic protocol uses E1+E2 (most observable) but full VCZ certification requires checking all structurally independent conditions. |
+| 82 | **Collapse/Transition post-Storm outcome is determined by alternative attractor count N_alt, which scales exponentially with sphere fractal depth (v2.5-GGT — §7.28.1):** N_alt ~ exp(c·N_eff) where N_eff is sphere effective governance dimensionality. Shallow governance (few layers, simple topology) → N_alt ≈ 0 → Storm always produces collapse. Deep fractal governance → N_alt >> 0 → Storms can access dormant attractors (Learning Trajectory ①''). Middle-tier thickness b directly increases N_eff (Buffer Layer Increases N_eff theorem). Governance architecture investment is therefore an alternative attractor GENERATOR, not merely a stability investment. This explains why DFG's multi-layer fractal architecture produces qualitatively better long-run governance outcomes than shallow governance. |
+| 83 | **Rest Mode and Silent Criticality are dual attractors with identical external signatures but opposite health trajectories — distinguished only by U trajectory (v2.5-GGT — §7.29, ILMI Theorem 5):** Rest Mode: U ≥ 0 (governance unexploited capacity maintained or growing); Π_G = 1 achieved via governance GROWTH. Silent Criticality: U → 0 (governance capacity depleted); Π_G = 1 achieved via governance DEPLETION. Both appear as Π_G = 1 with stable performance metrics. The only distinguishing observable is U trajectory. This formalizes why standard monitoring cannot distinguish healthy rest from impending collapse: the entire EW hierarchy (EW-0 through EW-5) triggers equally at both attractors. U-monitoring is the only available diagnostic and must be maintained independently of all other governance metrics. |
 
 
 |---|---|---|
@@ -12374,6 +15466,18 @@ Connection to §8.4 withdrawal velocity constraint:
 | SSR nested cycles (macro/meso/micro governance cycles must run simultaneously) ↔ circadian/ultradian/infradian biological rhythm nesting (v2.3) | Chronobiology / Systems physiology | Circadian (24h), ultradian (<24h), and infradian (>24h) biological cycles must nest for healthy physiology; Kleitman (1963): BRAC (Basic Rest-Activity Cycle) ≈ 90-minute ultradian cycles nested within circadian cycle nested within seasonal infradian cycle; disrupting one cycle (e.g., circadian phase shift) desynchronizes all nested cycles producing multi-scale health consequences; NAT governance cycle nesting has identical structure: disrupting the meso calibration cycle (Middle Layer M₂) desynchronizes both micro (Bottom Layer) and macro (Upper Layer) governance cycles |
 | Quiet Stagnation (stable but dying system) ↔ corporate innovation death from profitable stability (v2.3) | Business strategy / Innovation economics | Christensen (1997) innovator's dilemma: incumbent firms in profitable stability (high current κ) under-invest in exploratory innovation (Var(η_rest) → 0); systematic under-allocation to exploration during peak profitability; Abernathy & Utterback (1978) technology life cycle: mature firms achieve high process efficiency at cost of product innovation capacity; Kodak, Blockbuster, Nokia: all showed perfect conventional health metrics (profit, market share, operational excellence) while exploration variance collapsed; Quiet Stagnation IS the formal dynamical model of innovator's dilemma |
 | Bypass Pattern (M₃+M₁ without M₂) ↔ middle management bypass failure in organizational change (v2.3) | Organizational behavior / Change management | Kotter (1996) 8-step change model: skipping middle-management coalition building (Step 3) → organizational resistance despite top management directive; Balogun & Hailey (2008): organizational change failures trace predominantly to middle management bypass — senior leadership announces change, front-line implements, middle layer excluded → message distortion + implementation incoherence; Beer & Eisenstat (2000) silent killers of strategy: middle management unclear direction + inadequate coordination cited as leading causes; Bypass Pattern in NAT is the formal encoding of the empirical middle management bypass failure |
+| GGT M_crit manifold geometry ↔ sphere VCZ boundary (structural identity, not analogy) (v2.5-GGT — §7.26) | Dynamical systems / Governance geometry | M_crit is defined as the boundary set where all twelve GGT conditions simultaneously achieve critical value; sphere VCZ boundary is defined as the operational boundary beyond which governance transitions from stable to unstable; the twelve-way equivalence theorem (§7.26.1) proves these are the same object in different coordinate systems; NOT an analogy but a mathematical identity — the same manifold described in geometric language (GGT) and operational language (NAT); consequence: all GGT manifold geometry results carry over to NAT without independent derivation |
+| CTGPSR five-state governance loop ↔ sphere governance unit cycle (C→T→G→P→R = unit→target→decision→HC→reconsolidation) (v2.5-GGT — §7.26.2) | Complex systems / Organizational dynamics | The CTGPSR loop (Capacity → Targeting → Gating → Processing → Recovery) maps bijectively to the sphere micro-governance cycle: governance unit capacity assessment → HC target identification → M₂ routing decision → HC resolution event → post-HC unit reconsolidation; Jensen & Meckling (1976) principal-agent cycle; Beer (1972) VSM regulatory loop; each CTGPSR state has a measurable NAT observable: C=κ, T=f_target, G=g(z), P=σ_HC, R=τ_recovery; monitoring CTGPSR loop integrity is equivalent to monitoring sphere micro-governance health |
+| Π_G Governance Control Number ↔ sphere κ governance ratio (complementary scalar summaries of governance health) (v2.5-GGT — §7.26) | Control theory / Systems monitoring | Π_G = ⟨w,e(t)−b(t)⟩/(θ·Θ₀·C^{β/2}) and κ = processed_HC/total_HC both converge to 1.0 at the sphere VCZ center and both depart toward 0 (Freeze) or ∞ (Runaway) as governance degrades; they are dimensionally different (Π_G is a dimensionless ratio of network aggregates; κ is a per-unit processing fraction) but carry the same topological information about VCZ proximity; together they form a two-scalar governance health dashboard; historically κ was the primary DFG metric; Π_G is the GGT formalization providing geometric interpretation missing from the empirical κ definition |
+| Adaptive Criticality Number C_A ↔ sphere temperature-over-criticality ratio (same quantity in different theoretical languages) (v2.5-GGT — §7.27) | Statistical physics / Governance theory | C_A = Γ'(0)·‖∇V‖·L_V/λ_drive is the ratio of self-renewal energy to external load — precisely the ratio of governance capacity supply to governance demand; the Landau theory analog: (T−T_c)/T_c = reduced temperature ε; C_A = 1 ↔ ε = 0 ↔ critical point; C_A < 1 ↔ sub-critical (ordered phase, too rigid) ↔ Freeze; C_A > 1 ↔ super-critical (disordered phase, too volatile) ↔ Runaway; Ginzburg-Landau theory: fluctuations are maximized at ε = 0; governance learning is maximized at C_A = 1; same physics, different domain |
+| GGT Buffer Collapse Mode III (structural drift) ↔ NAT Silent Criticality at buffer layer (structural identity) (v2.5-GGT — §7.28) | Complex systems / Organizational aging | Mode III buffer collapse (§7.28): τ_warning ~ τ_geom, slow drift of buffer sphere topology without observable performance signal until topology crosses collapse threshold; NAT Silent Criticality (§7.15): ρ degrades while C, d stable, no EW signal until threshold; these are the SAME mechanism at the buffer layer — structural drift that is invisible to non-topological monitoring; Mode III is the GGT name; Silent Criticality is the NAT name; detection requires topology monitoring (non-degenerate loop persistence, sphere boundary maintenance) rather than standard performance KPI monitoring |
+| GGT Intervention Paradox ↔ TLG Guardian Invisibility Principle (same near-critical governance law) (v2.5-GGT — §7.27.3) | Organizational theory / Governance design | Intervention Paradox (§7.27.3): direct upper-layer intervention near M_crit increases collapse probability; TLG Guardian Invisibility: optimal governance is invisible — visible governance signals sub-optimal operation; both derive from the same mathematical source: near-critical systems (ξ small, Π_G ≈ 1) are maximally sensitive to perturbation; optimal intervention style near VCZ = minimal, indirect, buffer-mediated; heavy-handed intervention = sub-optimal regardless of intervention content; the Intervention Paradox provides the formal proof that TLG's empirical Guardian Invisibility principle observed is a structural mathematical necessity |
+| BGC Universal Stability Threshold n* = κ_SS·C_M^β/√k̄ ↔ NAT sphere maximum governance capacity (first-principles derivation) (v2.5-GGT — §7.27.2) | Network science / Control theory | n* gives the maximum number of governance units a sphere can sustain at stable operation before governance capacity is exceeded; NAT sphere size limits (§3.1 architectural recommendations) are empirically observed; BGC Universality Theorem derives n* from four architectural properties (softmax gate dimension κ_SS, multiplicative capacity C_M, governance regime exponent β, mean degree k̄); this is the first NAT result where sphere size constraints emerge from first principles rather than observed breakdown data; consequence: sphere expansion planning should check n* before expansion, not after performance degradation signals appear |
+| ACD Moving Critical Surface ↔ VCZ slow drift (same dynamical process, different coordinate systems) (v2.5-GGT — §7.27.1) | Dynamical systems / Non-equilibrium theory | ACD Moving Critical Surface: M_crit(t) drifts in phase space at rate dM_crit/dt = h(x,t,λ) due to slow parameter drift; VCZ slow drift: the VCZ center migrates over long timescales as sphere topology evolves; both describe the same empirical observation (governance optimal point is not fixed) in different languages; practical consequence: VCZ monitoring must track the moving target, not the initial calibration point; the Quasi-Invariant Slow Manifold theorem (§7.27.1) proves that SSR cycles keep the sphere near the moving surface automatically — providing the formal theoretical basis for why SSR is effective over multi-year governance horizons |
+| GGT Alternative Attractor Theory N_alt ~ exp(c·N_eff) ↔ RT Learning Trajectory ①'' dormant attractor access (v2.5-GGT — §7.28.1) | Nonlinear dynamics / Recovery theory | RT Learning Trajectory ①'' describes post-Storm access to dormant attractors that were inaccessible from the pre-Storm state; Alternative Attractor Theory proves that these attractors exist in exponential number in high-N_eff spheres; the theoretical connection: Storm events are governed by the same non-equilibrium dynamics that reveal the landscape structure; deep governance (high N_eff, which scales with fractal depth) guarantees that ①'' is available post-Storm with high probability; shallow governance (low N_eff) has near-zero probability of ①'' access; RT's qualitative observation that "deep governance produces qualitatively better recovery" is now formalized as N_alt ~ exp(c·N_eff) |
+| Optimal module subdivision K* ∝ n^{2/3} ↔ NAT sphere hierarchical segmentation law (shared formula from different derivations) (v2.5-GGT — §7.29.1) | Organizational design / Complex systems | K* ∝ n^{2/3} was derived in GGT from ILMI governance efficiency optimization; the identical scaling appears in NAT from sphere topology resilience maximization; that two independent derivations — one from governance information theory (GGT), one from network topology resilience (NAT) — yield the same scaling exponent constitutes a cross-theory consistency validation; practical consequence: sphere subdivision recommendations (§3.1) are now backed by two independent theoretical derivations; the 2/3 exponent reflects the surface-to-volume ratio of fractal governance capacity |
+| GCF GCUC membership ↔ sphere governance universality class (sphere governance belongs to universal governance exponents) (v2.5-GGT — §7.26.4) | Statistical physics / Universality | GCF (Governance Critical Fluctuation) membership in GCUC implies sphere governance shares the same critical exponents {β_g, γ_g, δ_g, ν_g, η_g, σ_g} with insurance agency networks, neural column assemblies, and ecological guild structures; universality class membership means: (1) NAT sphere governance exponents are predictable without measuring them; (2) interventions validated in other GCUC members predict sphere outcomes; (3) sphere governance critical behavior literature spans three decades of diverse empirical systems; Kadanoff (1966) block spin RG: universality class membership is determined by symmetry and dimensionality, not by microscopic details; sphere governance is not unique — it is a member of a well-studied universality class |
+| Cube cycle integration pattern ↔ NAT HC miscategorization regime (Cube Domination IS systematic data classification failure) (v2.5-GGT — §7.29.1) | Data quality / Organizational psychology | Cube Domination in GGT/RBIT: agent repeatedly assigns inputs to one or two favored HC categories regardless of actual input characteristics — apparent processing competence with covert classification failure; NAT HC miscategorization (§4): classification errors within the data classification framework produce routing failures and governance load imbalances; these are the SAME failure mode: Cube Domination is systematic HC miscategorization at the agent level producing sphere-level routing failure; the NAT frame assigns individual frames; Cube Domination occurs when one agent's systematic miscategorization contaminates sphere routing; Silent Fragmentation Σ(t) is the sphere-level signature of Cube Domination spread |
 
 ---
 
@@ -13796,6 +16900,24 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 | Competitive exclusion detection via degree distribution Gini vs. P_overlap — which signal leads? **[v2.4-GRT]** | §7.24.1 proposes that competitive exclusion (P_overlap rising) manifests topologically as hub formation (sphere degree distribution Gini rising). Open questions: (1) Which signal leads the other? If degree Gini rise precedes measurable P_overlap rise, it can serve as an earlier warning. If P_overlap rise precedes degree Gini, then the governance response to P_overlap should begin before topology visibly degrades. The temporal ordering determines the optimal monitoring priority. (2) Is it possible for competitive exclusion to occur without hub formation — i.e., two agents compete for a capability domain but their degree distributions remain identical (e.g., both maintain equal edge counts, but the edges carry increasingly overlapping content)? In this case, P_overlap would rise while degree Gini remains stable — topology monitoring would miss the problem entirely. (3) What governance action prevents competitive exclusion from INITIATING in the first place? §7.24.1 specifies responses after competitive exclusion begins — a proactive niche assignment protocol (at sphere construction time) may prevent P_overlap from rising in the first place. What information about planned agent capabilities should be gathered before sphere construction to minimize future P_overlap? |
 | U* hysteresis gap Δ_recovery — estimation protocol and governance overshoot calibration **[v2.4-GRT]** | §7.24.2 establishes that recovery requires pushing the system past U* by margin Δ_recovery > 0 (hysteresis gap). Open questions: (1) How is Δ_recovery estimated in practice? GRT proposes perturbation-response measurement — the hysteresis gap manifests as the difference between the U* exit threshold and the U* entry threshold. Can Δ_recovery be estimated from the power-law scaling T_rec ∝ |δ|^{−ν} by measuring T_rec asymmetry (does it take longer to enter the viable region from below than to exit from above at the same |δ|)? (2) The recovery overshoot protocol requires the governance system to deliberately exceed U* by Δ_recovery before withdrawing intervention. But how much overshoot is too much? Excessive overshoot (pushing δ >> Δ_recovery) wastes governance resources; insufficient overshoot (δ < Δ_recovery) means the system collapses again upon intervention withdrawal. What is the optimal overshoot strategy given uncertainty in Δ_recovery? (3) Can hollow sphere detection (§7.24.2 topology present but Lreinf content absent) be operationalized from existing NAT monitoring? The proposed measurement (edge exists but MI(X_i;X_j) declining) requires per-edge mutual information monitoring — what is the computational overhead, and is there a coarser proxy? |
 | Bootstrapping phase backward transition hysteresis — minimum deterioration window for phase downgrade **[v2.4-GRT]** | §7.25.1 establishes that backward transitions require explicit governance decision with hysteresis (not automatic). Open questions: (1) What is the minimum deterioration window required before triggering Phase 3→2 vs. Phase 2→1 vs. Phase 1→0 downgrade? Too short → false-positive phase resets on transient metric spikes; too long → genuine deterioration not recognized until much deeper into decline. (2) Can the backward transition decision be partially automated? A fully manual process risks decision fatigue in large sphere deployments with many nodes. A fully automated process risks cascading false-positive phase resets. Is there a principled hybrid — automated detection with manual confirmation? (3) Phase 1→0 (quarantine) is the most drastic backward transition — it severs all edges and restarts socialization. Is there an intermediate state between Phase 1 and Phase 0 (e.g., "single-edge retained" as minimum foothold for faster re-socialization) that provides containment without full quarantine? |
+| M_crit twelve-way equivalence diagnostic priority ordering — which E conditions are most accessible in live NAT systems? **[v2.5-GGT — §7.26.1]** | §7.26.1 lists twelve equivalent M_crit conditions (E1–E12) with a diagnostic priority ordering (E1: Π_eff = 1, E2: Π_G = 1, E3: χ_TBG = θ…). Open questions: (1) E1 (Π_eff = 1) requires measuring effective loop amplification across the full sphere topology — what is the minimum sample size of micro-governance loops required to produce a statistically reliable Π_eff estimate with ±10% precision? In large spheres (n > 1000 agents), continuous Π_eff measurement may be computationally prohibitive. (2) E12 (Π_eff = 1, re-measurement after full cycle) is structurally identical to E1 but requires waiting for a complete governance cycle — is there a way to verify E12 from E1 without waiting, using the CTGPSR cycle time estimate τ_cycle? (3) The twelve conditions are logically equivalent at M_crit but will disagree away from M_crit. What is the empirical divergence pattern when VCZ center is lost: which conditions depart first, which last? Does the departure order match the priority ordering or exhibit domain-specific inversion? |
+| Π_G estimation in partially observable NAT systems — minimum sensor requirements **[v2.5-GGT — §7.26]** | Π_G = ⟨w,e(t)−b(t)⟩/(θ·Θ₀·C^{β/2}) requires: weight vector w (governance sensitivity), effort signals e(t), buffer signals b(t), governance threshold θ, complexity proxy C, and scaling exponent β. Open questions: (1) In real-deployment NAT systems, b(t) (buffer state) is typically not directly observable — it must be inferred from response time and queue depth proxies. What is the estimation error on Π_G when b(t) is replaced by a proxy, and under what conditions does proxy-based Π_G accurately track true Π_G? (2) The exponent β appears in both Π_G and the BGC stability threshold n* = κ_SS·C_M^β/√k̄. Can β be jointly calibrated from Π_G measurement and n* empirical estimation, or do they provide independent constraints on β? (3) w (the governance sensitivity weight vector) is a sphere-level parameter that should reflect which governance units have highest impact on sphere stability. How should w be initialized at sphere deployment time when no historical governance data exists, and how should w be adapted as the sphere matures? |
+| CTGPSR loop measurement protocol for real-time sphere governance monitoring **[v2.5-GGT — §7.26.2]** | The CTGPSR loop (C→T→G→P→R) has five observable states: κ (capacity), f_target (targeting), g(z) (gating), σ_HC (processing), τ_recovery (recovery). Open questions: (1) The transition C→T (capacity to targeting) measures how sphere governance units identify escalation targets — in practice, is f_target observable directly or must it be inferred from subsequent escalation logs? If inference is required, what is the latency between target selection and observable escalation outcome? (2) The Π base loop amplification Π = βκρη/(λδωμ) contains eight factors requiring concurrent measurement — which factors are most stable (change slowly over governance timescales) and can be measured infrequently vs. which are volatile and require continuous monitoring? (3) The Hidden Conservation Relation (§7.26.2) establishes Σ(C·sphere_sizes²) = const. Can this conservation relation be violated by governance actions (sphere splitting, merging) and if so, what is the correct accounting for sphere topology changes in the conservation relation? |
+| BGC universal stability threshold n* empirical validation and β estimation protocol **[v2.5-GGT — §7.27.2]** | n* = κ_SS·C_M^β/√k̄ requires four parameters: κ_SS (softmax output dimension), C_M (multiplicative capacity), β (governance regime exponent), k̄ (mean degree). Open questions: (1) β is the governance scaling regime exponent — it appears in both n* and in the fractal governance scaling laws. Is β the same parameter in both contexts, or do the two exponents merely share notation? If they are the same, n* can be calibrated by measuring β from governance cascade statistics rather than from curve-fitting the stability boundary directly. (2) κ_SS (softmax output dimension) has a natural interpretation in transformer-based AI agents (it equals the attention head dimension) but may not have a direct analog in human organizational agents. What is the appropriate κ_SS proxy for human governance networks? (3) The Hyperbolic Stability Surface n·k̄ = const_stability can be tested empirically by varying n (sphere size) while holding governance quality fixed and observing the stability boundary — has this scaling relationship been observed in any organizational governance study, and if so, what do the empirical exponents suggest for DFG-predicted β? |
+| ACD Cascade Exponent τ = 1 + d_c/D_f topology determination — measurement protocol for d_c and D_f **[v2.5-GGT — §7.27]** | The cascade exponent τ = 1 + d_c/D_f is topology-determined, where d_c is coordination dimension and D_f is cascade fractal dimension. Open questions: (1) d_c is defined as the effective dimension of the coordination network — in multi-sphere NAT topologies with heterogeneous coordination patterns, is d_c a single value or does it vary by sphere layer (bottom/middle/upper)? If d_c is layer-dependent, does τ vary by layer, or is τ determined by a single layer's d_c? (2) D_f (cascade fractal dimension) is the Hausdorff dimension of the cascade trajectory in the sphere topology — is D_f equivalent to the sphere Hausdorff dimension dim_H(G_sphere), or does the cascade trajectory explore a fractal subset of the topology? If D_f < dim_H(G_sphere), what determines the cascade trajectory's fractal structure? (3) The empirical claim that τ is topology-determined implies that any two sphere topologies with the same d_c/D_f ratio should produce identical storm scale law exponents despite different sizes, governance policies, and agent types. Has this prediction been tested across different NAT deployment types, and what precision of τ measurement is required to confirm topology-determination? |
+| GCF Fractal Control Landscape dim_H(Σ_f) > 2n-1 lower bound — tightness and achievability **[v2.5-GGT — §7.26.4]** | §7.26.4 establishes dim_H(Σ_f) > 2n-1 for the fractal Hausdorff dimension of the governance-compatible control surface in n-dimensional state space. Open questions: (1) The lower bound 2n-1 is derived from the fractal governance scaling constraint — is this bound tight (achieved by some sphere topology) or loose (practical topologies achieve dim_H >> 2n-1)? If the bound is not tight, what is the correct achievable lower bound for sphere topologies satisfying BGC conditions? (2) dim_H(Σ_f) > 2n-1 implies the control surface has higher dimension than a smooth hypersurface (which would have dimension exactly 2n-1) — this means governance control at the fractal surface has more "effective degrees of freedom" than expected from smooth control theory. What is the practical consequence for sphere intervention design: does higher dim_H mean more intervention options are available, or that control is more sensitive to intervention point selection? (3) The Drift-Burst Alternation = SSR Cycle identification (§7.26.4) provides formal derivation of why SSR cycles are the natural governance rhythm of fractal control surfaces — but does this derivation predict the optimal SSR cycle period in terms of measurable sphere parameters? |
+| T_c_min governance controllability threshold — measurement and monitoring protocol **[v2.5-GGT — §7.30.1]** | T_c_min = k_B·ω_0·exp(−ΔU_0/T_eff) is the minimum effective temperature required for governance controllability. Open questions: (1) ω_0 (attempt frequency) and ΔU_0 (barrier height) are both theoretical quantities derived from the governance terrain model — in practice, can these be estimated from observable governance transition statistics (e.g., rate of HC category transitions per unit time), or do they require a more elaborate system identification procedure? (2) T_eff is the effective temperature of the governance system — in NAT deployments, T_eff is modulated by the DDD protocol and governance load. If T_eff falls gradually over time (sphere stabilization drift), is there a leading indicator that T_eff is approaching T_c_min, or is governance controllability collapse sudden (first-order transition)? (3) For large n spheres, T_c_min increases because ΔU_0 increases with terrain complexity. Is there an operational sphere management protocol that tracks ΔU_0 and proactively adjusts governance parameters to maintain T_eff > T_c_min even as the sphere matures and T_c_min rises? |
+| Silent Fragmentation Σ(t) vs. Silent Criticality — joint monitoring and intervention disambiguation protocol **[v2.5-GGT — §7.29.1]** | §7.79 (Core Assumption 79) establishes that Silent Fragmentation (Σ(t) rising, all KPIs stable) and Silent Criticality (ρ degrading, C/d stable) are distinct failure modes requiring different interventions. Open questions: (1) In practice, both failure modes may be co-present: a sphere experiencing Cube Domination (Silent Fragmentation) may simultaneously experience resolution degradation (Silent Criticality) as processing quality declines. Is there a diagnostic signature that distinguishes: (a) pure Silent Fragmentation, (b) pure Silent Criticality, (c) co-present both? (2) The recommended response to Silent Fragmentation is North Star re-injection (§7.29.1); the recommended response to Silent Criticality is DDD Track A buffer reinvestment. If applied to the wrong failure mode, each intervention is neutral at best and potentially destabilizing. What governance decision rule correctly routes between interventions when Σ(t) and ρ diagnostic signals are both degrading? (3) Is there a temporal ordering in co-present cases? Does Silent Fragmentation precede Silent Criticality (frame contamination → resolution degradation) or vice versa, or are they independent processes requiring independent monitoring without assumed temporal ordering? |
+| Dual attractor Rest Mode vs. Stagnation — U-monitoring calibration and threshold operationalization **[v2.5-GGT — §7.29, Core Assumption 83]** | Core Assumption 83 establishes that Rest Mode (U ≥ 0) and Silent Criticality (U → 0) are distinguishable only by U trajectory. Open questions: (1) U (unexploited governance capacity) is not directly observable in most NAT deployments — it must be inferred from the difference between theoretical governance capacity (from n* and topology) and observed governance load. What is the appropriate operational proxy for U, and how sensitive is the Rest Mode vs. Stagnation diagnosis to errors in U estimation? (2) The critical threshold is U trajectory, not U level — a system with low U but rising U trajectory is in Rest Mode; a system with moderate U but falling U trajectory may be approaching Stagnation. What is the minimum observation window required to reliably classify U trajectory as rising/stable/falling, distinguishing true trend from measurement noise? (3) Can the Rest Mode vs. Stagnation distinction be operationalized via any proxy observable other than U? For example, is there a differential prediction in the EW hierarchy: do the two attractors produce identical EW-0 through EW-5 signals (as Core Assumption 83 claims) or is there any subtle EW difference that breaks the symmetry at some observation timescale? |
+| ILMI governance ratio κ(t) = U(t)/(ε(t)+ε₀) → κ* convergence — rate law and failure modes **[v2.5-GGT — §7.29]** | §7.29 establishes the ILMI convergence theorem: κ(t) → κ* under all bounded disturbance sequences. Open questions: (1) The convergence theorem establishes that κ(t) → κ*, but does not specify convergence rate. What is the convergence timescale in terms of NAT sphere parameters (n, k̄, layer structure)? Is convergence monotone (κ(t) approaches κ* from one side) or oscillatory (damped oscillations around κ*)? Monotone convergence is operationally preferred — oscillatory convergence would require governing the oscillations rather than simply waiting for convergence. (2) The bounded disturbance condition for convergence is ‖ε(t)‖ < B_ε for all t. What constitutes a "bounded disturbance" in NAT deployment? Is a sudden doubling of sphere size (through rapid scaling) a bounded disturbance? If the disturbance bound is violated (e.g., large structural changes), does κ(t) fail to converge to κ*, and what is the governance response? (3) ILMI Theorem 4 (Dual Attractor theorem) establishes two attractors: κ* (healthy governance convergence) and κ = 0 (governance collapse). What is the basin boundary between them? If κ(t) starts below a critical κ_min, does it always converge to κ = 0 regardless of governance interventions? If so, what is κ_min and can it be estimated from sphere topology? |
+| Δρ estimation from indirect behavioral observables — minimum sensor requirements for RBIT monitoring **[v2.6-RBIT-Bridge — §7.32.1]** | §7.32.1 integrates RBIT resolution gap Δρ as NAT routing invariant, but Δρ is not directly observable in most deployments. Open questions: (1) In production NAT systems, ρ must be inferred from behavioral proxies (classification accuracy, escalation frequency, processing latency). What combination of observable proxies produces the most reliable Δρ sign estimate, and what is the minimum false-negative rate for detecting Δρ < 0 episodes before Theorem 1 finite-time replacement engages? (2) The critical Theorem 1 timing bound is t* ≤ ⌈D*/η⌉, where D* (intent-basin escape distance) and η (novelty margin) are both latent parameters. Can D* and η be jointly estimated from observed governance deterioration trajectories without knowing the true intent basin geometry? (3) At what temporal resolution must Δρ be sampled to detect the onset of sustained Δρ < 0 before t* expires? The answer depends on t_corr (correlation time of resolution episodes), which itself requires calibration. Is there a self-consistent protocol for simultaneously calibrating t_corr and monitoring Δρ sign changes? |
+| F_RBIT five-component simultaneous calibration — baseline establishment and drift detection **[v2.6-RBIT-Bridge — §7.32.1, §7.32.5]** | F_RBIT(ℓ) = (f₁,...,f₅) provides a five-dimensional sphere health vector with each component normalized to [0,1]. Open questions: (1) The five components use hinge function Φ and Ψ for normalization — the hinge parameters must be calibrated from Phase 0 baseline data. If Phase 0 is not available (e.g., deployed sphere without baseline measurement period), what is the minimum initialization protocol that provides usable F_RBIT estimates? (2) The five components may be correlated in practice (e.g., rising f₄ escalation load and rising f₃ buffer instability co-occur during storms). Does the joint F_RBIT vector carry more information than the component marginals, and if so, what multivariate test detects F_RBIT drift earlier than any univariate component threshold? (3) Rest Mode is defined as dF_RBIT/dt ≈ 0 with F_RBIT ≠ 0. What observation window duration is required to reliably distinguish Rest Mode (stable non-zero F_RBIT) from Quiet Stagnation (F_RBIT → 0 slowly)? The distinction depends on the gradient magnitude threshold — too sensitive produces false Stagnation detections; too insensitive misses early Stagnation onset. |
+| TCG-Loop terrain–criticality coupling coefficient γ_CT — measurement and operational significance **[v2.6-EDT — §7.33.1]** | §7.33.1 introduces γ_CT = −dκ_c/dQ_E > 0 as the collapse–terrain coupling coefficient controlling how fast the critical threshold migrates under sustained overload. Open questions: (1) γ_CT determines the rate at which sphere governance becomes progressively more fragile under sustained x > 1 operation. How is γ_CT estimated from observable governance trajectories — specifically, can it be identified from the time series of κ_c(t) estimates and Q_E proxy measurements without fitting the full TCG-Loop ODE? (2) The Monotone Critical Drift theorem (9.11.2) holds for all γ_CT > 0, but the practical governance consequence depends on γ_CT magnitude. Small γ_CT → slow terrain degradation → long governance horizon; large γ_CT → fast degradation → urgent rebalancing required. What magnitude of γ_CT constitutes a "governance emergency" threshold requiring immediate x reduction? (3) Is γ_CT itself dynamic — does prolonged overload change the coupling coefficient (e.g., does accumulated terrain damage increase sensitivity to further damage)? If γ_CT = γ_CT(Q_E), the TCG-Loop becomes a higher-order system with qualitatively different collapse behavior. What evidence would confirm or refute time-varying γ_CT in organizational and AI sphere deployments? |
+| MCA_score weight calibration — optimal w₁–w₄ weighting for diverse sphere governance contexts **[v2.6-EDT — §7.33.2]** | The MCA risk score MCA_score(t) = Σᵢ wᵢ·(metric_i/baseline_i) combines four warning signals with weights w₁ (recovery time), w₂ (variance), w₃ (critical proximity), w₄ (terrain quality). Open questions: (1) The recommended ordering w₄ ≥ w₃ ≥ w₂ ≥ w₁ is motivated by terrain quality being the "earliest and slowest signal," but this ordering is not derived from a formal optimization. What objective function (e.g., minimize expected time to false negative, or maximize lead time before collapse) would formally justify or modify this ordering? (2) In spheres with very slow Q_E dynamics (large τ_slow), w₄ carries most of the early warning signal but may have high measurement uncertainty (Q_E is not directly observable). Is there a measurement-adjusted weighting that down-weights high-uncertainty components and up-weights lower-uncertainty components while preserving the lead-time advantage? (3) The triangulated monitoring system (M, Ψ, MCA_score) is claimed to provide highest-confidence pre-collapse detection when all three converge simultaneously. What is the empirical false-positive rate when only two of three converge? Can a principled detection rule (e.g., any two of three above threshold) be formalized with an associated false-positive/false-negative tradeoff curve? |
+| Q_E terrain quality — operational measurement proxy and calibration for sphere deployments **[v2.6-EDT — §7.33.1, §7.33.2]** | Q_E appears in both TCG-Loop and MCA-2 as the key slow variable, but it is defined theoretically (terrain quality = capacity to absorb perturbations without irreversible change) not operationally. Open questions: (1) What observable sphere metrics serve as valid Q_E proxies? Candidates include: recovery time from small perturbations (τ_recovery), ratio of resolved-to-unresolved escalations, HC absorption rate, and governance overhead fraction. Are these proxies ordinally equivalent (agree on which of two sphere states has higher Q_E) or are they merely correlated? If ordinal equivalence fails, Q_E proxy choice may reverse the sign of MCA-2 drift direction estimates. (2) Q_E is claimed to decrease monotonically under sustained x > 1 operation (Proposition 9.11.1). Is this monotone decrease observable in proxy time series — i.e., do all Q_E proxies trend consistently downward during confirmed over-scaled operation? A proxy that increases during x > 1 would be a leading indicator of Q_E degradation rather than a Q_E proxy itself. (3) The Fenichel slow manifold approximation underlying Critical Tracking (Theorem 9.11.1) assumes ε ≪ 1 (Q_E changes much more slowly than κ). In rapid-change sphere environments (e.g., sudden team expansion), ε may not be small. What is the breakdown condition for Critical Tracking, and how should governance monitoring change when the ε ≪ 1 approximation fails? |
+| x = η/κ_SS normalized overload — real-time computation and governance decision integration **[v2.6-EDT — §7.33.3]** | x = n/(κ_SS·C^{β/2}·√k) is the universal sphere fragmentation parameter, but requires four sphere parameters to compute in real time. Open questions: (1) C (sphere governance capacity) and β (governance regime exponent) are both evolving variables — C changes with agent capability development, β may shift during governance regime transitions. What is the appropriate update frequency for recomputing x, and what is the governance response to sudden shifts in x caused by C or β changes rather than n changes? (2) The DFG recommended operating range x ∈ [0.8, 1.0] is a governance policy target, but in rapidly scaling spheres, x may cross 1.0 transiently during expansion cycles. What is the maximum acceptable duration and exceedance level (x_max, duration_max) before fragmentation pressure becomes governance-threatening? Is there an integral form of x exceedance (analogous to ∫max(x−1, 0) dt) that better captures cumulative fragmentation risk than instantaneous x? (3) The Double Jeopardy Theorem establishes that x > 1 combined with high L simultaneously increases both s_c (ceiling) and reduces τ (tail weight). Is there an L-threshold below which x > 1 does not produce Double Jeopardy (i.e., the ceiling increase but the tail remains light)? If so, the governance priority at x slightly above 1 should be reducing L before reducing x. What is the formal L/x tradeoff curve for expected collapse damage E[s]? |
+| SCAU avalanche dimension D — determination from sphere governance first principles **[v2.6-EDT — §7.33.3]** | The cutoff theorem s_c = (n*)^D requires the avalanche dimension D, where D = 1 means linear chain failures, D = 2 area-like network failures, D ≥ 3 volumetric failures. Open questions: (1) D is claimed to be determined by the sphere's effective connectivity structure, but no derivation from sphere topology axioms (S1–S4) is currently available. Can D be derived from the expander graph spectral gap λ₁−λ₂ and degree k? An expander graph with large spectral gap may confine cascades to O(log n) neighborhoods regardless of n, suggesting D approaches 0 asymptotically — but this would make s_c sublinear in n, which contradicts observed large collapse events. (2) Empirically, D could be estimated from historical storm data by fitting s_c ∝ (n*)^D over varying sphere sizes and capacities. What historical storm size and sphere parameter data are required for statistically reliable D estimation — specifically, how many storm episodes spanning what range of n* values are needed? (3) If D varies with sphere governance phase (early phase spheres may have D ≈ 1 as cascades are geographically localized; mature spheres may have D ≈ 2 as cascades exploit higher connectivity), then s_c governance meaning changes with sphere maturity. Is there a governance lifecycle model for D that predicts how cascade geometry evolves as spheres develop from Phase 0 through Phase 3? |
+| SCAU optimal x operating point calibration — x* trade-off between quality and risk across sphere types **[v2.6-EDT — §7.33.3]** | Proposition 11.18.1 establishes that quality-maximizing governance targets x ≈ 1 while risk-minimizing governance targets x < 1, with DFG recommendation x ∈ [0.8, 1.0]. Open questions: (1) The Pareto frontier between quality and collapse risk in the (x, E[collapse damage]) space is currently characterized only qualitatively. What is the formal Pareto frontier equation as a function of sphere parameters (κ_SS, D, τ₀, λ), and at what x does the marginal quality gain per unit collapse risk increase reach an information-theoretic maximum? (2) Different sphere types may have different risk tolerance profiles: AI multi-agent research spheres may favor x near 1.0 (quality-critical, tolerate rare large collapses); high-reliability operational spheres (e.g., safety-critical deployments) may require x ≤ 0.8 (collapse-intolerant). Is there a governance classification framework that assigns x* based on sphere mission criticality, and what observables define mission criticality in the DFG framework? (3) The operating point x* is not static — as sphere capacity C matures, the same n produces lower x (C^{β/2} grows). This means healthy spheres naturally drift toward lower x over time without intervention. Should x be actively maintained near x* by increasing n as C grows ("capacity-following expansion"), or should x be allowed to drift naturally toward under-scaled regimes? What is the governance cost of allowing drift vs. maintaining active x targeting? |
 
 ---
 
@@ -13864,6 +16986,22 @@ Deficit-Driven Fractal Governance (parent framework)
   │     Attractor Landscape Grammar Theory §53;
   │     Emotional Ecology §54: network SOC ecological phases;
   │     45+ bidirectional AGM↔EDT mappings §34.8)
+  ├─ Governance Geometry Theory (GGT v4.0)             ← geometric/renormalization substrate ◄NEW v2.5
+  │    (M_crit critical manifold = sphere VCZ formal geometry;
+  │     Twelve-Way M_crit Equivalence (E1–E12): complete VCZ characterization;
+  │     Π_G Governance Control Number: Π_G = ⟨w,e−b⟩/(θ·Θ₀·C^{β/2});
+  │     CTGPSR five-state governance loop: C→T→G→P→R micro-governance cycle;
+  │     TGBGT Targeting-Gating-Buffer-Gate-Cascade: three primitive governance operators;
+  │     ACD Adaptive Criticality Number: C_A = Γ'(0)·‖∇V‖·L_V/λ_drive; C_A=1 ↔ VCZ center;
+  │     BGC Universal Stability Threshold: n* = κ_SS·C_M^β/√k̄;
+  │     Moving Critical Surface: M_crit(t) drift = VCZ slow migration mechanism;
+  │     Buffer Collapse Three-Mode Theory: Mode I/II/III = shock/saturation/structural-drift;
+  │     Intervention Paradox: formal derivation of DDD Track A before Track B;
+  │     GCF Governance Critical Fluctuation: GCUC universality class membership;
+  │     Alternative Attractor Theory: N_alt ~ exp(c·N_eff) = ①'' existence proof;
+  │     ILMI Invisible Maturation Law: ẋ = I(E,L)·F(x); κ(t) → κ* convergence;
+  │     Cube Domination = HC miscategorization = Silent Fragmentation Σ(t) source;
+  │     18 bidirectional NAT↔GGT couplings §7.26–§7.31)
   ├─ Recovery Theory (RT v1.0)                         ← contamination/immunity/restoration
   │      (D0-D7; T1-T6; VCZ 3-Conditions; SCM recovery; VCZ-Safe Optimizer)
   └─ From Call Centers to Neurons (FCCTN — 5541 lines)  ← ODE formalization and mean-field dynamics
@@ -14436,6 +17574,190 @@ Complete VCZ→Storm→Collapse→Recovery→VCZ lifecycle:
                 → DDD intensity must be SCALED with Var[Φ] near criticality:
                   same DDD effort insufficient at higher variance;
                   governance protocol must incorporate stochastic calibration
+
+  NAT ↔ GGT:  [v2.5-GGT — 18 bidirectional couplings]
+              
+              GGT→NAT (Geometry provides formal structure for NAT constructs):
+              
+              M_crit manifold → sphere VCZ formal geometry:
+                VCZ center = y ∈ M_crit (structural identity, not analogy);
+                VCZ boundary = ∂M_crit (fragile patch zone, distance metric via ξ);
+                VCZ width = M_crit basin radius in phase space;
+                all GGT M_crit geometry results transfer to NAT sphere without re-derivation
+              
+              CTGPSR five-state loop → sphere micro-governance cycle:
+                C(t)↔κ (capacity), T(t)↔f_target (targeting), G(t)↔g(z) (gating),
+                P(t)↔σ_HC (processing load), R(t)↔τ_recovery (recovery time);
+                Π base loop amplification = βκρη/(λδωμ) = sphere governance amplification factor;
+                CTGPSR cycle = minimum observable unit of sphere governance activity
+              
+              Π_G governance control number → formal Π_eff derivation:
+                Π_G = ⟨w,e(t)−b(t)⟩/(θ·Θ₀·C^{β/2}) provides first-principles derivation
+                of the effective governance ratio Π_eff that VCZ monitoring tracks;
+                Π_G = 1 ↔ Π_eff = 1 ↔ M_crit membership (E1 condition)
+              
+              ACD Moving Critical Surface → VCZ slow drift mechanism:
+                formal derivation of why VCZ center migrates over long timescales;
+                Quasi-Invariant Slow Manifold theorem: SSR cycles maintain sphere
+                near moving M_crit(t) surface automatically;
+                provides formal basis for long-run SSR effectiveness (§8.7)
+              
+              BGC Universal Stability Threshold n* → sphere size governance constraint:
+                n* = κ_SS·C_M^β/√k̄ first-principles derivation of sphere expansion limit;
+                Hyperbolic Stability Surface: n·k̄ = const_stability;
+                sphere expansion planning: check n* BEFORE expansion, not after degradation
+              
+              GCF Fractal Control Landscape → governance universe class membership:
+                GCUC membership proof: sphere governance exponents {β_g,γ_g,δ_g,ν_g,η_g,σ_g}
+                shared with insurance networks, neural columns, ecological guilds;
+                Governance Finite-Size Scaling provides correction terms at finite n;
+                universality class: interventions validated in other GCUC members predict sphere outcomes
+              
+              Buffer Collapse Mode III → Silent Criticality buffer-layer formalization:
+                τ_warning ~ τ_geom for Mode III = formal mechanism for why buffer Silent Criticality
+                is invisible to performance monitoring;
+                topology monitoring (non-degenerate loop persistence, sphere boundary maintenance)
+                required — performance KPI monitoring insufficient
+              
+              Alternative Attractor Theory N_alt → RT Learning Trajectory ①'' existence proof:
+                N_alt ~ exp(c·N_eff) proves ①'' attractors exist in exponential number in
+                high-fractal-depth spheres;
+                N_eff increases with fractal governance depth (Buffer Layer Increases N_eff theorem);
+                deep governance architecture = alternative attractor generator, not just stability investment
+              
+              TGBGT Buffer-Gate-Cascade → sphere information routing micro-architecture:
+                three primitive operators: T(targeting)=softmax(Wx), G(gating)=σ(⟨w,e−b⟩−θ),
+                I(integration)=Σ weighted_input;
+                κ_T regimes: sub-threshold (T_eff low → Freeze), critical (κ_T = 1 → SONC), 
+                super-threshold (T_eff high → Runaway);
+                SONC emerges as dynamical attractor from BGC conditions — no external calibration required
+              
+              NAT→GGT (NAT provides empirical instantiation of GGT abstract constructs):
+              
+              Sphere topology → M_crit geometry realization in physical network:
+                sphere Hausdorff dimension dim_H(G_sphere) provides concrete computation substrate
+                for GGT's abstract fractal manifold geometry;
+                sphere storm scale law exponent τ = 1 + d_c/D_f provides empirical measurement
+                path to GGT's theoretical Cascade Exponent Rigidity
+              
+              κ governance ratio → C_A measurement proxy:
+                κ→κ* convergence provides operational measurement of C_A→1 convergence;
+                κ maturation trajectory maps to C_A phase portrait (C_A<1/=1/>1);
+                diagnostic protocol: measure κ first (most accessible), then C_A if κ anomaly detected
+              
+              EW hierarchy (EW-0 through EW-5) → GGT EW architecture validation:
+                EW-0 multifractal f(α_H) narrowing = GGT's earliest geometric precursor;
+                EW-1 through EW-5 = ordered projection of M_crit distance ξ onto sphere observables;
+                EW hierarchy is the empirical measurement chain for abstract GGT phase distance
+              
+              Sphere storm archive → GCUC critical exponent estimation dataset:
+                historical sphere storm power-law distributions provide empirical exponent estimates;
+                τ measurement precision ±0.05 required to confirm GCUC membership;
+                multiple sphere types (insurance, organizational, AI) = universality class test
+              
+              Silent Fragmentation Σ(t) → GGT Silent Criticality buffer-layer operationalization:
+                Σ(t) = Var(R₁,…,R_K) is the observable proxy for Mode III buffer topology drift;
+                Cube Domination Δ_split threshold provides Mode III early warning lead time estimate;
+                joint Σ(t)+ρ monitoring provides Silent Fragmentation vs. Silent Criticality disambiguation
+              
+              VCZ three-structural conditions (NAT) + twelve-way equivalence (GGT) → complete VCZ spec:
+                NAT VCZ (Φ≈1, SDI≈0, ρ→ρ*) = operational detection of M_crit membership;
+                GGT 12-way equivalence = complete characterization of M_crit in twelve coordinate systems;
+                joint specification: NAT conditions for detection, GGT conditions for certification;
+                monitoring protocol: NAT EW stack triggers → GGT E1-E12 certification confirms VCZ status
+              
+              Sphere governance lifecycle → CTGPSR multi-scale embedding:
+                CTGPSR micro-event (single HC cycle) = lowest level of sphere governance;
+                SSR meso-cycle (§8.7) = CTGPSR loop sequence over governance period;
+                sphere maturation trajectory (§7.5) = CTGPSR macro-scale across deployment lifetime;
+                each NAT governance action = composite CTGPSR operation in multi-scale embedding
+              
+              DDD Protocol three-stage → Intervention Paradox optimal control derivation:
+                Track A (buffer): Π_G → 1 via buffer increase = unconditionally stabilizing;
+                Track B (correction): direct upper-layer intervention = conditionally stabilizing;
+                Track A before Track B ordering = formal consequence of Intervention Paradox;
+                DDD is not empirical practice but necessary governance strategy near M_crit
+
+  NAT ↔ RBIT-Bridge:  [v2.6-RBIT-Bridge — §7.32, 6 Interface Contracts I1–I6]
+
+              Resolution Gap Δρ → NAT routing invariant:
+                Δρ sign determines HC escalation necessity (I1-BC);
+                Δρ < 0 = forced compression → Theorem 1 engages = cascade risk;
+                Four-type classification = Δρ routing function, not data property;
+                Error Asymmetry (under-escalation dangerous, over-escalation safe) derived
+                from Theorem 1 asymmetric consequences
+
+              Theorem 1 Inevitability → formal storm necessity proof:
+                Under sustained Δρ < 0 at any sphere node: intent replacement in t* ≤ ⌈D*/η⌉;
+                Self-amplification (§3.0 α coefficient) has resolution-level substrate:
+                storms degrade resolution capacity that would detect them;
+                three-tier collapse phenomenology maps to Storm stages 0–4
+
+              Structural Diversity (Lemma I2) → Sphere S4 axiom formal foundation:
+                S4 (architectural diversity) = Lemma I2 detection precondition;
+                Homogeneity Failure proof: shared architecture → shared blind spots →
+                disagreement probability → 0 → Silent Criticality structurally inevitable;
+                S4 is NOT an optimization parameter — it is a mathematical necessity
+
+              Spectral Gap (Proposition I3) → Sphere S3 axiom storm threshold grounding:
+                Storm initiation requires t_persistence(Δρ < 0) > t_mixing = 1/(λ₁−λ₂);
+                Spectral gap provides dual defense: storm damping (perturbation energy) +
+                storm threshold raising (correlation breaking before stabilization);
+                Formal derivation of why sphere topology prevents Theorem 1 at scale
+
+              Triple Concordance (I4) → NAT R-ρ-f_esc monitoring formal grounding:
+                RBIT provides R branching ratio measurement protocol;
+                Four detection states: Concordant (VCZ) / Type 1 (SCM) / Type 2 (Over-damped)
+                / Type 3 (Recalibration needed);
+                Silence Cascade detection via I4 breaks self-referential reporting loop
+
+              Processing Isolation (§20.3) → NAT §3.6 mechanism grounding:
+                Three isolation mechanisms (Interface Narrowing + Temporal Decoupling +
+                Write-Asymmetry) prevent peer-level Theorem 1 engagement;
+                Any single mechanism alone leaves contamination pathways open;
+                Together: lateral influence structurally impossible (not merely prohibited)
+
+              F_RBIT temporal evolution → Rest Mode formal characterization:
+                dF_RBIT/dt = G(F,S,E) − L(F,S) equilibrium stability;
+                ∂G/∂F < ∂L/∂F → stable (Rest Mode);
+                ∂G/∂F = ∂L/∂F → bifurcation (M_crit boundary);
+                Slow trigger: gradual G/L parameter drift crosses stability boundary
+                without discrete external event = storm "without a cause"
+
+  NAT ↔ EDT:  [v2.6-EDT — §7.33, TCG/MCA/SCAU]
+
+              TCG-Loop → Sphere Topology Self-Generation Mechanism:
+                Q_E → κ → Φ(κ) → Q_E closed loop provides first-principles derivation
+                of why sphere topology is the natural equilibrium of terrain physics;
+                NOT externally designed and maintained — it is the endogenous attractor;
+                Terrain degradation PRECEDES topology degradation in causal order
+
+              Critical Tracking (Theorem 9.11.1) → SONC formal terrain derivation:
+                SONC is not a parameter target but an invariant slow manifold attractor;
+                κ(t) = κ_c(Q_E(t)) + O(ε) → sphere self-adjusts terrain to remain near criticality;
+                Governance design responsibility shifts from "tune κ" to "maintain Q_E health"
+
+              Monotone Critical Drift (Theorem 9.11.2) → Success→Rigidity→Collapse pathway:
+                Sustained x > 1: κ_c strictly increasing → endogenous progressive fragility;
+                Formal mechanism for why apparent success generates structural collapse risk;
+                Connects to MCA L-accumulation via MCA-3 (both are the same process)
+
+              SOC Emergence (Theorem 9.11.3) → NAT storm scale law formal derivation:
+                P(s) ∼ s^{−τ} derived from first principles of TCG-Loop dynamics;
+                NOT an empirical observation or modeling assumption;
+                Prevents both small-storm suppression (→ Mode II) and large-storm acceptance (→ Mode III)
+
+              MCA System (MCA-1/2/3) → Sphere Governance ODE:
+                No Stable Interior Fixed Point (Pr.11.17.1) → active maintenance required;
+                Rigidity-Amplification (Th.11.17.2) → formal proof of DFG fragility pattern;
+                Basin Shrinkage (Pr.11.17.2) → endogenous exponential risk amplification;
+                MCA_score → EW-0 composite alongside NESS_proxy and multifractal Δα_H
+
+              SCAU (§11.18) → Storm Scale Law family parameterized by x:
+                s_c = (n*)^D governance-determined maximum collapse (Th.11.18.1);
+                Double Jeopardy (Th.11.18.2): x > 1 + high L → doubly amplified statistics;
+                Optimal x ∈ [0.8, 1.0] first DFG-level governance calibration range;
+                SCAU is DFG-level universality result across all system types governed by DFG
 ```
 
 ---
