@@ -1,15 +1,16 @@
 # Network Architecture Theory (NAT)
 ### Unified Core, Mathematical Modules, Extensions, and Integration Ledger
 
-> **Version: v3.1-unified-parts** (July 2026)  
+> **Version: v3.2-mutual-memory-cleanmap** (July 2026)  
 > **Document form:** One canonical document divided into internally ranked Parts.  
 > **Authority rule:** **PART I — NAT CORE** is canonical. **PART II — EXTENSIONS AND INTEGRATION LEDGER** preserves bridge models, empirical proxies, analogies, cross-theory integrations, and historical material, but cannot override PART I.  
 > **Supersede-not-erase rule:** Material is reclassified or relocated between Parts rather than silently deleted. Historical text remains traceable through status labels and provenance entries.
+> **v3.2 update:** Resolution-first agent decomposition, reciprocal local↔global long-term-memory update, terrain-patch schemas, clean-map construction, independent clean anchors, evidence/interpretation separation, conflict-preserving shared maps, selective immutability, local plasticity/global integrity, asynchronous processing-isolated assimilation, and rollback-capable map governance are promoted into NAT-Core. These are candidate operational architecture, not claims that one topology or memory implementation is universally optimal.  
 
 ## Unified Document Map
 
 - **PART I — NAT CORE**  
-  Definitions, declared objects, typed routing, mediation, escalation, processing isolation, topology diagnostics, staged expansion, delegation, FDCL mathematical modules, claim locks, falsification, and open problems.
+  Definitions, declared objects, typed routing, mediation, escalation, processing isolation, topology diagnostics, staged expansion, delegation, reciprocal memory reconciliation, clean-map governance, FDCL mathematical modules, claim locks, falsification, and open problems.
 - **PART II — EXTENSIONS AND INTEGRATION LEDGER**  
   Terrain and dual-sphere bridges, affective and thermodynamic models, SOC and multifractal hypotheses, cross-theory mappings, advanced proxies, and historical integration records.
 
@@ -25,7 +26,7 @@
 ## PART I — NAT CORE
 ### Data Flow, Typed Routing, Escalation, Expansion, and Delegation in Multi-Agent Systems
 
-> **Part status:** Canonical NAT-Core within unified v3.1.  
+> **Part status:** Canonical NAT-Core within unified v3.2.  
 > **Authority:** This Part is authoritative for NAT definitions, object locks, claim grades, routing rules, and deployment conditions.  
 > **Extension location:** Cross-theory, affective, thermodynamic, SOC, multifractal, biological, and historical material is retained in **PART II** of this document.  
 > **Historical preservation:** Pre-separation material is retained through the provenance ledger in PART II and the archived v2.9 source.
@@ -38,8 +39,9 @@ NAT-Core contains only claims needed to define and operate the network architect
 - role/capacity-relative resolution and typed routing;
 - decision complexes, mediation, escalation, and processing isolation;
 - topology diagnostics and failure-aware robustness;
-- staged expansion, rollback, and authority delegation;
+- staged expansion, rollback, authority delegation, and reciprocal memory reconciliation;
 - FDCL-inspired mathematical modules whose object and transfer status are explicit;
+- clean-map and memory-patch governance;
 - empirical grounding, limitations, falsification, and open problems.
 
 PART II may propose mappings, proxies, analogies, or model-specific dynamics, but it **cannot silently redefine a NAT-Core object or promote a bridge claim to a theorem**. When wording conflicts, PART I and its §§9–10 claim locks prevail.
@@ -55,6 +57,9 @@ PART II may propose mappings, proxies, analogies, or model-specific dynamics, bu
 5. Every spectral, resistance, robustness, or mixing claim is tied to a declared graph/kernel and process.
 6. Cross-space or cross-theory correspondences require explicit bridge maps and error claims.
 7. Expansion and delegation require checkpoints, rollback, independent audit, and path-dependent validation.
+8. Agent decomposition is valid only relative to a declared required-resolution field, specialist supply profiles, coverage, bounded overlap, and verified interface maps.
+9. Upper/global memory is a broad but incomplete meta-map; lower/local memory is a narrow but higher-contact map. Long-term memory is updated through reciprocal terrain reconciliation, not one-way authority by default.
+10. Shared-map cleanliness means independently anchored, provenance-preserving, uncertainty-visible, conflict-preserving, versioned, and rollback-capable—not zero error or unanimous consensus.
 
 ## Table of Contents
 
@@ -65,6 +70,7 @@ PART II may propose mappings, proxies, analogies, or model-specific dynamics, bu
 5. Decision Complex Module
 6. Escalation Design
 7. Expansion and Deployment Core
+7A. Mutual Memory and Clean Map Architecture
 8. Human–AI Collaboration and Delegation
 9. Core Assumptions and Claim Locks
 10. Structural Correspondence and Object Registry
@@ -4276,6 +4282,226 @@ Structural Enforcement (three mechanisms, all required):
 ### 7.9.1 Advanced Dynamical and Terrain Extensions — Companion Pointer
 
 Terrain ecology, mean-field ODEs, thermodynamic analogies, DDD, revival dynamics, stochastic extensions, and cross-theory integration stacks are in **PART II, Extension Divisions D–F**. They are optional modules; NAT-Core expansion and rollback rules do not depend on their universal validity.
+
+### 7.9.2 Resolution-First Decomposition, Mutual Memory, and Clean Map Architecture (v3.2)
+
+#### 7.9.2.0 Core Position
+
+NAT cannot select a defensible agent partition from role labels alone. RBIT supplies the required-resolution field and agent-specific supply profiles; NAT then constructs a topology and update protocol that cover that field without excessive interference or integration loss.
+
+Let
+
+$$
+r_{\mathrm{req}}(\hat v\mid x,c,t)
+$$
+
+be required resolution in direction $\hat v$, and
+
+$$
+\rho_i(\hat v\mid x,c,t)
+$$
+
+be agent $i$'s verified supply profile. A candidate decomposition must satisfy:
+
+1. **coverage** — critical directions are supplied;
+2. **internal compatibility** — directions grouped in one agent do not destroy one another's usable reach;
+3. **bounded overlap** — enough redundancy for audit, not enough to produce total duplication or monoculture;
+4. **interface compatibility** — scoped outputs can be translated and behaviorally verified;
+5. **recoverability** — local and global updates can be rolled back;
+6. **clean-map maintainability** — shared memory does not erase provenance, uncertainty, or conflict.
+
+The network design problem is therefore not merely assigning tasks to agents. It is constructing a resolution cover and maintaining it through time.
+
+#### 7.9.2.1 Canonical Memory Topology
+
+A NAT deployment SHOULD distinguish at least four memory roles:
+
+- **local/private terrain maps** $\mathcal M_i$ — high-contact, role-specific, rapidly updated;
+- **shared/global meta-map** $\mathcal M_G$ — cross-agent relations, common boundaries, global gaps, and lineage;
+- **mediation/buffer map** $\mathcal M_B$ — unresolved translations, conflicts, and candidate correspondences;
+- **independent reference layer** $\mathcal M_R$ — clean anchors, protected baselines, audit commitments, and external outcomes.
+
+These are logical roles, not necessarily separate databases or agents. A single implementation may host multiple roles only if access control, update authority, provenance, and failure independence remain explicit.
+
+#### 7.9.2.2 Terrain-Patch Object Lock
+
+A persistent update is transmitted as a terrain patch rather than an unscoped prose memory:
+
+$$
+p=(o,f,s,\pi,u,z,v,r,a).
+$$
+
+The fields are observation, frame, scope, provenance, uncertainty, lifecycle state, version/dependencies, rollback pointer, and authority/action impact. NAT routes and validates this object; RBIT interprets its resolution effect; Recovery Theory supplies contamination and clean-anchor boundaries.
+
+Canonical lifecycle states:
+
+```text
+LOCAL → CANDIDATE → VERIFIED
+  ↘ CONFLICT / UNKNOWN / STALE / QUARANTINED / REVOKED
+```
+
+No router may silently promote `CONFLICT` or `UNKNOWN` to `VERIFIED` merely because a majority agrees.
+
+#### 7.9.2.3 Mutual Terrain Reconciliation Loop (MTRL)
+
+The upper layer is not an infallible teacher. It has greater cross-scope coverage but less local contact and often lower freshness. Lower agents have narrow but deeper and faster local maps. NAT therefore uses a reciprocal loop.
+
+##### Upward path — local differential, not total state
+
+Each lower agent emits
+
+$$
+\Delta_i^{\uparrow}
+=(\Delta L_i,\Delta E_i,\Delta P_i,\Delta B_i,\Delta Q_i,\Delta R_i),
+$$
+
+containing new landmarks, relations, successful/failed paths, boundaries, uncertainty/provenance, and recovery information. It also declares observation conditions, exclusions, and untested regions.
+
+##### Global fusion — preserve plurality
+
+The global layer classifies incoming patches as corroborating, complementary, conflicting, stale, correlated, or out-of-scope. It stores source graphs and alternative hypotheses. Agreement from agents sharing a base model, dataset, inherited prompt, or common upstream patch is discounted as correlated evidence.
+
+##### Downward path — role-projected global patch
+
+The global map projects only what is relevant to agent $i$:
+
+$$
+P_{G\to i}=\mathsf{Project}(\mathcal M_G,S_i,c_i,\rho_i,\mathcal A_i).
+$$
+
+The projection may include cross-local relations, global safety boundaries, newly discovered gaps, complementary local discoveries, routing changes, and recovery procedures. It should not overwrite unrelated specialist terrain.
+
+##### Local validation and residual return
+
+The receiving agent tests the patch in replay, sandbox, shadow mode, or bounded deployment and returns:
+
+```text
+ACCEPT | CONDITIONAL | CONFLICT | OUT_OF_SCOPE | UNSAFE | UNRESOLVED
+```
+
+The residual becomes new evidence for global-map revision. Repeated independent local rejection is evidence that the global map may be wrong or overgeneralized.
+
+#### 7.9.2.4 Processing-Isolation Requirement for Memory
+
+Reciprocal memory does not license unrestricted lateral influence. The following are prohibited defaults:
+
+- live sharing of unconsolidated internal states;
+- unversioned shared-memory overwrite;
+- global patches with undeclared authority impact;
+- immediate propagation of one local failure to all agents;
+- assimilation without sandbox or rollback for high-impact patches;
+- deletion of contradictory evidence to produce apparent consistency.
+
+Recommended sequence:
+
+```text
+local process
+→ committed scoped patch
+→ mediator and integrity checks
+→ candidate shared state
+→ role projection
+→ local validation
+→ staged assimilation
+→ monitoring / rollback / supersession
+```
+
+This preserves processing isolation while permitting long-term mutual learning.
+
+#### 7.9.2.5 Clean Map Construction Protocol (CMCP-NAT)
+
+A shared map is operationally clean only when its update process preserves the ability to detect and undo contamination. NAT adopts the following gates from the RBIT–RT interface.
+
+1. **Domain lock.** Declare map domain, users, scope, authority, update cadence, and required resolution.
+2. **Correction-core separation.** Map contents are not the same object as the process that chooses references, authorizes updates, evaluates outcomes, and accepts rollback.
+3. **Independent clean anchor.** At least one protected external evaluator, baseline, checkpoint, verifier, human authority, lineage log, or replacement implementation must remain accessible for certifiable purification.
+4. **Reality–record–interpretation separation.** External events, observation records, inferred terrain, and policies remain distinct.
+5. **Provenance and dependency graph.** Source identity, common ancestry, shared data, mediator effects, and timestamps are retained.
+6. **Cross-perspective collection.** Different roles, methods, timescales, and failure sensitivities provide observations.
+7. **Conflict buffer.** Disagreement is classified before fusion and can remain unresolved.
+8. **External-reference and perturbation tests.** Internal confidence and consistency are insufficient under frame contamination.
+9. **Selective immutability.** Evidence history and lineage are tamper-evident; interpretations, thresholds, and policies remain revisable.
+10. **Local plasticity / global integrity.** Local maps may explore and branch; global reference history and critical boundaries change through stricter promotion gates.
+11. **Versioned promotion.** Patches move through explicit lifecycle states.
+12. **Rollback and drift monitoring.** High-impact updates preserve a return state and are re-tested when terrain, tools, or authority change.
+
+A map with no visible conflict is not necessarily clean. It may be a monoculture or a frozen reference frame.
+
+#### 7.9.2.6 Clean-Map Registry
+
+The global memory SHOULD expose separate views for:
+
+- verified common terrain;
+- agent-specific local terrain;
+- unresolved conflict terrain;
+- unknown or uncovered terrain;
+- stale terrain;
+- quarantined/revoked terrain;
+- evidence and dependency lineage;
+- rollback-compatible historical versions.
+
+A single flattened “latest truth” table is unsafe for heterogeneous agents because it hides scope, time, uncertainty, and local exceptions.
+
+#### 7.9.2.7 Memory Distribution and Homogenization Control
+
+A patch is routed only when expected role-relative resolution benefit exceeds contamination, homogenization, and update cost. Global broadcast is reserved for genuine global constraints, common coordinate changes, critical recovery instructions, or widely verified environmental changes.
+
+Map-monoculture warnings include:
+
+- declining local novelty and specialist-specific evidence;
+- convergence of vocabulary or routing without held-out gain;
+- identical errors across supposedly independent agents;
+- disappearance of conflict states;
+- automatic acceptance of global patches;
+- local facts repeatedly overwritten by broad priors;
+- agreement rising while external concordance falls.
+
+The design objective is **interface compatibility with retained internal diversity**, not identical internal maps.
+
+#### 7.9.2.8 Topology Implications
+
+Mutual memory introduces a separate memory multiplex from the task-communication graph. The following edges need not coincide:
+
+- task routing;
+- evidence submission;
+- global patch distribution;
+- clean-anchor access;
+- audit and rollback;
+- quarantine and recovery.
+
+A hub may coordinate tasks without authority to rewrite memory. A global memory service may store commitments without deciding interpretations. A local specialist may reject a patch without having system-level policy authority. NAT must preserve these distinctions.
+
+#### 7.9.2.9 Candidate Deployment Phases
+
+```text
+Phase M0 — separate local maps and protected references
+Phase M1 — local patch schemas and lineage discipline
+Phase M2 — upward differentials with no automatic fusion
+Phase M3 — conflict-buffered global map and role projections
+Phase M4 — sandboxed local assimilation and residual return
+Phase M5 — adaptive promotion thresholds and drift-triggered revalidation
+```
+
+Advancement requires evidence that the previous phase does not collapse specialist diversity or contaminate the correction core.
+
+#### 7.9.2.10 Failure Modes
+
+- **MM-F1 Global-map absolutism:** broad map treated as complete truth.
+- **MM-F2 Local exceptionalism:** local contact used to deny valid global relations.
+- **MM-F3 Shared-memory overwrite:** provenance and alternatives lost.
+- **MM-F4 Correlated consensus:** duplicated evidence mistaken for independent confirmation.
+- **MM-F5 Conflict laundering:** mediator converts unresolved disagreement into false consensus.
+- **MM-F6 Clean-anchor capture:** reference layer joins the optimized system's feedback loop.
+- **MM-F7 Immutable-policy lock-in:** historical evidence protection freezes current policy.
+- **MM-F8 Local-plasticity suppression:** audit intensity prevents learning.
+- **MM-F9 Memory oscillation:** local and global patches repeatedly reverse one another.
+- **MM-F10 Rollback incompatibility:** historical state cannot operate with current tools or topology.
+- **MM-F11 Scope leakage:** role-specific terrain patch becomes a global rule.
+- **MM-F12 Map monoculture:** consistency rises while coverage and observability fall.
+
+#### 7.9.2.11 Status Lock
+
+MTRL and CMCP-NAT are canonical candidate protocols. Their deployment value must be tested against simpler alternatives: isolated local memory, centralized shared stores, one-way global broadcast, pooled transcript memory, consensus fusion, and immutable ledgers. Structural analogy to collaborative mapping, personalized federated learning, mutual learning, and agent-memory systems is evidence of available mechanisms, not validation of NAT's full architecture.
+
 ### 7.34 FDCL–NAT Substrate Interface and Object Lock
 
 *[v2.8-FDCL-substrate-audit] This section specifies what FDCL mathematics can and cannot establish for NAT. It supersedes any reading in which the existence of an FDCL formula automatically proves a general multi-agent architecture claim.*
@@ -5490,6 +5716,19 @@ GCC, vitality-cycle, and Fisher-information integration modules are preserved in
 - Bulk, backbone, skeleton, voxel, boundary, and effective operators remain separate namespaces.
 - Infinite-level conclusions require the relevant convergence theorem; finite-level computation alone is insufficient.
 
+
+### 9.3.1 Memory and Clean-Map Assumptions
+
+1. Local and global maps can be represented with explicit scope, provenance, uncertainty, and version metadata.
+2. At least one independent clean anchor can remain outside the monitored optimization loop for high-risk certification.
+3. Processing isolation permits asynchronous patch exchange without live internal-state sharing.
+4. Local validators have sufficient contact to reject or condition some global patches.
+5. Conflict states can be retained without forcing immediate action paralysis.
+6. Rollback is technically and institutionally available for the update class under study.
+7. Memory topology and task topology may be separated.
+
+Violation of these assumptions does not prove the architecture wrong; it places the deployment outside the current certifiable domain.
+
 ### 9.4 Claim Ladder
 
 | Level | Meaning | Permitted language |
@@ -5539,6 +5778,10 @@ Bare symbols such as $L$, $\lambda_2$, $\rho$, $S$, or $K$ must be qualified whe
 | FDCL dimension or spectral constants determine optimal NAT parameters | open bridge conjecture |
 | inner hyperspherical uniformity implies outer graph optimality | unsupported without bridge |
 | MoE expert routing validates the full NAT sphere architecture | structural analogy, not validation |
+| reciprocal local↔global memory improves heterogeneous systems | candidate empirical claim; requires matched baselines |
+| a tamper-evident ledger creates ground truth | false category identification; ledger preserves records only |
+| clean-map certification proves factual perfection | forbidden; certification is domain- and gate-relative |
+| global consensus implies map cleanliness | unsupported; may indicate correlated monoculture |
 
 ### 10.0.3 Dependency and Citation Discipline
 
@@ -6337,6 +6580,22 @@ A single agent cannot resolve this tradeoff internally. This is the structural r
 
 The breadth agent identifies what exists. The depth agent classifies what it means. Neither can fully substitute for the other. Imbalance between them is a precursor condition for vector storm escalation.
 
+
+### 11.6.1 Existing Memory Systems as Partial Precedents
+
+Current agent and distributed-learning systems already contain fragments of the v3.2 architecture:
+
+- episodic memory stores trajectories and failures;
+- semantic memory stores facts and relations;
+- procedural memory stores prompts, skills, tools, and executable routines;
+- shared-memory systems use namespaces, provenance, and access views;
+- distributed memory preserves agent-specific experience;
+- collaborative mapping reconciles local maps with global constraints;
+- personalized federated learning mixes global priors with local models;
+- mutual learning allows lower-capacity or local models to correct a nominal teacher.
+
+These are **partial precedents**. They do not by themselves define required-resolution coverage, clean-map certifiability, non-collapsing conflict registries, or reciprocal terrain reconciliation. NAT uses them as implementation evidence that the component operations exist, not as proof that the integrated architecture is optimal.
+
 ### 11.7 Failure Mode Mapping
 
 | Theory Violation | Multi-Agent Failure | Single-Agent Analogue |
@@ -6351,6 +6610,30 @@ The breadth agent identifies what exists. The depth agent classifies what it mea
 
 ---
 ## 12. Limitations and Open Problems
+
+
+**v3.2 memory and clean-map open problems:**
+
+1. Estimate required-resolution fields and agent supply profiles well enough to choose partitions before training.
+2. Identify optimal local/global patch granularity and promotion cadence.
+3. Derive stability conditions for reciprocal memory updates under delay, noise, and strategic behavior.
+4. Quantify source correlation so repeated inherited memories are not counted as independent evidence.
+5. Determine minimum clean-anchor diversity and replacement schedules.
+6. Measure map monoculture before external performance visibly collapses.
+7. Design conflict registries that preserve uncertainty without blocking necessary action.
+8. Validate selective immutability against both record tampering and policy Freeze.
+9. Separate retrieval priming from persistent terrain assimilation.
+10. Test whether memory multiplex separation reduces contamination blast radius.
+11. Build rollback across changing tools, schemas, models, and network topology.
+12. Compare MTRL/CMCP against isolated, centralized, broadcast, and pooled-memory baselines.
+
+**v3.2 falsification gates:**
+
+- If one-way global broadcast consistently matches reciprocal reconciliation on local truth, global relation accuracy, diversity, safety, and recovery at lower cost, MTRL is not generally necessary.
+- If internal consensus alone reliably detects coordinate-frame and update-generator corruption, the clean-anchor requirement is weakened.
+- If conflict preservation never improves hidden-error detection or rollback, the non-collapsing registry is unnecessary.
+- If full immutability preserves adaptation as well as selective immutability, the local-plasticity/global-integrity split is unsupported.
+- If patch schemas do not predict held-out behavior beyond raw transcript retrieval, the strong terrain-patch object is not useful.
 
 | Problem | Description |
 |---|---|
@@ -6487,6 +6770,15 @@ $$
 
 This is an interface convention, not a claim that resolution is a universal scalar. Domain- and role-specific capacity profiles may be vector-valued.
 
+
+### 13.1.1 RBIT v3.5 Memory and Clean-Map Interface
+
+RBIT supplies the memory-as-terrain operator, directional-resolution effects, terrain-patch schema, lifecycle states, Mutual Terrain Reconciliation Loop, and Clean Map Construction Protocol. NAT supplies the multiplex topology, routing, mediation, access control, processing isolation, staged assimilation, and rollback paths that execute them. Neither theory treats a global map as automatically complete or a local map as automatically correct.
+
+### 13.1.2 Recovery Theory Interface Lock
+
+Recovery Theory supplies the narrow correction-core boundary, independent clean-anchor requirement, contamination-depth distinctions, cross-perspective purification, external-reference necessity for frame/generator corruption, and the rule that evidence records may be protected while interpretations remain revisable. NAT must output `CLEAN-MAP SELF-CERTIFICATION NOT AVAILABLE` when the correction core or all independent anchors are compromised; it must not route the same system's self-approval as independent verification.
+
 ### 13.2 EDT–GGT Interface Lock
 
 EDT supplies the role-conditioned terrain and admissible transition environment; GGT may supply candidate partition and scale geometry. NAT designs the typed multiplex connections, ordered routing paths, escalation channels, staged integration, and rollback rules over those patches.
@@ -6571,6 +6863,9 @@ These mechanisms are not novel inventions — they are patterns already operatin
 
 ---
 
+
+**v3.2 memory conclusion.** No layer owns the final map. Lower agents contribute fresh, high-resolution local differentials; upper agents contribute cross-scope relations, common constraints, and unresolved-gap detection. System memory is the versioned, provenance-preserving result of their reciprocal correction under independent anchors—not the contents of a central store. A mature architecture minimizes neither disagreement nor updates; it minimizes **uncertified irreversible map change** while maintaining local exploration and global integrity.
+
 ### Canonical Closing Statement
 
 NAT is a theory of **how heterogeneous agents, information, authority, risk, recovery, and audit paths should be connected and changed over time**. Its core contribution is not a single topology, scalar, or physical metaphor. It is the disciplined combination of typed routing, object-locked multiplexes, bounded mediation, reversible expansion, and independent verification.
@@ -6580,10 +6875,15 @@ NAT is a theory of **how heterogeneous agents, information, authority, risk, rec
 ## PART II — EXTENSIONS AND INTEGRATION LEDGER
 ### Cross-Theory Models, Advanced Dynamics, Empirical Proxies, and Historical Provenance
 
-> **Part status:** Preserved extension and bridge layer within unified v3.1.  
+> **Part status:** Preserved extension and bridge layer within unified v3.2.  
 > **Status:** Non-canonical extension layer governed by PART I.  
 > **Authority rule:** This Part does not override PART I NAT-Core definitions or claim grades. If a theorem, proxy, analogy, or imported equation conflicts with the PART I object lock, PART I prevails.  
 > **Preservation rule:** Material is moved, not erased. Original numbering is retained where useful so older cross-references remain traceable.
+
+
+### v3.2 Mutual Memory and Clean Map Provenance Entry
+
+Promoted into NAT-Core: resolution-first decomposition conditions; local/private, global/shared, mediation, and independent-reference memory roles; terrain-patch schema and lifecycle; Mutual Terrain Reconciliation Loop; processing-isolated assimilation; Clean Map Construction gates; map-monoculture failure; memory multiplex separation; phased deployment; failure taxonomy; RBIT v3.5 and Recovery Theory v2.19 interfaces. Structural precedents remain in empirical-grounding status and do not override the core claim locks.
 
 ## Extension Claim Ladder
 
