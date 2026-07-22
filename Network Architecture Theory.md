@@ -6,6 +6,7 @@
 > **Authority rule:** **PART I — NAT CORE** is canonical. **PART II — EXTENSIONS AND INTEGRATION LEDGER** preserves bridge models, empirical proxies, analogies, cross-theory integrations, and historical material, but cannot override PART I.  
 > **Supersede-not-erase rule:** Material is reclassified or relocated between Parts rather than silently deleted. Historical text remains traceable through status labels and provenance entries.
 > **v3.2 update:** Resolution-first agent decomposition, reciprocal local↔global long-term-memory update, terrain-patch schemas, clean-map construction, independent clean anchors, evidence/interpretation separation, conflict-preserving shared maps, selective immutability, local plasticity/global integrity, asynchronous processing-isolated assimilation, and rollback-capable map governance are promoted into NAT-Core. These are candidate operational architecture, not claims that one topology or memory implementation is universally optimal.  
+> **v3.2-e1 editorial/sync audit patch (July 2026):** (1) §13.1.1 interface lock synchronized to RBIT v3.5-e1/e2/e3 — lifecycle transition relation, MTRL-6 candidate reconciliation dynamics, lineage-closure anchor independence, MM-16 threat model, shared benches B14–B16/B16-ADV, and the falsification decision-procedure lock; (2) §1 headline reclassified from assertion to candidate (claim-ladder E at system level) with achievability registered as OP-NAT-SCALING-1; (3) §7.9.2.7 routing criterion placed under the declared-aggregation lock and non-compensatory critical-direction floor, mirroring RBIT MM-11; (4) §7.9.2.2 patch-schema fields renamed with patch subscript ·_m per the §10.0.1 bare-symbol rule; (5) v3.2 open problems assigned IDs OP-NAT-MM1–12 with candidate-answer pointers; ledger IDs OP-NAT-VE-1/2 and OP-NAT-CASCADE-1 registered as live Part I problems; (6) v3.2 falsification gates named F-NAT-MM1–6 with declared RBIT F-MM correspondence, adversarial gate F-NAT-MM6 added, decision-procedure lock adopted; (7) TOC aligned to actual headings (7A → 7.9.2; §15 added); (8) MM-F vs F-MM namespace reader lock added in §7.9.2.10; (9) new §7.9.2.11 Adversarial Memory Surface — multiplex attack mapping (former Status Lock renumbered 7.9.2.12); (10) CMCP-NAT ↔ RBIT 12↔10+2 correspondence table with divergence-prevention rule; (11) M0–M5 advancement gates quantified via monoculture proxies; (12) §15 References initial consolidation added with §11.6.1 citation pointer to RBIT MM-15. All additions candidate-status; no claim grades raised.  
 
 ## Unified Document Map
 
@@ -66,18 +67,20 @@ PART II may propose mappings, proxies, analogies, or model-specific dynamics, bu
 1. Why This Theory Exists
 2. Overview
 3. Network Structure — Core
-4. Data Classification and Routing
+4. Data Classification Framework
 5. Decision Complex Module
 6. Escalation Design
 7. Expansion and Deployment Core
-7A. Mutual Memory and Clean Map Architecture
-8. Human–AI Collaboration and Delegation
+&nbsp;&nbsp;&nbsp;&nbsp;7.9.2 Resolution-First Decomposition, Mutual Memory, and Clean Map Architecture
+&nbsp;&nbsp;&nbsp;&nbsp;7.34 FDCL–NAT Substrate Interface *(§§7.10–7.33 reside in PART II)*
+8. Human-AI Collaboration Zone
 9. Core Assumptions and Claim Locks
 10. Structural Correspondence and Object Registry
 11. Empirical Grounding and Structural Analogies
 12. Limitations and Open Problems
 13. Theory Interfaces and Extension Boundary
 14. Key Insight and Conclusion
+15. References — Initial Consolidation
 
 ---
 ## 1. Why This Theory Exists
@@ -116,7 +119,7 @@ Constraint:
   (scaling does not degrade classification accuracy below a floor)
 ```
 
-This is a stronger requirement than governance cost remaining bounded. It requires governance cost to shrink *relative to capability* — the system becomes more self-governing as it grows. The S-equation (VST §3.3) establishes that unstructured growth makes this impossible (C_gov ~ O(n²) while K ~ O(n)). NAT provides the structural conditions under which this impossibility is overcome.
+This is a stronger requirement than governance cost remaining bounded. It requires governance cost to shrink *relative to capability* — the system becomes more self-governing as it grows. The S-equation (VST §3.3) establishes that unstructured growth makes this impossible (C_gov ~ O(n²) while K ~ O(n)). NAT provides **candidate** structural conditions under which this impossibility could be overcome. Whether the sphere/expander reference topology, typed routing, and circular closure jointly achieve the stated limit — and under which assumptions on classifier accuracy, coupling, and drift — is not established and is registered as **OP-NAT-SCALING-1** (§12). The claim-ladder status of the headline goal is E (empirical hypothesis) at system level, with M-level support only for individual scaling components (e.g., the closure inequality of §7.6) inside their declared models.
 
 **Scope boundaries — what this theory does NOT address:**
 
@@ -4328,10 +4331,10 @@ These are logical roles, not necessarily separate databases or agents. A single 
 A persistent update is transmitted as a terrain patch rather than an unscoped prose memory:
 
 $$
-p=(o,f,s,\pi,u,z,v,r,a).
+p=(o_m,f_m,s_m,\pi_m,u_m,z_m,v_m,r_m,a_m).
 $$
 
-The fields are observation, frame, scope, provenance, uncertainty, lifecycle state, version/dependencies, rollback pointer, and authority/action impact. NAT routes and validates this object; RBIT interprets its resolution effect; Recovery Theory supplies contamination and clean-anchor boundaries.
+The fields are observation, frame, scope, provenance, uncertainty, lifecycle state, version/dependencies, rollback pointer, and authority/action impact. The patch subscript $\cdot_m$ follows RBIT v3.5-e1 and NAT's own bare-symbol rule (§10.0.1): unsubscripted $f$, $s$, $v$, and $a$ remain reserved for the health-vector components, sensitivity, classification velocity $v_{\mathrm{class}}$, and affective objects respectively, and patch fields inherit no theorems stated for those symbols. NAT routes and validates this object; RBIT interprets its resolution effect; Recovery Theory supplies contamination and clean-anchor boundaries.
 
 Canonical lifecycle states:
 
@@ -4426,6 +4429,25 @@ A shared map is operationally clean only when its update process preserves the a
 
 A map with no visible conflict is not necessarily clean. It may be a monoculture or a frozen reference frame.
 
+**CMCP-NAT ↔ RBIT correspondence (declared v3.2-e1; divergence-prevention rule).** The 12 gates above are the RBIT ten protocol steps plus the two MM-8 structural requirements, renumbered:
+
+| CMCP-NAT gate | RBIT object |
+|---|---|
+| 1 Domain lock | CMCP-0 |
+| 2 Correction-core separation | MM-8 ($I_{\mathrm{core}}$) |
+| 3 Independent clean anchor | MM-8 ($A_{\mathrm{clean}}$; lineage-closure definition, e3) |
+| 4 Reality–record–interpretation | CMCP-1 |
+| 5 Provenance and dependency graph | CMCP-2 |
+| 6 Cross-perspective collection | CMCP-3 |
+| 7 Conflict buffer | CMCP-4 |
+| 8 External-reference and perturbation tests | CMCP-5 |
+| 9 Selective immutability | CMCP-6 |
+| 10 Local plasticity / global integrity | CMCP-7 |
+| 11 Versioned promotion | CMCP-8 |
+| 12 Rollback and drift monitoring | CMCP-8 + CMCP-9 |
+
+RBIT's CMCP text is canonical for gate *content*; CMCP-NAT is canonical for gate *execution* (which router, which multiplex edge, which authority). A revision to either side without a matching update or explicit divergence note on the other is a documentation defect, not a fork.
+
 #### 7.9.2.6 Clean-Map Registry
 
 The global memory SHOULD expose separate views for:
@@ -4443,7 +4465,7 @@ A single flattened “latest truth” table is unsafe for heterogeneous agents b
 
 #### 7.9.2.7 Memory Distribution and Homogenization Control
 
-A patch is routed only when expected role-relative resolution benefit exceeds contamination, homogenization, and update cost. Global broadcast is reserved for genuine global constraints, common coordinate changes, critical recovery instructions, or widely verified environmental changes.
+A patch is routed only when expected role-relative resolution benefit exceeds contamination, homogenization, and update cost. Two locks govern this criterion, mirroring RBIT MM-11 (v3.5-e1): **(i)** the "expected benefit" is a declared scalar aggregation of a vector-valued directional effect and inherits the non-compensatory scalarization constraint; **(ii)** the scalar criterion is subordinate to a critical-direction floor — a patch is ineligible for routing to an agent, regardless of aggregate benefit, if it degrades any declared contract-critical direction for that agent or opens reach along a prohibited boundary. This keeps §7.9.2.7 consistent with §7.9.2.0's coverage condition 1: aggregate benefit may not purchase a safety-critical loss. Global broadcast is reserved for genuine global constraints, common coordinate changes, critical recovery instructions, or widely verified environmental changes.
 
 Map-monoculture warnings include:
 
@@ -4481,9 +4503,11 @@ Phase M4 — sandboxed local assimilation and residual return
 Phase M5 — adaptive promotion thresholds and drift-triggered revalidation
 ```
 
-Advancement requires evidence that the previous phase does not collapse specialist diversity or contaminate the correction core.
+Advancement requires evidence that the previous phase does not collapse specialist diversity or contaminate the correction core. **Quantified advancement gates (candidate, v3.2-e1):** each phase transition SHOULD be conditioned on the monoculture proxies of §7.9.2.7/RBIT MM-12 — cross-agent representation-similarity drift below a declared bound, cross-agent reconstruction-error correlation not rising, routing entropy not collapsing without matched external gain, and per-source `CONFLICT` creation rate not decaying to zero — plus correction-core integrity checks (clean-anchor accessibility and lineage tamper-evidence unchanged). A phase advance with any proxy in the warning region requires explicit sign-off, not silent promotion; regression of any proxy after advance is a rollback trigger to the prior phase.
 
 #### 7.9.2.10 Failure Modes
+
+*Namespace reader lock (v3.2-e1).* **MM-F#** tags below are NAT **failure modes** (things that go wrong in deployment). They are distinct from RBIT's **F-MM#** tags, which are **falsification criteria** (conditions under which the theory itself must be revised), and from NAT's F-NAT-MM# gates (§12). The near-collision is historical; do not cite one for the other.
 
 - **MM-F1 Global-map absolutism:** broad map treated as complete truth.
 - **MM-F2 Local exceptionalism:** local contact used to deny valid global relations.
@@ -4498,7 +4522,24 @@ Advancement requires evidence that the previous phase does not collapse speciali
 - **MM-F11 Scope leakage:** role-specific terrain patch becomes a global rule.
 - **MM-F12 Map monoculture:** consistency rises while coverage and observability fall.
 
-#### 7.9.2.11 Status Lock
+#### 7.9.2.11 Adversarial Memory Surface — Multiplex Attack Mapping [CANDIDATE — v3.2-e1]
+
+NAT adopts the RBIT MM-16 attacker capability classes (A0 observe-only, A1 patch injection, A2 provenance forgery/Sybil, A3 mediator/router compromise, A4 anchor compromise) and adds the NAT-specific contribution: **each canonical attack targets a specific edge type of the memory multiplex**, so the edge-separation principle of §7.9.2.8 is simultaneously the attack-surface partition and the containment mechanism.
+
+| Attack (MM-16) | Multiplex surface attacked | NAT containment lever | Related failure mode |
+|---|---|---|---|
+| Poisoned differential (A1) | evidence-submission edges into $\mathcal M_G$ | MTRL-4-style local validation before fusion; CMCP-NAT gate 8 | MM-F3 |
+| Gradual drift injection (A1) | evidence edges, sub-threshold over time | per-source cumulative drift monitoring on the audit layer (gate 12) | MM-F3/F12 |
+| Sybil / correlated forged consensus (A2) | provenance graph and evidence counting | gate 5 correlation discounting; lineage-closure independence (RBIT MM-8 e3) | MM-F4 |
+| Conflict flooding (A1–A2, DoS) | mediation buffer $\mathcal M_B$ and escalation layer $L_{\mathrm{esc}}$ | MTRL rate limits, per-source conflict budgets | MM-F5 (inverse: forced laundering under load) |
+| Scope-splitting recombination (A1) | routing/projection edges | post-assimilation drift re-test (gate 12); compositional auditing **open gap** | MM-F11 |
+| Homogenization attack (A3) | patch-distribution edges + authority layer | §7.9.2.7 routing locks; local acceptance authority; hub/memory authority separation (§7.9.2.8) | MM-F12 |
+| Rollback poisoning (A1–A3) | recovery/rollback edges and $\mathcal M_R$ checkpoints | gate 9 tamper-evident lineage; restoration testing | MM-F10 |
+| Anchor capture (A4) | clean-anchor access edges | outside self-defense by construction — `CLEAN-MAP SELF-CERTIFICATION NOT AVAILABLE` + external reconstruction (§13.1.2); anchor rotation per RBIT MM-8 e3 | MM-F6 |
+
+Because the attack surfaces are distinct edge types, collapsing the multiplex into a single graph (one channel carrying tasks, evidence, patches, and anchor access) merges all attack surfaces into one — the strongest structural argument yet for §7.9.2.8. Attacker budget and knowledge assumptions, detection-rate claims, and containment costs are unestablished pending B16-ADV under NAT topologies (gate F-NAT-MM6).
+
+#### 7.9.2.12 Status Lock
 
 MTRL and CMCP-NAT are canonical candidate protocols. Their deployment value must be tested against simpler alternatives: isolated local memory, centralized shared stores, one-way global broadcast, pooled transcript memory, consensus fusion, and immutable ledgers. Structural analogy to collaborative mapping, personalized federated learning, mutual learning, and agent-memory systems is evidence of available mechanisms, not validation of NAT's full architecture.
 
@@ -6596,6 +6637,8 @@ Current agent and distributed-learning systems already contain fragments of the 
 
 These are **partial precedents**. They do not by themselves define required-resolution coverage, clean-map certifiability, non-collapsing conflict registries, or reciprocal terrain reconciliation. NAT uses them as implementation evidence that the component operations exist, not as proof that the integrated architecture is optimal.
 
+*Citation pointer (v3.2-e1).* Concrete positioning against these literatures — complementary learning systems, systems consolidation, continual learning, CRDTs, provenance standards, and contemporary LLM-agent memory layers (MemGPT/Mem0 class) — is maintained in **RBIT v3.5 MM-15** with full references, including the four claimed points of distinct contribution. NAT does not duplicate that mapping; §15 carries the shared core citations.
+
 ### 11.7 Failure Mode Mapping
 
 | Theory Violation | Multi-Agent Failure | Single-Agent Analogue |
@@ -6612,28 +6655,34 @@ These are **partial precedents**. They do not by themselves define required-reso
 ## 12. Limitations and Open Problems
 
 
-**v3.2 memory and clean-map open problems:**
+**v3.2 memory and clean-map open problems (IDs assigned v3.2-e1):**
 
-1. Estimate required-resolution fields and agent supply profiles well enough to choose partitions before training.
-2. Identify optimal local/global patch granularity and promotion cadence.
-3. Derive stability conditions for reciprocal memory updates under delay, noise, and strategic behavior.
-4. Quantify source correlation so repeated inherited memories are not counted as independent evidence.
-5. Determine minimum clean-anchor diversity and replacement schedules.
-6. Measure map monoculture before external performance visibly collapses.
-7. Design conflict registries that preserve uncertainty without blocking necessary action.
-8. Validate selective immutability against both record tampering and policy Freeze.
-9. Separate retrieval priming from persistent terrain assimilation.
-10. Test whether memory multiplex separation reduces contamination blast radius.
-11. Build rollback across changing tools, schemas, models, and network topology.
-12. Compare MTRL/CMCP against isolated, centralized, broadcast, and pooled-memory baselines.
+- **OP-NAT-MM1.** Estimate required-resolution fields and agent supply profiles well enough to choose partitions before training.
+- **OP-NAT-MM2.** Identify optimal local/global patch granularity and promotion cadence.
+- **OP-NAT-MM3.** Derive stability conditions for reciprocal memory updates under delay, noise, and strategic behavior. *(Candidate partial answer: RBIT MTRL-6 linearized model, oscillation and A_c bounds — see §13.1.1; event-based/asynchronous analysis remains open.)*
+- **OP-NAT-MM4.** Quantify source correlation so repeated inherited memories are not counted as independent evidence. *(Candidate framework: RBIT lineage-closure ancestry quotient, MM-8 e3.)*
+- **OP-NAT-MM5.** Determine minimum clean-anchor diversity and replacement schedules. *(Class-relative independence definition and capture/rotation requirement now supplied by RBIT MM-8 e3; counts and cadences remain open.)*
+- **OP-NAT-MM6.** Measure map monoculture before external performance visibly collapses. *(Candidate proxies: RBIT MM-12 e2 — representation-similarity drift, cross-agent reconstruction-error correlation, routing entropy, conflict-creation decay.)*
+- **OP-NAT-MM7.** Design conflict registries that preserve uncertainty without blocking necessary action.
+- **OP-NAT-MM8.** Validate selective immutability against both record tampering and policy Freeze.
+- **OP-NAT-MM9.** Separate retrieval priming from persistent terrain assimilation. *(Declared bench: RBIT B14.)*
+- **OP-NAT-MM10.** Test whether memory multiplex separation reduces contamination blast radius. *(Declared bench: RBIT B16/B16-ADV under NAT topologies.)*
+- **OP-NAT-MM11.** Build rollback across changing tools, schemas, models, and network topology.
+- **OP-NAT-MM12.** Compare MTRL/CMCP against isolated, centralized, broadcast, and pooled-memory baselines. *(Declared benches: RBIT B14–B16.)*
+- **OP-NAT-SCALING-1** *(v3.2-e1)*. Establish whether, and under which assumptions (classifier accuracy, coupling strength, drift rate, closure density), the sphere/expander reference topology with typed routing and circular closure actually achieves $\lim_{n\to\infty} C_{\mathrm{gov}}/K\to 0$ with $\rho\ge\rho_{\min}$ — the headline design goal of §1. Component-level results exist inside declared models; system-level achievability is unproven and untested.
 
-**v3.2 falsification gates:**
+*Registry note (v3.2-e1).* The ledger-assigned IDs **OP-NAT-VE-1, OP-NAT-VE-2, OP-NAT-CASCADE-1** (Part II, v2.7-DFGmaster entries) are hereby registered as live Part I open problems; external documents (RBIT v2.9+) cross-reference them by these IDs. Legacy rows in the table below remain name-keyed; ID assignment for the full table is pending.
 
-- If one-way global broadcast consistently matches reciprocal reconciliation on local truth, global relation accuracy, diversity, safety, and recovery at lower cost, MTRL is not generally necessary.
-- If internal consensus alone reliably detects coordinate-frame and update-generator corruption, the clean-anchor requirement is weakened.
-- If conflict preservation never improves hidden-error detection or rollback, the non-collapsing registry is unnecessary.
-- If full immutability preserves adaptation as well as selective immutability, the local-plasticity/global-integrity split is unsupported.
-- If patch schemas do not predict held-out behavior beyond raw transcript retrieval, the strong terrain-patch object is not useful.
+**v3.2 falsification gates (named v3.2-e1; RBIT correspondence declared):**
+
+- **F-NAT-MM1** *(↔ RBIT F-MM2)*: If one-way global broadcast consistently matches reciprocal reconciliation on local truth, global relation accuracy, diversity, safety, and recovery at lower cost, MTRL is not generally necessary.
+- **F-NAT-MM2** *(↔ RBIT F-MM3, anchor clause)*: If internal consensus alone reliably detects coordinate-frame and update-generator corruption, the clean-anchor requirement is weakened.
+- **F-NAT-MM3** *(↔ RBIT F-MM4)*: If conflict preservation never improves hidden-error detection or rollback, the non-collapsing registry is unnecessary.
+- **F-NAT-MM4** *(↔ RBIT F-MM3, immutability clause)*: If full immutability preserves adaptation as well as selective immutability, the local-plasticity/global-integrity split is unsupported.
+- **F-NAT-MM5** *(↔ RBIT F-MM1)*: If patch schemas do not predict held-out behavior beyond raw transcript retrieval, the strong terrain-patch object is not useful.
+- **F-NAT-MM6** *(↔ RBIT F-MM5, v3.2-e1)*: If, under declared A1–A2 attacks (§7.9.2.11), the full CMCP-NAT/MTRL architecture does not outperform consensus-only or unfiltered shared-memory baselines on detection delay, false-clean certification, and contamination blast radius at matched cost, the threat-model-driven gates are unsupported as security mechanisms.
+
+*Decision-procedure lock (adopted from RBIT e2).* Each F-NAT-MM gate is decidable only with pre-declared benchmark instance count $K$, matching margin $\delta$, required fraction $m/K$, and statistical criterion. Verdicts claimed without these pre-declarations are inadmissible in either direction.
 
 | Problem | Description |
 |---|---|
@@ -6775,6 +6824,15 @@ This is an interface convention, not a claim that resolution is a universal scal
 
 RBIT supplies the memory-as-terrain operator, directional-resolution effects, terrain-patch schema, lifecycle states, Mutual Terrain Reconciliation Loop, and Clean Map Construction Protocol. NAT supplies the multiplex topology, routing, mediation, access control, processing isolation, staged assimilation, and rollback paths that execute them. Neither theory treats a global map as automatically complete or a local map as automatically correct.
 
+**v3.5-e1/e2/e3 synchronization (v3.2-e1).** The RBIT side of this interface has been extended; NAT adopts the following pointers as canonical:
+
+- **Lifecycle transition relation (RBIT MM-4, e2):** legal transitions, authorities, forbidden transitions (no `LOCAL→VERIFIED` skip, no direct `QUARANTINED→VERIFIED`, supersession-only deletion), and the asymmetric promotion/demotion hysteresis lock. NAT routers MUST enforce this relation; §7.9.2.2's "no silent promotion" rule is the routing-level projection of it.
+- **MTRL-6 candidate reconciliation dynamics (e2):** delayed two-timescale gain model with oscillation bound $\gamma_{\mathrm{eff}}\tau_{\mathrm{loop}}\lesssim\pi/2$ and contamination amplification bound $A_c<1$. This is the current candidate answer to OP-NAT-MM3 (reciprocal-update stability) and the formal object behind failure mode MM-F9 (memory oscillation); NAT monitoring adopts its two observables (residual sign-alternation rate; marked-patch round-trip growth).
+- **Lineage-closure anchor independence (RBIT MM-8, e3):** anchor independence is class-relative (C1–C3) non-overlap of lineage closures on the provenance graph, with effective anchor counting by ancestry quotient, capture/rotation requirements, and regress termination at a contract-declared external authority. CMCP-NAT gate 3's "independent" is defined by this object; it also partially answers OP-NAT-MM4 (source correlation) and OP-NAT-MM5 (anchor diversity/replacement).
+- **Adversarial memory threat model (RBIT MM-16, e2):** capability classes A0–A4 and canonical attack patterns; NAT's multiplex attack-surface mapping is given in §7.9.2.11.
+- **Shared benchmark suite:** B14 (memory-to-terrain causal effect), B15 (mutual reconciliation, including MTRL-6 oscillation observables), and B16 with its adversarial arm B16-ADV are the declared benches for OP-NAT-MM12's baseline comparisons and for falsification gates F-NAT-MM1–6. NAT does not define a separate memory bench suite; it executes these under NAT topologies.
+- **Falsification decision-procedure lock (e2):** comparative gates are decidable only with pre-declared instance count $K$, margin $\delta$, fraction $m/K$, and statistical criterion; NAT adopts this lock for F-NAT-MM1–6 (§12).
+
 ### 13.1.2 Recovery Theory Interface Lock
 
 Recovery Theory supplies the narrow correction-core boundary, independent clean-anchor requirement, contamination-depth distinctions, cross-perspective purification, external-reference necessity for frame/generator corruption, and the rule that evidence records may be protected while interpretations remain revisable. NAT must output `CLEAN-MAP SELF-CERTIFICATION NOT AVAILABLE` when the correction core or all independent anchors are compromised; it must not route the same system's self-approval as independent verification.
@@ -6869,6 +6927,43 @@ These mechanisms are not novel inventions — they are patterns already operatin
 ### Canonical Closing Statement
 
 NAT is a theory of **how heterogeneous agents, information, authority, risk, recovery, and audit paths should be connected and changed over time**. Its core contribution is not a single topology, scalar, or physical metaphor. It is the disciplined combination of typed routing, object-locked multiplexes, bounded mediation, reversible expansion, and independent verification.
+
+---
+
+## 15. References — Initial Consolidation (v3.2-e1)
+
+*Scope note.* This document previously carried citations inline only. This section consolidates the externally verifiable core citations; inline citations not yet migrated (including several 2025–2026 arXiv-numbered empirical-grounding entries) remain in place pending verification and full bibliographic data. A citation appearing inline but not here is not thereby endorsed or retracted.
+
+**Information Theory and Compression**
+
+Shannon, C. E. (1959). *Coding theorems for a discrete source with a fidelity criterion.* IRE National Convention Record, 7(4), 142–163.
+— Rate-distortion theory; cited in §4 for the dynamic rate-distortion frontier interpretation of four-type classification.
+
+Hinton, G., Vinyals, O., & Dean, J. (2015). *Distilling the knowledge in a neural network.* arXiv:1503.02531.
+— Softmax temperature as controlled resolution reduction; cited in §5.4.
+
+Bengio, Y., Louradour, J., Collobert, R., & Weston, J. (2009). *Curriculum learning.* ICML 2009.
+— Empirical grounding for stabilize-then-expand ordering; cited in §5.4/§7.2.
+
+**Representation Geometry**
+
+Liu, W., et al. (2021). *Learning towards minimum hyperspherical energy / hyperspherical uniformity.* NeurIPS (series).
+— Hyperspherical Uniformity Gap (HUG); cited for inner-sphere convergence measurement in §3.0 and §8.3.
+
+Wang, T., & Isola, P. (2020). *Understanding contrastive representation learning through alignment and uniformity on the hypersphere.* ICML 2020.
+— Alignment–uniformity decomposition; cited for inner-sphere diagnostics.
+
+**Epistemology**
+
+Polanyi, M. (1966). *The Tacit Dimension.* University of Chicago Press.
+— Tacit–explicit knowledge distinction; cited in §10/§11 for the Tacit Knowledge data type.
+
+**Agent Memory and Distributed Knowledge (v3.2 additions)**
+
+Chhikara, P., Khant, D., Aryan, S., et al. (2025). *Mem0: Building production-ready AI agents with scalable long-term memory.* arXiv:2504.19413.
+— Representative production agent-memory layer; §11.6.1 partial precedent.
+
+For memory-consolidation, continual-learning, CRDT/provenance, and further agent-memory positioning, this document defers to **RBIT v3.5 MM-15** and its References entries (McClelland–McNaughton–O'Reilly 1995; Kumaran–Hassabis–McClelland 2016; Kirkpatrick et al. 2017; Shapiro et al. 2011; W3C PROV; Tulving 1985) rather than duplicating them.
 
 ---
 
